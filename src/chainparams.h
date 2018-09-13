@@ -9,6 +9,7 @@
 #ifndef BITCOIN_CHAINPARAMS_H
 #define BITCOIN_CHAINPARAMS_H
 
+#include "chain.h"
 #include "chainparamsbase.h"
 #include "checkpoints.h"
 #include "primitives/block.h"
