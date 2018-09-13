@@ -41,9 +41,8 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #include "validationinterface.h"
-#include "zpivchain.h"
-#include "zbasechain.h"
-#include "zbasewallet.h"
+#include "zaximchain.h"
+#include "zaximwallet.h"
  #ifdef ENABLE_WALLET
 #include "accumulators.h"
 #include "db.h"

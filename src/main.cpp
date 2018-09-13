@@ -950,7 +950,7 @@ bool ContextualCheckZerocoinMint(const CTransaction& tx, const PublicCoin& coin,
 
 bool ContextualCheckZerocoinSpend(const CTransaction& tx, const CoinSpend& spend, CBlockIndex* pindex, const uint256& hashBlock)
 {
-    //Check to see if the zBASE is properly signed
+    //Check to see if the zAXIM is properly signed
     if (!spend.HasValidSignature())
         return error("%s: V2 zAXIM spend does not have a valid signature", __func__);
 
@@ -970,7 +970,7 @@ bool ContextualCheckZerocoinSpend(const CTransaction& tx, const CoinSpend& spend
 
     //Reject serial's that are not in the acceptable value range
     if (!spend.HasValidSerial(Params().Zerocoin_Params()))
-        return error("%s : zBASE spend with serial %s from tx %s is not in valid range\n", __func__,
+        return error("%s : zAXIM spend with serial %s from tx %s is not in valid range\n", __func__,
             spend.getCoinSerialNumber().GetHex(), tx.GetHash().GetHex());
 
     return true;
@@ -1290,7 +1290,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
                 if (!ContextualCheckZerocoinSpend(tx, spend, chainActive.Tip(), 0))
                     return state.Invalid(error("%s: ContextualCheckZerocoinSpend failed for tx %s", __func__,
                         tx.GetHash().GetHex()),
-                        REJECT_INVALID, "bad-txns-invalid-zbase");
+                        REJECT_INVALID, "bad-txns-invalid-zaxim");
             }
         } else {
             LOCK(pool.cs);
