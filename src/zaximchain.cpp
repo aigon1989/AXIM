@@ -4,7 +4,6 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "zaximchain.h"
-#include "invalid.h"
 #include "main.h"
 #include "txdb.h"
 #include "ui_interface.h"

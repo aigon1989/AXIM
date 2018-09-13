@@ -38,7 +38,6 @@
 
 #include "primitives/zerocoin.h"
 #include "libzerocoin/Denominations.h"
-#include "invalid.h"
 
 #include <sstream>
 

@@ -19,7 +19,6 @@
 #include "compat/sanity.h"
 #include "httpserver.h"
 #include "httprpc.h"
-#include "invalid.h"
 #include "httpserver.h"
 #include "key.h"
 #include "main.h"
