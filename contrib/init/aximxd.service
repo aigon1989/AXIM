@@ -1,0 +1,20 @@
+[Unit]
+Description=axim's distributed currency daemon
+After=network.target
+ [Service]
+User=axim
+Group=axim
+ Type=forking
+PIDFile=/var/lib/aximd/aximd.pid
+ ExecStart=/usr/bin/aximd -daemon -pid=/var/lib/aximd/aximd.pid \
+          -conf=/etc/axim/axim.conf -datadir=/var/lib/aximd
+ ExecStop=-/usr/bin/axim-cli -conf=/etc/axim/axim.conf \
+         -datadir=/var/lib/aximd stop
+ Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+ [Install]
+WantedBy=multi-user.target

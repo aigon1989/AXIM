@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2017-2018 The base developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -87,7 +87,7 @@ public:
     CBigNum(short n)            { bn = BN_new(); if (n >= 0) setulong(n); else setint64(n); }
     CBigNum(int n)              { bn = BN_new(); if (n >= 0) setulong(n); else setint64(n); }
     CBigNum(long n)             { bn = BN_new(); if (n >= 0) setulong(n); else setint64(n); }
-#ifdef __APPLE__	
+#ifdef __APPLE__    
     CBigNum(int64_t n)            { bn = BN_new(); setint64(n); }
 #endif
     CBigNum(unsigned char n)    { bn = BN_new(); setulong(n); }
@@ -501,7 +501,7 @@ public:
    /**
     * Miller-Rabin primality test on this element
     * @param checks: optional, the number of Miller-Rabin tests to run
-    * 			 	default causes error rate of 2^-80.
+    *               default causes error rate of 2^-80.
     * @return true if prime
     */
     bool isPrime(const int checks=BN_prime_checks) const {
@@ -534,7 +534,7 @@ public:
     CBigNum& operator-=(const CBigNum& b)
     {
         if (!BN_sub(bn, bn, b.bn))
-	    throw bignum_error("CBigNum::operator-= : BN_sub failed");
+        throw bignum_error("CBigNum::operator-= : BN_sub failed");
         return *this;
     }
 

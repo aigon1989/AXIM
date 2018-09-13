@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: aximd.service
+Upstart: aximd.conf
+OpenRC:  aximd.openrc
+         aximd.openrcconf
+CentOS:  aximd.init
 
 have been made available to assist packagers in creating node packages here.
 

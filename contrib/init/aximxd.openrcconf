@@ -1,0 +1,18 @@
+# /etc/conf.d/aximd: config file for /etc/init.d/aximd
+ # Config file location
+#BITCOIND_CONFIGFILE="/etc/axim/axim.conf"
+ # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/aximd"
+ # What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/aximd.pid"
+ # Where to write aximd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/aximd"
+ # User and group to own aximd process
+#BITCOIND_USER="axim"
+#BITCOIND_GROUP="axim"
+ # Path to aximd executable
+#BITCOIND_BIN="/usr/bin/aximd"
+ # Nice value to run aximd under
+#BITCOIND_NICE=0
+ # Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

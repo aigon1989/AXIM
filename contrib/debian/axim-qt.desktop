@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=axim
+Comment=axim P2P Cryptocurrency
+Comment[fr]=axim, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=axim, eşten eşe kriptografik sanal para birimi
+Comment[es]=axim, moneda virtual criptográfica P2P
+Exec=axim-qt %u
+Terminal=false
+Type=Application
+Icon=axim128
+MimeType=x-scheme-handler/axim;
+Categories=Office;Finance;
