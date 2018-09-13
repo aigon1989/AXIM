@@ -71,7 +71,7 @@ void CActiveMasternode::ManageStatus()
         if (!CMasternodeBroadcast::CheckDefaultPort(strMasterNodeAddr, errorMessage, __func__))
             return;
 
-        LogPrintf("%s - Checking inbound connection to '%s'\n", service.ToString());
+        LogPrintf("%s - Checking inbound connection to '%s'\n", __func__,service.ToString());
 
         SOCKET hSocket;
         bool fConnected = ConnectSocket(service, hSocket, nConnectTimeout) && IsSelectableSocket(hSocket);
