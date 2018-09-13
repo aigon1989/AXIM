@@ -11,7 +11,6 @@
 #endif
 
 #include "init.h"
- #include "accumulatorcheckpoints.h"
 #include "accumulators.h"
 #include "activemasternode.h"
 #include "addrman.h"
