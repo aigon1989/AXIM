@@ -73,7 +73,8 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     //,
     //1740710,
     //0,
-    //250};
+    //250
+};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x"));
@@ -82,7 +83,8 @@ static const Checkpoints::CCheckpointData dataRegtest = {
     //,
     //1454124731,
     //0,
-    //100};
+    //100
+};
 
 libzerocoin::ZerocoinParams *CChainParams::Zerocoin_Params() const
 {
@@ -147,7 +149,7 @@ class CMainParams : public CChainParams
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("12345e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
-        genesis.hashMerkleRoot = "";
+        genesis.hashMerkleRoot = uint256("0x");
         genesis.nVersion = 1;
         genesis.nTime = 1536730506;
         genesis.nBits = 0x1e0ffff0;
@@ -156,37 +158,6 @@ class CMainParams : public CChainParams
         hashGenesisBlock = uint256("0x");
         assert(hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
-
-        if (true && genesis.GetHash() != hashGenesisBlock)
-        {
-            printf("Searching for genesis block...\n");
-            // This will figure out a valid hash and Nonce if you're
-            // creating a different genesis block:
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-            uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
- 
-            loop
-            {
-                scrypt_1024_1_1_256_sp(BEGIN(genesis.nVersion), BEGIN(thash), scratchpad);
-                if (thash <= hashTarget)
-                    break;
-                if ((genesis.nNonce & 0xFFF) == 0)
-                {
-                    printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-                }
-                ++genesis.nNonce;
-                if (genesis.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time\n");
-                    ++genesis.nTime;
-                }
-            }
-            printf("genesis.nTime = %u \n", genesis.nTime);
-            printf("genesis.nNonce = %u \n", genesis.nNonce);
-            printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-           
-            }
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -353,7 +324,6 @@ public:
         pchMessageStart[1] = 0xc3;
         pchMessageStart[2] = 0x7e;
         pchMessageStart[3] = 0xac;
-        nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
