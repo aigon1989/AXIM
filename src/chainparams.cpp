@@ -122,7 +122,7 @@ class CMainParams : public CChainParams
         nTargetTimespan = 1 * 30; // AXIM: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 8400000 * COIN;
+        nMaxMoneyOut = 90000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
@@ -255,7 +255,7 @@ public:
         nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 43199500 * COIN;
+        nMaxMoneyOut = 90000000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
         nModifierUpdateBlock = 1;

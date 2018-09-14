@@ -9,7 +9,6 @@
 #include "main.h"
 
 #include "accumulators.h"
-#include "accumulatormap.h"
 #include "addrman.h"
 #include "alert.h"
 #include "blocksignature.h"
@@ -981,7 +980,7 @@ bool CheckZerocoinSpend(const CTransaction& tx, bool fVerifySignature, CValidati
     //max needed non-mint outputs should be 2 - one for redemption address and a possible 2nd for change
     if (tx.vout.size() > 2) {
         int outs = 0;
-        for (const CTxOut& out : tx.vout) {
+        for (const CTxOut out : tx.vout) {
             if (out.IsZerocoinMint())
                 continue;
             outs++;
@@ -992,7 +991,7 @@ bool CheckZerocoinSpend(const CTransaction& tx, bool fVerifySignature, CValidati
 
     //compute the txout hash that is used for the zerocoinspend signatures
     CMutableTransaction txTemp;
-    for (const CTxOut& out : tx.vout) {
+    for (const CTxOut out : tx.vout) {
         txTemp.vout.push_back(out);
     }
     uint256 hashTxOut = txTemp.GetHash();
@@ -1304,7 +1303,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
             // do all inputs exist?
             // Note that this does not check for the presence of actual outputs (see the next check for that),
             // only helps filling in pfMissingInputs (to determine missing vs spent).
-            for (const CTxIn& txin : tx.vin) {
+            for (const CTxIn txin : tx.vin) {
                 if (!view.HaveCoins(txin.prevout.hash)) {
                     if (pfMissingInputs)
                         *pfMissingInputs = true;
@@ -1519,7 +1518,7 @@ bool AcceptableInputs(CTxMemPool& pool, CValidationState& state, const CTransact
             // do all inputs exist?
             // Note that this does not check for the presence of actual outputs (see the next check for that),
             // only helps filling in pfMissingInputs (to determine missing vs spent).
-            for (const CTxIn& txin : tx.vin) {
+            for (const CTxIn txin : tx.vin) {
                 if (!view.HaveCoins(txin.prevout.hash)) {
                     if (pfMissingInputs)
                         *pfMissingInputs = true;
@@ -1796,19 +1795,19 @@ int64_t GetBlockValue(int nHeight)
 
     if(nHeight == 0) {
         nSubsidy = 29000000;
-    } else if (nheight <= Params.Last_PoW_Block()) {
+    } else if (nHeight <= Params().Last_PoW_Block()) {
         nSubsidy = 0;
-    } else if(nheight > Params.Last_PoW_Block() && nHeight <= (Params.Last_PoW_Block() + 174720)){
+    } else if(nHeight > Params().Last_PoW_Block() && nHeight <= (Params().Last_PoW_Block() + 174720)){
         nSubsidy = 33;
-    } else if(nheight > (Params.Last_PoW_Block() + 174720) && nHeight <= (Params.Last_PoW_Block() + 349440)){
+    } else if(nHeight > (Params().Last_PoW_Block() + 174720) && nHeight <= (Params().Last_PoW_Block() + 349440)){
         nSubsidy = 66;
-    } else if(nheight > (Params.Last_PoW_Block() + 349440) && nHeight <= (Params.Last_PoW_Block() + 537400)){
+    } else if(nHeight > (Params().Last_PoW_Block() + 349440) && nHeight <= (Params().Last_PoW_Block() + 537400)){
         nSubsidy = 33;
-    } else if (nHeight == (Params.Last_PoW_Block() + 537401)){
+    } else if (nHeight == (Params().Last_PoW_Block() + 537401)){
         nSubsidy = 40;
-    } else if (nHeight > (Params.Last_PoW_Block() + 537401) && nHeight <= (Params.Last_PoW_Block() + 1061561)){
+    } else if (nHeight > (Params().Last_PoW_Block() + 537401) && nHeight <= (Params().Last_PoW_Block() + 1061561)){
         nSubsidy = 42.93;
-    } else if(nHeight > (Params.Last_PoW_Block() + 1061561) && nHeight <= (Params.Last_PoW_Block() + 2638361)) {
+    } else if(nHeight > (Params().Last_PoW_Block() + 1061561) && nHeight <= (Params().Last_PoW_Block() + 2638361)) {
         nSubsidy = 3.171;
     }
 
@@ -1824,11 +1823,11 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             return 0;
     }
 
-    if (nHeight <= Params.Last_PoW_Block()) {
+    if (nHeight <= Params().Last_PoW_Block()) {
         ret = 0;
-    } else if (nHeight > Params.Last_PoW_Block() && nHeight <= (Params.Last_PoW_Block() + 537401)) {
+    } else if (nHeight > Params().Last_PoW_Block() && nHeight <= (Params().Last_PoW_Block() + 537401)) {
         ret = blockValue * 0.6;
-    } else if (nHeight > (Params.Last_PoW_Block() + 537401) && nHeight <= (Params.Last_PoW_Block() + 2638361)) {
+    } else if (nHeight > (Params().Last_PoW_Block() + 537401) && nHeight <= (Params().Last_PoW_Block() + 2638361)) {
         ret = blockValue;
     }
 
@@ -2132,7 +2131,7 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
         if (tx.ContainsZerocoins()) {
             if (tx.IsZerocoinSpend()) {
                 //erase all zerocoinspends in this transaction
-                for (const CTxIn& txin : tx.vin) {
+                for (const CTxIn txin : tx.vin) {
                     if (txin.scriptSig.IsZerocoinSpend()) {
                         CoinSpend spend = TxInToZerocoinSpend(txin);
                         if (!zerocoinDB->EraseCoinSpend(spend.getCoinSerialNumber()))
@@ -2152,7 +2151,7 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
 
             if (tx.IsZerocoinMint()) {
                 //erase all zerocoinmints in this transaction
-                for (const CTxOut& txout : tx.vout) {
+                for (const CTxOut txout : tx.vout) {
                     if (txout.scriptPubKey.empty() || !txout.scriptPubKey.IsZerocoinMint())
                         continue;
 
@@ -2273,33 +2272,6 @@ void ThreadScriptCheck()
     scriptcheckqueue.Thread();
 }
 
-void RecalculateZAXIMMinted()
-{
-    CBlockIndex *pindex = chainActive[Params().Zerocoin_StartHeight()];
-    int nHeightEnd = chainActive.Height();
-    while (true) {
-        if (pindex->nHeight % 1000 == 0)
-            LogPrintf("%s : block %d...\n", __func__, pindex->nHeight);
-
-        //overwrite possibly wrong vMintsInBlock data
-        CBlock block;
-        assert(ReadBlockFromDisk(block, pindex));
-
-        std::list<CZerocoinMint> listMints;
-        BlockToZerocoinMintList(block, listMints, true);
-
-        vector<libzerocoin::CoinDenomination> vDenomsBefore = pindex->vMintDenominationsInBlock;
-        pindex->vMintDenominationsInBlock.clear();
-        for (auto mint : listMints)
-            pindex->vMintDenominationsInBlock.emplace_back(mint.GetDenomination());
-
-        if (pindex->nHeight < nHeightEnd)
-            pindex = chainActive.Next(pindex);
-        else
-            break;
-    }
-}
-
 bool RecalculateAXIMSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
@@ -2317,7 +2289,7 @@ bool RecalculateAXIMSupply(int nHeightStart)
 
         CAmount nValueIn = 0;
         CAmount nValueOut = 0;
-        for (const CTransaction& tx : block.vtx) {
+        for (const CTransaction tx : block.vtx) {
             for (unsigned int i = 0; i < tx.vin.size(); i++) {
                 if (tx.IsCoinBase())
                     break;
@@ -3526,6 +3498,7 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
         return state.DoS(50, error("CheckBlockHeader() : proof of work failed"),
             REJECT_INVALID, "high-hash");
 
+    // Version 4 header must be used after Params().Zerocoin_StartHeight(). And never before.
         if (block.nVersion < Params().Zerocoin_HeaderVersion() && chainActive.Height() > 1)
         return state.DoS(50, error("CheckBlockHeader() : block version must be above 4."),
             REJECT_INVALID, "block-version");
@@ -3656,7 +3629,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 
         // double check that there are no double spent zAXIM spends in this block
         if (tx.IsZerocoinSpend()) {
-            for (const CTxIn& txIn : tx.vin) {
+            for (const CTxIn txIn : tx.vin) {
                 if (txIn.scriptSig.IsZerocoinSpend()) {
                     libzerocoin::CoinSpend spend = TxInToZerocoinSpend(txIn);
                     if (count(vBlockSerials.begin(), vBlockSerials.end(), spend.getCoinSerialNumber()))
@@ -4044,13 +4017,13 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, CBlock* pblock, CDis
 
     int nMints = 0;
     int nSpends = 0;
-    for (const CTransaction& tx : pblock->vtx) {
+    for (const CTransaction tx : pblock->vtx) {
         if (tx.ContainsZerocoins()) {
-            for (const CTxIn& in : tx.vin) {
+            for (const CTxIn in : tx.vin) {
                 if (in.scriptSig.IsZerocoinSpend())
                     nSpends++;
             }
-            for (const CTxOut& out : tx.vout) {
+            for (const CTxOut out : tx.vout) {
                 if (out.IsZerocoinMint())
                     nMints++;
             }
@@ -4237,7 +4210,7 @@ bool static LoadBlockIndexDB(string& strError)
     // Calculate nChainWork
     vector<pair<int, CBlockIndex*> > vSortedByHeight;
     vSortedByHeight.reserve(mapBlockIndex.size());
-    for (const std::pair<const uint256, CBlockIndex*>& item : mapBlockIndex) {
+    for (const PAIRTYPE(uint256, CBlockIndex*) & item : mapBlockIndex) {
         CBlockIndex* pindex = item.second;
         vSortedByHeight.push_back(make_pair(pindex->nHeight, pindex));
     }
@@ -4287,7 +4260,7 @@ bool static LoadBlockIndexDB(string& strError)
     // Check presence of blk files
     LogPrintf("Checking all blk files are present...\n");
     set<int> setBlkDataFiles;
-    for (const std::pair<const uint256, CBlockIndex*>& item : mapBlockIndex) {
+    for (const PAIRTYPE(uint256, CBlockIndex*) & item : mapBlockIndex) {
         CBlockIndex* pindex = item.second;
         if (pindex->nStatus & BLOCK_HAVE_DATA) {
             setBlkDataFiles.insert(pindex->nFile);
