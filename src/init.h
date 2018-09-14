@@ -13,7 +13,7 @@
 #include "zaximwallet.h"
 class CScheduler;
 class CWallet;
-class CzAximWallet;
+class CzAXIMWallet;
 
 namespace boost
 {
@@ -32,7 +32,7 @@ class thread_group;
 #include <string>
 class CScheduler;
 class CWallet;
-class CzAximWallet;
+class CzAXIMWallet;
 
 namespace boost
 {
@@ -40,7 +40,7 @@ class thread_group;
 } // namespace boost
 
 extern CWallet* pwalletMain;
-extern CzAximWallet* zwalletMain;
+extern CzAXIMWallet* zwalletMain;
 
 void StartShutdown();
 bool ShutdownRequested();
@@ -64,7 +64,7 @@ std::string LicenseInfo();
 #endif // BITCOIN_INIT_H
 
 extern CWallet* pwalletMain;
-extern CzAximWallet* zwalletMain;
+extern CzAXIMWallet* zwalletMain;
 
 void StartShutdown();
 bool ShutdownRequested();
