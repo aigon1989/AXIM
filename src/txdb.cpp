@@ -272,7 +272,7 @@ bool CBlockTreeDB::LoadBlockIndexGuts()
 
                 //populate accumulator checksum map in memory
                 if(pindexNew->nAccumulatorCheckpoint != 0 && pindexNew->nAccumulatorCheckpoint != nPreviousCheckpoint) {
-                    /LoadAccumulatorValuesFromDB(pindexNew->nAccumulatorCheckpoint);
+                    LoadAccumulatorValuesFromDB(pindexNew->nAccumulatorCheckpoint);
                     nPreviousCheckpoint = pindexNew->nAccumulatorCheckpoint;
                 }
 
