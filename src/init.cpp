@@ -1602,7 +1602,6 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         LogPrintf(" wallet      %15dms\n", GetTimeMillis() - nStart);
         zwalletMain = new CzAXIMWallet(pwalletMain->strWalletFile);
         pwalletMain->setZWallet(zwalletMain);
-//Hello
         RegisterValidationInterface(pwalletMain);
 
         CBlockIndex* pindexRescan = chainActive.Tip();
