@@ -17,24 +17,21 @@
 #include "amount.h"
 #include "checkpoints.h"
 #include "compat/sanity.h"
-#include "httpserver.h"
 #include "httprpc.h"
 #include "httpserver.h"
 #include "key.h"
 #include "main.h"
 #include "masternode-budget.h"
- #include "masternode-payments.h"
- #include "masternodeconfig.h"
- #include "masternodeman.h"
+#include "masternode-payments.h"
+#include "masternodeconfig.h"
+#include "masternodeman.h"
 #include "miner.h"
 #include "net.h"
 #include "rpc/server.h"
-#include "script/standard.h"
 #include "scheduler.h"
 #include "script/standard.h"
 #include "spork.h"
 #include "sporkdb.h"
-#include "txdb.h"
 #include "torcontrol.h"
 #include "txdb.h"
 #include "ui_interface.h"
@@ -44,7 +41,6 @@
 #include "zaximchain.h"
 #include "zaximwallet.h"
  #ifdef ENABLE_WALLET
-#include "accumulators.h"
 #include "db.h"
 #include "wallet.h"
 #include "walletdb.h"
@@ -1442,6 +1438,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
                     if (strError != "") {
                         strLoadError = strError;
                         break;
+                    }
                 }
 
                 // Recalculate money supply for blocks that are impacted by accounting issue after zerocoin activation
