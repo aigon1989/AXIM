@@ -234,7 +234,7 @@ public:
         genesis.nTime = 1536730506;
         genesis.nNonce = 0;
 
-        hashGenesisBlock = = uint256("0x");
+        hashGenesisBlock = uint256("0x");
         assert(hashGenesisBlock == uint256("0x"));
 
         vFixedSeeds.clear();
