@@ -10,7 +10,7 @@
 #include "stakeinput.h"
 #include "wallet.h"
 
-CZAximStake::CZAximStake(const libzerocoin::CoinSpend& spend)
+CzAXIMStake::CzAXIMStake(const libzerocoin::CoinSpend& spend)
 {
     this->nChecksum = spend.getAccumulatorChecksum();
     this->denom = spend.getDenomination();
@@ -20,7 +20,7 @@ CZAximStake::CZAximStake(const libzerocoin::CoinSpend& spend)
     fMint = false;
 }
 
-int CZAximStake::GetChecksumHeightFromMint()
+int CzAXIMStake::GetChecksumHeightFromMint()
 {
     int nHeightChecksum = chainActive.Height() - Params().Zerocoin_RequiredStakeDepth();
 
@@ -31,12 +31,12 @@ int CZAximStake::GetChecksumHeightFromMint()
     return GetChecksumHeight(nChecksum, denom);
 }
 
-int CZAximStake::GetChecksumHeightFromSpend()
+int CzAXIMStake::GetChecksumHeightFromSpend()
 {
     return GetChecksumHeight(nChecksum, denom);
 }
 
-uint32_t CZAximStake::GetChecksum()
+uint32_t CzAXIMStake::GetChecksum()
 {
     return nChecksum;
 }
@@ -44,7 +44,7 @@ uint32_t CZAximStake::GetChecksum()
 // The zAXIM block index is the first appearance of the accumulator checksum that was used in the spend
 // note that this also means when staking that this checksum should be from a block that is beyond 60 minutes old and
 // 100 blocks deep.
-CBlockIndex* CZAximStake::GetIndexFrom()
+CBlockIndex* CzAXIMStake::GetIndexFrom()
 {
     if (pindexFrom)
         return pindexFrom;
@@ -66,13 +66,13 @@ CBlockIndex* CZAximStake::GetIndexFrom()
     return pindexFrom;
 }
 
-CAmount CZAximStake::GetValue()
+CAmount CzAXIMStake::GetValue()
 {
     return denom * COIN;
 }
 
 //Use the first accumulator checkpoint that occurs 60 minutes after the block being staked from
-bool CZAximStake::GetModifier(uint64_t& nStakeModifier)
+bool CzAXIMStake::GetModifier(uint64_t& nStakeModifier)
 {
     CBlockIndex* pindex = GetIndexFrom();
     if (!pindex)
@@ -92,7 +92,7 @@ bool CZAximStake::GetModifier(uint64_t& nStakeModifier)
     }
 }
 
-CDataStream CZAximStake::GetUniqueness()
+CDataStream CzAXIMStake::GetUniqueness()
 {
     //The unique identifier for a zAXIM is a hash of the serial
     CDataStream ss(SER_GETHASH, 0);
@@ -100,7 +100,7 @@ CDataStream CZAximStake::GetUniqueness()
     return ss;
 }
 
-bool CZAximStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CzAXIMStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     CBlockIndex* pindexCheckpoint = GetIndexFrom();
     if (!pindexCheckpoint)
@@ -121,7 +121,7 @@ bool CZAximStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
     return true;
 }
 
-bool CZAximStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
+bool CzAXIMStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
 {
     //Create an output returning the zAXIM that was staked
     CTxOut outReward;
@@ -149,12 +149,12 @@ bool CZAximStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount n
     return true;
 }
 
-bool CZAximStake::GetTxFrom(CTransaction& tx)
+bool CzAXIMStake::GetTxFrom(CTransaction& tx)
 {
     return false;
 }
 
-bool CZAximStake::MarkSpent(CWallet *pwallet, const uint256& txid)
+bool CzAXIMStake::MarkSpent(CWallet *pwallet, const uint256& txid)
 {
     CzAXIMTracker* zaximTracker = pwallet->zaximTracker.get();
     CMintMeta meta;

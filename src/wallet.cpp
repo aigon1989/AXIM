@@ -2134,7 +2134,7 @@ bool CWallet::SelectStakeCoins(std::list<std::unique_ptr<CStakeInput> >& listInp
             if (meta.nVersion < CZerocoinMint::STAKABLE_VERSION)
                 continue;
             if (meta.nHeight < chainActive.Height() - Params().Zerocoin_RequiredStakeDepth()) {
-                std::unique_ptr<CZAximStake> input(new CZAximStake(meta.denom, meta.hashStake));
+                std::unique_ptr<CzAXIMStake> input(new CzAXIMStake(meta.denom, meta.hashStake));
                 listInputs.emplace_back(std::move(input));
             }
         }
@@ -3034,7 +3034,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
 
             //Mark mints as spent
             if (stakeInput->IsZAXIM()) {
-                CZAximStake* z = (CZAximStake*)stakeInput.get();
+                CzAXIMStake* z = (CzAXIMStake*)stakeInput.get();
                 if (!z->MarkSpent(this, txNew.GetHash()))
                     return error("%s: failed to mark mint as used\n", __func__);
             }

@@ -3839,7 +3839,7 @@ bool AcceptBlockHeader(const CBlock& block, CValidationState& state, CBlockIndex
 
 bool ContextualCheckZerocoinStake(int nHeight, CStakeInput* stake)
 {
-    if (CZAximStake* zAXIM = dynamic_cast<CZAximStake*>(stake)) {
+    if (CzAXIMStake* zAXIM = dynamic_cast<CzAXIMStake*>(stake)) {
         CBlockIndex* pindexFrom = zAXIM->GetIndexFrom();
         if (!pindexFrom)
             return error("%s: failed to get index associated with zAXIM stake checksum", __func__);
