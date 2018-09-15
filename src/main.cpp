@@ -8,6 +8,7 @@
 
 #include "main.h"
 
+#include "accumulatormap.h"
 #include "accumulators.h"
 #include "addrman.h"
 #include "alert.h"
@@ -17,6 +18,7 @@
 #include "checkqueue.h"
 #include "init.h"
 #include "kernel.h"
+#include "libzerocoin/Denominations.h"
 #include "masternode-budget.h"
 #include "masternode-payments.h"
 #include "masternodeman.h"
@@ -24,6 +26,7 @@
 #include "net.h"
 #include "obfuscation.h"
 #include "pow.h"
+#include "primitives/zerocoin.h"
 #include "spork.h"
 #include "sporkdb.h"
 #include "swifttx.h"
@@ -34,9 +37,6 @@
 #include "utilmoneystr.h"
 #include "validationinterface.h"
 #include "zaximchain.h"
-
-#include "primitives/zerocoin.h"
-#include "libzerocoin/Denominations.h"
 
 #include <sstream>
 

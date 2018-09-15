@@ -31,7 +31,7 @@ public:
 // zAXIMStake can take two forms
 // 1) the stake candidate, which is a zcmint that is attempted to be staked
 // 2) a staked zaxim, which is a zcspend that has successfully staked
-class CZAximStake : public CStakeInput
+class CzAXIMStake : public CStakeInput
 {
 private:
     uint32_t nChecksum;
@@ -40,7 +40,7 @@ private:
     uint256 hashSerial;
 
 public:
-    explicit CZAximStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
+    explicit CzAXIMStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
     {
         this->denom = denom;
         this->hashSerial = hashSerial;
@@ -48,7 +48,7 @@ public:
         fMint = true;
     }
 
-    explicit CZAximStake(const libzerocoin::CoinSpend& spend);
+    explicit CzAXIMStake(const libzerocoin::CoinSpend& spend);
 
     CBlockIndex* GetIndexFrom() override;
     bool GetTxFrom(CTransaction& tx) override;
