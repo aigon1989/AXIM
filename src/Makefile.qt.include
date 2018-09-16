@@ -360,8 +360,7 @@ RES_FONTS = \
   qt/res/fonts/Lato-Italic.ttf \
   qt/res/fonts/Lato-Light.ttf \
   qt/res/fonts/Lato-LightItalic.ttf \
-  qt/res/fonts/Lato-Regular.ttf \
-  qt/res/fonts/res/fonts/OFL.txt
+  qt/res/fonts/Lato-Regular.ttf
 
 
 RES_CSS = \
