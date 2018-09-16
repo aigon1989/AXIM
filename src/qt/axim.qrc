@@ -126,6 +126,5 @@
         <file alias="Lato-Light.ttf">res/fonts/Lato-Light.ttf</file>
         <file alias="Lato-LightItalic.ttf">res/fonts/Lato-LightItalic.ttf</file>
         <file alias="Lato-Regular.ttf">res/fonts/Lato-Regular.ttf</file>
-        <file>res/fonts/OFL.txt</file>
     </qresource>
 </RCC>
