@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/axim-project/axim.git"
+- "url": "https://github.com/aigon1989/AXIM.git"
   "dir": "axim"
 files: []
 script: |

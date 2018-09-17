@@ -1939,9 +1939,9 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/axim-project/axim-project-translations</source>
+https://www.transifex.com/aigon1989/aigon1989-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/axim-project/axim-project-translations</translation>
+https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

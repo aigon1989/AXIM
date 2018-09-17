@@ -1219,9 +1219,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/axim-project/axim-project-translations</source>
+https://www.transifex.com/aigon1989/aigon1989-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/axim-project/axim-project-translations </translation>
+https://www.transifex.com/aigon1989/aigon1989-translations </translation>
     </message>
     <message>
         <source>Connect to the AXIM network through a SOCKS5 proxy.</source>

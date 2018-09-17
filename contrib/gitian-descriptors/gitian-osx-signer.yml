@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/axim-project/axim-detached-sigs.git"
+- "url": "https://github.com/aigon1989/axim-detached-sigs.git"
   "dir": "signature"
 files:
 - "axim-osx-unsigned.tar.gz"
