@@ -4914,10 +4914,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Kan geen vergrendeling op data directory %s verkrijgen. AXIM Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Verander automatisch gefinaliseerd budget voting gedrag. modus=auto: Stem enkel voor exact gefinaliseerde budget overeenkomend met mijn gegenereerde budget. (tekenreeks, standaard: auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Doorlopend rate-limit gratis transacties naar&lt;n&gt;*1000 bytes per minuut (default:%u)</translation>
     </message>
@@ -5582,10 +5578,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle specifieke AXIM functionaliteit uit (Masternodes, Zerocoin, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Schakel SwiftX in, toon bevestigingen voor vergrendelde transacties (bool, standaard: %s)</translation>
     </message>
@@ -5736,10 +5728,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Loading block index...</source>
         <translation>Blockindex laden...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Budget cache laden...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6100,10 +6088,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Synchronization pending...</source>
         <translation>Synchronisatie in afwachting...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Budgeten synchroniseren...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

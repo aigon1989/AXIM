@@ -4915,10 +4915,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. AXIM Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>최종 budget 투표 자동 작동 값을 변경합니다. mode=auto: 오직 내가 생성한 budget과 최종 budget이 정확히 일치할때 투표합니다. (string, 기본값: 자동)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>연속적인 무료 트랜잭션을 분당 &lt;n&gt;*1000 bytes로 제한합니다. (기본값:%u)</translation>
     </message>
@@ -5583,10 +5579,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>AXIM의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>swiftTX 활성화, 잠긴 트랜잭션들에 대한 확인 표시 (bool, 기본값: %s)</translation>
     </message>
@@ -5737,10 +5729,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <source>Loading block index...</source>
         <translation>블록 인덱스를 불러오는 중...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>budget 캐시를 불러오는 중...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6101,10 +6089,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <source>Synchronization pending...</source>
         <translation>동기화 대기중...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>budgets 동기화 중입니다...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

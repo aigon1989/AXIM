@@ -4584,10 +4584,6 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Chargement de l'index des blocs...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
-        <translation>Chargement du cache budget ...</translation>
-    </message>
-    <message>
         <source>Loading masternode cache...</source>
         <translation>Chargement du cache masternode...</translation>
     </message>

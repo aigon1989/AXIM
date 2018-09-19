@@ -19,7 +19,6 @@
 #include "init.h"
 #include "kernel.h"
 #include "libzerocoin/Denominations.h"
-#include "masternode-budget.h"
 #include "masternode-payments.h"
 #include "masternodeman.h"
 #include "merkleblock.h"
@@ -3591,7 +3590,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
         LogPrintf("CheckBlock() : skipping transaction locking checks\n");
     }
 
-    // masternode payments / budgets
+    // masternode payments
     CBlockIndex* pindexPrev = chainActive.Tip();
     int nHeight = 0;
     if (pindexPrev != NULL) {
@@ -3612,7 +3611,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
         if (nHeight != 0 && !IsInitialBlockDownload()) {
             if (!IsBlockPayeeValid(block, nHeight)) {
                 mapRejectedBlocks.insert(make_pair(block.GetHash(), GetTime()));
-                return state.DoS(0, error("CheckBlock() : Couldn't find masternode/budget payment"),
+                return state.DoS(0, error("CheckBlock() : Couldn't find masternode payment"),
                         REJECT_INVALID, "bad-cb-payee");
             }
         } else {
@@ -4070,7 +4069,6 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, CBlock* pblock, CDis
         if (masternodeSync.RequestedMasternodeAssets > MASTERNODE_SYNC_LIST) {
             obfuScationPool.NewBlock();
             masternodePayments.ProcessBlock(GetHeight() + 10);
-            budget.NewBlock();
         }
     }
 
@@ -4777,30 +4775,6 @@ bool static AlreadyHave(const CInv& inv)
             return true;
         }
         return false;
-    case MSG_BUDGET_VOTE:
-        if (budget.mapSeenMasternodeBudgetVotes.count(inv.hash)) {
-            masternodeSync.AddedBudgetItem(inv.hash);
-            return true;
-        }
-        return false;
-    case MSG_BUDGET_PROPOSAL:
-        if (budget.mapSeenMasternodeBudgetProposals.count(inv.hash)) {
-            masternodeSync.AddedBudgetItem(inv.hash);
-            return true;
-        }
-        return false;
-    case MSG_BUDGET_FINALIZED_VOTE:
-        if (budget.mapSeenFinalizedBudgetVotes.count(inv.hash)) {
-            masternodeSync.AddedBudgetItem(inv.hash);
-            return true;
-        }
-        return false;
-    case MSG_BUDGET_FINALIZED:
-        if (budget.mapSeenFinalizedBudgets.count(inv.hash)) {
-            masternodeSync.AddedBudgetItem(inv.hash);
-            return true;
-        }
-        return false;
     case MSG_MASTERNODE_ANNOUNCE:
         if (mnodeman.mapSeenMasternodeBroadcast.count(inv.hash)) {
             masternodeSync.AddedMasternodeList(inv.hash);
@@ -4948,46 +4922,6 @@ void static ProcessGetData(CNode* pfrom)
                         pushed = true;
                     }
                 }
-                if (!pushed && inv.type == MSG_BUDGET_VOTE) {
-                    if (budget.mapSeenMasternodeBudgetVotes.count(inv.hash)) {
-                        CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
-                        ss.reserve(1000);
-                        ss << budget.mapSeenMasternodeBudgetVotes[inv.hash];
-                        pfrom->PushMessage("mvote", ss);
-                        pushed = true;
-                    }
-                }
-
-                if (!pushed && inv.type == MSG_BUDGET_PROPOSAL) {
-                    if (budget.mapSeenMasternodeBudgetProposals.count(inv.hash)) {
-                        CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
-                        ss.reserve(1000);
-                        ss << budget.mapSeenMasternodeBudgetProposals[inv.hash];
-                        pfrom->PushMessage("mprop", ss);
-                        pushed = true;
-                    }
-                }
-
-                if (!pushed && inv.type == MSG_BUDGET_FINALIZED_VOTE) {
-                    if (budget.mapSeenFinalizedBudgetVotes.count(inv.hash)) {
-                        CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
-                        ss.reserve(1000);
-                        ss << budget.mapSeenFinalizedBudgetVotes[inv.hash];
-                        pfrom->PushMessage("fbvote", ss);
-                        pushed = true;
-                    }
-                }
-
-                if (!pushed && inv.type == MSG_BUDGET_FINALIZED) {
-                    if (budget.mapSeenFinalizedBudgets.count(inv.hash)) {
-                        CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
-                        ss.reserve(1000);
-                        ss << budget.mapSeenFinalizedBudgets[inv.hash];
-                        pfrom->PushMessage("fbs", ss);
-                        pushed = true;
-                    }
-                }
-
                 if (!pushed && inv.type == MSG_MASTERNODE_ANNOUNCE) {
                     if (mnodeman.mapSeenMasternodeBroadcast.count(inv.hash)) {
                         CDataStream ss(SER_NETWORK, PROTOCOL_VERSION);
@@ -5880,7 +5814,6 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         //probably one the extensions
         obfuScationPool.ProcessMessageObfuscation(pfrom, strCommand, vRecv);
         mnodeman.ProcessMessage(pfrom, strCommand, vRecv);
-        budget.ProcessMessage(pfrom, strCommand, vRecv);
         masternodePayments.ProcessMessageMasternodePayments(pfrom, strCommand, vRecv);
         ProcessMessageSwiftTX(pfrom, strCommand, vRecv);
         ProcessSpork(pfrom, strCommand, vRecv);

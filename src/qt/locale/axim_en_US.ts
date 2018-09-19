@@ -3914,10 +3914,6 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Cannot obtain a lock on data directory %s. AXIM Core is probably already running.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</translation>
     </message>
@@ -3928,10 +3924,6 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</translation>
-    </message>
-    <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all AXIM specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4618,10 +4610,6 @@ for example: alertnotify=echo %%s | mail -s "AXIM Alert" admin@foo.com
         <translation>Loading block index...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
-        <translation>Loading budget cache...</translation>
-    </message>
-    <message>
         <source>Loading masternode cache...</source>
         <translation>Loading masternode cache...</translation>
     </message>
@@ -4952,10 +4940,6 @@ for example: alertnotify=echo %%s | mail -s "AXIM Alert" admin@foo.com
     <message>
         <source>Synchronization pending...</source>
         <translation>Synchronization pending...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synchronizing budgets...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

@@ -4915,10 +4915,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. AXIM Core vjerojatno već radi.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Promjena ponašanja glasova na automatskom finaliziranom proračunu. mode = auto: Glasujte samo za točan završeni proračun s mojim generiranim proračunom. (niz, zadani: automatski)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Stalne besplatne transakcije bez ograničenja stope na &lt;n&gt;* 1000 bajta po minuti (zadano: %u)</translation>
     </message>
@@ -5583,10 +5579,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>uklonjene nepotvrđene transakcije</translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije AXIM (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Omogućite SwiftX, prikažite potvrde za zaključane transakcije (bool, zadano: %s)</translation>
     </message>
@@ -5737,10 +5729,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <source>Loading block index...</source>
         <translation>Učitavanje indeksa blokova ...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Učitavanje predmemorije proračuna ...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6101,10 +6089,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <source>Synchronization pending...</source>
         <translation>Sinkronizacija je na čekanju ...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Sinkronizacija proračuna ...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

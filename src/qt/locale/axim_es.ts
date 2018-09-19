@@ -4914,10 +4914,6 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. AXIM Core esta probablemente en ejecución.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Cambiar el comportamiento automático de votación de presupuesto final. modo=auto: Votar sólo por coincidencia exacta de un presupuesto finalizado con el generado por mí. (cadena, por defecto: auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Limite continuo de transacciones gratuitas &lt;n&gt;*1000 bytes por minuto (default:%u)</translation>
     </message>
@@ -5582,10 +5578,6 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica AXIM (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Activar swifttx, mostrar confirmaciones para transacciones bloqueadas (bool, predeterminado: %s)</translation>
     </message>
@@ -5736,10 +5728,6 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
     <message>
         <source>Loading block index...</source>
         <translation>Cargando índice de bloque...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Cargando cache de presupuestos...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6100,10 +6088,6 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
     <message>
         <source>Synchronization pending...</source>
         <translation>Sincronización pendiente...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Sincronizando presupuestos...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

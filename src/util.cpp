@@ -128,7 +128,6 @@ int64_t enforceMasternodePaymentsTime = 4085657524;
 bool fSucessfullyLoaded = false;
 /** All denominations used by obfuscation */
 std::vector<int64_t> obfuScationDenominations;
-string strBudgetMode = "";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -245,7 +244,6 @@ bool LogAcceptCategory(const char* category)
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
                 ptrCategory->insert(string("zero"));
-                ptrCategory->insert(string("mnbudget"));
             }
         }
         const set<string>& setCategories = *ptrCategory.get();

@@ -35,9 +35,6 @@ QT_TRANSLATE_NOOP("axim-core", ""
 "Cannot obtain a lock on data directory %s. AXIM Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("axim-core", ""
-"Change automatic finalized budget voting behavior. mode=auto: Vote for only "
-"exact finalized budget match to my generated budget. (string, default: auto)"),
-QT_TRANSLATE_NOOP("axim-core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
 "(default:%u)"),
 QT_TRANSLATE_NOOP("axim-core", ""
@@ -49,9 +46,6 @@ QT_TRANSLATE_NOOP("axim-core", ""
 QT_TRANSLATE_NOOP("axim-core", ""
 "Delete all zerocoin spends and mints that have been recorded to the "
 "blockchain database and reindex them (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("axim-core", ""
-"Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, "
-"Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("axim-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
@@ -362,7 +356,6 @@ QT_TRANSLATE_NOOP("axim-core", "Listen for JSON-RPC connections on <port> (defau
 QT_TRANSLATE_NOOP("axim-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
 QT_TRANSLATE_NOOP("axim-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("axim-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("axim-core", "Loading budget cache..."),
 QT_TRANSLATE_NOOP("axim-core", "Loading masternode cache..."),
 QT_TRANSLATE_NOOP("axim-core", "Loading masternode payment cache..."),
 QT_TRANSLATE_NOOP("axim-core", "Loading sporks..."),
@@ -458,7 +451,6 @@ QT_TRANSLATE_NOOP("axim-core", "SwiftX options:"),
 QT_TRANSLATE_NOOP("axim-core", "Synchronization failed"),
 QT_TRANSLATE_NOOP("axim-core", "Synchronization finished"),
 QT_TRANSLATE_NOOP("axim-core", "Synchronization pending..."),
-QT_TRANSLATE_NOOP("axim-core", "Synchronizing budgets..."),
 QT_TRANSLATE_NOOP("axim-core", "Synchronizing masternode winners..."),
 QT_TRANSLATE_NOOP("axim-core", "Synchronizing masternodes..."),
 QT_TRANSLATE_NOOP("axim-core", "Synchronizing sporks..."),

@@ -192,7 +192,6 @@ class CMainParams : public CChainParams
         nDefaultSecurityLevel = 100;       //full security level for accumulators
         nZerocoinHeaderVersion = 4;        //Block headers must be this version once zerocoin is active
         nZerocoinRequiredStakeDepth = 6; //The required confirmations for a zAXIM to be stakable
-        nBudget_Fee_Confirmations = 6;     // Number of confirmations for the finalization fee
     }
 
     const Checkpoints::CCheckpointData &Checkpoints() const
@@ -268,8 +267,6 @@ public:
         //strSporkKeyOld = "04348C2F50F90267E64FACC65BFDC9D0EB147D090872FB97ABAE92E9A36E6CA60983E28E741F8E7277B11A7479B626AC115BA31463AC48178A5075C5A9319D4A38";
         strObfuscationPoolDummyAddress = "04939f84ff23224f7d223207f8f94beccbe2302c0339f1effbd90b2c69fd5b47d3873abb1267f6f5927c04dd7a3446d927dee8d1a019dab4cf1ec3ea1425b985ef";
         nStartMasternodePayments = genesis.nTime; //Fri, 09 Jan 2015 21:05:58 GMT
-        nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
-                                       // here because we only have a 8 block finalization window on testnet
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {

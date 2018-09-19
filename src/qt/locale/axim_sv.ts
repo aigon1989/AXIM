@@ -4830,10 +4830,6 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Kan ej låsa in på data katalog %s. AXIM Kärna körs förmodligen redan.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Växel automatiskt slutgiltig budget beteende. läge=auto: Rösta endast för exakt slutförd budget matchning till min genererade budget. (sträng, standard: auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Kontinuerligt takt-begränsad fria transaktioner to &lt;n&gt;*1000 bytes per minut (standard:%u)</translation>
     </message>
@@ -5498,10 +5494,6 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Avaktivera all AXIM funktionalitet (Huvudnoder, Zerocoin, SwiftX, Budgeting) (0-1, standard: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Tillåt SwiftX, visa bekräftelser för låsta transaktioner (bool, default: %s)</translation>
     </message>
@@ -5652,10 +5644,6 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
     <message>
         <source>Loading block index...</source>
         <translation>Laddar block index...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation> budget cache...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6016,10 +6004,6 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
     <message>
         <source>Synchronization pending...</source>
         <translation>Synchronisering väntar</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synchroniserar budgetar</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

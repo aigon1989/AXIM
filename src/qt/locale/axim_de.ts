@@ -4905,10 +4905,6 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. AXIM Core läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Ändere das automatische, finale Budget Stimmverhalten. Modus=auto: Stimme nur für exakt finale Budgets, welche meinem generierten Budget entsprechen. (string, Standard:auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Begrenze freie Transaktionen Permanent auf &lt;n&gt;*1000 Bytes pro Minute (Standard:%u)</translation>
     </message>
@@ -5573,10 +5569,6 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktivieren Sie alle AXIM-spezifischen Funktionen (Masternodes, Zerocoin, SwiftX, Budgetierung) (0-1, Standard: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Swifttx aktivieren, Bestätigungen für gesperrte Transaktionen anzeigen (bool, default: %s)</translation>
     </message>
@@ -5727,10 +5719,6 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
     <message>
         <source>Loading block index...</source>
         <translation>Lade Block-Index...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Lade Budget Puffer...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6091,10 +6079,6 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
     <message>
         <source>Synchronization pending...</source>
         <translation>Synchronisierung ausstehend...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synchronisiere Budgets....</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

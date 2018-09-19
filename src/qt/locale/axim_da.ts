@@ -4913,10 +4913,6 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
         <translation>Kan ikke låse datamappen %s. AXIM core kører sandsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Skift automatisk afstemningsmetode, mode=auto: Stem kun for fuldstændigt match mod det generered budget (Strng, Default: auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Bedøm ubegrænsede transaktioner til &lt;n&gt;*1000 bytes pr. minut kontinuerligt (default:%u)</translation>
     </message>
@@ -5582,10 +5578,6 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle AXIM funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Aktiver swifttx, vis bekræftelser for låste transaktioner (bool, default: %s)</translation>
     </message>
@@ -5736,10 +5728,6 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     <message>
         <source>Loading block index...</source>
         <translation>Indlæser blokindeks</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Indlæser budgetcache...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6100,10 +6088,6 @@ Enten mint højere nomineringer (så færre input er nødvendige) eller reducere
     <message>
         <source>Synchronization pending...</source>
         <translation>Synkronisering venter</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synkronisere budgetter</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

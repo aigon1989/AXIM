@@ -4517,10 +4517,6 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. AXIM Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Otomatik sonuçlandırılmış bütçe oylama davranışını değiştirin. mode = auto: Yalnızca kesin bütçelendirilmiş bütçeyi, oluşturulan bütçemle eşleştirmek için oy verin. (dize, varsayılan: otomatik)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Ücretsiz işlemleri belirli aralıklarla sınırla &lt;n&gt;*1000 bytes dakikada (varsayılan: %u)</translation>
     </message>

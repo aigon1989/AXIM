@@ -4902,10 +4902,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не може да заключи папката с данни %s. AXIM Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
-    </message>
-    <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation>Автоматично приравнявай неограничените преводи до &lt;n&gt;*1000 байте в минута (default:%u)</translation>
     </message>
@@ -5566,10 +5562,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 </translation>
     </message>
     <message>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи AXIM специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
-    </message>
-    <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation>Включи SwiftTX, показвай потвърждения за заключени преводи (bool, default: %s)</translation>
     </message>
@@ -5720,10 +5712,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <source>Loading block index...</source>
         <translation>Зареждане блок индекса...</translation>
-    </message>
-    <message>
-        <source>Loading budget cache...</source>
-        <translation>Зареждане на бюджетния кеш...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
@@ -6084,10 +6072,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <source>Synchronization pending...</source>
         <translation>Синхронизацията изчаква...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Синхронизиране на бюджетите...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

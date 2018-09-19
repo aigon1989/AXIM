@@ -3586,10 +3586,6 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Kraunamas bloko indeksas...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
-        <translation>Kraunamas biudžeto podėlis...</translation>
-    </message>
-    <message>
         <source>Loading masternode cache...</source>
         <translation>Kraunamas masternodų podėlis...</translation>
     </message>
@@ -3652,10 +3648,6 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
     <message>
         <source>Synchronization pending...</source>
         <translation>Laukiama sinchronizavimo...</translation>
-    </message>
-    <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Sinchronizuojami biudžetai...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>

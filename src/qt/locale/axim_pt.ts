@@ -1126,10 +1126,6 @@
         <translation>Sincronizando pendencias...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Sincronizando orçamentos...</translation>
-    </message>
-    <message>
         <source>Synchronizing masternode winners...</source>
         <translation>Sincronizando os masternode vencedores...</translation>
     </message>

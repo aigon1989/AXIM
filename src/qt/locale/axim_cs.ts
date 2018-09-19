@@ -2424,10 +2424,6 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Synchronizace probíhá</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
-        <translation>Synchronizace rozpočtu...</translation>
-    </message>
-    <message>
         <source>Synchronizing masternode winners...</source>
         <translation>Synchronizace vítězných masternodů...</translation>
     </message>

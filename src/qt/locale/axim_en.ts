@@ -6296,11 +6296,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation type="unfinished">Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
         <translation type="unfinished">Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</translation>
     </message>
@@ -7137,11 +7132,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
-        <source>Disable all AXIM specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
         <translation type="unfinished"></translation>
@@ -7330,11 +7320,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <location line="+1"/>
         <source>Loading block index...</source>
         <translation type="unfinished">Loading block index...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Loading budget cache...</source>
-        <translation type="unfinished">Loading budget cache...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7785,11 +7770,6 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <location line="+1"/>
         <source>Synchronization pending...</source>
         <translation type="unfinished">Synchronization pending...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Synchronizing budgets...</source>
-        <translation type="unfinished">Synchronizing budgets...</translation>
     </message>
     <message>
         <location line="+1"/>
