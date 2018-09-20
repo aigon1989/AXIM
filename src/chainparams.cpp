@@ -233,7 +233,7 @@ public:
         genesis.nTime = 1536730506;
         genesis.nNonce = 527053;
 
-        hashGenesisBlock = genesis.getHash();
+        hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
         assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
 
