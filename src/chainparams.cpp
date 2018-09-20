@@ -140,24 +140,24 @@ class CMainParams : public CChainParams
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Lula turns himself in after police stand-off";
+        const char* pszTimestamp = "La crisis es necesaria para la evolucion - Álex Rovira - Claves para el exito";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("12345e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04b5dc3af0c30db97110a345e8ef3603955fec07405ad157220775c50eb0a28a2c4d00119e04cf63878bd633a86bf15492d6b16d355835bd7cf0f2eeee388203cb") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
-        genesis.hashMerkleRoot = uint256("0x");
+        genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
         genesis.nTime = 1536730506;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 527053;
 
-        hashGenesisBlock = uint256("0x");
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        hashGenesisBlock = genesis.getHash();
+        assert(hashGenesisBlock == uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
+        assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -231,10 +231,11 @@ public:
         nModifierUpdateBlock = 1;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
-        genesis.nNonce = 0;
+        genesis.nNonce = 527053;
 
-        hashGenesisBlock = uint256("0x");
-        assert(hashGenesisBlock == uint256("0x"));
+        hashGenesisBlock = genesis.getHash();
+        assert(hashGenesisBlock == uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
+        assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -301,7 +302,7 @@ public:
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 0;
 
-        hashGenesisBlock = uint256("0x");
+        hashGenesisBlock = uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745");
         nDefaultPort = 61476;
         //assert(hashGenesisBlock == uint256("0x001"));
 
