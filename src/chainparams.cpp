@@ -160,7 +160,7 @@ class CMainParams : public CChainParams
 
             uint256 hashTargetHelper;
             printf("Searching for genesis bBigNumlock...\n");
-            uint256 hashTarget = hashTargetHelper.SetCompact(genesis.nBits).getuint256();
+            uint256 hashTarget = hashTargetHelper.SetCompact(genesis.nBits);
             while(uint256(genesis.GetHash()) > hashTarget)
             {
                 ++genesis.nNonce;
@@ -262,7 +262,7 @@ public:
         {
             uint256 hashTargetHelper;
             printf("Searching for genesis block...\n");
-            uint256 hashTarget = hashTargetHelper.SetCompact(genesis.nBits).getuint256();
+            uint256 hashTarget = hashTargetHelper.SetCompact(genesis.nBits);
             while(uint256(genesis.GetHash()) > hashTarget)
             {
                 ++genesis.nNonce;
