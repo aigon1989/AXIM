@@ -153,7 +153,7 @@ class CMainParams : public CChainParams
         genesis.nVersion = 1;
         genesis.nTime = 1536730506;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 527053;
+        genesis.nNonce = 3428833;
 
         if(genesis.GetHash() != uint256("0x"))
         {
@@ -181,7 +181,7 @@ class CMainParams : public CChainParams
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
+        assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
         assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
@@ -256,7 +256,7 @@ public:
         nModifierUpdateBlock = 1;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
-        genesis.nNonce = 527053;
+        genesis.nNonce = 3428833;
 
         if(genesis.GetHash() != uint256("0x"))
         {
@@ -283,7 +283,7 @@ public:
         }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
+        assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
         assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
 
         vFixedSeeds.clear();
@@ -347,11 +347,11 @@ public:
         nTargetTimespan = 1 * 30; // AXIM: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
         bnProofOfWorkLimit = ~uint256(0) >> 2;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1536730506;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 0;
+        genesis.nNonce = 3428833;
 
-        hashGenesisBlock = uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745");
+        hashGenesisBlock = uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5");
         nDefaultPort = 61476;
         //assert(hashGenesisBlock == uint256("0x001"));
 
