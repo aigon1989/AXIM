@@ -183,7 +183,7 @@ class CMainParams : public CChainParams
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
-        assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
+        assert(genesis.hashMerkleRoot == uint256("0x4fa4e4a2dcea3f30b95a1d0ced8760d43763725b861ffd472ce1b6ef87f31003"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -286,7 +286,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
-        assert(genesis.hashMerkleRoot == uint256("0x189bf2da53c7ee4edb83f9722a8ff572e5d76b853008d3e6b493e82b829b131e"));
+        assert(genesis.hashMerkleRoot == uint256("0x4fa4e4a2dcea3f30b95a1d0ced8760d43763725b861ffd472ce1b6ef87f31003"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
