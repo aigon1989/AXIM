@@ -115,7 +115,7 @@ class CMainParams : public CChainParams
         pchMessageStart[3] = 0x7b;
         vAlertPubKey = ParseHex("043826a918b48b7bc31df5dec12dea90893138af03faf454f705b84b69b8c9912614119efcb3647de84e0fec7cdeb56257fd55ca2b314c3fbbe9f443a86b825a80");
         nDefaultPort = 61555;
-        bnProofOfWorkLimit = ~uint256(0) >> 2;
+        bnProofOfWorkLimit = ~uint256(0);
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -155,35 +155,16 @@ class CMainParams : public CChainParams
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3428833;
 
-        if(genesis.GetHash() != uint256("0x"))
-        {
-
-            uint256 hashTargetHelper;
-            printf("Searching for genesis bBigNumlock...\n");
-            uint256 hashTarget = hashTargetHelper.SetCompact(genesis.nBits);
-            while(uint256(genesis.GetHash()) > hashTarget)
-            {
-                ++genesis.nNonce;
-                if (genesis.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time");
-                    std::cout << std::string("NONCE WRAPPED, incrementing time:\n");
-                    ++genesis.nTime;
-                }
-                if (genesis.nNonce % 10000 == 0)
-                {
-                    printf("Mainnet: nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
-                }
-            }
-            printf("block.nTime = %u \n", genesis.nTime);
-            printf("block.nNonce = %u \n", genesis.nNonce);
-            printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        }
-
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
         assert(genesis.hashMerkleRoot == uint256("0x4fa4e4a2dcea3f30b95a1d0ced8760d43763725b861ffd472ce1b6ef87f31003"));
+
+        vFixedSeeds.clear();
+        vSeeds.clear();
+        //vSeeds.push_back(CDNSSeedData("base.ninja", "BASE-testnet.seed.base.ninja"));
+        //vSeeds.push_back(CDNSSeedData("base.ninja", "BASE-testnet.seed2.base.ninja"));
+        //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
+        //vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -199,8 +180,8 @@ class CMainParams : public CChainParams
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
-        fMineBlocksOnDemand = false;
-        fSkipProofOfWorkCheck = false;
+        fMineBlocksOnDemand = true;
+        fSkipProofOfWorkCheck = true;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
 
@@ -258,31 +239,6 @@ public:
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
         genesis.nNonce = 3428833;
-
-        if(genesis.GetHash() != uint256("0x"))
-        {
-            uint256 hashTargetHelper;
-            printf("Searching for genesis block...\n");
-            uint256 hashTarget = hashTargetHelper.SetCompact(genesis.nBits);
-            while(uint256(genesis.GetHash()) > hashTarget)
-            {
-                ++genesis.nNonce;
-                if (genesis.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time");
-                    std::cout << std::string("NONCE WRAPPED, incrementing time:\n");
-                    ++genesis.nTime;
-                }
-                if (genesis.nNonce % 10000 == 0)
-                {
-                    printf("Mainnet: nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
-                }
-            }
-            printf("block.nTime = %u \n", genesis.nTime);
-            printf("block.nNonce = %u \n", genesis.nNonce);
-            printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        }
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
@@ -348,7 +304,7 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 1 * 30; // AXIM: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
-        bnProofOfWorkLimit = ~uint256(0) >> 2;
+        bnProofOfWorkLimit = ~uint256(0);
         genesis.nTime = 1536730506;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 3428833;
