@@ -178,7 +178,7 @@ class CMainParams : public CChainParams
             printf("block.nTime = %u \n", genesis.nTime);
             printf("block.nNonce = %u \n", genesis.nNonce);
             printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot);
+            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         }
 
         hashGenesisBlock = genesis.GetHash();
@@ -281,7 +281,7 @@ public:
             printf("block.nTime = %u \n", genesis.nTime);
             printf("block.nNonce = %u \n", genesis.nNonce);
             printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot);
+            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         }
 
         hashGenesisBlock = genesis.GetHash();
