@@ -56,7 +56,7 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
+    (0, uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,1536730506,0,2000
     //,
@@ -67,7 +67,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x00000ded6561c5eb7da3eaecd58ebfdd0bf4a6b9438b21fb44a8bfbd9fd4a745"));
+    boost::assign::map_list_of(0, uint256("0x00000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,1536730506,0,2000
     //,
@@ -178,6 +178,7 @@ class CMainParams : public CChainParams
             printf("block.nTime = %u \n", genesis.nTime);
             printf("block.nNonce = %u \n", genesis.nNonce);
             printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot);
         }
 
         hashGenesisBlock = genesis.GetHash();
@@ -280,6 +281,7 @@ public:
             printf("block.nTime = %u \n", genesis.nTime);
             printf("block.nNonce = %u \n", genesis.nNonce);
             printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+            printf("block.hashMerkleRoot = %s\n", genesis.hashMerkleRoot);
         }
 
         hashGenesisBlock = genesis.GetHash();
