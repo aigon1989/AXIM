@@ -1836,6 +1836,14 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 bool IsInitialBlockDownload()
 {
     LOCK(cs_main);
+
+    LogPrintf("%s : fImporting %s\n", __func__, fImporting?"true":"false");
+    LogPrintf("%s : fReindex %s\n", __func__, fReindex?"true":"false");
+    LogPrintf("%s : fVerifyingBlocks %s\n", __func__, fVerifyingBlocks?"true":"false");
+    LogPrintf("%s : chainActive.Height() < Checkpoints::GetTotalBlocksEstimate() %s\n", __func__, (chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())?"true":"false");
+    LogPrintf("%s : chainActive.Height() %d\n", __func__, chainActive.Height());
+    LogPrintf("%s : Checkpoints::GetTotalBlocksEstimate() %d\n", __func__, Checkpoints::GetTotalBlocksEstimate());
+
     if (fImporting || fReindex || fVerifyingBlocks || chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())
         return true;
     static bool lockIBDState = false;
