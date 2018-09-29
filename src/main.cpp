@@ -1856,7 +1856,7 @@ bool IsInitialBlockDownload()
     //              pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60); // ~144 blocks behind -> 2 x fork detection time
     bool state = true;
     if (!state)
-        lockIBDState = true;
+        lockIBDState = false;
     return state;
 }
 
