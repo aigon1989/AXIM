@@ -1843,6 +1843,9 @@ bool IsInitialBlockDownload()
     LogPrintf("%s : chainActive.Height() < Checkpoints::GetTotalBlocksEstimate() %s\n", __func__, (chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())?"true":"false");
     LogPrintf("%s : chainActive.Height() %d\n", __func__, chainActive.Height());
     LogPrintf("%s : Checkpoints::GetTotalBlocksEstimate() %d\n", __func__, Checkpoints::GetTotalBlocksEstimate());
+    LogPrintf("%s : pindexBestHeader->nHeight - 24 * 6 %d\n", __func__, pindexBestHeader->nHeight - 24 * 6);
+    LogPrintf("%s : pindexBestHeader->GetBlockTime() %d\n", __func__, pindexBestHeader->GetBlockTime());
+    LogPrintf("%s : GetTime() - 6 * 60 * 60 %d\n", __func__, GetTime() - 6 * 60 * 60);
 
     if (fImporting || fReindex || fVerifyingBlocks || chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())
         return true;
