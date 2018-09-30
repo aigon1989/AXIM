@@ -127,7 +127,7 @@ class CMainParams : public CChainParams
         nMaxMoneyOut = 90000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 0;
+        nLastPOWBlock = 200;
         nModifierUpdateBlock = 1;
 
         //a.gonzalez - First rewarded block
@@ -184,7 +184,7 @@ class CMainParams : public CChainParams
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = true;
-        fSkipProofOfWorkCheck = true;
+        fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
 
