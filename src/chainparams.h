@@ -114,6 +114,9 @@ public:
     int ModifierUpgradeBlock() const { return nModifierUpdateBlock; }
     int Last_PoW_Block() const { return nLastPOWBlock; }
 
+    /** aigon1989 - First Reward Block **/
+    int First_Reward_Block() const { return nFirstRewardBlock; }
+
 protected:
     CChainParams() {}
 
@@ -162,6 +165,9 @@ protected:
     int nDefaultSecurityLevel;
     int nZerocoinHeaderVersion;
     int nZerocoinRequiredStakeDepth;
+
+    //a.gonzalez - First POS Rewarded Block
+    int nFirstRewardBlock;
 };
 
 /**

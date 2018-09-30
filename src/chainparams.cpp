@@ -127,8 +127,11 @@ class CMainParams : public CChainParams
         nMaxMoneyOut = 90000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 0;
         nModifierUpdateBlock = 1;
+
+        //a.gonzalez - First rewarded block
+        nFirstRewardBlock = 200;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -234,8 +237,11 @@ public:
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 90000000 * COIN;
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 0;
         nModifierUpdateBlock = 1;
+
+        //a.gonzalez - First rewarded block
+        nFirstRewardBlock = 200;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
         genesis.nNonce = 3428833;

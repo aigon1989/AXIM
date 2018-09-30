@@ -1794,23 +1794,23 @@ int64_t GetBlockValue(int nHeight)
 
     if(nHeight == 0) {
         nSubsidy = 29000000;
-    } else if (nHeight <= Params().Last_PoW_Block()) {
+    } else if (nHeight <= Params().First_Reward_Block()) {
         nSubsidy = 0;
-    } else if(nHeight > Params().Last_PoW_Block() && nHeight <= (Params().Last_PoW_Block() + 174720)){
+    } else if(nHeight > Params().First_Reward_Block() && nHeight <= (Params().First_Reward_Block() + 174720)){
         nSubsidy = 33;
-    } else if(nHeight > (Params().Last_PoW_Block() + 174720) && nHeight <= (Params().Last_PoW_Block() + 349440)){
+    } else if(nHeight > (Params().First_Reward_Block() + 174720) && nHeight <= (Params().First_Reward_Block() + 349440)){
         nSubsidy = 66;
-    } else if(nHeight > (Params().Last_PoW_Block() + 349440) && nHeight <= (Params().Last_PoW_Block() + 537400)){
+    } else if(nHeight > (Params().First_Reward_Block() + 349440) && nHeight <= (Params().First_Reward_Block() + 537400)){
         nSubsidy = 33;
-    } else if (nHeight == (Params().Last_PoW_Block() + 537401)){
+    } else if (nHeight == (Params().First_Reward_Block() + 537401)){
         nSubsidy = 40;
-    } else if (nHeight > (Params().Last_PoW_Block() + 537401) && nHeight <= (Params().Last_PoW_Block() + 1061561)){
+    } else if (nHeight > (Params().First_Reward_Block() + 537401) && nHeight <= (Params().First_Reward_Block() + 1061561)){
         nSubsidy = 42.93;
-    } else if(nHeight > (Params().Last_PoW_Block() + 1061561) && nHeight <= (Params().Last_PoW_Block() + 2638361)) {
+    } else if(nHeight > (Params().First_Reward_Block() + 1061561) && nHeight <= (Params().First_Reward_Block() + 2638361)) {
         nSubsidy = 3.171;
     }
 
-    return nSubsidy;
+    return nSubsidy * COIN;
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZAXIMStake)
@@ -1822,11 +1822,11 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             return 0;
     }
 
-    if (nHeight <= Params().Last_PoW_Block()) {
+    if (nHeight <= Params().First_Reward_Block()) {
         ret = 0;
-    } else if (nHeight > Params().Last_PoW_Block() && nHeight <= (Params().Last_PoW_Block() + 537401)) {
+    } else if (nHeight > Params().First_Reward_Block() && nHeight <= (Params().First_Reward_Block() + 537401)) {
         ret = blockValue * 0.6;
-    } else if (nHeight > (Params().Last_PoW_Block() + 537401) && nHeight <= (Params().Last_PoW_Block() + 2638361)) {
+    } else if (nHeight > (Params().First_Reward_Block() + 537401) && nHeight <= (Params().First_Reward_Block() + 2638361)) {
         ret = blockValue;
     }
 
@@ -1852,9 +1852,9 @@ bool IsInitialBlockDownload()
     static bool lockIBDState = false;
     if (lockIBDState)
         return false;
-    //bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
-    //              pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60); // ~144 blocks behind -> 2 x fork detection time
-    bool state = false;
+    bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
+                  pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60); // ~144 blocks behind -> 2 x fork detection time
+    //bool state = false;
     if (!state)
         lockIBDState = false;
     return state;
