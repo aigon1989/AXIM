@@ -1704,7 +1704,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Vout pozisyonu olumlu olmalı.</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
+        <source>Maximum possible addresses reached. (15)</source>
         <translation>Maksimum adres sayısına ulaşıldı. (15)</translation>
     </message>
     <message>
@@ -1716,7 +1716,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Miktar:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation>Maksimum (15)</translation>
     </message>
 </context>
@@ -1735,7 +1735,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Yüksek Gizlilik</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Maksimum Gizlilik</translation>
     </message>
     <message>
@@ -1763,7 +1763,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Bu seçenek orta derecede hızlıdır ve 10000 STATERA'yi anonimleştirmek için yaklaşık 0.05 STATERA'e mal olur</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Bu en yavaş ve en güvenli seçenektir. Maksimum anonimlik kullanmak maliyete gelecek</translation>
     </message>
     <message>
@@ -1783,7 +1783,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Şaşırtma başarıyla Yüksek e ayarlandı. (%1 ve 8 turlar) Bunu istediğiniz zaman değiştirmek için STATERA in ayarlar ekranını açmanız yeterli</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
         <translation>Şaşırtma başarıyla maksimuma ayarlandı. (%1 ve 16 turlar) Bunu istediğiniz zaman değiştirmek için STATERA in ayarlar ekranını açmanız yeterli</translation>
     </message>
 </context>
@@ -2644,7 +2644,7 @@ Lütfen sabırlı olun...</translation>
     </message>
     <message>
         <source>) needed.
-Mstateraum allowed: </source>
+Maximum allowed: </source>
         <translation>) gerekli.
 Maksimum bırakılan: </translation>
     </message>

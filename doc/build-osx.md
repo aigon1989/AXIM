@@ -89,7 +89,7 @@ You can ignore this section if you are building `staterad` for your own use.
 staterad/statera-cli binaries are not included in the statera-Qt.app bundle.
 
 If you are building `staterad` or `statera-qt` for others, your build machine should be set up
-as follows for mstateraum compatibility:
+as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
 

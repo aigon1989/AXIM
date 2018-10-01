@@ -65,7 +65,7 @@
               <height>60</height>
              </size>
             </property>
-            <property name="mstateraumSize">
+            <property name="maximumSize">
              <size>
               <width>16777215</width>
               <height>60</height>
@@ -107,7 +107,7 @@
               <height>60</height>
              </size>
             </property>
-            <property name="mstateraumSize">
+            <property name="maximumSize">
              <size>
               <width>16777215</width>
               <height>60</height>
@@ -160,7 +160,7 @@
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
-          <property name="mstateraumSize">
+          <property name="maximumSize">
            <size>
             <width>16777215</width>
             <height>16777215</height>
@@ -213,7 +213,7 @@
                   <item>
                    <widget class="QLabel" name="labelCoinControlFeatures">
                     <property name="sizePolicy">
-                     <sizepolicy hsizetype="Preferred" vsizetype="Mstateraum">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
                       <horstretch>0</horstretch>
                       <verstretch>0</verstretch>
                      </sizepolicy>
@@ -247,7 +247,7 @@
                       <height>1</height>
                      </size>
                     </property>
-                    <property name="mstateraumSize">
+                    <property name="maximumSize">
                      <size>
                       <width>16777215</width>
                       <height>1</height>
@@ -724,7 +724,7 @@
                     <height>0</height>
                    </size>
                   </property>
-                  <property name="mstateraumSize">
+                  <property name="maximumSize">
                    <size>
                     <width>200</width>
                     <height>16777215</height>
@@ -803,7 +803,7 @@
                     <height>0</height>
                    </size>
                   </property>
-                  <property name="mstateraumSize">
+                  <property name="maximumSize">
                    <size>
                     <width>200</width>
                     <height>16777215</height>
@@ -828,7 +828,7 @@
                     <height>0</height>
                    </size>
                   </property>
-                  <property name="mstateraumSize">
+                  <property name="maximumSize">
                    <size>
                     <width>100</width>
                     <height>16777215</height>
@@ -946,7 +946,7 @@
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
-          <property name="mstateraumSize">
+          <property name="maximumSize">
            <size>
             <width>16777215</width>
             <height>16777215</height>
@@ -1054,7 +1054,7 @@
                    <property name="minimum">
                     <number>0</number>
                    </property>
-                   <property name="mstateraum">
+                   <property name="maximum">
                     <number>24</number>
                    </property>
                    <property name="pageStep">
@@ -1177,7 +1177,7 @@
                    <item>
                     <widget class="QLabel" name="labelFeeHeadline">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Mstateraum">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -1486,7 +1486,7 @@
                         <height>1</height>
                        </size>
                       </property>
-                      <property name="mstateraumSize">
+                      <property name="maximumSize">
                        <size>
                         <width>16777215</width>
                         <height>1</height>

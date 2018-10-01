@@ -46,11 +46,11 @@ class thread_group;
 static const int PING_INTERVAL = 2 * 60;
 /** Time after which to disconnect, after waiting for a ping response (or inactivity). */
 static const int TIMEOUT_INTERVAL = 20 * 60;
-/** The mstateraum number of entries in an 'inv' protocol message */
+/** The maximum number of entries in an 'inv' protocol message */
 static const unsigned int MAX_INV_SZ = 50000;
-/** The mstateraum number of new addresses to accumulate before announcing. */
+/** The maximum number of new addresses to accumulate before announcing. */
 static const unsigned int MAX_ADDR_TO_SEND = 1000;
-/** Mstateraum length of incoming protocol messages (no message over 2 MiB is currently acceptable). */
+/** Maximum length of incoming protocol messages (no message over 2 MiB is currently acceptable). */
 static const unsigned int MAX_PROTOCOL_MESSAGE_LENGTH = 2 * 1024 * 1024;
 /** -listen default */
 static const bool DEFAULT_LISTEN = true;
@@ -60,7 +60,7 @@ static const bool DEFAULT_UPNP = USE_UPNP;
 #else
 static const bool DEFAULT_UPNP = false;
 #endif
-/** The mstateraum number of entries in mapAskFor */
+/** The maximum number of entries in mapAskFor */
 static const size_t MAPASKFOR_MAX_SZ = MAX_INV_SZ;
 
 unsigned int ReceiveFloodSize();

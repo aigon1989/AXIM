@@ -1660,7 +1660,7 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Quantità:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation>Massimo (15)</translation>
     </message>
 </context>

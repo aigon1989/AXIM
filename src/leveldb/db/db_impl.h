@@ -55,7 +55,7 @@ class DBImpl : public DB {
   // The returned iterator should be deleted when no longer needed.
   Iterator* TEST_NewInternalIterator();
 
-  // Return the mstateraum overlapping data (in bytes) at next level for any
+  // Return the maximum overlapping data (in bytes) at next level for any
   // file at a level >= 1.
   int64_t TEST_MaxNextLevelOverlappingBytes();
 

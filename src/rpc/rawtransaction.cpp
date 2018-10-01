@@ -211,7 +211,7 @@ UniValue listunspent(const UniValue& params, bool fHelp)
 
             "\nArguments:\n"
             "1. minconf          (numeric, optional, default=1) The minimum confirmations to filter\n"
-            "2. maxconf          (numeric, optional, default=9999999) The mstateraum confirmations to filter\n"
+            "2. maxconf          (numeric, optional, default=9999999) The maximum confirmations to filter\n"
             "3. \"addresses\"    (string) A json array of statera addresses to filter\n"
             "    [\n"
             "      \"address\"   (string) statera address\n"

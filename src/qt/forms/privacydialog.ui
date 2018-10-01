@@ -56,7 +56,7 @@
               <height>60</height>
              </size>
             </property>
-            <property name="mstateraumSize">
+            <property name="maximumSize">
              <size>
               <width>16777215</width>
               <height>60</height>
@@ -95,7 +95,7 @@
               <height>60</height>
              </size>
             </property>
-            <property name="mstateraumSize">
+            <property name="maximumSize">
              <size>
               <width>16777215</width>
               <height>60</height>
@@ -227,7 +227,7 @@
                           <height>1</height>
                          </size>
                         </property>
-                        <property name="mstateraumSize">
+                        <property name="maximumSize">
                          <size>
                           <width>16777215</width>
                           <height>1</height>
@@ -455,7 +455,7 @@
                         </item>
                         <item>
                          <widget class="QPushButton" name="pushButtonSpentReset">
-                          <property name="mstateraumSize">
+                          <property name="maximumSize">
                            <size>
                             <width>80</width>
                             <height>16777215</height>
@@ -481,7 +481,7 @@
                             <height>27</height>
                            </size>
                           </property>
-                          <property name="mstateraumSize">
+                          <property name="maximumSize">
                            <size>
                             <width>131</width>
                             <height>16777215</height>
@@ -514,7 +514,7 @@
                               <height>0</height>
                              </size>
                             </property>
-                            <property name="mstateraumSize">
+                            <property name="maximumSize">
                              <size>
                               <width>16777215</width>
                               <height>16777215</height>
@@ -574,7 +574,7 @@
                               <height>0</height>
                              </size>
                             </property>
-                            <property name="mstateraumSize">
+                            <property name="maximumSize">
                              <size>
                               <width>16777215</width>
                               <height>16777215</height>
@@ -633,7 +633,7 @@
                         </item>
                         <item>
                          <widget class="QPushButton" name="pushButtonMintReset">
-                          <property name="mstateraumSize">
+                          <property name="maximumSize">
                            <size>
                             <width>80</width>
                             <height>16777215</height>
@@ -709,7 +709,7 @@
                           <height>1</height>
                          </size>
                         </property>
-                        <property name="mstateraumSize">
+                        <property name="maximumSize">
                          <size>
                           <width>16777215</width>
                           <height>1</height>
@@ -900,7 +900,7 @@ zSTATERA are mature when they have more than 20 confirmations AND more than 2 mi
                             <property name="minimum">
                              <number>1</number>
                             </property>
-                            <property name="mstateraum">
+                            <property name="maximum">
                              <number>100</number>
                             </property>
                             <property name="value">
@@ -1181,7 +1181,7 @@ zSTATERA are mature when they have more than 20 confirmations AND more than 2 mi
                           <height>1</height>
                          </size>
                         </property>
-                        <property name="mstateraumSize">
+                        <property name="maximumSize">
                          <size>
                           <width>16777215</width>
                           <height>1</height>
@@ -1198,7 +1198,7 @@ zSTATERA are mature when they have more than 20 confirmations AND more than 2 mi
                          <enum>Qt::Vertical</enum>
                         </property>
                         <property name="sizeType">
-                         <enum>QSizePolicy::Mstateraum</enum>
+                         <enum>QSizePolicy::Maximum</enum>
                         </property>
                         <property name="sizeHint" stdset="0">
                          <size>
@@ -1701,7 +1701,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
                           <height>1</height>
                          </size>
                         </property>
-                        <property name="mstateraumSize">
+                        <property name="maximumSize">
                          <size>
                           <width>16777215</width>
                           <height>1</height>
@@ -1756,7 +1756,7 @@ To change the percentage (no restart required):
                           <height>1</height>
                          </size>
                         </property>
-                        <property name="mstateraumSize">
+                        <property name="maximumSize">
                          <size>
                           <width>16777215</width>
                           <height>1</height>
@@ -2132,7 +2132,7 @@ To change the percentage (no restart required):
      <property name="enabled">
       <bool>false</bool>
      </property>
-     <property name="mstateraumSize">
+     <property name="maximumSize">
       <size>
        <width>100</width>
        <height>22</height>
@@ -2206,7 +2206,7 @@ To change the percentage (no restart required):
           <height>12</height>
          </size>
         </property>
-        <property name="mstateraumSize">
+        <property name="maximumSize">
          <size>
           <width>111</width>
           <height>12</height>
@@ -2479,7 +2479,7 @@ To change the percentage (no restart required):
           <height>0</height>
          </size>
         </property>
-        <property name="mstateraumSize">
+        <property name="maximumSize">
          <size>
           <width>240</width>
           <height>16777215</height>
@@ -2510,7 +2510,7 @@ To change the percentage (no restart required):
           <height>0</height>
          </size>
         </property>
-        <property name="mstateraumSize">
+        <property name="maximumSize">
          <size>
           <width>111</width>
           <height>16777215</height>
@@ -2557,7 +2557,7 @@ To change the percentage (no restart required):
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
-        <property name="mstateraumSize">
+        <property name="maximumSize">
          <size>
           <width>16777215</width>
           <height>16777215</height>
@@ -2607,7 +2607,7 @@ To change the percentage (no restart required):
                 <bool>false</bool>
                </property>
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Preferred" vsizetype="Mstateraum">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -2767,7 +2767,7 @@ To change the percentage (no restart required):
           <height>0</height>
          </size>
         </property>
-        <property name="mstateraumSize">
+        <property name="maximumSize">
          <size>
           <width>16777215</width>
           <height>16777215</height>
@@ -2807,7 +2807,7 @@ To change the percentage (no restart required):
           <height>0</height>
          </size>
         </property>
-        <property name="mstateraumSize">
+        <property name="maximumSize">
          <size>
           <width>16777215</width>
           <height>16777215</height>

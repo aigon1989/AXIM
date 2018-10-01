@@ -1601,12 +1601,12 @@ Bonvolu kontroku la adreson kaj riprovu</translation>
         <translation>Subskribu nun kun privataj ŝlosiloj (Ne rekomendita)</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
-        <translation>Mstaterauman eblajn adreson antigita. (15)</translation>
+        <source>Maximum possible addresses reached. (15)</source>
+        <translation>Maximuman eblajn adreson antigita. (15)</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
-        <translation>Mstaterauma (15)</translation>
+        <source>Maximum (15)</source>
+        <translation>Maximuma (15)</translation>
     </message>
 </context>
 <context>
@@ -1620,8 +1620,8 @@ Bonvolu kontroku la adreson kaj riprovu</translation>
         <translation>Alta privateco</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
-        <translation>Mstaterauma privateco</translation>
+        <source>Maximum Privacy</source>
+        <translation>Maximuma privateco</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
@@ -1636,8 +1636,8 @@ Bonvolu kontroku la adreson kaj riprovu</translation>
         <translation>Tion opcion estas moderebla rapide kaj kostos ĉirkaŭ 0.05 STATERA por anonimigi 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
-        <translation>Ĉi tio estas plej malrapida kaj plej sekura opcio. Uzante mstaterauma anonimeco kostos</translation>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>Ĉi tio estas plej malrapida kaj plej sekura opcio. Uzante maximuma anonimeco kostos</translation>
     </message>
     </context>
 <context>

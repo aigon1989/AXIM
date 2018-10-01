@@ -239,7 +239,7 @@ class VersionSet {
       const InternalKey* begin,
       const InternalKey* end);
 
-  // Return the mstateraum overlapping data (in bytes) at next level for any
+  // Return the maximum overlapping data (in bytes) at next level for any
   // file at a level >= 1.
   int64_t MaxNextLevelOverlappingBytes();
 
@@ -339,7 +339,7 @@ class Compaction {
   // Return the ith input file at "level()+which" ("which" must be 0 or 1).
   FileMetaData* input(int which, int i) const { return inputs_[which][i]; }
 
-  // Mstateraum size of files to build during this compaction.
+  // Maximum size of files to build during this compaction.
   uint64_t MaxOutputFileSize() const { return max_output_file_size_; }
 
   // Is this a trivial compaction that can be implemented by just

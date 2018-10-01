@@ -1460,7 +1460,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vysoká ochrana soukromí</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Mstateraální ochrana soukromí</translation>
     </message>
     <message>
@@ -1480,7 +1480,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 STATERA pro anonymizaci 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití mstateraalní anonymity bude stát</translation>
     </message>
     <message>

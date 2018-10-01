@@ -1547,7 +1547,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Quantidade:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation>Máximo (15)</translation>
     </message>
 </context>
@@ -1566,7 +1566,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Alta Privacidade</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Privacidade Máxima</translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
@@ -1614,7 +1614,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela STATERA's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
         <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela STATERA's.</translation>
     </message>
 </context>
@@ -3692,7 +3692,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Requerir alta prioridade na propagação gratuita ou com taxa baixa em transações (padrão:%u)</translation>
     </message>
     <message>
-        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
@@ -4174,7 +4174,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Defina o enderço externo:porta para chegar a este masternode (exemplo: %s)</translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
+        <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Defina o tamanho máximo do bloco em bytes (padrão: %d)</translation>
     </message>
     <message>
@@ -4326,7 +4326,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
+        <source>Value more than Obfuscation pool maximum allows.</source>
         <translation>Valor maior que o máximo permitido pela pool de Ofuscação </translation>
     </message>
     <message>

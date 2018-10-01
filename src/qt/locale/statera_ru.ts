@@ -1741,7 +1741,7 @@ Please be patient after clicking import.</source>
         <translation>Позиция Vout должна быть положительной.</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
+        <source>Maximum possible addresses reached. (15)</source>
         <translation>Максимально возможное количество адресов достигнуто. (15)</translation>
     </message>
     <message>
@@ -1753,7 +1753,7 @@ Please be patient after clicking import.</source>
         <translation>Сумма:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation>Максимум (15)</translation>
     </message>
 </context>
@@ -1772,7 +1772,7 @@ Please be patient after clicking import.</source>
         <translation>Повышенная конфиденциальность</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Максимальная конфиденциальность</translation>
     </message>
     <message>
@@ -1800,7 +1800,7 @@ Please be patient after clicking import.</source>
         <translation>Это средний по скорости вариант и он будет стоить около 0.05 STATERA для анонимизации 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
@@ -1820,7 +1820,7 @@ Please be patient after clicking import.</source>
         <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки STATERA.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
         <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки STATERA.</translation>
     </message>
 </context>
@@ -2782,7 +2782,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>) needed.
-Mstateraum allowed: </source>
+Maximum allowed: </source>
         <translation>) необходимо.
 Максимально допустимое:</translation>
     </message>
@@ -4957,7 +4957,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Ошибка: Прослушивание входящих соединений не выполнено (при возврате ошибки %s)</translation>
     </message>
     <message>
-        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
+        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
         <translation>Ошибка: транзакция больше максимально допустимого размера транзакции!</translation>
     </message>
     <message>
@@ -5021,11 +5021,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Поддерживание полного индекса транзакции, используемого вызовом rvc getrawtransaction (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Максимальный размер данных в транзакциях передачи данных, которые мы передаем,  (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
         <translation>Максимальная общая сумма комиссий за использование транзакции с одним кошельком, слишком низкая, может прервать крупные транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
@@ -5057,7 +5057,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Отправлять трассировку / отладочную информацию на консоль вместо файла debug.log (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Установите максимальный размер транзакций с высоким приоритетом / низкой оплатой в байтах (по умолчанию: %d)</translation>
     </message>
     <message>
@@ -5601,7 +5601,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не удалось найти монету, установленную среди удерживаемых монет с минимальным количеством расходов</translation>
     </message>
     <message>
-        <source>In rare cases, a spend with 7 coins exceeds our mstateraum allowable transaction size, please retry spend using 6 or less coins</source>
+        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation>В редких случаях трата с 7 монетами превышает наш максимально допустимый размер транзакции, пожалуйста, попробуйте потратить, используя 6 или менее монет</translation>
     </message>
     <message>
@@ -5781,11 +5781,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Мастернода:</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Максимальный буфер приема для каждого соединения&lt;n&gt;* 1000 байтов (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Максимальный буфер отправки для каждого соединения &lt;n&gt;* 1000 байтов (по умолчанию: %u)</translation>
     </message>
     <message>
@@ -5977,7 +5977,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Установите размер пула ключей&lt;n&gt;(по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
+        <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Установите максимальный размер блока в байтах (по умолчанию: %d)</translation>
     </message>
     <message>
@@ -5985,7 +5985,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Установите минимальный размер блока в байтах (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Set the Mstateraum reorg depth (default: %u)</source>
+        <source>Set the Maximum reorg depth (default: %u)</source>
         <translation>Установите максимальную глубину реорганизации (по умолчанию: %u)</translation>
     </message>
     <message>
@@ -6253,7 +6253,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Значение ниже наименьшего доступного номинала (= 1) zStatera</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
+        <source>Value more than Obfuscation pool maximum allows.</source>
         <translation>Максимальное значение больше, чем позволяет пул перекрытий Obfuscation.</translation>
     </message>
     <message>

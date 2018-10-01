@@ -1737,7 +1737,7 @@ Please be patient after clicking import.</source>
         <translation>VOUT позицията трябва да е положително число.</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
+        <source>Maximum possible addresses reached. (15)</source>
         <translation>Достигнат е максималния брой адреси. (15)</translation>
     </message>
     <message>
@@ -1749,7 +1749,7 @@ Please be patient after clicking import.</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation>Максимум (15)</translation>
     </message>
 </context>
@@ -1768,7 +1768,7 @@ Please be patient after clicking import.</source>
         <translation>Високо ниво на Поверителност</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Максимална Поверителност</translation>
     </message>
     <message>
@@ -1796,7 +1796,7 @@ Please be patient after clicking import.</source>
         <translation>Тази опция е сравнително бърза и ще струва около 0.05 STATERA за да скриете 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Това е най-бавния и най-сигурен вариант за скриване на STATERA. Използването й ще струва</translation>
     </message>
     <message>
@@ -1816,7 +1816,7 @@ Please be patient after clicking import.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -2772,7 +2772,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>) needed.
-Mstateraum allowed: </source>
+Maximum allowed: </source>
         <translation>) нужни.
 Максимум позволени:</translation>
     </message>
@@ -4942,7 +4942,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Грешка: Провал в търсенето на входящи свръзки (listen returned error %s)</translation>
     </message>
     <message>
-        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
+        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
         <translation>Грешка: Превода е по-голяма от позволения размер за транзакции!</translation>
     </message>
     <message>
@@ -5006,11 +5006,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Пази пълен индекс на всички преводи използвани от getrawtransaction rpc call (default: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Максимум големина на данните в транзакциите, които препращаме и минираме (default: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
         <translation>Максимални общи такси да се използват при единичен портфейл превод. Твърде малко може да прекрати големите преводи (default: %s)</translation>
     </message>
     <message>
@@ -5042,7 +5042,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Покажи дебъг информацията в конзолата вместо debug.log файл (default: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Задай максимален размер на високо-приоритетни/ниско-б'джетни преводи в байтове (default: %d)</translation>
     </message>
     <message>
@@ -5586,7 +5586,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Не успяхме да намерим монетата сред държаните монети с по-малък номер от maxNumber на Плащанията.</translation>
     </message>
     <message>
-        <source>In rare cases, a spend with 7 coins exceeds our mstateraum allowable transaction size, please retry spend using 6 or less coins</source>
+        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation>В редки случаи, плащане от 7 монети надхвърля максимално разрешения размер на транзакция. Моля опитайте да похарчете 6 или по-малко монети за това плащане.</translation>
     </message>
     <message>
@@ -5766,11 +5766,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Главен Възел:</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Максимум буфер за Получаване, за връзка, &lt;n&gt;*1000 байта (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Максимум буфер за Изпращане, за връзка, &lt;n&gt;*1000 байта (по подразбиране: %u)</translation>
     </message>
     <message>
@@ -5962,7 +5962,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Задай размер на басейна за ключове да бъде &lt;n&gt;(по подразбиране: %u) </translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
+        <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Максимален разбимер на блока в байтове (default: %d)</translation>
     </message>
     <message>
@@ -5970,7 +5970,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Минимален размер на блока в байтове (default: %u)</translation>
     </message>
     <message>
-        <source>Set the Mstateraum reorg depth (default: %u)</source>
+        <source>Set the Maximum reorg depth (default: %u)</source>
         <translation>Максимална дълбочина на reorg (default: %u)</translation>
     </message>
     <message>
@@ -6238,7 +6238,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Стойността е под най-малката налична деноминация (= 1) в zSTATERA</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
+        <source>Value more than Obfuscation pool maximum allows.</source>
         <translation>Стойността е по-голяма от позволената от басейна Обфускация.</translation>
     </message>
     <message>

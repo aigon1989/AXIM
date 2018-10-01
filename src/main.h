@@ -60,24 +60,24 @@ struct CNodeStateStats;
 /** Default for -blockmaxsize and -blockminsize, which control the range of sizes the mining code will create **/
 static const unsigned int DEFAULT_BLOCK_MAX_SIZE = 375000;
 static const unsigned int DEFAULT_BLOCK_MIN_SIZE = 0;
-/** Default for -blockprioritysize, mstateraum space for zero/low-fee transactions **/
+/** Default for -blockprioritysize, maximum space for zero/low-fee transactions **/
 static const unsigned int DEFAULT_BLOCK_PRIORITY_SIZE = 50000;
 /** Default for accepting alerts from the P2P network. */
 static const bool DEFAULT_ALERTS = true;
-/** The mstateraum size for transactions we're willing to relay/mine */
+/** The maximum size for transactions we're willing to relay/mine */
 static const unsigned int MAX_STANDARD_TX_SIZE = 100000;
 static const unsigned int MAX_ZEROCOIN_TX_SIZE = 150000;
-/** The mstateraum allowed number of signature check operations in a block (network rule) */
+/** The maximum allowed number of signature check operations in a block (network rule) */
 static const unsigned int MAX_BLOCK_SIGOPS_CURRENT = MAX_BLOCK_SIZE_CURRENT / 50;
 static const unsigned int MAX_BLOCK_SIGOPS_LEGACY = MAX_BLOCK_SIZE_LEGACY / 50;
-/** Mstateraum number of signature check operations in an IsStandard() P2SH script */
+/** Maximum number of signature check operations in an IsStandard() P2SH script */
 static const unsigned int MAX_P2SH_SIGOPS = 15;
-/** The mstateraum number of sigops we're willing to relay/mine in a single tx */
+/** The maximum number of sigops we're willing to relay/mine in a single tx */
 static const unsigned int MAX_TX_SIGOPS_CURRENT = MAX_BLOCK_SIGOPS_CURRENT / 5;
 static const unsigned int MAX_TX_SIGOPS_LEGACY = MAX_BLOCK_SIGOPS_LEGACY / 5;
-/** Default for -maxorphantx, mstateraum number of orphan transactions kept in memory */
+/** Default for -maxorphantx, maximum number of orphan transactions kept in memory */
 static const unsigned int DEFAULT_MAX_ORPHAN_TRANSACTIONS = 100;
-/** The mstateraum size of a blk?????.dat file (since 0.8) */
+/** The maximum size of a blk?????.dat file (since 0.8) */
 static const unsigned int MAX_BLOCKFILE_SIZE = 0x8000000; // 128 MiB
 /** The pre-allocation chunk size for blk?????.dat files (since 0.8) */
 static const unsigned int BLOCKFILE_CHUNK_SIZE = 0x1000000; // 16 MiB
@@ -87,7 +87,7 @@ static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 static const int COINBASE_MATURITY = 10;
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
-/** Mstateraum number of script-checking threads allowed */
+/** Maximum number of script-checking threads allowed */
 static const int MAX_SCRIPTCHECK_THREADS = 16;
 /** -par default (number of script-checking threads, 0 = auto) */
 static const int DEFAULT_SCRIPTCHECK_THREADS = 0;
@@ -105,7 +105,7 @@ static const unsigned int MAX_HEADERS_RESULTS = 2000;
 static const unsigned int BLOCK_DOWNLOAD_WINDOW = 1024;
 /** Time to wait (in seconds) between writing blockchain state to disk. */
 static const unsigned int DATABASE_WRITE_INTERVAL = 3600;
-/** Mstateraum length of reject messages. */
+/** Maximum length of reject messages. */
 static const unsigned int MAX_REJECT_MESSAGE_LENGTH = 111;
 
 /** Enable bloom filter */
@@ -320,7 +320,7 @@ unsigned int GetLegacySigOpCount(const CTransaction& tx);
  * Count ECDSA signature operations in pay-to-script-hash inputs.
  *
  * @param[in] mapInputs Map of previous transactions that have outputs we're spending
- * @return mstateraum number of sigops required to validate this transaction's inputs
+ * @return maximum number of sigops required to validate this transaction's inputs
  * @see CTransaction::FetchInputs
  */
 unsigned int GetP2SHSigOpCount(const CTransaction& tx, const CCoinsViewCache& mapInputs);

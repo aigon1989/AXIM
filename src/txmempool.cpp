@@ -273,7 +273,7 @@ public:
         }
         if (sortedFeeSamples.size() < 11) {
             // Eleven is Gavin's Favorite Number
-            // ... but we also take a mstateraum of 10 samples per block so eleven means
+            // ... but we also take a maximum of 10 samples per block so eleven means
             // we're getting samples from at least two different blocks
             return CFeeRate(0);
         }

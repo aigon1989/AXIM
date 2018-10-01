@@ -2785,7 +2785,7 @@ UniValue spendzerocoin(const UniValue& params, bool fHelp)
             "4. securitylevel   (numeric, required) Amount of checkpoints to add to the accumulator.\n"
             "                       A checkpoint contains 10 blocks worth of zerocoinmints.\n"
             "                       The more checkpoints that are added, the more untraceable the transaction.\n"
-            "                       Use [100] to add the mstateraum amount of checkpoints available.\n"
+            "                       Use [100] to add the maximum amount of checkpoints available.\n"
             "                       Adding more checkpoints makes the minting process take longer\n"
             "5. \"address\"     (string, optional, default=change) Send to specified address or to a new change address.\n"
             "                       If there is change then an address is required\n"

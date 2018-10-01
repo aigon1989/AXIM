@@ -40,7 +40,7 @@
 #include <boost/foreach.hpp>
 #include <boost/scoped_ptr.hpp>
 
-/** Mstateraum size of http request (request line + headers) */
+/** Maximum size of http request (request line + headers) */
 static const size_t MAX_HEADERS_SIZE = 8192;
 
 /** HTTP request work item */

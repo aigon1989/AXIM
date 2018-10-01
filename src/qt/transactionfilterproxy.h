@@ -46,7 +46,7 @@ public:
     void setMinAmount(const CAmount& minimum);
     void setWatchOnlyFilter(WatchOnlyFilter filter);
 
-    /** Set mstateraum number of rows returned, -1 if unlimited. */
+    /** Set maximum number of rows returned, -1 if unlimited. */
     void setLimit(int limit);
 
     /** Set whether to show conflicted transactions. */

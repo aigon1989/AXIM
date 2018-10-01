@@ -62,7 +62,7 @@ private:
     //! Whether we're shutting down.
     bool fQuit;
 
-    //! The mstateraum number of elements to be processed in one batch
+    //! The maximum number of elements to be processed in one batch
     unsigned int nBatchSize;
 
     /** Internal function that does bulk of the verification work. */

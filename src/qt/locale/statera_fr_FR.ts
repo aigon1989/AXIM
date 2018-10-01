@@ -1692,16 +1692,16 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Le Hash de la transaction est invalide.</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
-        <translation>Nombre mstateraum d'adresses atteint. (15)</translation>
+        <source>Maximum possible addresses reached. (15)</source>
+        <translation>Nombre maximum d'adresses atteint. (15)</translation>
     </message>
     <message>
         <source>Amount: </source>
         <translation>Montant :</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
-        <translation>Mstateraum (15)</translation>
+        <source>Maximum (15)</source>
+        <translation>Maximum (15)</translation>
     </message>
 </context>
 <context>
@@ -1719,8 +1719,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Haute confidentialité</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
-        <translation>Confidentialité mstateraum</translation>
+        <source>Maximum Privacy</source>
+        <translation>Confidentialité maximum</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
@@ -1747,8 +1747,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Cette option est moyennement rapide, et coutera 0.05 STATERA pour anonymiser 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
-        <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat mstateraum coutera</translation>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
         <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
@@ -1767,8 +1767,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>L'Obfuscation a été réglé avec succès à élevé (%1 et 8 tours). Vous pouvez changer ce paramètre à tout moment depuis l'écran de configuration STATERA.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
-        <translation>L'Obfuscation a été réglé avec succès à mstateraum (%1 et 16 tours). Vous pouvez changer ce paramètre à tout moment depuis l'écran de configuration STATERA.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>L'Obfuscation a été réglé avec succès à maximum (%1 et 16 tours). Vous pouvez changer ce paramètre à tout moment depuis l'écran de configuration STATERA.</translation>
     </message>
 </context>
 <context>
@@ -2719,9 +2719,9 @@ SVP, soyez patient...</translation>
     </message>
     <message>
         <source>) needed.
-Mstateraum allowed: </source>
+Maximum allowed: </source>
         <translation>) demandées.
-Mstateraum autorisé:</translation>
+Maximum autorisé:</translation>
     </message>
     <message>
         <source>zSTATERA Spend #: </source>
@@ -4417,8 +4417,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Erreur: L'écoute des connexions entrantes a échoué (listen a renvoyé l'erreur %s)</translation>
     </message>
     <message>
-        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
-        <translation>Erreur: La transaction est plus grande que la taille mstateraum autorisée!</translation>
+        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
+        <translation>Erreur: La transaction est plus grande que la taille maximum autorisée!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -4613,7 +4613,7 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Conserver au mstateraum &lt;n&gt; connexions avec des pairs (par défaut: %u)</translation>
+        <translation>Conserver au maximum &lt;n&gt; connexions avec des pairs (par défaut: %u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
@@ -4780,7 +4780,7 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Définir la taille du pool de clés à &lt;n&gt; (par défaut: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
+        <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Définir la taille mstateraale du bloc en octets (par défaut: %d)</translation>
     </message>
     <message>
@@ -4788,7 +4788,7 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Définir la taille minimale du bloc en octets (par défaut: %u)</translation>
     </message>
     <message>
-        <source>Set the Mstateraum reorg depth (default: %u)</source>
+        <source>Set the Maximum reorg depth (default: %u)</source>
         <translation>Définir la profondeur de réorganisation mstateraale (par défaut: %u)</translation>
     </message>
     <message>
@@ -5028,8 +5028,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zSTATERA</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
-        <translation>Valeur supérieure au mstateraum permis par le pool d'Obfuscation.</translation>
+        <source>Value more than Obfuscation pool maximum allows.</source>
+        <translation>Valeur supérieure au maximum permis par le pool d'Obfuscation.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

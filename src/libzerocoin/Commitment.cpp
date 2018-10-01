@@ -106,7 +106,7 @@ CommitmentProofOfKnowledge::CommitmentProofOfKnowledge(const IntegerGroupParams*
 
 bool CommitmentProofOfKnowledge::Verify(const CBigNum& A, const CBigNum& B) const
 {
-	// Compute the mstateraum range of S1, S2, S3 and verify that the given values are
+	// Compute the maximum range of S1, S2, S3 and verify that the given values are
 	// in a correct range. This might be an unnecessary check.
 	uint32_t maxSize = 64 * (COMMITMENT_EQUALITY_CHALLENGE_SIZE + COMMITMENT_EQUALITY_SECMARGIN +
 	                         std::max(std::max(this->ap->modulus.bitSize(), this->bp->modulus.bitSize()),

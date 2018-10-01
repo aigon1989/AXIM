@@ -426,7 +426,7 @@ public:
         state = newState;
     }
 
-    /// Get the mstateraum number of transactions for the pool
+    /// Get the maximum number of transactions for the pool
     int GetMaxPoolTransactions()
     {
         return Params().PoolMaxTransactions();

@@ -194,18 +194,18 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     labelAutoMintIcon->setObjectName("labelAutoMintIcon");
     labelAutoMintIcon->setFlat(true); // Make the button look like a label, but clickable
     labelAutoMintIcon->setStyleSheet(".QPushButton { background-color: rgba(255, 255, 255, 0);}");
-    labelAutoMintIcon->setMstateraumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
+    labelAutoMintIcon->setMaximumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
     labelEncryptionIcon = new QPushButton();
     labelEncryptionIcon->setObjectName("labelEncryptionIcon");
     labelEncryptionIcon->setFlat(true); // Make the button look like a label, but clickable
     labelEncryptionIcon->setStyleSheet(".QPushButton { background-color: rgba(255, 255, 255, 0);}");
-    labelEncryptionIcon->setMstateraumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
+    labelEncryptionIcon->setMaximumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
     labelTorIcon = new QLabel();
     labelConnectionsIcon = new QPushButton();
     labelConnectionsIcon->setObjectName("labelConnectionsIcon");
     labelConnectionsIcon->setFlat(true); // Make the button look like a label, but clickable
     labelConnectionsIcon->setStyleSheet(".QPushButton { background-color: rgba(255, 255, 255, 0);}");
-    labelConnectionsIcon->setMstateraumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
+    labelConnectionsIcon->setMaximumSize(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE);
     labelBlocksIcon = new QLabel();
 #ifdef ENABLE_WALLET
     if (enableWallet) {
@@ -982,7 +982,7 @@ void BitcoinGUI::setNumBlocks(int count)
                            masternodeSync.RequestedMasternodeAttempt + 1 :
                            MASTERNODE_SYNC_THRESHOLD;
             progress = nAttempt + (masternodeSync.RequestedMasternodeAssets - 1) * MASTERNODE_SYNC_THRESHOLD;
-            progressBar->setMstateraum(4 * MASTERNODE_SYNC_THRESHOLD);
+            progressBar->setMaximum(4 * MASTERNODE_SYNC_THRESHOLD);
             progressBar->setFormat(tr("Synchronizing additional data: %p%"));
             progressBar->setValue(progress);
         }
@@ -1011,7 +1011,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
         progressBarLabel->setVisible(true);
         progressBar->setFormat(tr("%1 behind. Scanning block %2").arg(timeBehindText).arg(count));
-        progressBar->setMstateraum(1000000000);
+        progressBar->setMaximum(1000000000);
         progressBar->setValue(clientModel->getVerificationProgress() * 1000000000.0 + 0.5);
         progressBar->setVisible(true);
 

@@ -1,648 +1,648 @@
-<TS language="nl" version="2.1">
+<TS language="es" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klik met de rechtermuisknop om het adres of label te wijzigen</translation>
+        <translation>Click derecho para editar la dirección o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Maak een nieuw adres aan</translation>
+        <translation>Crear nueva dirección</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nieuw</translation>
+        <translation>&amp;Nuevo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het geselecteerde adres naar het klembord</translation>
+        <translation>Copiar la dirección seleccionada al portapapeles</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiëren</translation>
+        <translation>&amp;Copiar</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Verwijder het geselecteerde adres uit de lijst</translation>
+        <translation>Borrar la dirección seleccionada de la lista</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Verwijderen</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exporteren</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Sluiten</translation>
+        <translation>Cerrar</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Kies het adres om munten naar toe te sturen</translation>
+        <translation>Escoja la dirección a la cual desee enviar las monedas</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Kies het adres om munten op te ontvangen</translation>
+        <translation>Escoja la dirección en la cual recibirá las monedas</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>K&amp;iezen</translation>
+        <translation>&amp;Escoger</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Verzendadressen</translation>
+        <translation>Direcciones de envío</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Ontvangstadressen</translation>
+        <translation>Direcciones de recepción</translation>
     </message>
     <message>
         <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw STATERA adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <translation>Estas son sus direcciones STATERA para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
         <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw STATERA adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <translation>Estas son sus direcciones STATERA para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiëer Adres</translation>
+        <translation>Copiar dirección</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiëer &amp;Label</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Bewerken</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Exporteer Adreslijst</translation>
+        <translation>Exportar lista de direcciones</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
+        <translation>Archivo separado por comas (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Export Mislukt</translation>
+        <translation>Exportación fallida</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+        <translation>Ha habido un error intentando guardar la lista de direcciones %1. Por favor inténtelo de nuevo.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Wachtwoordzin dialoog</translation>
+        <translation>Diálogo de contraseña</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Voer wachtwoordzin in</translation>
+        <translation>Introduzca la contraseña</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nieuwe wachtwoordzin</translation>
+        <translation>Nueva contraseña</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Herhaal nieuwe wachtwoordzin</translation>
+        <translation>Repetir nueva contraseña</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Dient om de triviale sendmoney uit te schakelen wanneer het OS account in gevaar is gebracht. Geeft geen echte veiligheid.</translation>
+        <translation>Sirve para desactivar el envío de dinero cuando la cuenta del SO está comprometida. No provee de una seguridad real</translation>
     </message>
     <message>
         <source>For anonymization, automint, and staking only</source>
-        <translation>Alleen voor anonimisering, automint en staking</translation>
+        <translation>Para anonimización y staking solamente</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Voer een nieuw wachtwoord in voor uw portemonnee.&lt;br/&gt;Gebruik een wachtwoord van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
+        <translation>Escriba la nueva contraseña para el monedero. &lt;br/&gt;Por favor utilice una contraseña de &lt;b&gt;10 o más caracteres aleatorios&lt;/b&gt;, u &lt;b&gt; ocho o más palabras&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Versleutel portemonnee</translation>
+        <translation>Cifrar monedero</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
+        <translation>Esta operación requiere su contraseña para desbloquear el monedero</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Open portemonnee</translation>
+        <translation>Desbloquear monedero</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te ontsleutelen</translation>
+        <translation>Esta operación requiere su contraseña para descifrar el monedero</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Ontsleutel portemonnee</translation>
+        <translation>Descifrar monedero</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Wijzig wachtwoord</translation>
+        <translation>Cambiar contraseña</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Voer de oude en nieuwe wachtwoordzin in voor uw portemonnee.</translation>
+        <translation>Ingrese la antigua y la nueva contraseña para el monedero</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Bevestig versleuteling van de portemonnee</translation>
+        <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
         <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
-        <translation>STATERA zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw STATERA's kunnen stelen.</translation>
+        <translation>STATERA se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus STATERAs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
+        <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW STATERA VERLIEZEN&lt;/b&gt;!</translation>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS STATERA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portemonnee versleuteld</translation>
+        <translation>Monedero cifrado</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient te worden vervangen door het nieuwe gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
+        <translation>IMPORTANTE: Cualquier copia de seguridad anterior que haya realizado de su monedero debe ser reemplazada por la nueva copia de seguridad cifrada. Por razones de seguridad, las copias de seguridad anteriores del monedero sin cifrar pasarán a ser obsoletas tan pronto empiece a utilizar el nuevo monedero cifrado.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Portemonneeversleuteling mislukt</translation>
+        <translation>El cifrado del monedero ha fallado</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Portemonneeversleuteling mislukt door een interne fout. Uw portemonnee is niet versleuteld.</translation>
+        <translation>El cifrado del monedero ha fallado debido a un error interno. Su monedero no ha sido cifrado.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>De opgegeven wachtwoordzinnen komen niet overeen.</translation>
+        <translation>Las contraseñas introducidas no coinciden.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Portemonnee openen mislukt</translation>
+        <translation>Desbloqueo del monedero fallido</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>De opgegeven wachtwoordzin voor de portemonnee ontsleuteling is niet correct.</translation>
+        <translation>La contraseña introducida para el descifrado del monedero es incorrecta.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Portemonnee ontsleuteling mislukt</translation>
+        <translation>Descifrado del monedero fallido</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Portemonnee wachtwoordzin is met succes gewijzigd.</translation>
+        <translation>Se cambió la contraseña con éxito.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
+        <translation>Aviso: La tecla Mayúsculas está encendida!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
+        <translation>IP/Máscara de Red</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Verboden tot</translation>
+        <translation>Suspendido hasta</translation>
     </message>
 </context>
 <context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 Tool</translation>
+        <translation>Herramienta BIP 38</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>&amp;BIP 38 Versleuteling</translation>
+        <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adres:</translation>
+        <translation>Dirección:</translation>
     </message>
     <message>
         <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een STATERA adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
+        <translation>Introduzca la dirección STATERA que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
         <source>The STATERA address to encrypt</source>
-        <translation>Het STATERA adres om te versleutelen</translation>
+        <translation>La dirección STATERA a cifrar</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>Escoja una dirección usada previamente</translation>
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>Pegar dirección desde el portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Wachtwoord:</translation>
+        <translation>Contraseña:</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
-        <translation>Versleutelde sleutel:</translation>
+        <translation>Clave cifrada:</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+        <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
         <source>Encrypt the private key for this STATERA address</source>
-        <translation>Versleutel de privé sleutel voor dit STATERA adres</translation>
+        <translation>Cifrar la llave privada para esta dirección STATERA</translation>
     </message>
     <message>
         <source>Reset all fields</source>
-        <translation>Reset alle velden</translation>
+        <translation>Limpiar todos los campos</translation>
     </message>
     <message>
         <source>The encrypted private key</source>
-        <translation>De versleutelde privé sleutel</translation>
+        <translation>La llave privada cifrada</translation>
     </message>
     <message>
         <source>Decrypt the entered key using the passphrase</source>
-        <translation>Decodeer de ingevoerde sleutel met behulp van de wachtwoordzin</translation>
+        <translation>Descifrar la llave ingresada usando la frase de contraseña</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
-        <translation>Versleutel &amp;Sleutel</translation>
+        <translation>Cifrar &amp;Clave</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Limpiar &amp;Todo</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
-        <translation>&amp;BIP 38 ontsleuteling</translation>
+        <translation>&amp;Descifrado BIP 38</translation>
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer de wachtwoordzin in, in het middelste veld. Druk op Ontsleutel Sleutel om de privé sleutel te berekenen.  Nadat de privé sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de privé sleutel toevoegen aan de portemonnee.</translation>
+        <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
-        <translation>Ontsleutelen &amp;Sleutel</translation>
+        <translation>Descifrar &amp;Clave</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
-        <translation>Ontsleutelde sleutel:</translation>
+        <translation>Clave descifrada:</translation>
     </message>
     <message>
         <source>Import Address</source>
-        <translation>Adres Importeren</translation>
+        <translation>Importar dirección</translation>
     </message>
     <message>
         <source>Click "Decrypt Key" to compute key</source>
-        <translation>Klik "Ontsleutelen Sleutel" om de sleutel te berekenen</translation>
+        <translation>Haga clic en "Descifrar clave" para generar la clave</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>De ingevoerde wachtwoordzin is ongeldig.</translation>
+        <translation>La contraseña introducida es inválida</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Toegestaan: 0-9,a-z,A-Z</translation>
+        <translation>Permitido: 0-9,a.z,A-Z,</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Het ingevoerde adres is ongeldig.</translation>
+        <translation>La dirección introducida es inválida</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
+        <translation>Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+        <translation>La dirección introducida no se refiere a ninguna clave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee ontsleuteling is geannuleerd.</translation>
+        <translation>El desbloqueo del monedero fue cancelado.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privé sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+        <translation>La clave privada para la dirección introducida no está disponible.</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Ontsleutelen mislukt.</translation>
+        <translation>Falló el descifrado</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Controleer de sleutel en de wachtwoordzin en probeer het opnieuw.</translation>
+        <translation>Por favor compruebe la clave y la contraseña e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Gegevens ongeldig.</translation>
+        <translation>Datos no válidos.</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Probeer het opnieuw.</translation>
+        <translation>Por favor inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Wacht tot de sleutel is geïmporteerd</translation>
+        <translation>Por favor espere mientras la clave es importada</translation>
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
-        <translation>Sleutel al aanwezig in portemonnee</translation>
+        <translation>Llave Ya Presente En El Monedero</translation>
     </message>
     <message>
         <source>Error Adding Key To Wallet</source>
-        <translation>Fout bij het toevoegen van de sleutel</translation>
+        <translation>Error Añadiendo la Clave en la Wallet</translation>
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
-        <translation>De privé sleutel is met succes toegevoegd aan de portemonnee</translation>
+        <translation>Clave privada añadida a la wallet con éxito</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-        <translation>Portemonnee</translation>
+        <translation>Monedero</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Node</translation>
+        <translation>Nodo</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Overzicht</translation>
+        <translation>&amp;Visión general</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Toon algemeen overzicht van de portemonnee</translation>
+        <translation>Mostrar visión general del monedero</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Verzenden</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Ontvangen</translation>
+        <translation>&amp;Recibir</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transacties</translation>
+        <translation>&amp;Transacciones</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Blader door transactiegescheidenis</translation>
+        <translation>Navegar por el historial de transacciones</translation>
     </message>
     <message>
         <source>Privacy Actions for zSTATERA</source>
-        <translation>Privacy Acties voor zSTATERA</translation>
+        <translation>Acciones de privacidad para zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>S&amp;luiten</translation>
+        <translation>S&amp;alir</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Programma afsluiten</translation>
+        <translation>Cerrar aplicación</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Over &amp;Qt</translation>
+        <translation>Sobre &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Toon informatie over Qt</translation>
+        <translation>Mostrar información sobre Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opties...</translation>
+        <translation>&amp;Opciones...</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Tonen / Verbergen</translation>
+        <translation>&amp;Mostrar / Esconder</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Toon of verberg het hoofdvenster</translation>
+        <translation>Mostrar o esconder la ventana principal</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>$Versleutel portemonnee...</translation>
+        <translation>&amp;Encriptar monedero...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Versleutel de privé sleutels die bij uw portemonnee horen</translation>
+        <translation>Encriptar las claves privadas que pertenecen a tu monedero</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
+        <translation>&amp;Copia de seguridad del monedero...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Backup portemonnee naar een andere locatie</translation>
+        <translation>Copia de seguridad del monedero a otra ubicación</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoordzin...</translation>
+        <translation>&amp;Cambiar contraseña...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Wijzig de wachtwoordzin die gebruikt wordt voor uw portemonnee versleuteling</translation>
+        <translation>Cambiar contraseña usada para la encriptación del monedero</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Open portemonnee...</translation>
+        <translation>&amp;Desbloquear monedero...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Open portemonnee</translation>
+        <translation>Desbloquear monedero</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Sluit portemonnee</translation>
+        <translation>&amp;Bloquear monedero</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Bericht &amp;Ondertekenen...</translation>
+        <translation>Firmar &amp;mensaje..</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Bericht &amp;Verifiëren... </translation>
+        <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
+        <translation>&amp;Información</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Toon diagnostische informatie</translation>
+        <translation>Mostrar información de diagnóstico</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Debug console</translation>
+        <translation>&amp;Consola de depuración</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Open debugging console</translation>
+        <translation>Abrir consola de depuración</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Netwerk Monitor</translation>
+        <translation>&amp;Monitor de red</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Toon netwerk monitor</translation>
+        <translation>Mostrar monitor de red</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Peers lijst</translation>
+        <translation>&amp;Lista de Peers</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Toon informatie van peers</translation>
+        <translation>Mostrar información de peers</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Portemonnee &amp;Repareren </translation>
+        <translation>&amp;Reparación del monedero</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Toon portemonnee reparatie opties</translation>
+        <translation>Mostrar opciones de reparación del monedero</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Open configuratie bestand</translation>
+        <translation>Abrir archivo configuración</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Toon Automatische &amp;Backups</translation>
+        <translation>Mostrar &amp;copias de seguridad automatizadas</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Toon automatisch aangemaakte portemonnee backups</translation>
+        <translation>Mostrar las copias de seguridad creadas automáticamente</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Verzendadressen...</translation>
+        <translation>&amp;Direcciones de envío...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Toon de lijst van gebruikte verzendadressen en labels</translation>
+        <translation>Mostrar la lista y etiquetas de direcciones de envío usadas</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Ontvangstadressen...</translation>
+        <translation>&amp;Dirección receptora</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Toon de lijst van gebruikte ontvangstadressen en labels</translation>
+        <translation>Mostrar la lista de las direcciones y etiquetas usadas</translation>
     </message>
     <message>
         <source>&amp;Multisignature creation...</source>
-        <translation>&amp;Multisignature aanmaak...</translation>
+        <translation>Creación multifirmas ...</translation>
     </message>
     <message>
         <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Creëer een nieuw multisignature adres en voeg het toe aan deze portemonnee</translation>
+        <translation>Crear una nueva dirección multifirma y agregarla a este monedero</translation>
     </message>
     <message>
         <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Multisignature spenderen...</translation>
+        <translation>Gasto &amp;multifirmas...</translation>
     </message>
     <message>
         <source>Spend from a multisignature address</source>
-        <translation>Besteden vanuit een multisignature adres</translation>
+        <translation>Gastar desde una dirección multifirmas</translation>
     </message>
     <message>
         <source>&amp;Multisignature signing...</source>
-        <translation>Ondertekenen van &amp;Multisignature...</translation>
+        <translation>Firma &amp;multifirmas...</translation>
     </message>
     <message>
         <source>Sign with a multisignature address</source>
-        <translation>Onderteken met een multisignature adres</translation>
+        <translation>Firmar con una dirección multifirmas</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Opdrachtregelopties</translation>
+        <translation>&amp;Opciones de linea de comandos</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform></translation>
+        <translation><numerusform>Procesados %n bloques del histórico de transacciones.</numerusform><numerusform>Procesados %n bloques del histórico de transacciones.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchroniseren aanvullende gegevens: %p%</translation>
+        <translation>Sincronizando datos adicionales: %p%</translation>
     </message>
     <message>
         <source>%1 behind. Scanning block %2</source>
-        <translation>%1 achter. Scannen van block %2</translation>
+        <translation>%1 detrás. Escaneando bloque %2</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;enkel voor anonimisering en staking</translation>
+        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt; para anonimato y prueba de participación.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Bestand</translation>
+        <translation>&amp;Archivo</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Instellingen</translation>
+        <translation>&amp;Ajustes</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Gereedschap</translation>
+        <translation>&amp;Herramientas</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Help</translation>
+        <translation>&amp;Ayuda</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Tabblad werkbalk</translation>
+        <translation>Herramienta de pestañas</translation>
     </message>
     <message>
         <source>STATERA Core</source>
@@ -650,15 +650,15 @@
     </message>
     <message>
         <source>Send coins to a STATERA address</source>
-        <translation>Verstuur munten naar een STATERA adres</translation>
+        <translation>Enviar monedas a una dirección STATERA</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and statera: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en STATERA: URI's)</translation>
+        <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
-        <translation>&amp;Privacy</translation>
+        <translation>&amp;Privacidad</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -666,131 +666,131 @@
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Bekijk masternodes</translation>
+        <translation>Explorar masternodes</translation>
     </message>
     <message>
         <source>&amp;About STATERA Core</source>
-        <translation>&amp;Over STATERA Core</translation>
+        <translation>&amp;Sobre STATERA Core</translation>
     </message>
     <message>
         <source>Show information about STATERA Core</source>
-        <translation>Toon informatie over STATERA Kern</translation>
+        <translation>Mostrar información sobre STATERA Core</translation>
     </message>
     <message>
         <source>Modify configuration options for STATERA</source>
-        <translation>Wijzig STATERA configuratie opties</translation>
+        <translation>Modificar las opciones de configuración de STATERA</translation>
     </message>
     <message>
         <source>Sign messages with your STATERA addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw STATERA adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
+        <translation>Firmar mensajes con sus direcciones STATERA para demostrar que le pertenecen</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
-        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde STATERA adressen</translation>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección STATERA especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
-        <translation>&amp;BIP38 tool</translation>
+        <translation>&amp;Herramienta BIP38</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Versleutelen en ontsleutel privé sleutels door middel van een wachtwoordzin</translation>
+        <translation>Encriptar y desencriptar las llaves privadas usando una frase contraseña</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
-        <translation>&amp;MultiSend</translation>
+        <translation>&amp;MultiEnvío</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>MultiSend instellingen</translation>
+        <translation>Configuración de MultiEnvío</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Open Portemonnee &amp;Configuratiebestand</translation>
+        <translation>Abrir fichero del monedero &amp;Configuración</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Open &amp;Masternode Configuratiebestand</translation>
+        <translation>Abrir Fichero de Configuración de &amp;Masternodes</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuratiebestand</translation>
+        <translation>Abrir fichero de Configuración de masternodes</translation>
     </message>
     <message>
         <source>Open a STATERA: URI or payment request</source>
-        <translation>Open een STATERA: URI of betaalverzoek</translation>
+        <translation>Abrir un STATERA: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>&amp;Blockchain verkenner</translation>
+        <translation>Explorador de &amp;Blockchain</translation>
     </message>
     <message>
         <source>Block explorer window</source>
-        <translation>Block verkenner venster</translation>
+        <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
         <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
-        <translation>Toon het STATERA Core help bericht om een ​​lijst te krijgen met mogelijke STATERA command line opties</translation>
+        <translation>Mostrar la ayuda de STATERA Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
         <source>STATERA Core client</source>
-        <translation>STATERA Core client</translation>
+        <translation>Cliente STATERA Core</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to STATERA network</source>
-        <translation><numerusform>%n actieve verbindingen met het STATERA netwerk</numerusform><numerusform>%n actieve connectie(s) naar STATERA netwerk</numerusform></translation>
+        <translation><numerusform>%n conexión(es) activas a la red STATERA</numerusform><numerusform>%n conexión(es) activas a la red STATERA</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchroniseren met het netwerk...</translation>
+        <translation>Sincronizando con la red...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Blocks aan het importeren vanaf schijf...</translation>
+        <translation>Importando bloques de disco...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Blocks opnieuw aan het indexeren op de schijf...</translation>
+        <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Geen block bron beschikbaar</translation>
+        <translation>Fuente de bloques no disponible...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Bijgewerkt</translation>
+        <translation>Actualizado</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n uren</numerusform><numerusform>%n uren</numerusform></translation>
+        <translation><numerusform>%n horas</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n day</numerusform><numerusform>%n dagen</numerusform></translation>
+        <translation><numerusform>%n días</numerusform><numerusform>%n días</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n weken</numerusform><numerusform>%n weken</numerusform></translation>
+        <translation><numerusform>%n semanas</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 en %2</translation>
+        <translation>%1 y %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n year</numerusform><numerusform>%n jaren</numerusform></translation>
+        <translation><numerusform>%n años</numerusform><numerusform>%n años</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Aan het bijwerken...</translation>
+        <translation>Recogiendo...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Laatst ontvangen block was %1 geleden gegenereerd.</translation>
+        <translation>El último bloque recibido se generó hace %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties hierna zullen nog niet zichtbaar zijn.</translation>
+        <translation>Las transacciones posteriores todavía no son visibles.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -798,23 +798,23 @@
     </message>
     <message>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>Advertencia</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informatie</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Verzend transactie</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Inkomende transactie</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Verzonden MultiSend transactie</translation>
+        <translation>Transacción MultiEnvío emitida</translation>
     </message>
     <message>
         <source>Date: %1
@@ -822,413 +822,413 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Datum: %1
-Hoeveelheid: %2
-Type: %3
-Adres: %4
+        <translation>Fecha: %1
+Cantidad: %2
+Tipo: %3
+Dirección: %4
 </translation>
     </message>
     <message>
         <source>Staking is active
  MultiSend: %1</source>
-        <translation>Staking is actief
-Multisend: %1</translation>
+        <translation>Staking está activado
+MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Actief</translation>
+        <translation>Activo</translation>
     </message>
     <message>
         <source>Not Active</source>
-        <translation>Niet actief</translation>
+        <translation>Inactivo</translation>
     </message>
     <message>
         <source>Staking is not active
  MultiSend: %1</source>
-        <translation>Staking is niet actief
-MultiSend: %1</translation>
+        <translation>Staking inactiva
+MultiEnvío: %1</translation>
     </message>
     <message>
         <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
+        <translation>AutoMint está actualmente habilitado y configurado en</translation>
     </message>
     <message>
         <source>AutoMint is disabled</source>
-        <translation>AutoMint is uitgeschakeld</translation>
+        <translation>AutoMint está desactivado</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
+        <translation>El monedero está &lt;b&gt;encriptado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portemonnee is versleuteld &lt;/b&gt;en momenteel &lt;b&gt; vergrendeld&lt;/b&gt;</translation>
+        <translation>El monedero está &lt;b&gt;encriptado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
-        <translation>Blockchain Verkenner</translation>
+        <translation>Explorador del blockchain</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Terug</translation>
+        <translation>Atrás</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Volgende</translation>
+        <translation>Adelante</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
-        <translation>Adres / Block / Transactie</translation>
+        <translation>Dirección / Bloque / Transacción</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Zoeken</translation>
+        <translation>Buscar</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
-        <translation>Niet alle transacties zullen worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (statera.conf).</translation>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (statera.conf).</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Totaal: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Onbekend: %5)</translation>
+        <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Desconocido: %5)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Netwerk waarschuwing</translation>
+        <translation>Alerta de Red</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>Octetos:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>Comisión:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Munt Selectie</translation>
+        <translation>Selección de Moneda</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Dust:</translation>
+        <translation>Calderilla:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Na de fee:</translation>
+        <translation>Después de Comisión:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wisselgeld:</translation>
+        <translation>Cambio:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(de)selecteer alles</translation>
+        <translation>(de)seleccionar todos</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>Schakel lock status</translation>
+        <translation>cambiar estado de bloqueo</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Tree modus</translation>
+        <translation>Modo de Árbol</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Lijst modus</translation>
+        <translation>Modo de Lista</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 locked)</translation>
+        <translation>(1 bloqueado)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Bedrag</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Ontvangen met label</translation>
+        <translation>Recibido con etiqueta</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Ontvangen met adres</translation>
+        <translation>Recibido con dirección</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Bevestigingen</translation>
+        <translation>Confirmaciones</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bevestigd</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Prioriteit</translation>
+        <translation>Prioridad</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <translation>Copiar dirección</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiëer label</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopieer transactie ID</translation>
+        <translation>Copiar código de transacción</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Lock niet besteed</translation>
+        <translation>Bloquear no gastado</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Unlock niet besteed</translation>
+        <translation>Desbloquear no gastado</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwantiteit</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopieer fee</translation>
+        <translation>Copiar comisión</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopieer na fee</translation>
+        <translation>Copiar después de comisión</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
+        <translation>Copiar octetos</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopieer prioriteit</translation>
+        <translation>Copiar prioridad</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopieer dust</translation>
+        <translation>Copiar calderilla</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopieer wisselgeld</translation>
+        <translation>Copiar cambio</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Schakel alsjeblieft over naar "Lijst modus" om deze functie te gebruiken.</translation>
+        <translation>Por favor cambie a "Modo de Lista" para utilizar esta función.</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>hoogste</translation>
+        <translation>la más alta</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>hoger</translation>
+        <translation>más alta</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>hoog</translation>
+        <translation>alta</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>medium-hoog</translation>
+        <translation>medio-alta</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>media</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>laag-medium</translation>
+        <translation>baja-media</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>laag</translation>
+        <translation>baja</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>lager</translation>
+        <translation>muy baja</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>laagst</translation>
+        <translation>la más baja</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 vergrendeld)</translation>
+        <translation>(%1 bloqueado)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>geen</translation>
+        <translation>ninguno</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>ja</translation>
+        <translation>sí</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nee</translation>
+        <translation>no</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Dit label wordt rood, als de transactiegrootte groter is dan 1000 bytes.</translation>
+        <translation>Esta etiqueta se pone roja, si el tamaño de la transacción es mayor de 1000 bytes.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Dit betekent dat een fee van minstens %1 per kB vereist is.</translation>
+        <translation>Esto significa que se requiere una comisión de al menos %1 por kB.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Kan variëren van +/- 1 byte per invoer.</translation>
+        <translation>Puede variar +/- 1 byte por entrada.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transacties met hogere prioriteit zullen waarschijnlijk eerder in een blok opgenomen worden.</translation>
+        <translation>Las transacciones con alta prioridad tienen más probabilidades de ser incluidas en un bloque.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Dit label wordt rood, als de prioriteit lager is dan "medium".</translation>
+        <translation>Esta etiqueta se vuelve roja, si la prioridad es inferior a "media".</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
+        <translation>Esta etiqueta se vuelve roja, si algún destinatario recibe una cantidad menor que %1.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 ustatera per input.</source>
-        <translation>Kan +/-%1 ustatera per invoer variëren.</translation>
+        <translation>Puede variar +/- %1 ustatera por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>wijzig van %1 (%2)</translation>
+        <translation>cambio desde %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(wijzig)</translation>
+        <translation>(cambio)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Wijzig Adres</translation>
+        <translation>Editar Dirección</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Het label dat geassocieerd is met deze adreslijst invoer</translation>
+        <translation>La etiqueta asociada con esta entrada de la libreta de direcciones</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adres</translation>
+        <translation>&amp;Dirección</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Het adres geassocieerd met deze adreslijst invoer. Dit kan alleen worden gewijzigd voor verzend adressen.</translation>
+        <translation>La dirección asociada con esta entrada de la libreta de direcciones. Ésta sólo puede ser modificada en las direcciones de envío.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nieuw ontvangst adres</translation>
+        <translation>Nueva dirección de cobro</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nieuw verzend adres</translation>
+        <translation>Nueva dirección de envío</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Wijzig ontvangst adres</translation>
+        <translation>Editar dirección de cobro</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Wijzig verzend adres</translation>
+        <translation>Editar dirección de envío</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid STATERA address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig STATERA adres.</translation>
+        <translation>La dirección introducida "%1" no es una dirección STATERA válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Het ingevoerde adres: "%1" staat al in uw adresboek.</translation>
+        <translation>La dirección introducida "%1" ya está en la libreta de direcciones.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Kan portemonnee niet ontgrendelen.</translation>
+        <translation>No se pudo desbloquear el monedero.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Aanmaken nieuwe key mislukt.</translation>
+        <translation>La generación de llave nueva falló.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Een nieuwe data directory zal worden aangemaakt.</translation>
+        <translation>Se creará una nueva carpeta de datos.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>naam</translation>
+        <translation>nombre</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Map bestaat reeds. Voeg %1 toe als je van plan bent om hier een nieuwe map te creëren.</translation>
+        <translation>El directorio ya existe, Añada %1 si pretende crear una nueva carpeta aquí.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Pad bestaat al en is geen directory.</translation>
+        <translation>La ruta ya existe, y no es una carpeta.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Kan de data directory hier niet aanmaken.</translation>
+        <translation>No se puede crear un directorio de datos aquí.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versie</translation>
+        <translation>versión</translation>
     </message>
     <message>
         <source>STATERA Core</source>
@@ -1240,70 +1240,70 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>About STATERA Core</source>
-        <translation>Over STATERA Core</translation>
+        <translation>Acerca de STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Command-line opties</translation>
+        <translation>Opciones de línea de comandos</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Gebruik:</translation>
+        <translation>Uso:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>command-line opties</translation>
+        <translation>opciones de línea de comandos</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UI Opties:</translation>
+        <translation>Opciones de interfaz de usuario:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Kies data directory bij opstarten (standaard: %u)</translation>
+        <translation>Elija la carpeta de datos al arrancar (por defecto: %u)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Toon splash scherm bij opstarten (standaard: %u)</translation>
+        <translation>Mostrar pantalla de bienvenida al arrancar (por defecto: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Stel taal in, bijvoorbeeld "de_DE" (standaard: systeem locale)</translation>
+        <translation>Seleccionar el idioma, por ejemplo "es_ES" (por defecto: idioma del sistema)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Geminimaliseerd starten</translation>
+        <translation>Arrancar minimizado</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Stel SSL root certificaten in voor betalingsverzoek (standaard: -systeem-)</translation>
+        <translation>Elegir certificado raíz SSL para solicitud de pago (por defecto: -sistema-)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Welkom</translation>
+        <translation>Bienvenido/a</translation>
     </message>
     <message>
         <source>Welcome to STATERA Core.</source>
-        <translation>Welkom bij STATERA Core.</translation>
+        <translation>Bienvenido/a a STATERA Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar STATERA Core zijn data opslaat.</translation>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará STATERA Core sus datos.</translation>
     </message>
     <message>
         <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>STATERA Core zal een kopie van de STATERA blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <translation>STATERA Core descargará y guardará una copia de la cadena de bloques STATERA. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Gebruik de standaard datafolder </translation>
+        <translation>Usar la carpeta de datos por defecto</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Gebruik een aangepaste data directory:</translation>
+        <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
         <source>STATERA Core</source>
@@ -1311,7 +1311,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: opgegeven data directory "%1" kan niet worden gemaakt.</translation>
+        <translation>Error: La carpeta de datos especificada "%1" no pudo ser creada.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1319,74 +1319,74 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB beschikbare schijfruimte</translation>
+        <translation>%1 GB de espacio libre en disco</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(van de %1 GB benodigd)</translation>
+        <translation>(de %1 GB necesarios)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
         <source>Form</source>
-        <translation>Formulier</translation>
+        <translation>Formulario</translation>
     </message>
     <message>
         <source>MASTERNODES</source>
-        <translation>MASTERNODES</translation>
+        <translation>NODO MAESTROS</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Opmerking: De status van uw masternodes in de lokale portemonnee kan mogelijk iets afwijken. &lt;br /&gt;Wacht altijd op de portemonnee om additionele data te synchroniseren en verifieer dit vanuit een andere node &lt;br /&gt;mocht de node nu aan het draaien zijn maar je ziet nog steeds 'MISSING' in het 'Status' veld.</translation>
+        <translation>Nota: El estado de tus nodos maestros en el monedero local podría ser incorrecto.&lt;br /&gt;Siempre espere a que el monedero sincronice la información adicional y entonces compruébelo desde otro nodo&lt;br /&gt;si su nodo debería estar funcionando pero aún vee el mensaje "FALTA" en el campo "Estado".</translation>
     </message>
     <message>
         <source>Alias</source>
-        <translation>Alias</translation>
+        <translation>Apodo</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protocol</translation>
+        <translation>Protocolo</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Estado</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Actief</translation>
+        <translation>Activo</translation>
     </message>
     <message>
         <source>Last Seen (UTC)</source>
-        <translation>Laatst gezien (UTC)</translation>
+        <translation>Visto por última vez (UTC)</translation>
     </message>
     <message>
         <source>Pubkey</source>
-        <translation>Pubkey</translation>
+        <translation>Llave pública</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
-        <translation>S&amp;tart alias</translation>
+        <translation>&amp;Iniciar apodo</translation>
     </message>
     <message>
         <source>Start &amp;all</source>
-        <translation>&amp;all starten</translation>
+        <translation>Iniciar &amp;todo</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation>Start &amp;MISSING</translation>
+        <translation>Iniciar &amp;FALTAN</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
-        <translation>&amp;Status bijwerken</translation>
+        <translation>Estado de &amp;Actualización</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Status wordt automatisch bijgewerkt in (sec):</translation>
+        <translation>El estado se actualizará automáticamente en (seg):</translation>
     </message>
     <message>
         <source>0</source>
@@ -1394,88 +1394,88 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Start alias</translation>
+        <translation>Iniciar apodo</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Bevestig start masternode</translation>
+        <translation>Confirmar inicio del masternode</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Weet je zeker dat je masternode %1 wilt starten?</translation>
+        <translation>¿Está seguro de que quiere arrancar el masternode %1?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Bevestig start alle masternodes</translation>
+        <translation>Confirmar el arranque de todos los masternodes</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Weet je zeker dat je ALLE masternodes wilt starten?</translation>
+        <translation>¿Estás seguro de querer arrancar TODOS los masternodes?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
-        <translation>Commando is nu niet beschikbaar</translation>
+        <translation>El comando no está disponible en este momento</translation>
     </message>
     <message>
         <source>You can't use this command until masternode list is synced</source>
-        <translation>Je kunt dit commando niet gebruiken tot de masternode lijst is gesynchroniseerd</translation>
+        <translation>No se puede utilizar este comando hasta que la lista de nodos maestros esté sincronizada</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Bevestig start ontbrekende masternodes</translation>
+        <translation>Confirmar arranque de masternodes no encontrados</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Weet je zeker dat je alle ONTBREKENDE masternodes wilt starten?</translation>
+        <translation>¿Estás seguro de querer arrancar los masternodes NO ENCONTRADOS?</translation>
     </message>
 </context>
 <context>
     <name>MultiSendDialog</name>
     <message>
         <source>MultiSend</source>
-        <translation>MultiSend</translation>
+        <translation>MultiEnvío</translation>
     </message>
     <message>
         <source>Enter whole numbers 1 - 100</source>
-        <translation>Geef volledige cijfers in 1 - 100</translation>
+        <translation>Introduzca números enteros 1 - 100</translation>
     </message>
     <message>
         <source>Enter % to Give (1-100)</source>
-        <translation>Voer % in om te geven (1-100)</translation>
+        <translation>Introduzca % a Dar (1-100)</translation>
     </message>
     <message>
         <source>Enter Address to Send to</source>
-        <translation>Vul het adres in om naar te verzenden</translation>
+        <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
         <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other STATERA addresses after it matures.
 To Add: enter percentage to give and STATERA address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere STATERA adressen nadat het volwassen is. 
-Toevoegen: voer het te geven percentage in en STATERA adres om toe te voegen aan de MultiSend vector.
-Verwijderen: Voer adres in om te verwijderen en druk op delete.
-MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones STATERA después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones STATERA a añadir al vector MultiEnvío.
+Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
+MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
-        <translation>Aan MultiSend Vector toevoegen</translation>
+        <translation>Añadir al vector MultiSend</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Toevoegen</translation>
+        <translation>Añadir</translation>
     </message>
     <message>
         <source>Deactivate MultiSend</source>
-        <translation>Deactiveer MultiSend</translation>
+        <translation>Desactivar MultiEnvío</translation>
     </message>
     <message>
         <source>Deactivate</source>
-        <translation>Deactiveren</translation>
+        <translation>Desactivar</translation>
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Kies een adres uit het adresboek</translation>
+        <translation>Seleccione una dirección de la libreta de direcciones</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1483,106 +1483,106 @@ MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</transl
     </message>
     <message>
         <source>Percentage of stake to send</source>
-        <translation>Staking percentage om te verzenden</translation>
+        <translation>Porcentaje de stake a enviar</translation>
     </message>
     <message>
         <source>Percentage:</source>
-        <translation>Percentage:</translation>
+        <translation>Porcentaje:</translation>
     </message>
     <message>
         <source>Address to send portion of stake to</source>
-        <translation>Adres om een ​​deel van de stake te verzenden naar</translation>
+        <translation>Dirección a enviar porción del stake</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adres:</translation>
+        <translation>Dirección:</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Label:</translation>
+        <translation>Etiqueta:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Voer een label in voor dit adres om het toe te voegen aan jouw adresboek</translation>
+        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
     </message>
     <message>
         <source>Delete Address From MultiSend Vector</source>
-        <translation>Verwijder adres van MultiSend Vector</translation>
+        <translation>Borrar Dirección De Vector MultiEnvío</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Wissen</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Activate MultiSend</source>
-        <translation>Activeer MultiSend</translation>
+        <translation>Activar MultiEnvío</translation>
     </message>
     <message>
         <source>Activate</source>
-        <translation>Activeren</translation>
+        <translation>Activar</translation>
     </message>
     <message>
         <source>View MultiSend Vector</source>
-        <translation>Bekijk MultiSend Vector</translation>
+        <translation>Ver Vector MultiEnvío</translation>
     </message>
     <message>
         <source>View MultiSend</source>
-        <translation>Bekijk MultiSend</translation>
+        <translation>Ver MultiEnvío</translation>
     </message>
     <message>
         <source>Send For Stakes</source>
-        <translation>Verstuur voor stakes</translation>
+        <translation>Enviar Para Stakes</translation>
     </message>
     <message>
         <source>Send For Masternode Rewards</source>
-        <translation>Verstuur voor Masternode beloningen</translation>
+        <translation>Enviar Para Recomensas De masternodes</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
     <message>
         <source>The entered address:
 </source>
-        <translation>Het ingevoerde adres:
+        <translation>La dirección introducida:
 </translation>
     </message>
     <message>
         <source> is invalid.
 Please check the address and try again.</source>
-        <translation>is ongeldig.
-Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
+        <translation>es inválida.
+Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>The total amount of your MultiSend vector is over 100% of your stake reward
 </source>
-        <translation>De totale hoeveelheid van je MultiSend vector is meer dan 100% van je stake beloning
+        <translation>La cantidad total de su vector MultiEnvío es superior al 100% de su recompensa de stake
 </translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Vul alsjeblieft 1 - 100 voor procent in.</translation>
+        <translation>Por favor Introduzca 1 - 100 por ciento.</translation>
     </message>
     <message>
         <source>Saved the MultiSend to memory, but failed saving properties to the database.
 </source>
-        <translation>De MultiSend in het geheugen opgeslagen, maar mislukt om de eigenschappen op te slaan in de database.
+        <translation>Se guardó MultiEnvío en la memoria, pero se produjo un error al guardar las propiedades en la base de datos.
 </translation>
     </message>
     <message>
         <source>MultiSend Vector
 </source>
-        <translation>MultiSend Vector
+        <translation>Vector MultiEnvío
 </translation>
     </message>
     <message>
         <source>Removed </source>
-        <translation>Verwijderd</translation>
+        <translation>Borrado</translation>
     </message>
     <message>
         <source>Could not locate address
 </source>
-        <translation>Kan het adres niet lokaliseren
+        <translation>No se pudo localizar la dirección
 </translation>
     </message>
 </context>
@@ -1590,75 +1590,75 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
     <name>MultisigDialog</name>
     <message>
         <source>Multisignature Address Interactions</source>
-        <translation>Multisignature Adres Interacties</translation>
+        <translation>Interacciones de direcciones multifirmas</translation>
     </message>
     <message>
         <source>Create MultiSignature &amp;Address</source>
-        <translation>Creëer MultiSignature &amp;Adres</translation>
+        <translation>Crear una dirección multifirma</translation>
     </message>
     <message>
         <source>How many people must sign to verify a transaction</source>
-        <translation>Hoeveel mensen moeten ondertekenen om een transactie te verifiëren</translation>
+        <translation>Cuántas personas deben firmar para verificar una transacción</translation>
     </message>
     <message>
         <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Voer het minimale aantal vereiste ondertekeningen in om de transacties te ondertekenen</translation>
+        <translation>Entra el número mínimo de firmas requerido para firmar la transacción</translation>
     </message>
     <message>
         <source>Address Label:</source>
-        <translation>Adreslabel:</translation>
+        <translation>Etiqueta de dirección</translation>
     </message>
     <message>
         <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Voeg een ander adres toe die kan ondertekenen om een transactie vanuit het multisig adres te verifiëren.</translation>
+        <translation>Agrega otra dirección que pueda firmar para verificar la transacción desde la dirección multifirmas</translation>
     </message>
     <message>
         <source>&amp;Add Address / Key</source>
-        <translation>&amp;Voeg Adres / Sleutel toe</translation>
+        <translation>&amp;Agrega dirección / Llave</translation>
     </message>
     <message>
         <source>Local addresses or public keys that can sign:</source>
-        <translation>Lokale adressen of publieke sleutels die kunnen ondertekenen:</translation>
+        <translation>Direcciones locales o llaves publicas que puedan firmar:</translation>
     </message>
     <message>
         <source>Create a new multisig address</source>
-        <translation>Creëer een nieuw multisig adres</translation>
+        <translation>Crea una nueva dirección multifirmas</translation>
     </message>
     <message>
         <source>C&amp;reate</source>
-        <translation>C&amp;reëer</translation>
+        <translation>C&amp;rear</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Status:</translation>
+        <translation>Estado:</translation>
     </message>
     <message>
         <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
 Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
 Please be patient after clicking import.</source>
-        <translation>Gebruik onderstaande om snel een adres te importeren door in te wisselen. Vergeet niet om een label toe te voegen voordat u op importeren klikt!
-Houd er rekening mee dat de portemonnee de blockchain opnieuw doorzoekt om transacties te vinden die het nieuwe adres bevatten.
-Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
+        <translation>Use debajo para importar rápidamente una dirección al canjearla. ¡No olvide agregar una etiqueta antes de hacer clic en importar!
+Tenga en cuenta que el monedero volverá a explorar el blockchain para buscar transacciones que contengan la nueva dirección.
+Por favor, tenga paciencia después de hacer clic en importar.</translation>
     </message>
     <message>
         <source>&amp;Import Redeem</source>
-        <translation>&amp;Importeer Inlossen</translation>
+        <translation>&amp;Importar redimir</translation>
     </message>
     <message>
         <source>&amp;Create MultiSignature Tx</source>
-        <translation>&amp;Creëer MultiSignature Tx</translation>
+        <translation>Crear transacción multifirmas</translation>
     </message>
     <message>
         <source>Inputs:</source>
-        <translation>Inputs</translation>
+        <translation>Entradas:</translation>
     </message>
     <message>
         <source>Coin Control</source>
-        <translation>Munt Controle</translation>
+        <translation>Control de moneda</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
-        <translation>Hoeveelheid geselecteerd:</translation>
+        <translation>Cantidad Seleccionada:</translation>
     </message>
     <message>
         <source>0</source>
@@ -1666,173 +1666,173 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Add an input to fund the outputs</source>
-        <translation>Voeg een invoer toe om de uitvoer te financieren</translation>
+        <translation>Agregue una entrada para financiar las salidas</translation>
     </message>
     <message>
         <source>Add a Raw Input</source>
-        <translation>Voer een Raw invoer in</translation>
+        <translation>Agregar una entrada sin procesar</translation>
     </message>
     <message>
         <source>Address / Amount:</source>
-        <translation>Adres / Bedrag:</translation>
+        <translation>Dirección / Cantidad:</translation>
     </message>
     <message>
         <source>Add destinations to send STATERA to</source>
-        <translation>Voeg bestemmingen toe om STATERA naar te verzenden</translation>
+        <translation>Agregue los destinos para enviar STATERA</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
-        <translation>Voeg &amp;Bestemming toe</translation>
+        <translation>Agregar &amp;Destino</translation>
     </message>
     <message>
         <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Maak een transactie object aan met behulp van de gegeven invoer voor de gegeven uitvoer</translation>
+        <translation>Crear un objeto de transacción usando las entradas dadas a las salidas dadas</translation>
     </message>
     <message>
         <source>Cr&amp;eate</source>
-        <translation>Cr&amp;eëer</translation>
+        <translation>Cr&amp;ear</translation>
     </message>
     <message>
         <source>&amp;Sign MultiSignature Tx</source>
-        <translation>&amp;Onderteken MultiSignature Tx</translation>
+        <translation>&amp;Firmar Tx multifirmas</translation>
     </message>
     <message>
         <source>Transaction Hex:</source>
-        <translation>Transactie Hex:</translation>
+        <translation>Hexadecimal de transacción:</translation>
     </message>
     <message>
         <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Onderteken de transactie vanuit deze portemonnee of vanuit aangeboden privésleutels</translation>
+        <translation>Firma la transacción desde este monedero o desde llaves privadas provistas</translation>
     </message>
     <message>
         <source>S&amp;ign</source>
-        <translation>O&amp;nderteken</translation>
+        <translation>F&amp;irmar</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;UITGESCHAKELD totdat de transactie voldoende is ondertekend.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DESACTIVADO hasta que la transacción se haya firmado suficientes veces.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Co&amp;mmit</source>
-        <translation>&amp;Engageer</translation>
+        <translation>Co&amp;nfirmar</translation>
     </message>
     <message>
         <source>Add private keys to sign the transaction with</source>
-        <translation>Voeg privésleutels toe om de transactie met te ondertekenen</translation>
+        <translation>Agregar llaves privadas para firmar la transacción</translation>
     </message>
     <message>
         <source>Add Private &amp;Key</source>
-        <translation>Voeg &amp;Privésleutel toe</translation>
+        <translation>Agregar &amp;llave privada</translation>
     </message>
     <message>
         <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Onderteken met enkel privésleutels (Niet Aanbevolen)</translation>
+        <translation>Firmar solo con llaves privadas (No Recomendado)</translation>
     </message>
     <message>
         <source>Invalid Tx Hash.</source>
-        <translation>Ongeldige Tx Hash.</translation>
+        <translation>Hash Tx inválido.</translation>
     </message>
     <message>
         <source>Vout position must be positive.</source>
-        <translation>Je positie moet positief zijn. </translation>
+        <translation>La posición de Vout debe ser positiva.</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
-        <translation>Mstateraale mogelijke adressen bereikt. (15)</translation>
+        <source>Maximum possible addresses reached. (15)</source>
+        <translation>Máxima cantidad de direcciones posibles alcanzadas. (15)</translation>
     </message>
     <message>
         <source>Vout Position: </source>
-        <translation>Jouw Positie:</translation>
+        <translation>Posición Vout:</translation>
     </message>
     <message>
         <source>Amount: </source>
-        <translation>Hoeveelheid:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
-        <translation>Mstateraum (15)</translation>
+        <source>Maximum (15)</source>
+        <translation>Máximo (15)</translation>
     </message>
 </context>
 <context>
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
-        <translation>Configureer verduistering</translation>
+        <translation>Configurar Ofuscación</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Basis Privacy</translation>
+        <translation>Privacidad Básica</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Hoge Privacy</translation>
+        <translation>Alta Privacidad</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
-        <translation>Mstateraum Privacy</translation>
+        <source>Maximum Privacy</source>
+        <translation>Máxima Privacidad</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Selecteer de privacy level.</translation>
+        <translation>Por favor seleccione un nivel de privacidad.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 STATERA</translation>
+        <translation>Use 2 masterdodes diferentes para mezclar los fondos hasta los 10000 STATERA</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 STATERA</translation>
+        <translation>Use 8 masternodes diferentes para mezclar fondos hasta los 10000 STATERA</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Gebruik 16 aparte masternodes</translation>
+        <translation>Use 16 masternodes diferentes</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 STATERA om 10000 STATERA te anonimiseren</translation>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 STATERA om 10000 STATERA te anonimiseren</translation>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
-        <translation>Dit is de langzaamste en veiligste optie. Het gebruik van mstateraale anonimiteit kost</translation>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
         <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
-        <translation>je anonimiseert 0,1 STATERA per 10000 STATERA.</translation>
+        <translation>0.1 STATERA por 10000 STATERA que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
-        <translation>Verduistering configuratie</translation>
+        <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van STATERA te openen.</translation>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de STATERA.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van STATERA te openen.</translation>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de STATERA.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van STATERA te openen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de STATERA.</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI openen</translation>
+        <translation>Abrir URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Open betalingsverzoek van URL of bestand</translation>
+        <translation>Abrir solicitud de pago de URI o archivo</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1840,26 +1840,26 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Selecteer betalingsverzoek bestand</translation>
+        <translation>Seleccione el fichero que contiene la solicitud de pago</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Selecteer betalingsverzoek bestand dat geopend moet worden</translation>
+        <translation>Seleccione el fichero de solicitud de pago que desea abrir</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opties</translation>
+        <translation>Opciones</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Algemeen</translation>
+        <translation>&amp;Principal</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Grootte van cache &amp;gegevens</translation>
+        <translation>Tamaño del caché de &amp;base de datos</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1867,201 +1867,201 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Aantal script en verificatie threads</translation>
+        <translation>Número de procesos de &amp;verificación de scripts</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = laat dat aantal cores vrij)</translation>
+        <translation>(0 = auto, &lt;0 = dejar libres tal número de cores)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>P&amp;ortemonnee</translation>
+        <translation>M&amp;onedero</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
+        <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
         <source>Automatically open the STATERA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de STATERA client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <translation>Abrir automáticamente el puerto del cliente STATERA en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Accepteer externe connecties</translation>
+        <translation>Aceptar conexiones del exterior</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Sta inkomende connecties toe</translation>
+        <translation>Permitir conexiones entrantes</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp; Verbind via SOCKS5 proxy (standaard proxy):</translation>
+        <translation>&amp;Conectar a través de un proxy SOCKS5 (proxy por defecto):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Expert</translation>
+        <translation>Experto</translation>
     </message>
     <message>
         <source>Automatically start STATERA after logging in to the system.</source>
-        <translation>STATERA automatisch opstarten na inloggen op het systeem.</translation>
+        <translation>Arrancar STATERA automáticamente después de identificarse en el sistema.</translation>
     </message>
     <message>
         <source>&amp;Start STATERA on system login</source>
-        <translation>&amp;STATERA starten bij systeemlogin</translation>
+        <translation>&amp;Arrancar STATERA al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Of je de muntcontrolefuncties wilt tonen of niet.</translation>
+        <translation>Mostrar las características de control de monedas, o no</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Munt- en controlefuncties inschakelen</translation>
+        <translation>Activar funciones de &amp;control de monedas</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Toon extra tabblad waarin al je masternodes worden vermeld in het eerste sub-tabblad&lt;br/&gt;en alle masternodes op het netwerk in het tweede sub-tabblad.</translation>
+        <translation>Mostrar pestaña adicional listando todos sus masternodes en la primera sub-pestaña&lt;br/&gt;y todos los masternodes de la red en la segunda sub-pestaña.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Toon Masternodes Tab</translation>
+        <translation>Mostrar la pestaña de masternodes</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp; Besteed onbevestigd wisselgeld</translation>
+        <translation>&amp;Gastar cambio no confirmado</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
+        <translation>&amp;Red</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van STATERA.</translation>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar STATERA.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/aigon1989/aigon1989-translations</source>
-        <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
+        <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
 https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Map poort gebruikt &amp;UPnP</translation>
+        <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
         <source>Enable automatic minting of STATERA units to zSTATERA</source>
-        <translation>Schakel automatisch slaan van STATERA-eenheden in op zSTATERA</translation>
+        <translation>Activar el minting automática de unidades STATERA a zSTATERA</translation>
     </message>
     <message>
         <source>Enable zSTATERA Automint</source>
-        <translation>Schakel zSTATERA Automint in</translation>
+        <translation>Activar zSTATERA Automint</translation>
     </message>
     <message>
         <source>Percentage of incoming STATERA which get automatically converted to zSTATERA via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende STATERA die automatisch wordt omgezet naar zSTATERA via Zerocoin Protocol (min: 10%)</translation>
+        <translation>Porcentaje de STATERA entrantes que serán automáticamente convertidos a zSTATERA a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zSTATERA</source>
-        <translation>Percentage autominted zSTATERA</translation>
+        <translation>Porcentaje de zSTATERA autogenerados</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough STATERA for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg STATERA voor deze denominatie beschikbaar is</translation>
+        <translation>Esperar con la conversión automática a Zerocoin hasta que hayan suficientes STATERA disponibles para este tamaño de billete</translation>
     </message>
     <message>
         <source>Preferred Automint zSTATERA Denomination</source>
-        <translation>Gewenste Automint zSTATERA denominatie</translation>
+        <translation>Tamaño de billete zSTATERA preferido en la creación automática de dinero</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
-        <translation>Inzet splitdrempel:</translation>
+        <translation>Parte limite de stake:</translation>
     </message>
     <message>
         <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het STATERA netwerk via een SOCKS5 proxy.</translation>
+        <translation>Conectar a la red STATERA mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>&amp;IP del proxy:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP adres van de proxy (bijvoorbeeld IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>Dirección IP del proxy (p.e. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Poort:</translation>
+        <translation>&amp;Puerto:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxy-poort (v.b. 9050)</translation>
+        <translation>Puerto del proxy (p.e. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Venster</translation>
+        <translation>&amp;Ventana</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Toon alleen een tray icoon na minimalisering van het venster.</translation>
+        <translation>Mostrar sólo un icono en la bandeja al minimizar la ventana.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp; Minimaliseer naar de tray in plaats van de taakbalk</translation>
+        <translation>&amp;Minimizar a la bandeja en lugar de a la barra de tareas</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimaliseer in plaats van de applicatie te verlaten wanneer het venster wordt gesloten. Wanneer deze optie is ingeschakeld, wordt de applicatie alleen gesloten nadat in het menu Quit wordt gekozen.</translation>
+        <translation>Minimizar en lugar de cerrar la aplicación cuando se cierra la ventana. Cuando active esta opción, tendrá que cerrar la aplicación seleccionando Salir desde el menú.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Minimaliseer bij sluiten</translation>
+        <translation>M&amp;inimizar al cerrar</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Weergave</translation>
+        <translation>&amp;Mostrar</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Gebruiksinterface &amp;language:</translation>
+        <translation>&amp;Idioma de la interface de usuario:</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Gebruiksinterface thema:</translation>
+        <translation>Tema de la Interface de Usuario:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Toon &amp;Unit in volgende hoeveelheden:</translation>
+        <translation>&amp;Unidad para mostrar cantidades:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Kies de standaard onderverdelingseenheid die in de interface wordt weergegeven en bij het verzenden van munten.</translation>
+        <translation>Seleccionar la subdivisión a mostrar por defecto en la interface y al enviar monedas.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Decimale cijfers</translation>
+        <translation>Dígitos decimales</translation>
     </message>
     <message>
         <source>Hide empty balances</source>
-        <translation>Verberg lege saldi</translation>
+        <translation>Ocultar saldos vazios</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL's van derden (bijvoorbeeld een blok verkenner) die in het tabblad transacties verschijnen als contextmenu items. %s in de URL wordt vervangen door transactie hash. Meerdere URL's worden gescheiden door verticale balk |.</translation>
+        <translation>Direcciones web de terceras partes (p.e. un explorador de bloques) que aparecen en la pestaña de transacciones como objetos contextuales del menú. %s en la dirección web es reemplazada por el identificador de la transacción. Múltiples direcciones web están separadas por una barra vertical (|).</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Transactie URL's van derden</translation>
+        <translation>Direcciones web de transacciones de terceras partes</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Actieve command line opties die bovenstaande opties overschrijven:</translation>
+        <translation>Opciones de línea de comando activas que anulan las opciones anteriores:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reset alle client instellingen naar standaardinstellingen.</translation>
+        <translation>Resetear todas las opciones de cliente a su valor por defecto.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Herstellings Opties</translation>
+        <translation>Opciones de &amp;Reset</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -2069,321 +2069,321 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annuleren</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>een</translation>
+        <translation>Qualquer</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>standaard</translation>
+        <translation>por defecto</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>geen</translation>
+        <translation>ninguno</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Bevestig reset instellingen</translation>
+        <translation>Confirmar reinicio de las opciones</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Client herstart vereist om wijzigingen te activeren.</translation>
+        <translation>Se requiere un reinicio del cliente para activar los cambios.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Client wordt uitgeschakeld, wil je doorgaan?</translation>
+        <translation>El cliente se cerrará, ¿procedemos?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Deze wijziging vereist een herstart van de client.</translation>
+        <translation>Este cambio requerirá un reinicio del cliente.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Het opgegeven proxyadres is ongeldig.</translation>
+        <translation>La dirección proxy indicada es inválida.</translation>
     </message>
     <message>
         <source>The supplied proxy port is invalid.</source>
-        <translation>De meegeleverde proxy-poort is ongeldig.</translation>
+        <translation>El puerto proxy suministrado no es válido.</translation>
     </message>
     <message>
         <source>The supplied proxy settings are invalid.</source>
-        <translation>De geleverde proxy-instellingen zijn ongeldig.</translation>
+        <translation>La configuración del proxy suministrado no es válida.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formulier</translation>
+        <translation>Formulario</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Beschikbaar:</translation>
+        <translation>Disponible:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Uw huidige bestedingsruimte</translation>
+        <translation>Tu balance actualmente disponible</translation>
     </message>
     <message>
         <source>Total Balance, including all unavailable coins.</source>
-        <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
+        <translation>Balance Total, incluidas todas las monedas no disponibles.</translation>
     </message>
     <message>
         <source>STATERA Balance</source>
-        <translation>STATERA Saldi</translation>
+        <translation>Balance STATERA</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>In afwachting:</translation>
+        <translation>Pendiente:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Totaal aantal transacties die nog niet zijn bevestigd en nog niet meetellen in het uitgeefbare saldo</translation>
+        <translation>Total de transacciones que aún deben ser confirmadas, y todavía no cuentan en el balance disponible</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Immatuur:</translation>
+        <translation>Inmaduro:</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
+        <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
         <source>Current locked balance in watch-only addresses</source>
-        <translation>Huidige vergrendelde balans in alleen-lezen-adressen</translation>
+        <translation>Saldo bloqueado actual en direcciones solo de lectura</translation>
     </message>
     <message>
         <source>Your current STATERA balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige STATERA-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
+        <translation>Su balance STATERA actual, transacciones no confirmadas e inmaduras incluidas</translation>
     </message>
     <message>
         <source>zSTATERA Balance</source>
-        <translation>zSTATERA-saldo</translation>
+        <translation>Balance zSTATERA</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
 These zSTATERA are spendable.</source>
-        <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
-Deze zPIB zijn besteedbaar.</translation>
+        <translation>Maduración: más de 20 confirmaciones y más de 1 acuñación de la misma denominación después de acuñarse.
+Estas zSTATERA son utilizables.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Onbevestigd: minder dan 20 bevestigingen
-Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
+        <translation>Sin confirmar: menos de 20 confirmaciones
+Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación después de ser acuñado</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het STATERA netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red STATERA después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
-        <translation>OVERZICHT</translation>
+        <translation>VISIÓN DE CONJUNTO</translation>
     </message>
     <message>
         <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Gecombineerde Saldi (inclusief onbevestigde en onvolwassen munten)</translation>
+        <translation>Balance combinados (incluidas las monedas no confirmadas e inmaduras)</translation>
     </message>
     <message>
         <source>Combined Balance</source>
-        <translation>Gecombineerde balans</translation>
+        <translation>Balance Combinado</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Onbevestigde transacties naar watch-only adressen</translation>
+        <translation>Transacciones no confirmadas a direcciones sólo de lectura</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Staked of masternode beloningen in watch-only adressen die nog niet volwassen zijn</translation>
+        <translation>Recompensa stake o recompensa de masternodes en direcciones de sólo lectura que todavía no han madurado</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Totaal:</translation>
+        <translation>Total:</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Huidig ​​totaal saldo in watch-only adressen</translation>
+        <translation>Balance total actual en direcciones de sólo lectura</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Watch-only:</translation>
+        <translation>Sólo-lectura:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Je huidige saldo in watch-only adressen</translation>
+        <translation>Su balance actual en direcciones de sólo lectura</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Uitgeefbaar:</translation>
+        <translation>Disponible:</translation>
     </message>
     <message>
         <source>Locked STATERA or Masternode collaterals. These are excluded from zSTATERA minting.</source>
-        <translation>Vergrendelde STATERA of Masternode onderpanden. Deze zijn uitgesloten van de zSTATERA muntage.</translation>
+        <translation>STATERA bloqueado o Masternode colaterales. Estos están excluidos de minting zSTATERA.</translation>
     </message>
     <message>
         <source>Locked:</source>
-        <translation>Vergrendeld:</translation>
+        <translation>Bloqueado:</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
-        <translation>Onbevestigd:</translation>
+        <translation>Sin confirmar:</translation>
     </message>
     <message>
         <source>Your current zSTATERA balance, unconfirmed and immature zSTATERA included.</source>
-        <translation>Uw huidige zSTATERA-saldo, onbevestigde en onvolgroeide zSTATERA inbegrepen.</translation>
+        <translation>Su balance zSTATERA actual, zSTATERA inmaduro e inmaduro incluido.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Recente transacties</translation>
+        <translation>Transacciones recientes</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
+        <translation>desincronizado</translation>
     </message>
     <message>
         <source>Current percentage of zSTATERA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Huidige percentage van zSTATERA
-Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
+        <translation>Porcentaje actual de zSTATERA.
+Si AutoMint está habilitado, este porcentaje se establecerá alrededor del porcentaje de AutoMint configurado (predeterminado = 10%).
 </translation>
     </message>
     <message>
         <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
+        <translation>AutoMint está actualmente habilitado y configurado en</translation>
     </message>
     <message>
         <source>To disable AutoMint add 'enablezeromint=0' in statera.conf.</source>
-        <translation>Om AutoMint uit te schakelen, voeg je 'enablezeromint=0' toe aan statera.conf.</translation>
+        <translation>Para desactivar AutoMint agrega 'enablezeromint=0' en statera.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
 To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in statera.conf</source>
-        <translation>AutoMint is momenteel uitgeschakeld.
-Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint=1' in statera.conf</translation>
+        <translation>AutoMint está actualmente desactivado.
+Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en statera.conf</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Fout bij betalingsverzoek</translation>
+        <translation>Error en la solicitud de pago</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URL behandeling</translation>
+        <translation>Manejo de URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Betalingsverzoek ophalen URL is ongeldig: %1</translation>
+        <translation>Solicitud de pago via web inválida: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Betalingsaanvraag bestandsverwerking</translation>
+        <translation>Manejo del fichero de solicitud de pago</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Ongeldig betalingsadres %1</translation>
+        <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
         <source>Cannot start statera: click-to-pay handler</source>
-        <translation>Kan statera niet starten: click-to-pay handler</translation>
+        <translation>No se puede iniciar statera: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid STATERA address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig STATERA adres of misvormde URL parameters.</translation>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección STATERA inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Uw betalingsverzoek kan niet worden gelezen! Dit kan worden veroorzaakt door een ongeldig betalingsverzoek bestand.</translation>
+        <translation>El fichero de solicitud de pago no se pudo leer! Esto puede estar causado por una solicitud de pago inválida.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Betalingsverzoek afgewezen</translation>
+        <translation>Solicitud de pago rechazada</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Het betalingsverzoek netwerk komt niet overeen met het client netwerk.</translation>
+        <translation>La solicitud de pago no coincide con la red del cliente.</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Betalingsverzoek is verlopen.</translation>
+        <translation>La solicitud de pago ha expirado.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Betalingsverzoek is niet geïnitialiseerd. </translation>
+        <translation>La solicitud de pago no está inicializada.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niet geverifieerde betalingsverzoeken naar aangepaste betaal scripts worden niet ondersteund.</translation>
+        <translation>Solicitudes de pago no verificadas a scripts de pago personalizado no están soportadas.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Gevraagd betalingsbedrag van %1 is te klein (beschouwd als dust).</translation>
+        <translation>La cantidad de pago solicitada de %1 es demasiado pequeña (se considera calderilla).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Terugbetaling van %1</translation>
+        <translation>Reembolso desde %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Betalingsverzoek %1 is te groot (%2 bytes, toegestaan %3 bytes).</translation>
+        <translation>La solicitud de pago %1 es demasiado larga (%2 bytes, permitidos %3 bytes).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Betalingsverzoek DoS bescherming</translation>
+        <translation>Protección de Denegación de Servicio para la solicitud de pago</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Fout communiceren met %1: %2</translation>
+        <translation>Error de comunicación con %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Betalingsaanvraag kan niet worden geanalyseerd!</translation>
+        <translation>¡La solicitud de pago no se pudo procesar!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Bad response van server %1</translation>
+        <translation>Respuesta inadecuada del servidor %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Netwerkverzoek fout</translation>
+        <translation>Error de Red</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Betaling erkend</translation>
+        <translation>Pago confirmado</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Adres/Hostnaam</translation>
+        <translation>Dirección/Nombre Host</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versie</translation>
+        <translation>Versión</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Pingtijd</translation>
+        <translation>Intervalo de Ping</translation>
     </message>
 </context>
 <context>
     <name>PrivacyDialog</name>
     <message>
         <source>Zerocoin Actions:</source>
-        <translation>Zerocoin Acties:</translation>
+        <translation>Acciones Zerocoin:</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het STATERA netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red STATERA después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
-        <translation>Mint Zerocoin</translation>
+        <translation>Creación de moneda Zerocoin</translation>
     </message>
     <message>
         <source>0</source>
@@ -2395,91 +2395,91 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
-        <translation>Beschikbaar voor muntage zijn munten die bevestigd en niet vergrendeld of Masternode onderpanden zijn.</translation>
+        <translation>Disponibles para minting son monedas que están confirmadas y no bloqueadas o colateral de Masternode.</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
-        <translation>Beschikbaar voor minting:</translation>
+        <translation>Disponible para minting:</translation>
     </message>
     <message>
         <source>0.000 000 00 STATERA</source>
-        <translation>0.000 000 00 STATERA</translation>
+        <translation>0.000 000 00 STATERA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
-        <translation>Zerocoin Wallet DB opnieuw instellen. Verwijdert transacties die het niet in de blockchain hebben gered.</translation>
+        <translation>Resetear la base de datos del monedero Zerocoin. Esta opción borra transacciones que no consiguieron salir publicadas en el blockchain.</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Resetten</translation>
+        <translation>Reiniciar</translation>
     </message>
     <message>
         <source>Coin Control...</source>
-        <translation>Munt controle...</translation>
+        <translation>Control de Monedas...</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Hoeveelheid:</translation>
+        <translation>Suma:</translation>
     </message>
     <message>
         <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Rescan de complete blockchain voor Zerocoin mints en hun meta-data.</translation>
+        <translation>Reescanear el blockchain entero buscando Zerocoin mints y su meta-datos.</translation>
     </message>
     <message>
         <source>ReScan</source>
-        <translation>ReScan</translation>
+        <translation>ReeScanear</translation>
     </message>
     <message>
         <source>Status and/or Mesages from the last Mint Action.</source>
-        <translation>Status en/of Berichten van de laatste mint actie.</translation>
+        <translation>Estado y/o Mensajes de la última acción mint.</translation>
     </message>
     <message>
         <source>PRIVACY</source>
-        <translation>PRIVACY</translation>
+        <translation>PRIVACIDAD</translation>
     </message>
     <message>
         <source>Enter an amount of Statera to convert to zSTATERA</source>
-        <translation>Vul het aantal STATERA in om te converteren naar zSTATERA</translation>
+        <translation>Introduzca la cantidad de STATERA que desea convertir a zStatera</translation>
     </message>
     <message>
         <source>zSTATERA Control</source>
-        <translation>zSTATERA Control</translation>
+        <translation>Control zSTATERA</translation>
     </message>
     <message>
         <source>zSTATERA Selected:</source>
-        <translation>zSTATERA geselecteerd:</translation>
+        <translation>zSTATERA Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
-        <translation>Hoeveelheid geselecteerd:</translation>
+        <translation>Cantidad Seleccionada:</translation>
     </message>
     <message>
         <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
-        <translation>Zerocoin besteden. Zonder 'Betaal aan:' adres ontstaan betalingen aan jezelf.</translation>
+        <translation>Gastar Zerocoin. Sin direcciones "Pagar a:", esto creará pagos a usted mismo.</translation>
     </message>
     <message>
         <source>Spend Zerocoin</source>
-        <translation>Besteed Zerocoin</translation>
+        <translation>Gastar Zerocoin</translation>
     </message>
     <message>
         <source>Available (mature and spendable) zSTATERA for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zSTATERA voor besteding</translation>
+        <translation>zSTATERA disponible (maduro y gastable) para gastar</translation>
     </message>
     <message>
         <source>Available Balance:</source>
-        <translation>Beschikbaar saldo:</translation>
+        <translation>Balance disponible:</translation>
     </message>
     <message>
         <source>Available (mature and spendable) zSTATERA for spending
 
 zSTATERA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zSTATERA voor besteding
+        <translation>zSTATERA disponible (maduro y gastable) para gastar
 
-zStatera zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
+zSTATERA son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de la misma denominación después que ellos fueron minted</translation>
     </message>
     <message>
         <source>0 zSTATERA</source>
@@ -2487,27 +2487,27 @@ zStatera zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
-        <translation>Beveiligingsniveau voor Zerocoin transacties. Meer is beter, maar heeft meer tijd en middelen nodig.</translation>
+        <translation>Nivel de Seguridad para Transacciones Zerocoin. Cuanto más mejor, pero necesitará más tiempo y recursos.</translation>
     </message>
     <message>
         <source>Security Level:</source>
-        <translation>Beveiligings niveau:</translation>
+        <translation>Nivel de Seguridad:</translation>
     </message>
     <message>
         <source>Security Level 1 - 100 (default: 42)</source>
-        <translation>Beveiligingsniveau 1 - 100 (standaard: 42)</translation>
+        <translation>Nivel de Seguridad 1 - 100 (por defecto: 42)</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Naar:</translation>
+        <translation>Pagar &amp;A:</translation>
     </message>
     <message>
         <source>The STATERA address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het STATERA adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <translation>La dirección STATERA a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>Escoja una dirección usada previamente</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2515,7 +2515,7 @@ zStatera zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>Pegar dirección desde el portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2523,57 +2523,57 @@ zStatera zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label in voor dit adres om deze toe te voegen aan de lijst met gebruikte adressen</translation>
+        <translation>Introduzca una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <translation>C&amp;antidad:</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Zet wisselgeld om naar Zerocoin (mogelijk extra kosten)</translation>
+        <translation>Convertir el Cambio a Zerocoin (puede costar alguna comisión adicional)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
-        <translation>Indien aangevinkt, probeert de portemonnee het terugkerende wisselgeld te minimaliseren in plaats van het aantal uitgegeven denominaties te minimaliseren.</translation>
+        <translation>Si está marcado, el monedero intenta minimizar el cambio de vuelta en lugar de minimizar el numero de denominaciones necesarios.</translation>
     </message>
     <message>
         <source>Minimize Change</source>
-        <translation>Minimaliseer wisselgeld</translation>
+        <translation>Minimizar Cambio</translation>
     </message>
     <message>
         <source>Information about the available Zerocoin funds.</source>
-        <translation>Informatie over de beschikbare Zerocoin fondsen.</translation>
+        <translation>Información sobre los fondos Zerocoin disponibles.</translation>
     </message>
     <message>
         <source>Zerocoin Stats:</source>
-        <translation>Zerocoin Statistieken:</translation>
+        <translation>Estadísticas Zerocoin:</translation>
     </message>
     <message>
         <source>Total Balance including unconfirmed and immature zSTATERA</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zSTATERA</translation>
+        <translation>Balance total incluyendo zSTATERA no confirmado e inmaduro</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
-        <translation>Totale Zerocoin Saldi:</translation>
+        <translation>Balance total de Zerocoin:</translation>
     </message>
     <message>
         <source>Denominations with value 1:</source>
-        <translation>Denominaties met waarde 1:</translation>
+        <translation>Denominaciones con valor 1:</translation>
     </message>
     <message>
         <source>Denom. with value 1:</source>
-        <translation>Denom. met waarde 1:</translation>
+        <translation>Denom. con valor 1:</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Onbevestigd: minder dan 20 bevestigingen
-Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
+        <translation>Sin confirmar: menos de 20 confirmaciones
+Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación después de ser acuñado</translation>
     </message>
     <message>
         <source>Show the current status of automatic zSTATERA minting.
@@ -2586,23 +2586,23 @@ To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zSTATERA
 
 </source>
-        <translation>Toon de huidige status van automatische zSTATERA-markering.
+        <translation>Muestra el estado actual de zSTATERA minting automática.
 
-Om de status te wijzigen (opnieuw opstarten vereist): 
-- enable: voeg 'enablezeromint = 1' toe aan statera.conf
-- uitschakelen: voeg 'enablezeromint = 0' toe aan statera.conf
+Para cambiar el estado (reinicio requerido):
+- activar: añade 'enablezeromint = 1' en statera.conf
+- desctivar: añade 'enablezeromint = 0' en statera.conf
 
-Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zSTATERA
+Para cambiar el porcentaje (no se requiere reiniciar):
+- menú Configuración-&gt;Opciones-&gt;Porcentaje de zSTATERA automint
 </translation>
     </message>
     <message>
         <source>AutoMint Status</source>
-        <translation>AutoMint-status</translation>
+        <translation>Estado de AutoMint</translation>
     </message>
     <message>
         <source>Global Supply:</source>
-        <translation>Wereldwijde levering:</translation>
+        <translation>Suministro Global:</translation>
     </message>
     <message>
         <source>Denom. 1:</source>
@@ -2638,219 +2638,219 @@ Om het percentage te wijzigen (geen herstart vereist):
     </message>
     <message>
         <source>0 x</source>
-        <translation> 0 x</translation>
+        <translation>0 x</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
-        <translation>Denominaties met waarde 5:</translation>
+        <translation>Denominación con valor 5:</translation>
     </message>
     <message>
         <source>Denom. with value 5:</source>
-        <translation>Denom. met waarde 5:</translation>
+        <translation>Denom. con valor 5:</translation>
     </message>
     <message>
         <source>Denominations with value 10:</source>
-        <translation>Denominaties met waarde 10:</translation>
+        <translation>Denominación con valor 10:</translation>
     </message>
     <message>
         <source>Denom. with value 10:</source>
-        <translation>Denom. met waarde 10:</translation>
+        <translation>Denom. con valor 10:</translation>
     </message>
     <message>
         <source>Denominations with value 50:</source>
-        <translation>Denominaties met waarde 50:</translation>
+        <translation>Denominación con valor 50:</translation>
     </message>
     <message>
         <source>Denom. with value 50:</source>
-        <translation>Denom. met waarde 50:</translation>
+        <translation>Denom. con valor 50:</translation>
     </message>
     <message>
         <source>Denominations with value 100:</source>
-        <translation>Denominaties met waarde 100:</translation>
+        <translation>Denominación con valor 100:</translation>
     </message>
     <message>
         <source>Denom. with value 100:</source>
-        <translation>Denom. met waarde 100:</translation>
+        <translation>Denom. con valor 100:</translation>
     </message>
     <message>
         <source>Denominations with value 500:</source>
-        <translation>Denominaties met waarde 500:</translation>
+        <translation>Denominación con valor 500:</translation>
     </message>
     <message>
         <source>Denom. with value 500:</source>
-        <translation>Denom. met waarde 500:</translation>
+        <translation>Denom. con valor 500:</translation>
     </message>
     <message>
         <source>Denominations with value 1000:</source>
-        <translation>Denominaties met waarde 1000:</translation>
+        <translation>Denominación con valor 1000:</translation>
     </message>
     <message>
         <source>Denom. with value 1000:</source>
-        <translation>Denom. met waarde 1000:</translation>
+        <translation>Denom. con valor 1000:</translation>
     </message>
     <message>
         <source>Denominations with value 5000:</source>
-        <translation>Denominaties met waarde 5000:</translation>
+        <translation>Denominación con valor 5000:</translation>
     </message>
     <message>
         <source>Denom. with value 5000:</source>
-        <translation>Denom. met waarde 5000:</translation>
+        <translation>Denom. con valor 5000:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Kost:</translation>
+        <translation>Comisión:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Stof:</translation>
+        <translation>Calderilla:</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nee</translation>
+        <translation>no</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>Octetos:</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Onvoldoende saldo!</translation>
+        <translation>¡Fondos insuficientes!</translation>
     </message>
     <message>
         <source>Coins automatically selected</source>
-        <translation>Munten automatisch geselecteerd</translation>
+        <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>media</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Munt controle kenmerken</translation>
+        <translation>Funciones de Control de Monedas</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit geactiveerd is, maar het wisselgeld adres is leeg of ongeldig, wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
+        <translation>Si esto está activado, pero la dirección de cambio está vacía o es inválida, el cambio será mandado a una nueva dirección generada.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Aangepast wisselgeld adres</translation>
+        <translation>Dirección de cambio personalizada</translation>
     </message>
     <message>
         <source>Amount After Fee:</source>
-        <translation>Bedrag na kosten:</translation>
+        <translation>Cantidad Después de comisión:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wijzig:</translation>
+        <translation>Cambio:</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
+        <translation>desincronizado</translation>
     </message>
     <message>
         <source>Mint Status: Okay</source>
-        <translation>Mint status: Oké</translation>
+        <translation>Estado de Creación de Moneda: Ok</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwanititeit</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
-        <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
-Wees alsjeblieft geduldig...</translation>
+        <translation>Ejecutando ResetMintZerocoin: reescaneando el blockchain entero, esto necesitará hasta 30 minutos dependiendo de su hardware.
+Por favor espere...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
 Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
-        <translation>Zerocoin besteden.
-Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je hardware.
-Wees alsjeblieft geduldig...</translation>
+        <translation>Gastando Zerocoin.
+Esto es computacionalmente intensivo, puede necesitar varios minutos dependiendo del Nivel de Seguridad elegido y el hardware de su máquina.
+Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>) needed.
-Mstateraum allowed: </source>
-        <translation>) vereist.
-Mstateraaal toegestaan:</translation>
+Maximum allowed: </source>
+        <translation>) necesario.
+Máximo permitido:</translation>
     </message>
     <message>
         <source>zSTATERA Spend #: </source>
-        <translation>zSTATERA besteed #:</translation>
+        <translation>Gastar zSTATERA #: </translation>
     </message>
     <message>
         <source>zSTATERA Mint</source>
-        <translation>zSTATERA mint</translation>
+        <translation>Acuñar zSTATERA</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;ingeschakeld&lt;/b&gt;.</translation>
+        <translation>&lt;b&gt;ativado&lt;/b&gt;.</translation>
     </message>
     <message>
         <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;invalide&lt;/b&gt;.</translation>
+        <translation>&lt;b&gt;Desativado&lt;/b&gt;.</translation>
     </message>
     <message>
         <source> Configured target percentage: &lt;b&gt;</source>
-        <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
+        <translation>Porcentaje objetivo configurado:</translation>
     </message>
     <message>
         <source>zSTATERA is currently disabled due to maintenance.</source>
-        <translation>zSTATERA is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <translation>zSTATERA actualmente está desactivado debido al mantenimiento.</translation>
     </message>
     <message>
         <source>zSTATERA is currently undergoing maintenance.</source>
-        <translation>zSTATERA wordt momenteel onderhouden.</translation>
+        <translation>zSTATERA se encuentra actualmente en mantenimiento.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 1&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt; 1&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;5&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt; 5&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;10&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt; 10&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;50&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt;50&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 100&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt;100&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 500&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt;500&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;1000&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt;1000&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;5000&lt;/b&gt;:</translation>
+        <translation>Billetes con valor &lt;b&gt;5000&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
-        <translation>AutoMint-status</translation>
+        <translation>Status AutoMint:</translation>
     </message>
     <message>
         <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2886,153 +2886,153 @@ Mstateraaal toegestaan:</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
-        <translation>Fout: Je portemonnee is vergrendeld. Voer alsjeblieft de wachtwoord zin voor de portemonnee in.</translation>
+        <translation>Error: Tu monedero está bloqueado. Por favor, primero introduzca la frase clave del monedero.</translation>
     </message>
     <message>
         <source>Message: Enter an amount &gt; 0.</source>
-        <translation>Bericht: voer een bedrag in &gt; 0.</translation>
+        <translation>Mensaje: Introduzca una cantidad &gt; 0.</translation>
     </message>
     <message>
         <source>Minting </source>
-        <translation>Minting </translation>
+        <translation>Minting</translation>
     </message>
     <message>
         <source>Successfully minted </source>
-        <translation>Succesvol gemint</translation>
+        <translation>Minted correctamente</translation>
     </message>
     <message>
         <source> zSTATERA in </source>
-        <translation> zSTATERA in </translation>
+        <translation>zSTATERA en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
 </source>
-        <translation>sec. gebruikte denominaties:
+        <translation>seg. denominación usados:
 </translation>
     </message>
     <message>
         <source>Duration: </source>
-        <translation>Duur:</translation>
+        <translation>Duración:</translation>
     </message>
     <message>
         <source> sec.
 </source>
-        <translation> sec.
+        <translation>seg.
 </translation>
     </message>
     <message>
         <source>Starting ResetSpentZerocoin: </source>
-        <translation>Starten van ResetSpentZerocoin: </translation>
+        <translation>Iniciando ResetSpentZerocoin:</translation>
     </message>
     <message>
         <source>No 'Pay To' address provided, creating local payment</source>
-        <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
+        <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
         <source>Invalid Statera Address</source>
-        <translation>Ongeldig Statera addres</translation>
+        <translation>Dirección STATERA Inválida</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
-        <translation>Ongeldig verzend bedrag</translation>
+        <translation>Cantidad a Enviar Inválida</translation>
     </message>
     <message>
         <source>Confirm additional Fees</source>
-        <translation>Bevestig extra kosten</translation>
+        <translation>Confirmar comisiónes adicionales</translation>
     </message>
     <message>
         <source>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Weet je zeker dat je wilt verzenden?&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>¿Está seguro que desea enviar?&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source> to address </source>
-        <translation>naar adres</translation>
+        <translation>a la dirección</translation>
     </message>
     <message>
         <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
-        <translation>naar een nieuw gegenereerd (ongebruikt en dus anoniem) lokaal adres&lt;br /&gt;</translation>
+        <translation>a una dirección local recién generada (no utilizada y, por lo tanto, anónima)&lt;br /&gt;</translation>
     </message>
     <message>
         <source>with Security Level </source>
-        <translation>met beveiligingsniveau</translation>
+        <translation>con Nivel de Seguridad</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bevestig verzending coins</translation>
+        <translation>Confirmar enviar monedas</translation>
     </message>
     <message>
         <source>Version 1 zSTATERA require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zSTATERA vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
+        <translation>La versión 1 zSTATERA requiere un nivel de seguridad de 100 para gastar exitosamente.</translation>
     </message>
     <message>
         <source>Failed to spend zSTATERA</source>
-        <translation>Mislukt om zSTATERA te besteden.</translation>
+        <translation>Error al enviar zSTATERA</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
-        <translation>Mislukt om de mint op te halen geassocieerd met de seriële hash</translation>
+        <translation>Error al buscar la asociación del acuñado con el hash serial</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
-        <translation>Teveel invoer (</translation>
+        <translation>Demasiadas entradas (</translation>
     </message>
     <message>
         <source>
 Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
         <translation>
-Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te besteden bedrag verminderen.</translation>
+O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o reduzca la cantidad a gastar.</translation>
     </message>
     <message>
         <source>Spend Zerocoin failed with status = </source>
-        <translation>Bestede Zerocoin mislukt met status =</translation>
+        <translation>Gastar Zerocoin falló con estado =</translation>
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
         <comment>Enter an amount of STATERA to convert to zSTATERA</comment>
-        <translation><numerusform>PrivacyDialoog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
+        <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
         <source>denomination: </source>
-        <translation>denominatie:</translation>
+        <translation>Denominación:</translation>
     </message>
     <message>
         <source>serial: </source>
-        <translation>serial: </translation>
+        <translation>serial:</translation>
     </message>
     <message>
         <source>Spend is 1 of : </source>
-        <translation>Besteed is 1 of : </translation>
+        <translation>Gasto 1 de :</translation>
     </message>
     <message>
         <source>value out: </source>
-        <translation>Waarde uit:</translation>
+        <translation>valor salida:</translation>
     </message>
     <message>
         <source>address: </source>
-        <translation>adres:</translation>
+        <translation>dirección:</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
-        <translation>Verzenden succesvol, retourcode:</translation>
+        <translation>Envío correcto, código devuelto: </translation>
     </message>
     <message>
         <source>txid: </source>
-        <translation>txid: </translation>
+        <translation>txid:</translation>
     </message>
     <message>
         <source>fee: </source>
-        <translation>kosten:</translation>
+        <translation>comisión:</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <source>Enter a STATERA address (e.g. %1)</source>
-        <translation>Voer een STATERA adres in (b.v. %1)</translation>
+        <translation>Introduzca una dirección STATERA (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3052,7 +3052,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>NETWERK</translation>
+        <translation>RED</translation>
     </message>
     <message>
         <source>BLOOM</source>
@@ -3060,15 +3060,15 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>ONBEKEND</translation>
+        <translation>DESCONOCIDO</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Geen</translation>
+        <translation>Ninguno</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NB</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -3079,90 +3079,90 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
+        <translation>&amp;Guardar Imagen...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopieer afbeelding</translation>
+        <translation>&amp;Copiar Imagen</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>QR code opslaan</translation>
+        <translation>Guardar Código QR</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG Afbeelding(*.png)</translation>
+        <translation>Imagen PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Tools venster</translation>
+        <translation>Ventana de herramientas</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
+        <translation>&amp;Información</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Algemeen</translation>
+        <translation>General</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Naam</translation>
+        <translation>Nombre</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Client naam</translation>
+        <translation>Nombre de cliente</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NB</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Aantal connecties</translation>
+        <translation>Número de conexiones</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <translation>&amp;Abrir</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Opstarttijd</translation>
+        <translation>Tiempo de funcionamiento</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Netwerk</translation>
+        <translation>Red</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Laatste blocktijd</translation>
+        <translation>Momento del último bloque</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug logbestand</translation>
+        <translation>Fichero de depuración</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Gebruikt OpenSSL versie</translation>
+        <translation>Usando la versión OpenSSL</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Bouwdatum</translation>
+        <translation>Fecha de compilación</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Huidige blockaantal</translation>
+        <translation>Número actual de bloques</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Client versie</translation>
+        <translation>Versión del cliente</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Gebruikt BerkeleyDB versie</translation>
+        <translation>Usando BerkeleyDB versión</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -3170,39 +3170,39 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Open the STATERA debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het STATERA debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <translation>Abrir el fichero de depuración STATERA en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Aantal Masternodes</translation>
+        <translation>Número de masternodes</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>&amp;Consola</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Console leegmaken</translation>
+        <translation>Limpiar consola</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Netwerk verkeer</translation>
+        <translation>&amp;Tráfico de Red</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Leegmaken</translation>
+        <translation>&amp;Limpiar</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Totalen</translation>
+        <translation>Totales</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Ontvangen</translation>
+        <translation>Recibidos</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Verstuurd</translation>
+        <translation>Enviados</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
@@ -3210,239 +3210,239 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Verboden leeftijdsgenoten</translation>
+        <translation>Peers proibidos</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Selecteer een peer om gedetailleerde informatie te bekijken.</translation>
+        <translation>Seleccione un peer conectado para ver información detallada.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Whitelisted</translation>
+        <translation>En lista blance</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Richting</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protocol</translation>
+        <translation>Protocolo</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versie</translation>
+        <translation>Versión</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Diensten</translation>
+        <translation>Servicios</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Ban score</translation>
+        <translation>Puntuación de Baneo</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Connectietijd</translation>
+        <translation>Tiempo de Conexión</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Laatst Verzonden</translation>
+        <translation>Último Envío</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Laatst Ontvangen</translation>
+        <translation>Última Recepción</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Verzonden Bytes</translation>
+        <translation>Bytes Enviados</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Ontvangen Bytes</translation>
+        <translation>Bytes Recibidos</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Pingtijd</translation>
+        <translation>Intervalo de Ping</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Portemonnee herstel</translation>
+        <translation>Reparar &amp;Monedero</translation>
     </message>
     <message>
         <source>Delete local Blockchain Folders</source>
-        <translation>Verwijder lokale Blockchain Mappen</translation>
+        <translation>Eliminar directorios locales de Blockchain</translation>
     </message>
     <message>
         <source>Wallet In Use:</source>
-        <translation>Portemonnee in gebruik:</translation>
+        <translation>Monedero En Uso:</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Startblok</translation>
+        <translation>Bloque de empiezo</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Gesynchroniseerde headers</translation>
+        <translation>Encabezados sincronizados</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Gesynchroniseerde blokken</translation>
+        <translation>Bloques sincronizados</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>De duur van een momenteel openstaande ping.</translation>
+        <translation>La duración de un ping actualmente pendiente.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Ping wacht</translation>
+        <translation>Espera de Ping</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Tijdverschuiving</translation>
+        <translation>Desplazamiento de tiempo</translation>
     </message>
     <message>
         <source>Custom Backup Path:</source>
-        <translation>Aangepast back-up pad:</translation>
+        <translation>Ruta personalizada de la copia de seguridad:</translation>
     </message>
     <message>
         <source>Custom zSTATERA Backup Path:</source>
-        <translation>Aangepast zSTATERA back-up pad:</translation>
+        <translation>Ruta personalizada de la copia de seguridad zSTATERA:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
-        <translation>Aangepaste back-up drempel:</translation>
+        <translation>Límite de copias de seguridad personalizadas:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Red portemonnee</translation>
+        <translation>Salvar monedero</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Poog om privé sleutels terug te halen uit een corrupte wallet.dat.</translation>
+        <translation>Intentar recuperar las llaves privadas de un archivo wallet.dat corrupto.</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Herscan blockchain bestanden</translation>
+        <translation>Reescanear ficheros del blockchain</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Herscan de blockchain voor ontbrekende portemonnee transacties.</translation>
+        <translation>Reescanear el blockchain buscando transacciones que faltan en el monedero.</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Herstel transacties 1</translation>
+        <translation>Recuperar transacciones 1</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>Herstel transacties van blockchain (houd meta-data, bijvoorbeeld account eigenaar).</translation>
+        <translation>Recuperar transacciones del blockchain (mantener meta-datos, p.e. propietario de la cuenta,etc).</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Herstel transacties 2</translation>
+        <translation>Recuperar transacciones 2</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Herstel transacties van blockchain (laat meta-data vallen).</translation>
+        <translation>Recuperar transacciones del blockchain (ignorar meta-datos).</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Upgrade portemonnee format</translation>
+        <translation>Actualizar formato del monedero</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Herstel blockchain index van huidige blk000??.dat bestanden.</translation>
+        <translation>Reconstruir el índice del blockchain desde los archivos blk000??.dat actuales.</translation>
     </message>
     <message>
         <source>-resync:</source>
-        <translation>-resync:</translation>
+        <translation>resincronizando:</translation>
     </message>
     <message>
         <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Verwijder alle lokale blockchain mappen zodat de portemonnee alles opnieuw kan hersynchroniseren.</translation>
+        <translation>Eliminar todos los directorios locales del blockchain y sincronizar el monedero desde el principio</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>De onderstaande knoppen zullen de portemonnee opnieuw opstarten met command line opties om de portemonnee te repareren, problemen op te lossen met corrupte blockchain bestanden of ontbrekende/verouderde transacties.</translation>
+        <translation>Los botones de más abajo reiniciarán el programa con comandos especiales para reparar el monedero, solucionar problemas con cadenas de bloques corruptas o buscar transacciones obsoletas o perdidas</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Portemonnee herstelopties.</translation>
+        <translation>Opciones de reparación de monedero.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>Upgrade portemonnee naar nieuwste format bij opstarten. (Opmerking: dit is NIET een update van de portemonnee zelf!)</translation>
+        <translation>Actualizar el monedero al último formato en el arranque. (Nota: esto NO es una actualización del monedero como tal!)</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Herbouw index</translation>
+        <translation>Reconstruir índice</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>In:</translation>
+        <translation>Dentro:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Uit:</translation>
+        <translation>Fuera:</translation>
     </message>
     <message>
         <source>Welcome to the STATERA RPC console.</source>
-        <translation>Welkom bij de STATERA RPC console.</translation>
+        <translation>Bienvenido a la consola RPC de STATERA.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
-        <translation>&amp; Koppel Node los</translation>
+        <translation>&amp;Desconectar nodo</translation>
     </message>
     <message>
         <source>Ban Node for</source>
-        <translation>Ban Node voor</translation>
+        <translation>Prohibir nodo por </translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;hour</translation>
+        <translation>1 &amp;hora</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;day</translation>
+        <translation>1 &amp;día</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;week</translation>
+        <translation>1 &amp;semana</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;year</translation>
+        <translation>1 &amp;año</translation>
     </message>
     <message>
         <source>&amp;Unban Node</source>
-        <translation>&amp; Veel succes</translation>
+        <translation>&amp;  No prohibir nodo</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Dit zal al jouw lokale blockchain mappen verwijderen en de portemonnee zal de blockchain helemaal opnieuw synchroniseren.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>Esto eliminará las carpetas de blockchain locales y el monedero sincronizará la cadena de bloques completa desde cero.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Dit vergt nogal wat tijd en downloadt veel data.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>Esto requiere bastante tiempo y la descarga una gran cantidad de datos.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Uw transacties en tegoeden zijn opnieuw zichtbaar nadat het downloaden is voltooid.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>Sus transacciones y fondos serán visibles nuevamente después de que se haya completado la descarga.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>Wil je verdergaan?</translation>
+        <translation>¿Desea continuar?.&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Confirm resync Blockchain</source>
-        <translation>Bevestig hersynchronisering van Blockchain</translation>
+        <translation>Confirmar resincronización del Blockchain</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Gebruik omhoog en omlaag pijlen om de geschiedenis te navigeren, en&lt;b&gt;Ctrl-L&lt;/b&gt;om scherm te wissen.</translation>
+        <translation>Use las teclas arriba y abajo para navegar por la historia, y &lt;b&gt;Ctrl-L&lt;/b&gt; para limpiar la pantalla.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help &lt;/b&gt;voor een overzicht van beschikbare commando's.</translation>
+        <translation>Escriba &lt;b&gt;help&lt;/b&gt; para ver una lista de posibles comandos.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -3466,231 +3466,231 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>via %1</source>
-        <translation>via %1</translation>
+        <translation>vía %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>nooit</translation>
+        <translation>nunca</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Inkomende</translation>
+        <translation>Entrantes</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Uitgaande</translation>
+        <translation>Salientes</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>ja</translation>
+        <translation>Sí</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nee</translation>
+        <translation>No</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Ongekend</translation>
+        <translation>Desconocido</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Hergebruik een van de eerder gebruikte ontvangstadressen.&lt;br&gt;Hergebruik van adressen heeft beveiligings- en privacyproblemen. &lt;br&gt;Gebruik dit niet tenzij u eerder een betalingsverzoek heeft aangemaakt.</translation>
+        <translation>Reutilizar una de las direcciones de recepción anteriores.&lt;br&gt;Reutilizar direcciones de recepción tiene implicaciones de seguridad y privacidad.&lt;br&gt;No la utilizar al menos que esté re-generando una solicitud de pago anterior.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Hergebruik een bestaand ontvangstadres (niet aanbevolen)</translation>
+        <translation>R&amp;eutilizar una dirección de recepción existente (no recomendado)</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Bericht:</translation>
+        <translation>&amp;Mensaje:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
+        <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the STATERA network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het STATERA netwerk.</translation>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red STATERA.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
-        <translation>ontvangen</translation>
+        <translation>RECIBIR</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the STATERA network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het STATERA netwerk.</translation>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red STATERA.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Gebruik dit formulier om betalingen aan te vragen. Alle velden zijn&lt;b&gt;optioneel&lt;/b&gt;.</translation>
+        <translation>Use este formulario para solicitar pagos. Todos los campos &lt;b&gt;opcionales&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Een optioneel bedrag om te vragen. Laat dit leeg of vul een nul in om geen specifiek bedrag te vragen.</translation>
+        <translation>Una cantidad opcional a solicitar. Deje esto vacío o en cero para no pedir una cantidad específica.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <translation>&amp;Cantidad:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Verzoek betaling</translation>
+        <translation>&amp;Solicitud de pago</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Leeg alle velden van het formulier.</translation>
+        <translation>Limpiar todos los campos del formulario.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Leegmaken</translation>
+        <translation>Limpiar</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Betalingsverzoeken geschiedenis</translation>
+        <translation>Historial de peticiones de pago</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Toon het geselecteerde verzoek (doet hetzelfde als dubbelklik op een item)</translation>
+        <translation>Mostrar la solicitud seleccionada (lo mismo que hacer doble click en una entrada)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Toon</translation>
+        <translation>Mostrar</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Verwijder de geselecteerde vermeldingen uit de lijst</translation>
+        <translation>Quitar las entradas seleccionadas de la lista</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Verwijder</translation>
+        <translation>Quitar</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiëer label</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Bericht kopiëren</translation>
+        <translation>Copiar mensaje</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>Copiar cantidad</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR Code</translation>
+        <translation>Código QR</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopieer &amp;URI</translation>
+        <translation>Copiar &amp;Identificador</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopieer &amp;Adres</translation>
+        <translation>Copiar &amp;Dirección</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
+        <translation>&amp;Guardar Imagen...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Verzoek betaling aan %1</translation>
+        <translation>Solicitar pago a %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Betalingsinformatie</translation>
+        <translation>Información de pago</translation>
     </message>
     <message>
         <source>URI</source>
-        <translation>URI</translation>
+        <translation>URI (identificador de recurso)</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>Mensaje</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI te lang geleden, probeer de tekst voor label/bericht te verminderen.</translation>
+        <translation>El identificador de recurso es demasiado largo, intente reducir el texto para la etiqueta / mensaje.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Fout bij het coderen van URI in QR-code.</translation>
+        <translation>Error codificando el identificador de recurso dentro del código QR.</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>Mensaje</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(geen bericht)</translation>
+        <translation>(no hay mensajes)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(geen hoeveelheid)</translation>
+        <translation>(sin cantidad)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Verzend Munten</translation>
+        <translation>Enviar Monedas</translation>
     </message>
     <message>
         <source>SEND</source>
-        <translation>STUREN</translation>
+        <translation>ENVIAR</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Munt controle kenmerken</translation>
+        <translation>Funciones de Control de Monedas</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Onvoldoende saldo!</translation>
+        <translation>¡Fondos insuficientes!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -3698,55 +3698,55 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Hoeveelheid:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <translation>Prioridad:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>media</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Kost:</translation>
+        <translation>Comisión:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Stof:</translation>
+        <translation>Calderilla:</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nee</translation>
+        <translation>no</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Na de kost:</translation>
+        <translation>Después de Comisión:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wijzig:</translation>
+        <translation>Cambio:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit geactiveerd is, maar het wisselgeld adres is leeg of ongeldig, wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
+        <translation>Si esto está activado, pero la dirección de cambio está vacía o es inválida, el cambio será mandado a una nueva dirección generada.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Aangepast wisselgeld adres</translation>
+        <translation>Dirección de cambio personalizada</translation>
     </message>
     <message>
         <source>Split UTXO</source>
-        <translation>Split UTXO</translation>
+        <translation>Partir UTXO</translation>
     </message>
     <message>
         <source># of outputs</source>
-        <translation># outputs</translation>
+        <translation># de salidas</translation>
     </message>
     <message>
         <source>UTXO Size:</source>
-        <translation>UTXO grootte:</translation>
+        <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
         <source>0 STATERA</source>
@@ -3754,39 +3754,39 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Transactiekosten: </translation>
+        <translation>Comisión de transacción:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Kies...</translation>
+        <translation>Elegir...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>Klap kosten instellingen in</translation>
+        <translation>minimizar los ajustes de comisión</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimaliseer</translation>
+        <translation>Minimizar</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
+        <translation>por kilobyte</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>totaal tenminste</translation>
+        <translation>total al menos</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(lees de tooltip)</translation>
+        <translation>(leer el consejo)</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Aangepast:</translation>
+        <translation>Personalizado:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smart fee nog niet geïnitialiseerd. Dit duurt meestal een paar blokken ...)</translation>
+        <translation>(La comisión automática no se ha inicializado todavía. Esto normalmente necesita unos cuantos bloques...)</translation>
     </message>
     <message>
         <source>SwiftX</source>
@@ -3794,459 +3794,459 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Bevestigingstijd:</translation>
+        <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
-        <translation>Open munt controle...</translation>
+        <translation>Abrir Control de Monedas...</translation>
     </message>
     <message>
         <source>Coins automatically selected</source>
-        <translation>Munten automatisch geselecteerd</translation>
+        <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uSTATERAs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uSTATERA's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uSTATERA's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <translation>Si la comisión personalizada se fija en 1000 uSTATERAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSTATERAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSTATERAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "total at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uSTATERAs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uSTATERA's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uSTATERA's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <translation>Si la comisión personalizada se fija en 1000 uSTATERAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSTATERAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSTATERAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar STATERA transacties dan het netwerk kan verwerken.</translation>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones STATERA de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normaal</translation>
+        <translation>normal</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>snel</translation>
+        <translation>rápido</translation>
     </message>
     <message>
         <source>Recommended</source>
-        <translation>Aanbevolen</translation>
+        <translation>Recomendada</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Zend als zero-fee transactie indien mogelijk</translation>
+        <translation>Enviar como transacción sin comisiones si es posible</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(bevestiging kan langer duren)</translation>
+        <translation>(la primera confirmación puede tardar más)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Bevestig de verzendactie</translation>
+        <translation>Confirmar la acción de enviar</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>V&amp;erzenden</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Leeg alle velden van het formulier.</translation>
+        <translation>Limpiar todos los campos del formulario.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Limpiar &amp;Todo</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Verzend naar meerdere ontvangers tegelijk</translation>
+        <translation>Enviar a varios destinatarios al mismo tiempo</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;ontvanger toe</translation>
+        <translation>Añadir Destinatario</translation>
     </message>
     <message>
         <source>Anonymized STATERA</source>
-        <translation>Geanonimiseerde STATERA</translation>
+        <translation>STATERA anonimizados</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Balans:</translation>
+        <translation>Saldo:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwanititeit</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopiëer kost</translation>
+        <translation>Copiar comisión</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopiëer na kost</translation>
+        <translation>Copiar después de comisión</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
+        <translation>Copiar octetos</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopieer prioriteit</translation>
+        <translation>Copiar prioridad</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopieer dust</translation>
+        <translation>Copiar calderilla</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopieer wisselgeld</translation>
+        <translation>Copiar cambio</translation>
     </message>
     <message>
         <source>The split block tool does not work when sending to outside addresses. Try again.</source>
-        <translation>Het split block tool werkt niet bij het verzenden naar externe adressen. Probeer het nog eens.</translation>
+        <translation>La herramienta de separación de bloques no funciona cuando se envía a direcciones exteriores. Inténtelo otra vez.</translation>
     </message>
     <message>
         <source>The split block tool does not work with multiple addresses. Try again.</source>
-        <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
+        <translation>La herramienta de división de bloques no funciona con varias direcciones. Inténtelo otra vez.</translation>
     </message>
     <message>
         <source>Warning: Invalid STATERA address</source>
-        <translation>Waarschuwing: Ongeldig STATERA adres</translation>
+        <translation>Advertencia: Direcciones STATERA inválidas</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 naar %2</translation>
+        <translation>%1 a %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Ben je zeker dat je wilt verzenden?</translation>
+        <translation>¿Está seguro de querer enviar?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>worden toegevoegd als transactiekosten</translation>
+        <translation>son añadidos como comisión de transacción</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Totale hoeveelheid = &lt;b&gt;%1 &lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Cantidad total = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bevestig verzending coins</translation>
+        <translation>Confirmar enviar monedas</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Een vergoeding %1 keer hoger dan %2 per kB wordt beschouwd als een zwaar hoge vergoeding.</translation>
+        <translation>Una comisión %1 veces más alta que %2 por kB se considera exageradamente alta.</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Schatting om te beginnen met bevestiging in %n blokken.</numerusform><numerusform>Schatting om te beginnen met bevestiging in %n blokken.</numerusform></translation>
+        <translation><numerusform>Estimamos que empezará la confirmación en %n bloques.</numerusform><numerusform>Estimamos que empezará la confirmación en %n bloques.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Het ontvangstadres is niet geldig, controleer deze.</translation>
+        <translation>La dirección de destino no es válida, por favor compruébelo de nuevo.</translation>
     </message>
     <message>
         <source>using SwiftX</source>
-        <translation>met SwiftX</translation>
+        <translation>usando o SwiftX</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation>gesplitst in %1 outputs met behulp van de UTXO splitter.</translation>
+        <translation>separado en %1 salidas usando el separador UTXO.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 van %2 vermeldingen weergegeven)</translation>
+        <translation>&lt;b&gt;(%1 de %2 entradas mostradas)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Het te betalen bedrag moet groter zijn dan 0.</translation>
+        <translation>La cantidad a pagar debe ser mayor de 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Het bedrag overschrijdt uw saldo.</translation>
+        <translation>La cantidad excede su saldo.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Het totaal overschrijdt uw saldo wanneer de transactievergoeding %1 is inbegrepen.</translation>
+        <translation>El total excede su saldo si contamos la comisión de %1 .</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Dubbel adres gevonden, kan alleen per keer per verzendoperatie naar elk adres versturen.</translation>
+        <translation>Hemos encontrado una dirección duplicada, sólo podemos enviar a cada dirección una vez por envío.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Transactie creatie mislukt!</translation>
+        <translation>¡Fallo al crear la transacción!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, zoals als je een kopie van de wallet.dat en munten in de kopie waren besteed maar niet gemarkeerd zoals hier besteed.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede ocurrir si alguna de sus monedas ya se gastó con anterioridad, por ejemplo, si estuvo usted usando una copia de su monedero wallet.dat y gastó allí monedas pero no las marcó como gastadas aquí.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Fout: De portemonnee was alleen geopend om munten te anonimiseren.</translation>
+        <translation>Error: El monedero se desbloqueó sólo para anonimizar monedas.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Fout: De portemonnee was alleen geopend om munten te anonimiseren. Ontgrendelen geannuleerd.</translation>
+        <translation>Error: El monedero ya fue desbloqueado para anonimizar monedas. El desbloqueo total se ha cancelado.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Betaal alleen de minimumkost van %1</translation>
+        <translation>Pagar sólo la comisión mínima de %1</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Waarschuwing: Ongekend wisselgeld adres</translation>
+        <translation>Advertencia: Dirección de cambio desconocida</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Dit is een normale betaling.</translation>
+        <translation>Esto es un pago normal.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Naar:</translation>
+        <translation>Pagar &amp;A:</translation>
     </message>
     <message>
         <source>The STATERA address to send the payment to</source>
-        <translation>Het STATERA adres om de betaling naar te verzenden</translation>
+        <translation>La dirección STATERA a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>Escoja una dirección usada previamente</translation>
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>Pegar dirección desde el portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Verwijder dit item</translation>
+        <translation>Quitar esta entrada</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label in voor dit adres om deze toe te voegen aan de lijst met gebruikte adressen</translation>
+        <translation>Introduzca una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Bericht:</translation>
+        <translation>Mensaje:</translation>
     </message>
     <message>
         <source>A message that was attached to the STATERA: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the STATERA network.</source>
-        <translation>Een bericht dat is gehecht aan de STATERA: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het STATERA netwerk.</translation>
+        <translation>Un mensaje adjunto al STATERA: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red STATERA.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>Dit is een ongeverifieerde betalingsverzoek.</translation>
+        <translation>Esta es una solicitud de pago no verificada.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Betaal aan:</translation>
+        <translation>Pagar A:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Memo:</translation>
+        <translation>Texto libre:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
+        <translation>Esta es una solicitud de pago verificada.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Voer een label in voor dit adres om het toe te voegen aan jouw adresboek</translation>
+        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>STATERA Core is shutting down...</source>
-        <translation>STATERA Core is aan het afsluiten...</translation>
+        <translation>El programa STATERA se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Sluit de computer niet af voordat dit venster verdwenen is.</translation>
+        <translation>No apague el equipo hasta que esta ventana desaparezca.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Handtekeningen - Onderteken / Verifieer een Bericht</translation>
+        <translation>Firmas - Firmar / Verificar un Mensaje</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
+        <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
         <source>The STATERA address to sign the message with</source>
-        <translation>Het STATERA adres om het bericht met te ondertekenen</translation>
+        <translation>La dirección STATERA con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>Escoja una dirección usada previamente</translation>
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>Pegar dirección desde el portapapeles</translation>
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Voer hier het bericht in dat u wilt ondertekenen</translation>
+        <translation>Introduzca el mensaje que quiere firmar aquí</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Handtekening</translation>
+        <translation>Firma</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+        <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this STATERA address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het STATERA adres bezit</translation>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección STATERA</translation>
     </message>
     <message>
         <source>The STATERA address the message was signed with</source>
-        <translation>Het STATERA adres waarmee het bericht was ondertekend</translation>
+        <translation>La dirección STATERA con la que se firmó el mensaje</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified STATERA address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde STATERA adres</translation>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección STATERA especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Onderteken &amp;Bericht</translation>
+        <translation>Firmar &amp;Mensaje</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Maak alle ondertekenvelden leeg</translation>
+        <translation>Limpiar todos los campos de firma de mensaje</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Limpiar &amp;Todo</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifieer Bericht</translation>
+        <translation>&amp;Verificar Mensaje</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Voer het ondertekening adres in, verifieer het bericht (zorg ervoor dat je line breaks, spaties, tabs, enz.) en onderteken hieronder om het bericht te verifiëren. Wees voorzichtig om niet meer in de handtekening te lezen dan in het ondertekende bericht zelf, om te voorkomen dat je door een man-in-de-middle aanval wordt getroffen.</translation>
+        <translation>Introduzca la dirección de firma, mensaje (asegúrese de que copia los puntos y aparte, espacios, tabuladores, etc. exactamente) y la firma debajo para verificar el mensaje. Vaya con cuidado de no leer más en la firma de loque está en el mensaje firmado propiamente dicho, para evitar ser engañado por un ataque "hombre en el medio".</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Verifeer &amp;Message</translation>
+        <translation>Verificar &amp;Mensaje</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Maak alle verifiëren van het bericht velden leeg</translation>
+        <translation>Limpiar todos los campos de verificación de mensaje</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klik op "Onderteken Bericht" om een handtekening te genereren</translation>
+        <translation>Haga click en "Firmar Mensaje" para generar la firma</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Het ingevoerde adres is ongeldig.</translation>
+        <translation>La dirección introducida es inválida</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
+        <translation>Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+        <translation>La dirección introducida no se refiere a ninguna clave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
+        <translation>El desbloqueo del monedero fue cancelado.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+        <translation>La clave privada para la dirección introducida no está disponible.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Bericht ondertekenen mislukt.</translation>
+        <translation>La firma del mensaje falló.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Bericht ondertekend.</translation>
+        <translation>Mensaje firmado.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>De handtekening kon niet gedecodeerd worden.</translation>
+        <translation>La firma no pudo ser decodificada.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Controleer de handtekening en probeer het opnieuw.</translation>
+        <translation>Por favor compruebe la firma e inténtelo otra vez.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>De handtekening kwam niet overeen met de berichtverdeling.</translation>
+        <translation>La firma no coincide con el resumen del mensaje.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Bericht verificatie mislukt.</translation>
+        <translation>Falló la verificación del mensaje.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Bericht geverifieerd.</translation>
+        <translation>Mensaje verificado.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>STATERA Core</source>
-        <translation>STATERA Kern</translation>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Versie %1</translation>
+        <translation>Versión %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>De Bitcoin Kernontwikkelaars</translation>
+        <translation>Los desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
         <source>The Dash Core developers</source>
-        <translation>De Dash Kernontwikkelaars</translation>
+        <translation>Los desarrolladores de Dash Core</translation>
     </message>
     <message>
         <source>The STATERA Core developers</source>
-        <translation>De STATERA Kernontwikkelaars</translation>
+        <translation>Los desarrolladores de STATERA Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4264,15 +4264,15 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Klaar voor %n meer blokken</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
+        <translation><numerusform>Abierto para %n bloques más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>Abierto hasta %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>conflicteert</translation>
+        <translation>conflictivo (bloque huérfano?)</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -4280,492 +4280,492 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/onbevestigd</translation>
+        <translation>%1/sin confirmar</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 bevestigingen</translation>
+        <translation>%1 confirmaciones</translation>
     </message>
     <message>
         <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (gecontroleerd via SwiftX)</translation>
+        <translation>%1/offline (verificado via swifttx)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1/bevestigd (gecontroleerd via swifttx)</translation>
+        <translation>%1/confirmado (verificado via swifttx)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>%1 bevestigingen (gecontroleerd via swifttx)</translation>
+        <translation>%1 confirmaciones (verificado via swifttx)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (SwiftTX controle in uitvoering - %2 van %3 handtekeningen)</translation>
+        <translation>%1/offline (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/bevestigd (SwiftTX controle in uitvoering - %2 van %3 handtekeningen)</translation>
+        <translation>%1/confirmado (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
     </message>
     <message>
         <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 bevestigingen (SwiftTX controle in uitvoering -%2 van %3 handtekeningen)</translation>
+        <translation>%1 confirmaciones (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftX verification failed)</source>
-        <translation>%1/offline (SwiftTX verificatie mislukt)</translation>
+        <translation>%1/offline (falló la verificación SwiftTX)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftX verification failed)</source>
-        <translation>%1/bevestigd (SwiftTX verificatie mislukt)</translation>
+        <translation>%1/confirmado (falló la verificación SwiftTX)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Estado</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, is nog niet succesvol uitgezonden</translation>
+        <translation>, no ha sido correctamente transmitida todavía</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, uitgezonden via %n nodes</numerusform><numerusform>, uitgezonden via %n nodes</numerusform></translation>
+        <translation><numerusform>, retransmitido a través de %n nodos</numerusform><numerusform>, retransmitido a través de %n nodos</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Bron</translation>
+        <translation>Fuente</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Gegeneerd</translation>
+        <translation>Generado</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Van</translation>
+        <translation>De</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>ongekend</translation>
+        <translation>desconocido</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Naar</translation>
+        <translation>A</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>eigen adres</translation>
+        <translation>dirección propia</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>watch-only</translation>
+        <translation>sólo-lectura</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>label</translation>
+        <translation>etiqueta</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Credit</translation>
+        <translation>Crédito</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>maturiteit in %n meer blokken</numerusform><numerusform>maturiteit in %n meer blokken</numerusform></translation>
+        <translation><numerusform>madura en %n bloques más</numerusform><numerusform>maduracíon en %n bloques más</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>niet geaccepteerd</translation>
+        <translation>rechazado</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Debet</translation>
+        <translation>Débito</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Totaal debet</translation>
+        <translation>Débito total</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Totaal credit</translation>
+        <translation>Abonos totales</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transactiekosten</translation>
+        <translation>Comisión de transacción</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Netto bedrag</translation>
+        <translation>Cantidad neta</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>Mensaje</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Reactie</translation>
+        <translation>Comentario</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Transactie ID</translation>
+        <translation>ID de la transacción</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Output index</translation>
+        <translation>Índice de salida</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Winkelier</translation>
+        <translation>Comerciante</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden uitgegeven. Wanneer je dit blok hebt gegenereerd, wordt het naar het netwerk uitgezonden om aan de blockchain toegevoegd te worden. Als het niet in de keten komt, verandert de staat in "niet geaccepteerd" en zal het niet uitgeefbaar worden. Dit kan af en toe gebeuren als een andere node binnen een paar seconden van u een blok genereert.</translation>
+        <translation>Las monedas generadas deben madurarse %1 bloques hasta que puedan ser gastadas de nuevo. Cuando generaste este bloque, se retransmitió a la red para añadirse a la cadena de bloques. Si falla en unirse a la cadena, su estado cambiará a "no aceptado" y no se podrá gastar de nuevo (bloque huérfano). Esto puede ocurrir ocasionalmente si otro nodo genera un bloque casi al mismo tiempo que el tuyo.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug informatie</translation>
+        <translation>Información de depuración</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transactie</translation>
+        <translation>Transacción</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Inputs</translation>
+        <translation>Entradas</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>waar</translation>
+        <translation>verdad</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>onwaar</translation>
+        <translation>falso</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Transactiedetails</translation>
+        <translation>Detalles de transacción</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dit venster laat een gedetailleerde beschrijving van de transactie zien</translation>
+        <translation>Este panel muestra una descripción detallada de la transacción</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Klaar voor %n meer blokken</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
+        <translation><numerusform>Abierto para %n bloques más</numerusform><numerusform>Abierto para %n bloques más</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>Abierto hasta %1</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>Desconectado</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Onbevestigd</translation>
+        <translation>Sin confirmar</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Bevestigen (%1 van %2 aanbevolen bevestigingen)</translation>
+        <translation>Confirmando (%1 de %2 confirmaciones recomendadas)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bevestigd (%1 bevestigingen)</translation>
+        <translation>Confirmado (%1 confirmaciones)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Geconflicteerd</translation>
+        <translation>Huérfano</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Onvolwassen (%1 bevestigingen, zullen beschikbaar zijn na %2)</translation>
+        <translation>Prematuro (%1 confirmaciones, estará disponible después de %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Dit blok is niet ontvangen door andere noden en wordt waarschijnlijk niet geaccepteerd!</translation>
+        <translation>¡Este bloque no fue recibido por los otros nodos y probablemente no será aceptado!</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Ontvangen met</translation>
+        <translation>Recibido con</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode beloning</translation>
+        <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Ontvangen van</translation>
+        <translation>Recibido desde</translation>
     </message>
     <message>
         <source>Received via Obfuscation</source>
-        <translation>Verkregen via verduistering</translation>
+        <translation>Recibido por medio de Ofuscación</translation>
     </message>
     <message>
         <source>STATERA Stake</source>
-        <translation>STATERA Stake</translation>
+        <translation>Stake STATERA</translation>
     </message>
     <message>
         <source>zSTATERA Stake</source>
-        <translation>zSTATERA Stake</translation>
+        <translation>Stake zSTATERA</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
-        <translation>Verduistering denominatie</translation>
+        <translation>Ofuscación Denominada</translation>
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
-        <translation>Verduistering zijdelingse betaling</translation>
+        <translation>Pago Colateral de Ofuscación</translation>
     </message>
     <message>
         <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Verduistering maakt zijdelingse inputs</translation>
+        <translation>La Ofuscación Crea Entradas Colaterales</translation>
     </message>
     <message>
         <source>Obfuscation Create Denominations</source>
-        <translation>Verduistering creëert denominaties</translation>
+        <translation>Ofuscación Crea Billetes</translation>
     </message>
     <message>
         <source>Converted STATERA to zSTATERA</source>
-        <translation>Geconverteerde STATERA naar zSTATERA</translation>
+        <translation>STATERA convertidos a zSTATERA</translation>
     </message>
     <message>
         <source>Spent zSTATERA</source>
-        <translation>Bestede zSTATERA</translation>
+        <translation>Gastar zSTATERA</translation>
     </message>
     <message>
         <source>Received STATERA from zSTATERA</source>
-        <translation>Ontvangen STATERA van zSTATERA</translation>
+        <translation>STATERA recibidos desde zSTATERA </translation>
     </message>
     <message>
         <source>Minted Change as zSTATERA from zSTATERA Spend</source>
-        <translation>Gemint wisselgeld als zSTATERA van bestede zSTATERA</translation>
+        <translation>Cambio de acuñación en zSTATERA al Gastar zSTATERA</translation>
     </message>
     <message>
         <source>Converted zSTATERA to STATERA</source>
-        <translation>Geconverteerde zSTATERA naar STATERA</translation>
+        <translation>zSTATERA convertidos a STATERA</translation>
     </message>
     <message>
         <source>Anonymous (zSTATERA Transaction)</source>
-        <translation>Anonieme (zSTATERA transactie)</translation>
+        <translation>Anónimo (Transacción zSTATERA)</translation>
     </message>
     <message>
         <source>Anonymous (zSTATERA Stake)</source>
-        <translation>Anonieme (zSTATERA stake)</translation>
+        <translation>Anónimo (Stake zSTATERA)</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Verzenden naar</translation>
+        <translation>Enviado a</translation>
     </message>
     <message>
         <source>Orphan Block - Generated but not accepted. This does not impact your holdings.</source>
-        <translation>Orphan Block - Gegenereerd maar niet geaccepteerd. Dit heeft geen invloed op uw bezit.</translation>
+        <translation>Bloque Huérfano - Generado pero no aceptado. Esto no afecta a su saldo.</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Betaling naar jezelf</translation>
+        <translation>Pago a usted mismo</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>Minado</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Verduisterd</translation>
+        <translation>Ofuscado</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>watch-only</translation>
+        <translation>sólo-lectura</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(n/b)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transactie status. Beweeg over dit veld om het aantal bevestigingen te tonen.</translation>
+        <translation>Estado de la transacción. Pase el ratón sobre este campo para mostrar el número de confirmaciones.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum en tijd waarop de transactie is ontvangen.</translation>
+        <translation>Fecha y hora a la que se recibió la transacción.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Type transactie.</translation>
+        <translation>Tipo de transacción.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Of een watch-only adres wel of niet betrokken is bij deze transactie.</translation>
+        <translation>Indica si hay o no una dirección de sólo lectura relacionada en esta transacción</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Bestemming adres van de transactie.</translation>
+        <translation>Dirección de destino de la transacción.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Bedrag verwijderd uit of toegevoegd aan saldo.</translation>
+        <translation>Cantidad quitada o añadida al balance.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Alle</translation>
+        <translation>Todos</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Vandaag</translation>
+        <translation>Hoy</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Deze week</translation>
+        <translation>Esta semana</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Deze maand</translation>
+        <translation>Este mes</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Afgelopen maand</translation>
+        <translation>Último mes</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Dit jaar</translation>
+        <translation>Este año</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Omvang...</translation>
+        <translation>Intervalo...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Meest voorkomend</translation>
+        <translation>Más Común</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Ontvangen met</translation>
+        <translation>Recibido con</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Verzenden naar</translation>
+        <translation>Enviado a</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Naar jezelf</translation>
+        <translation>A usted mismo</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>Minado</translation>
     </message>
     <message>
         <source>Minted</source>
-        <translation>Minted</translation>
+        <translation>Creación de moneda</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode beloning</translation>
+        <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
-        <translation>Zerocoin Mint</translation>
+        <translation>Creación de moneda Zerocoin</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
-        <translation>Zerocoin uitgegeven</translation>
+        <translation>Gasto de Zerocoin</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
-        <translation>Zerocoin uitgegeven aan jezelf</translation>
+        <translation>Pago Zerocoin a tí mismo</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Andere</translation>
+        <translation>Otro</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Adres of label invullen om te zoeken</translation>
+        <translation>Introduzca dirección o etiqueta para buscar</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Minimale hoeveelheid</translation>
+        <translation>Cantidad mínima</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <translation>Copiar dirección</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiëer label</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>Copiar cantidad</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopier transactie ID</translation>
+        <translation>Copiar código de transacción</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Label wijzigen</translation>
+        <translation>Editar etiqueta</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Bekijk transactiedetails</translation>
+        <translation>Mostrar detalles de transacción</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Exporteer Transactiegeschiedenis</translation>
+        <translation>Exportar Histórico de Transacciones</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
+        <translation>Archivo separado por comas (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bevestigd</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Watch-only</translation>
+        <translation>Sólo-lectura</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <source>ID</source>
@@ -4773,98 +4773,98 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Export Mislukt</translation>
+        <translation>Exportación fallida</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Er is een fout opgetreden om de transactiegeschiedenis te bewaren naar %1.</translation>
+        <translation>Hubo un error intentando guardar el historial de transacciones a %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Exporteren succesvol</translation>
+        <translation>Exportación Correcta</translation>
     </message>
     <message>
         <source>Received STATERA from zSTATERA</source>
-        <translation>Ontvangen STATERA van zSTATERA</translation>
+        <translation>STATERA recibidos desde zSTATERA</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zSTATERA</source>
-        <translation>Zerocoin besteed, wisselgeld in zSTATERA</translation>
+        <translation>Gastar Zerocoin, Cambio en zSTATERA</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>De transactiegeschiedenis is succesvol bewaard in %1.</translation>
+        <translation>El historial de transacción fue guardado satisfactoriamente a %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Bereik:</translation>
+        <translation>Rango:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>naar</translation>
+        <translation>a</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Eenheid om bedragen te laten zien. Klik om een andere eenheid te selecteren.</translation>
+        <translation>Unidad en la que mostrar cantidades. Click para seleccionar otra unidad.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Er is geen portemonnee ingeladen.</translation>
+        <translation>No se ha cargado ningún monedero.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Verzend Munten</translation>
+        <translation>Enviar Monedas</translation>
     </message>
     <message>
         <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 STATERA.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 STATERA.</translation>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 STATERA.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>HISTORY</source>
-        <translation>GESCHIEDENIS</translation>
+        <translation>HISTÓRIA</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exporteren</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Geselecteerde hoeveelheid:</translation>
+        <translation>Cantidad seleccionada:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Backup portemonnee</translation>
+        <translation>Copia del Monedero</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Portemonneegegevens (*.dat)</translation>
+        <translation>Datos del Monedero (*.dat)</translation>
     </message>
 </context>
 <context>
     <name>ZStateraControlDialog</name>
     <message>
         <source>Select zSTATERA to Spend</source>
-        <translation>Selecteer zSTATERA om te besteden</translation>
+        <translation>Selecciona zSTATERA para Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
-        <translation>Hoeveelheid</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <source>0</source>
@@ -4876,494 +4876,494 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Select/Deselect All</source>
-        <translation>Selecteer/Deselecteer Alles</translation>
+        <translation>Seleccionar/Deseleccionar Todos</translation>
     </message>
     <message>
         <source>Is Spendable</source>
-        <translation>Is Uitgeefbaar</translation>
+        <translation>Es Gastable</translation>
     </message>
 </context>
 <context>
     <name>statera-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = houd tx meta data, bijvoorbeeld account eigenaar en betalingsverzoek informatie, 2 = drop tx meta data)</translation>
+        <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Sta JSON-RPC connecties toe van de opgegeven bron. Geldig voor&lt;ip&gt;zijn een enkel IP (bijvoorbeeld 1.2.3.4), een netwerk/netmask (bijvoorbeeld 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijvoorbeeld 1.2.3.4/24). Deze optie kan meerdere keren worden opgegeven</translation>
+        <translation>Permitir conexiones JSON-RPC  desde la fuente especificada. Valido para &lt;ip&gt; sea una única IP (ej: 1.2.3.4), una red/mascara de red (ej: 1.2.3.4/255.255.255.0) o una red/CIDR (ej: 1.2.3.4/24). Esta opción puede ser especificada múltiples veces.</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind naar het gegeven adres en luister er altijd naar. Gebruik [host]:poort notatie voor IPv6</translation>
+        <translation>Conectarse a la IP seleccionada y siempre escuchar de ella. Usar la forma [host]:puerto para IPv6</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Bind naar bepaald adres en whitelist peers die er verbinding mee maken. Gebruik [host]:poort notatie voor IPv6</translation>
+        <translation>Escuchar únicamente a la dirección IP indicada y a nodos de la lista blanca. Use la notación [host]:puerto para IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
+        <translation>Escuchar únicamente a la tarjeta de red indicada para conexiones JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
     </message>
     <message>
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
+        <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. STATERA Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. STATERA Core loopt waarschijnlijk al.</translation>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. STATERA Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Doorlopend rate-limit gratis transacties naar&lt;n&gt;*1000 bytes per minuut (default:%u)</translation>
+        <translation>Limite continuo de transacciones gratuitas &lt;n&gt;*1000 bytes por minuto (default:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Maak nieuwe bestanden met systeem standaard permissies, in plaats van umask 077 (alleen effectief met gedeactiveerde wallet functionaliteit)</translation>
+        <translation>Crear nuevos archivos con el permiso predeterminado del sistema, en vez de umask 077 (solamente efectivo con la funcionalidad del monedero desabilitada)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Verwijder alle portemonnee transacties en herstel alleen die delen van de blockchain via -rescan bij opstarten</translation>
+        <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
         <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Verwijder alle bestede Zerocoin en mints die zijn geregistreerd in de blockchain database en her-indexeer ze (0-1, standaard: %u)</translation>
+        <translation>Elimina todos registros de las transferencias y el acuñado de Zerocoin que se hayan registrado en la base de datos de Blockchain y vuelva a indexarlos (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+        <translation>Distribuido bajo licencia MIT software license, ver el archivo adjunto COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;</translation>
     </message>
     <message>
         <source>Enable automatic wallet backups triggered after each zSTATERA minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zSTATERA (0-1, standaard: %u)</translation>
+        <translation>Habilite copias de seguridad automáticas del monedero que se activan después de cada acuñación zSTATERA (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for STATERA inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor STATERA inputs (0-1, standaard: %u)</translation>
+        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas STATERA (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zSTATERA inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zSTATERA inputs (0-1, standaard: %u)</translation>
+        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas zSTATERA (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
-        <translation>Activeer de spork administratie functionaliteit met de juiste private sleutel.</translation>
+        <translation>Activar la función de administración de sporks con la llave privada apropiada.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Voer de regressietest modus uit, die een speciale chain gebruikt waarin blokken direct kunnen worden opgelost.</translation>
+        <translation>Entrar en el modo prueba de regresión, el cual usa una cadena especial en el cual los bloques pueden ser resueltos instantaneamente.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Fout: het luisteren naar inkomende verbindingen is mislukt (luister terug fout %s)</translation>
+        <translation>Error: La escucha para conexiones entrantes falló (la escucha retorno error %s)</translation>
     </message>
     <message>
-        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
-        <translation>Fout: de transactie is groter dan de mstateraaal toegestane transactiegrootte!</translation>
+        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
+        <translation>Error: ¡La transacción es más grande que el tamaño máximo de transacción permitido!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Fout: Niet ondersteund argument -socks gevonden. Het instellen van SOCKS versie is niet meer mogelijk, alleen SOCKS5 proxy's worden ondersteund.</translation>
+        <translation>Error: Argumento -socks no soportado. No se permite utilizar la versión SOCKS, solo proxies de SOCKS5 están soportados.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Uitvoeren commando wanneer een relevante waarschuwing is ontvangen of we zien een echt lange fork (%s in cmd wordt vervangen door bericht)</translation>
+        <translation>Ejecutar un comando cuando una alerta relevante es recibida o estamos teniendo una realmente larga bifurcación (%s en cmd is reemplazado por el mensaje)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Uitvoeren commando wanneer een portemonnee transactie verandert (%s in cmd wordt vervangen door TxID)</translation>
+        <translation>Ejecutar un comando cuando una transacción del monedero cambie (%s en cmd is reemplazado por TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
+        <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
         <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in STATERA/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <translation>Comisiones (en STATERA/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in STATERA/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <translation>Comisiones (en STATERA/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Leeg database activiteit uit geheugen pool naar schijf log elke keer&lt;n&gt;megabytes (default: %u)</translation>
+        <translation>Trasladar la actividad de la base de datos en el pool de memoria al log de disco cada &lt;n&gt; megabytes (default: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Gevonden onbevestigde gedenomineerde outputs, wachten tot ze bevestigd zijn om verder te gaan.</translation>
+        <translation>Se encontró salidas denominadas sin confirmar, se esperará hasta que se confirmen para continuar.</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Als paytxfee niet is ingesteld, sluit voldoende kosten in, zodat transacties beginnen te confirmeren binnen gemiddeld n blokken (standaard: %u)</translation>
+        <translation>Si paytxfee no esta definido, incluir suficiente comisión de manera que la transacción se vuelva confirmada en promedio dentro de n bloques (predeterminado: %u)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>In deze modus controleert -genproclimit hoeveel blokken er onmiddellijk worden gegenereerd.</translation>
+        <translation>En este modo -genproclimit controla cuantos bloques son generados inmediatamente.</translation>
     </message>
     <message>
         <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
-        <translation>Onvoldoende of onvoldoende bevestigd geld, u moet mogelijk een paar minuten wachten en het opnieuw proberen.</translation>
+        <translation>Fondos insuficientes o fondos confirmados insuficientes, es posible que tenga que esperar unos minutos y volver a intentarlo.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Ongeldige hoeveelheid voor -maxtxfee=&lt;amount&gt;: '%s' (moet ten minste de minimale vergoeding van %s zijn om hangende transacties te voorkomen)</translation>
+        <translation>Importe inválido para -maxtxfee=&lt;amount&gt;:'%s' (debe ser al menos la comisión minrelay de %s para prevenir transacciones atascadas)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
-        <translation>Houd het gespecificeerde bedrag altijd beschikbaar voor uitgaven te allen tijde (standaard: 0)</translation>
+        <translation>Mantener la cantidad especificada disponible para gastar en todo momento (por defecto: 0)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Log transactie prioriteit en vergoeding per kB wanneer blokken worden gemined (standaard: %u)</translation>
+        <translation>Prioridad y comisión del registro de transacciones por kB cuando se esta minando bloques (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Onderhoud een volledige transactie index, gebruikt door de getrawtransaction rpc call (standaard: %u)</translation>
+        <translation>Mantener un indice de transacción completo, utilizado por la llamada rpc getrawtransaction (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Mstateraale gegevensgrootte in data carrier transacties die we relayen en minen (standaard: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Tamaño máximo de datos en transacciones de transmisiones de datos que pasamos y minamos (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Mstateraale totale kosten die in een enkele portefeuille kunnen worden gebruikt, een te lage instelling kan grote transacties afbreken (standaard: %s)</translation>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Comisión máxima total para usar en una única transacción de monedero, definirlo muy bajo puede abortar transacciones largas (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Aantal seconden om te voorkomen dat misdragende peers opnieuw connectoren (standaard: %u)</translation>
+        <translation>Número de segundos a mantener pares con mal comportamiento de reconectarse (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Verduistering maakt gebruik van exacte gedenomineerde bedragen om fondsen te verzenden, je zou misschien nog wat munten moeten anonimiseren.</translation>
+        <translation>La ofuscación utiliza importes en denominaciones exactas para enviar fondos, puedes simplemente necesitar anonimizar algunas monedas mas. </translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Output debugging informatie (default: %u, verschaffen &lt;category&gt; is optioneel)</translation>
+        <translation>Saluda de información de depuración (predeterminado: %u, proveyendo &lt;category&gt; es opcional)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Query voor peer adressen via DNS lookup, als er weinig adressen zijn (standaard: 1 tenzij -connect)</translation>
+        <translation>Consultar por direcciones de pares vía búsqueda en DNS, si cantidad de direcciones esta bajo (predeterminado: 1 a menos que se utilice -connect)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Willekeurige credentials voor elke proxy verbinding. Dit stelt Tor stream isolatie in staat (standaard: %u)</translation>
+        <translation>Credenciales aleatorias para cada conexión proxy. Esto habilita el aislamiento del flujos de datos Tor (por defecto: %u)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Vereist hoge prioriteit voor het relayen van gratis of low-fee transacties (standaard: %u)</translation>
+        <translation>Requerir alta prioridad para transmitir transacción de libre o baja comisión (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Stuur trace/debug info naar console in plaats van debug.log bestand (standaard: %u)</translation>
+        <translation>Enviar info de traza/debug a la consola en lugar del archivo debug.log (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Stel mstateraale grootte van transacties met hoge prioriteit/low-fee in bytes in (standaard: %d)</translation>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Define tamaño máximo de transacción alta prioridad/baja comisión en bytes (predeterminado: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Stel het aantal script verificatie threads (%u tot %d, 0 = auto, &lt;0 = laat dat aantal kernen vrij, standaard: %d)</translation>
+        <translation>Define el número de hilos para el script de verificación (%u a %d, 0 = auto, &lt;0 = dejar esa cantidad de núcleos libres, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Stel het aantal threads voor munt generatie in indien geactiveerd (-1 = alle kernen, standaard: %d)</translation>
+        <translation>Define el número de hilos para generación de moneda si esta habilitado (-1 = todos los núcleos, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Toon N bevestigingen voor een succesvol opgesloten transactie (0-9999, standaard: %u)</translation>
+        <translation>Mostrar N confirmaciones para una transacción cerrada exitosamente (0-9999, predefinido: %u)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Ondersteun filteren van blokken en transactie met bloom filters (standaard: %u)</translation>
+        <translation>Soportar filtrado de bloques y transacciones con filtros bloom (por defecto: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
+        <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. STATERA Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. STATERA Core loopt waarschijnlijk al.</translation>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que STATERA Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-        <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
+        <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 STATERA.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 STATERA.</translation>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 STATERA.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 STATERA.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 STATERA.</translation>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 STATERA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Gebruik aparte SOCKS5 proxy om peers via Tor verborgen services te bereiken (standaard: %s)</translation>
+        <translation>Utilizar un proxy SOCKS5 diferente para alcanzar pares vía el servicio oculto Tor (predefinido: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Waarschuwing: -maxtxfee is zeer hoog ingesteld! Deze hoge kosten kunnen worden betaald op een enkele transactie.</translation>
+        <translation>Advertencia: -maxtxfee esta muy alto! Comisiones así de altas pueden ser pagadas en una única transacción.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
+        <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong STATERA Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt STATERA Core niet goed.</translation>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora STATERA Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Waarschuwing: het netwerk lijkt er niet helemaal mee eens te zijn! Sommige miners lijken problemen te ondervinden.</translation>
+        <translation>Advertencia: La red parece no estar concordando totalmente! Algunos mineros parecen estar experimentando problemas.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Waarschuwing: Wij lijken het er niet helemaal eens te zijn met onze peers! Mogelijk moet je upgraden, of andere nodes moeten mogelijk upgraden.</translation>
+        <translation>Advertencia: No estamos apareciendo totalmente en concordancia con nuestros pares! Podrías necesitar una actualización, o otros nodos pueden necesitar una actualización.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Waarschuwing: fout lezen wallet.dat! Alle sleutels lezen correct, maar transactie gegevens of adresboek invoeringen kunnen missen of niet correct zijn.</translation>
+        <translation>Advertencia: error leyendo wallet.dat! Todas las claves leídas correctamente, pero datos de transacción or entradas en el libro de direcciones podrían estar faltando o ser incorrectas.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Waarschuwing: wallet.dat corrupt, data gered! Originele wallet.dat opgeslagen als wallet.{timestamp}.bak in %s; als je saldo of transacties onjuist zijn, moet je een back-up herstellen.</translation>
+        <translation>Advertencia: wallet.dat esta dañado, datos salvados! El wallet.dat original esta grabado como wallet.{timestamp}.bak en %s; si tu saldo o transacciones son incorrectas deberías restaurar de un backup.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Whitelist peers verbinden van het opgegeven netmask of IP adres. Kan meerdere keren worden opgegeven.</translation>
+        <translation>Pares de la whitelist conectados desde la mascara de red o direcciones IP dada. Puede ser especificado múltiples veces.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Whitelisted peers kunnen niet DoS banned worden en hun transacties worden altijd doorgestuurd, zelfs als ze al in de mempool zijn, nuttig bijv. voor een gateway</translation>
+        <translation>Pares de la Whitelist no pueden ser banneados por DoS y sus transacciones son siempre transmitidas, aún si ellas están ya en la mempool, util por ejemplo para un gateway.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
+        <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
         <source>(61472 could be used only on mainnet)</source>
-        <translation>(61472 kan alleen op mainnet worden gebruikt)</translation>
+        <translation>(61472 puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(standaard: %s)</translation>
+        <translation>(predeterminado: %s)</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(standaard: 1)</translation>
+        <translation>(predeterminado: 1)</translation>
     </message>
     <message>
         <source>(must be 61472 for mainnet)</source>
-        <translation>(moet 61472 voor mainnet zijn)</translation>
+        <translation>(debe ser 61472 para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accepteer command line en JSON-RPC commando's</translation>
+        <translation>Aceptar linea de mandato y mandatos JSON-RPC</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepteer verbindingen van buitenaf (standaard: 1 als geen -proxy of -connect)</translation>
+        <translation>Aceptar conexiones desde afuera (predeterminado: 1 sin opción -proxy o -connect)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Accepteer publieke REST verzoeken (standaard: %u)</translation>
+        <translation>Aceptar peticiones públicas REST (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Voeg een node toe om verbinding mee te maken en probeer de verbinding open te houden</translation>
+        <translation>Agregar un nodo a conectarse y intentar mantener abierta la conexión</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>DNS lookups toestaan voor -addnode, -seednode en -connect</translation>
+        <translation>Permitir búsquedas DNS para -addnode, -seednode y -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Heeft die input al.</translation>
+        <translation>Ya tiene esa entrada.</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Vraag altijd naar peer adressen via DNS lookup (standaard: %u)</translation>
+        <translation>Siempre consultar por direcciones de pares vía búsqueda DNS (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Poog om privé sleutels te herstellen van een corrupte wallet.dat</translation>
+        <translation>Intentar recuperar claves privadas desde un wallet.dat dañado</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Creëer automatisch de Tor verborgen service (standaard: %d)</translation>
+        <translation>Crear automáticamente servicio Tor oculto (por defecto: %d)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Block creatie opties:</translation>
+        <translation>Opciones de creación de bloque:</translation>
     </message>
     <message>
         <source>Calculating missing accumulators...</source>
-        <translation>Calculeren van ontbrekende accumulators...</translation>
+        <translation>Calculando acumuladores pendientes...</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Kan niet denomineren: er zijn geen compatibele inputs over.</translation>
+        <translation>No se puede denominar: quedaron entradas no compatibles.</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Kan geen willekeurige Masternode vinden.</translation>
+        <translation>No se puede encontrar un Masternode al azar.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Kan niet mixen terwijl synchronisatie wordt uitgevoerd.</translation>
+        <translation>No se puede mezclar mientras la sincronización esta en progreso.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan de portemonnee niet downgraden</translation>
+        <translation>No se puede volver a una versión anterior del monedero</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Kan -bind adres niet oplossen: '%s'</translation>
+        <translation>No se puede resolver la dirección -bind: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Kan -externalip adres niet oplossen: '%s'</translation>
+        <translation>No se puede resolver la dirección -externalip: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Kan -whitebind adres niet oplossen: '%s'</translation>
+        <translation>No se puede resolver la dirección -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Kan standaard adres niet schrijven</translation>
+        <translation>No se puede escribir la dirección predeterminada</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Terugbetaling niet geldig.</translation>
+        <translation>Colateral no válido.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Verbind alleen met de opgegeven node(s)</translation>
+        <translation>Conectar solo a el/los nodo(s) especificados</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Verbind via SOCKS5 proxy</translation>
+        <translation>Conectar a través de proxy SOCKS5</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Verbind met een node om peer adressen te verkrijgen en verbreek verbinding</translation>
+        <translation>Conectar a un nodo para obtener direcciones de pares, y desconectar</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Connectie opties:</translation>
+        <translation>Opciones de conexión:</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Kernontwikkelaars</translation>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
+        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The STATERA Core Developers</source>
-        <translation>Copyright (C) 2015-%i The STATERA Kernontwikkelaars</translation>
+        <translation>Copyright (C) 2015-%i The STATERA Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Corrupte block database gedetecteerd</translation>
+        <translation>Se detectó base de datos de bloques dañado</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Kan masternode.conf niet parsen</translation>
+        <translation>No se pudo analizar el contenido de masternode.conf </translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debugging/Test opties:</translation>
+        <translation>Opciones de Depuración/Pruebas:</translation>
     </message>
     <message>
         <source>Delete blockchain folders and resync from scratch</source>
-        <translation>Verwijder blockchain mappen en hersynchroniseer alles opnieuw</translation>
+        <translation>Eliminar directorios de Blockchain y resincronizar desde el principio</translation>
     </message>
     <message>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
-        <translation>Schakel OS notificaties uit voor inkomende transacties (standaard: %u)</translation>
+        <translation>Desactivar notificaciones del sistema para transacciones extrantes (por defecto: %u)</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Schakel safe mode uit, override een echte safe mode gebeurtenis (standaard: %u)</translation>
+        <translation>Desactiva modo seguro, invalida un evento modo seguro real (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Ontdek eigen IP adres (standaard: 1 bij luisteren en niet -externalip)</translation>
+        <translation>Descubrir direcciones IP propia (predeterminado: 1 cuando se esta a la escucha y sin opción -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Laad de portemonnee niet in en schakel portemonnee RPC oproepen uit</translation>
+        <translation>No cargar la monedero y desactivar las llamadas RPC del monedero</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Wil je de blok database nu herbouwen?</translation>
+        <translation>¿Quieres reconstruir la base de datos de bloques ahora?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Klaar met laden</translation>
+        <translation>Realizando carga</translation>
     </message>
     <message>
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
-        <translation>Zet automatische Zerocoin minting aan (0-1, standaard: %u)</translation>
+        <translation>Habilitar creación automática de Zerocoin (0-1, por defecto: %u)</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activeer publicatie hash transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
+        <translation>Activar inclusión del hash de la transacción (fijada mediante SwiftTX) en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
+        <translation>Activar inclusión de la transacción en bruto (fijada mediante SwiftTX) en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Schakel de client in als masternode (0-1, standaard: %u)</translation>
+        <translation>Habilitar al cliente para actuar como un nodo maestro (0-1. predeterminado: %u)</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>De entries zijn vol.</translation>
+        <translation>Las entradas están llenas.</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Fout bij verbinden met Masternode.</translation>
+        <translation>Error al conectar al Nodo Maestro</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Fout bij het initialiseren van blok database</translation>
+        <translation>Error al inicializar base de datos de bloques</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fout bij het initialiseren van de wallet database omgeving %s!</translation>
+        <translation>Error al inicializar ambiente %s de base de datos del monedero!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Error tijdens het laden van de block database</translation>
+        <translation>Error al cargar base de datos de bloques</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Error tijdens het laden van wallet.dat</translation>
+        <translation>Error al cargar wallet.dat</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
+        <translation>Error al cargar wallet.dat: Monedero dañado</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of STATERA Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van STATERA Core</translation>
+        <translation>Error al cargar wallet.dat: El monedero requiere una nueva versión del STATERA Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Error tijdens het openen van de block database</translation>
+        <translation>Error al abrir la base de datos de bloques</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Error tijdens het lezen van de database, aan het afsluiten.</translation>
+        <translation>Error al leer desde la base de datos, apagando.</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Fout bij het herstellen van de publieke sleutel.</translation>
+        <translation>Error al recuperar clave pública.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -5371,979 +5371,979 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Fout: Er is een fatale interne fout opgetreden, zie debug.log voor details</translation>
+        <translation>Error: Un error interno fatal a ocurrido, ver debug.log para mas detalles</translation>
     </message>
     <message>
         <source>Error: Can't select current denominated inputs</source>
-        <translation>Fout: Kan de huidige gedenomineerde inputs niet selecteren</translation>
+        <translation>Error: No se pudo seleccionar las entradas denominadas actuales</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Error: Schijfruimte is laag!</translation>
+        <translation>Error: El espacio en disco esta bajo!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Fout: Niet ondersteunde argument -tor gevonden, gebruik -onion.</translation>
+        <translation>Error: Se encontró argumento no soportado -tor, utilizar -onion.</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fout: Portemonnee vergrendeld, niet in staat om transactie te creëren!</translation>
+        <translation>Error: ¡Monedero bloqueado, imposible crear transacción!</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscation pool</source>
-        <translation>Fout: U heeft al entries in afwachting in de verduistering pool</translation>
+        <translation>Error: Ya tienes entradas pendientes en el pool de Ofuscación</translation>
     </message>
     <message>
         <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Kon het controlepunt van de accumulator niet berekenen</translation>
+        <translation>Error al calcular el punto de control del acumulador</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Niet gelukt om te luisteren op een poort. Gebruik -listen=0 als je dit wilt.</translation>
+        <translation>Falló la escucha en cualquiera de los puertos. Usar -listen=0 si quieres esto.</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Mislukt om block te lezen</translation>
+        <translation>Falló al leer el bloque</translation>
     </message>
     <message>
         <source>Fee (in STATERA/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in STATERA/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <translation>Comisión (en STATERA/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Transactie aan het voltooien.</translation>
+        <translation>Finalizando transacción.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Forceer safe mode (standaard: %u)</translation>
+        <translation>Forzar modo seguro (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Genoeg gebruikers gevonden, aan het ondertekenen (%s aan het wachten)</translation>
+        <translation>Se han encontrado suficientes usuarios, firmando ( esperando %s )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Genoeg gebruikers gevonden, aan het ondertekenen ...</translation>
+        <translation>Se han encontrado suficientes usuarios, firmando ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Genereer munten (standaard: %u)</translation>
+        <translation>Generando monedas: (predeterminado: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Hoeveel blokken bij het opstarten controleren (standaard: %u, 0 = alles)</translation>
+        <translation>Cuantos bloques a probar al iniciar (predeterminado: %u, 0 = todos)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Als &lt;category&gt; niet is opgegeven, output alle debugging informatie.</translation>
+        <translation>Si &lt;category&gt; no es proveído, dar salida a toda la información de depuración.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importeren...</translation>
+        <translation>Importando...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importeert blokken uit extern blk000??.dat bestand</translation>
+        <translation>Importar bloques desde archivo externo blk000??.dat</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Inclusief IP adressen in debug output (standaard: %u)</translation>
+        <translation>Incluir direcciones IP en salida de depuración (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Modus is niet compatibel.</translation>
+        <translation>Modo incompatible.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Versie is niet compatibel.</translation>
+        <translation>Versión imcompatible.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Het genesis block kan niet worden gevonden of is incorrect. Klopt datadir voor het netwerk?</translation>
+        <translation>Bloque de génesis incorrecto o no encontrado. datadir equivocado para red?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informatie</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. STATERA Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. STATERA Core wordt afgesloten.</translation>
+        <translation>La prueba de salud de inicialización ha fallado. STATERA Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Ongeldige invoer.</translation>
+        <translation>La entrada no es válida.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Onvoldoende saldo.</translation>
+        <translation>Fondos insuficientes</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Onvoldoende saldo.</translation>
+        <translation>Fondos insuficientes.</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Ongeldig -onion adres of hostnaam: '%s'</translation>
+        <translation>Dirección o nombre de equipo -onion inválido: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Importe inválido para -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Importe inválido para -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -mintxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Importe inválido para -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ongeldige hoeveelheid voor -paytxfee=&lt;amount&gt;: '%s' (moet tenminste %s zijn)</translation>
+        <translation>Importe inválido para -paytxfee=&lt;amount&gt;: '%s' (debe ser al menos %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -paytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Importe inválido para -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Ongeldige hoeveelheid voor -reservebalance=&lt;amount&gt;</translation>
+        <translation>Importe inválido para -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation>Ongeldige hoeveelheid</translation>
+        <translation>Cantidad incorrecta</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Ongeldige masternodeprivkey. Zie documentatie.</translation>
+        <translation>Valor de masternodeprivkey es inválido. Por favor ver la documentación.</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ongeldige netmask opgegeven in -whitelist: '%s'</translation>
+        <translation>Máscara de red inválida especificada en -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Ongeldige poort gedetecteerd in masternode.conf</translation>
+        <translation>Puerto inválido ha sido detectado en masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Ongeldige privésleutel.</translation>
+        <translation>Clave pública inválida.</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Ongeldige script gedetecteerd.</translation>
+        <translation>Script inválido detectado.</translation>
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
+        <translation>Porcentaje de Zerocoin creadas automáticamente (10-100, por defecto: %u)</translation>
     </message>
     <message>
         <source>Reindex the STATERA and zSTATERA money supply statistics</source>
-        <translation>Indexeer de STATERA- en zSTATERA-geldvoorraadstatistieken opnieuw</translation>
+        <translation>Reindexar as estatísticas de fornecimento de dinheiro STATERA e zSTATERA</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
-        <translation>Her-indexeren Zerocoin database...</translation>
+        <translation>Reindexando la base de datos zerocoin...</translation>
     </message>
     <message>
         <source>Reindexing zerocoin failed</source>
-        <translation>Her-indexeren Zerocoin database mislukt</translation>
+        <translation>La reindexación zerocoin ha fallado</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
-        <translation>Geselecteerde munt waarde is minder dan het betalingsdoel</translation>
+        <translation>El valor de las monedas seleccionadas es menor que el monto a pagar</translation>
     </message>
     <message>
         <source>SwiftX options:</source>
-        <translation>SwiftTX opties:</translation>
+        <translation>Opciones SwiftX:</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>Dit is een pre-release test build - gebruik op eigen risico - niet gebruiken voor staking of handel applicaties!</translation>
+        <translation>Esto es una versión pre-release de prueba - use bajo su propia responsabilidad - ¡No lo utilice para recompensa de participación ni aplicaciones de comercio!</translation>
     </message>
     <message>
         <source> mints deleted
 </source>
-        <translation>mints verwijderd
+        <translation>creaciones de moneda borradas
 </translation>
     </message>
     <message>
         <source> mints updated, </source>
-        <translation>mints bijgewerkt,</translation>
+        <translation>creaciones de moneda actualizadas,</translation>
     </message>
     <message>
         <source> unconfirmed transactions removed
 </source>
-        <translation>onbevestigde transacties verwijderd
+        <translation>transacciones sin confirmar eliminadas
 </translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Schakel SwiftX in, toon bevestigingen voor vergrendelde transacties (bool, standaard: %s)</translation>
+        <translation>Activar swifttx, mostrar confirmaciones para transacciones bloqueadas (bool, predeterminado: %s)</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fout: De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, bijvoorbeeld als je een kopie van wallet.dat gebruikt en munten in de kopie waren besteed maar hier niet als zodanig gemarkeerd.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede ocurrir si alguna de sus monedas ya se gastó con anterioridad, por ejemplo, si estuvo usted usando una copia de su monedero wallet.dat y gastó allí monedas pero no las marcó como gastadas aquí.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fout: Deze transactie vereist transactiekosten van ten minste %s vanwege de hoeveelheid, de complexiteit of het gebruik van recent ontvangen fondsen!</translation>
+        <translation>Error: ¡Esta transacción requiere una tasa de al menos %s debido a la cantidad enviada, su complejidad, o el uso de fondos recibidos recientemente!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
-        <translation>Fout: Niet ondersteund argument -checklevel gevonden. Checklevel moet niveau 4 zijn.</translation>
+        <translation>Error: Se ha especificado un argumento no soportado -checklevel. El Checklevel debe ser siempre 4. </translation>
     </message>
     <message>
         <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
-        <translation>Voer het commando uit als het beste blok verandert en de grootte ervan voorbij is (%s in cmd wordt vervangen door blokhash, %d met de blokgrootte)</translation>
+        <translation>Ejecute el comando cuando el mejor bloque cambie y su tamaño haya terminado (%s en cmd se reemplaza por el hash del bloque, %d con el tamaño de bloque)</translation>
     </message>
     <message>
         <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
-        <translation>Het is niet gelukt om muntstukken te vinden onder de aangehouden munten met minder dan max. Aantal uitgaven</translation>
+        <translation>No se puede encontrar el conjunto de monedas necesarias entre las monedas disponibles con menos de maxNumber para poder gastarlas</translation>
     </message>
     <message>
-        <source>In rare cases, a spend with 7 coins exceeds our mstateraum allowable transaction size, please retry spend using 6 or less coins</source>
-        <translation>In zeldzame gevallen overschrijdt een besteding met 7 munten uw mstateraaal toegestane transactiegrootte. Probeer het opnieuw met 6 of minder munten</translation>
+        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
+        <translation>En casos excepcionales, un envío con más de 7 monedas excede el tamaño máximo de transacción permitidas, intente gastar 6 monedas o menos.</translation>
     </message>
     <message>
         <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
+        <translation>Denominación preferida para acuñado automatico de Zerocoin (1/5/10/50/100/500/1000/5000), 0 para ninguna preferencia. predeterminado: %u)</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any automatic zSTATERA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zSTATERA back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
+        <translation>Especifique la ruta de copia de seguridad personalizada para agregar una copia de cualquier copia de seguridad zSTATERA automática. Si se establece como directorio, cada copia de seguridad genera un archivo con marcas de tiempo. Si se establece como archivo, se reescribirá en ese archivo cada copia de seguridad. Si también se establece backuppath, se realizarán 4 copias de seguridad</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke portemonnee back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand.</translation>
+        <translation>Especifique una ruta de copia de seguridad personalizada para agregar una copia de cualquier copia de seguridad de monedero. Si se establece como directorio, cada copia de seguridad genera un archivo con marcas de tiempo. Si se establece como archivo, se reescribirá en ese archivo cada copia de seguridad generada.</translation>
     </message>
     <message>
         <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX vereist invoer van tenminste 6 bevestigingen, je dient wellicht een paar minuten te wachten en het opnieuw proberen.</translation>
+        <translation>SwiftX requiere entradas con al menos 6 confirmaciones, es posible que deba esperar unos minutos e intente de nuevo.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt;kan zijn: </translation>
+        <translation>&lt;category&gt;puede ser: </translation>
     </message>
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
-        <translation>Poging om blockchain corruptie herstel te forceren</translation>
+        <translation>Intentar forzar la recuperación de la cadena de bloques corrupta</translation>
     </message>
     <message>
         <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: Accumulator witness controleert niet</translation>
+        <translation>CoinSpend: El testigo del acumulador no verifica</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
-        <translation>Toon de berekeningen van de stake modificator in het debug.log bestand.</translation>
+        <translation>Incluir los cálculos de recompensa por participación en el fichero debug.log.</translation>
     </message>
     <message>
         <source>Display verbose coin stake messages in the debug.log file.</source>
-        <translation>Toon verbose munt stake berichten in het debug.log bestand.</translation>
+        <translation>Incluir mensajes explícitos de recompensa por participación en el fichero debug.log.</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Activeer publicatie hash blok in &lt;address&gt;</translation>
+        <translation>Activar inclusión del hash del bloque en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Activeer publicatie has transactie in &lt;address&gt;</translation>
+        <translation>Activar inclusión del hash de la transacción en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw block in &lt;address&gt;</translation>
+        <translation>Activar inclusión del bloque en bruto en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw transactie in &lt;address&gt;</translation>
+        <translation>Activar inclusión de la transacción en bruto en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
-        <translation>Activeer staking functionaliteit (0-1, standaard: %u)</translation>
+        <translation>Activar funcionalidad de recompensa por participación (0-1, por defecto: %u)</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fout: Er is een fatale interne fout opgetreden, zie debug.log voor meer informatie</translation>
+        <translation>Error: Un error interno fatal a ocurrido, ver debug.log para mas detalles</translation>
     </message>
     <message>
         <source>Error: No valid utxo!</source>
-        <translation>Fout: geen geldige utxo!</translation>
+        <translation>Error: ¡utxo no válido!</translation>
     </message>
     <message>
         <source>Failed to create mint</source>
-        <translation>Het is niet gelukt om mint te maken</translation>
+        <translation>Error al acuñar</translation>
     </message>
     <message>
         <source>Failed to deserialize</source>
-        <translation>Kan deserialiseren niet</translation>
+        <translation>Error al deserializar</translation>
     </message>
     <message>
         <source>Failed to find Zerocoins in wallet.dat</source>
-        <translation>Niet gelukt om Zerocoins in wallet.dat te vinden.</translation>
+        <translation>Error al encontrar Zerocoins en wallet.dat</translation>
     </message>
     <message>
         <source>Failed to select a zerocoin</source>
-        <translation>Het is niet gelukt om een zerocoin te selecteren</translation>
+        <translation>Error al seleccionar una zerocoin</translation>
     </message>
     <message>
         <source>Failed to wipe zerocoinDB</source>
-        <translation>Mislukt om zerocoinDB te legen.</translation>
+        <translation>Error al borrar zerocoinDB</translation>
     </message>
     <message>
         <source>Failed to write coin serial number into wallet</source>
-        <translation>Het serienummer van het muntstuk kan niet in de portemonnee worden geschreven</translation>
+        <translation>Error al escribir el número de serie de la moneda en el monedero</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Houd mstateraaal &lt;n&gt;niet te verbinden transacties in het geheugen (standaard: %u)</translation>
+        <translation>Mantener como máximo &lt;n&gt; transacciones no conectables en memoria (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
-        <translation>Laatste verduistering was te recent.</translation>
+        <translation>La última Ofuscación fue demasiado reciente.</translation>
     </message>
     <message>
         <source>Last successful Obfuscation action was too recent.</source>
-        <translation>Laatste succesvolle verduistering actie was te recent.</translation>
+        <translation>La última acción de Ofuscación exitosa fue demasiado reciente.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Limiet grootte van signature cache naar &lt;n&gt; invoer (standaard: %u)</translation>
+        <translation>Tamaño límite del cache de firmas a &lt;n&gt; entradas (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Line: %d</translation>
+        <translation>Linea: %d</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister naar JSON-RPC verbindingen op &lt;port&gt; (standaard: %u of testnet: %u)</translation>
+        <translation>Escuchar por conexiones JSON-RPC en &lt;port&gt; (predeterminado: %u o testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister naar verbindingen op &lt;port&gt; (standaard: %u of testnet: %u)</translation>
+        <translation>Escuchar por conexiones en &lt;port&gt; (predeterminado: %u o testnet: %u)</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Adressen laden...</translation>
+        <translation>Cargando direcciones...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Blockindex laden...</translation>
+        <translation>Cargando índice de bloque...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Masternode cache laden...</translation>
+        <translation>Cargando cache de nodos maestros...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Masternode betalingscache laden...</translation>
+        <translation>Cargando cache de pagos de nodos maestros</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
-        <translation>Sporks laden...</translation>
+        <translation>Cargando sporks...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Portemonnee laden... (%3.2f %%)</translation>
+        <translation>Cargando monedero: (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Portemonnee aan het laden...</translation>
+        <translation>Cargando monedero...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Locatie van de auth cookie (standaard: data dir)</translation>
+        <translation>Ubicación de la cookie de autenticación (predeterminado: data dir)</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Vergrendeling is al uitgevoerd.</translation>
+        <translation>Bloqueo esta en su lugar.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Masternodes vergrendelen van masternode configuratiebestand (standaard: %u)</translation>
+        <translation>Bloquear nodos maestros desde el archivo de configuración de nodo maestro (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Lookup (): ongeldig -proxy-adres of hostnaam: '%s'</translation>
+        <translation>Lookup(): Inválido -dirección proxy o nombre de host '%s'</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Bijhouden mstateraaal &lt;n&gt; connecties naar peers (standaard: %u)</translation>
+        <translation>Mantener como máximo &lt;n&gt; conexiones a pares (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Masternode opties:</translation>
+        <translation>Opciones de Masternode:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Masternode wachtrij zit vol.</translation>
+        <translation>La cola del Masternode esta llena.</translation>
     </message>
     <message>
         <source>Masternode:</source>
         <translation>Masternode:</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Mstateraaal per connectie ontvangst buffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Buffer de recepción máximo por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Mstateraaal per connectie verstuur buffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Máximo buffer de envío por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Mint did not make it into blockchain</source>
-        <translation>Mint heeft de blockchain niet gehaald</translation>
+        <translation>El Acuñado no se realizó en blockchain</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Ontbrekende invoer transactie informatie ontbreekt.</translation>
+        <translation>Información de transacciones de entrada perdidas.</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Bezig met mixen...</translation>
+        <translation>Mezcla en progreso...</translation>
     </message>
     <message>
         <source>Need address because change is not exact</source>
-        <translation>Noodzaak van adres omdat wijziging niet exact is</translation>
+        <translation>Necesita dirección porque el cambio no es exacto</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Moet een poort opgeven met -whitebind: '%s'</translation>
+        <translation>Necesita especificar un puerto con -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Geen Masternodes gedetecteerd.</translation>
+        <translation>No se han detectado Masternodes.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Geen compatibele Masternode gevonden.</translation>
+        <translation>No hay un Masternode compatible encontrado.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Geen fondsen gedetecteerd die denominatie nodig hebben.</translation>
+        <translation>No hay fondos detectados necesarios de denominación.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Geen passende denominaties gevonden voor mixing.</translation>
+        <translation>No hemos encontrado billetes coincidentes para mezclado.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Node relay opties:</translation>
+        <translation>Opciones de transmisión del nodo:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Niet standaard publieke sleutel gedetecteerd.</translation>
+        <translation>Clave pública no-estandar ha sido detectada.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Niet compatibel met bestaande transacties.</translation>
+        <translation>No es compatible con las transacciones salientes.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Niet genoeg bestandsbeschrijvingen beschikbaar.</translation>
+        <translation>No hay suficientes descriptores de archivo disponibles.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Niet in de Masternode lijst.</translation>
+        <translation>No en la lista Masternode.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Aantal automatische portemonnee backups (standaard: 10)</translation>
+        <translation>Número de Copias de seguridad automáticas de monedero (predeterminado: 10)</translation>
     </message>
     <message>
         <source>Number of custom location backups to retain (default: %d)</source>
-        <translation>Aantal aangepaste locatie back-ups om te behouden (standaard: %d)</translation>
+        <translation>Número de copias de seguridad personalizadas que se deben retener (predeterminado: %d)</translation>
     </message>
     <message>
         <source>Obfuscation is idle.</source>
-        <translation>Verduistering is inactief.</translation>
+        <translation>La Ofuscación está sin uso.</translation>
     </message>
     <message>
         <source>Obfuscation request complete:</source>
-        <translation>Verduistering verzoek compleet:</translation>
+        <translation>Pedido de Ofuscacion completado:</translation>
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
-        <translation>Verduistering verzoek incompleet:</translation>
+        <translation>Pedido de Ofuscación incompleto:</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Accepteer alleen blockchain matching met ingebouwde controlepunten (standaard: %u)</translation>
+        <translation>Solo aceptar cadena de bloque emparejada con puntos de verificación construidos (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Verbind alleen met nodes in het netwerk &lt;net&gt; (ipv4, ipv6 of onion)</translation>
+        <translation>Solo conectar a nodos en la red &lt;net&gt; (ipv4, ipv6 o onion)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opties:</translation>
+        <translation>Opciones:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Wachtwoord voor JSON-RPC connecties</translation>
+        <translation>Contraseña para conexiones JSON-RPC</translation>
     </message>
     <message>
         <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid (): ongeldig -proxy-adres of hostnaam: '%s'</translation>
+        <translation>isValid(): Inválido -dirección proxy o nombre de host '%s'</translation>
     </message>
     <message>
         <source>Preparing for resync...</source>
-        <translation>Voorbereiden van hersynchronisatie...</translation>
+        <translation>Preparando para resincronizar...</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Voeg debug output met timestamp toe (standaard: %u)</translation>
+        <translation>Agregar timestamp a la salida de depuración (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Print versie en verlaat</translation>
+        <translation>Mostrar versión y salir</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC server opties:</translation>
+        <translation>Opciones del servidor RPC:</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Willekeurig laten vallen van 1 van elke &lt;n&gt;netwerk berichten</translation>
+        <translation>Aleatoriamente dejar caer 1 de cada &lt;n&gt; mensajes de red</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Willekeurig vervagen van 1 van elke &lt;n&gt; netwerk berichten</translation>
+        <translation>Aleatoriamente esfumar 1 de cada &lt;n&gt; mensajes de red</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Herstel blockchain index van huidige blk000??.dat bestanden</translation>
+        <translation>Reconstruir el indice de la cadena de bloque desde el corriente archivo blk000??.dat</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Ontvang en laat P2P netwerkmeldingen zien (standaard: %u)</translation>
+        <translation>Recibir y mostrar alertas de red P2P (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Reindex the accumulator database</source>
-        <translation>Herindexeer de verzameldatabase</translation>
+        <translation>Reindexar la base de datos del acumulador</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Relay en mine data carrier transacties (standaard: %u)</translation>
+        <translation>Transmitir y minar datos de transacciones enviadas (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Relay non P2SH multisig (default: %u)</translation>
+        <translation>Transmitir no-P2SH multisig (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescan de blockchain voor ontbrekende portemonnee transacties</translation>
+        <translation>Reescanear la cadena de bloques en busca de transacciones perdidas del monedero</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Opnieuw scannen...</translation>
+        <translation>Reescaneado...</translation>
     </message>
     <message>
         <source>ResetMintZerocoin finished: </source>
-        <translation>ResetMintZerocoin voltooid: </translation>
+        <translation>ResetMintZerocoin finalizado:</translation>
     </message>
     <message>
         <source>ResetSpentZerocoin finished: </source>
-        <translation>ResetSpentZerocoin voltooid: </translation>
+        <translation>ResetSpentZerocoin finalizado:</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Voer regelmatig een thread om de portemonnee te spoelen uit (standaard: %u)</translation>
+        <translation>Ejecutar un hilo de ejecución para nivelar el monedero periódicamente (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Voer op de achtergrond uit als een daemon en accepteer commando's</translation>
+        <translation>Ejecutar en segundo plano como demonio y aceptar comandos</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Zend transacties als zero fee transacties indien mogelijk (standaard: %u)</translation>
+        <translation>Enviar transacciones como transacciones cero-comisión si es posible (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sessie niet voltooid!</translation>
+        <translation>Sesión no completa!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Sessie verlopen.</translation>
+        <translation>La sesión expiró.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Stel de cache grootte van de database in megabytes in (%d tot %d, standaard: %d)</translation>
+        <translation>Definir tamaño de cache de base de datos en megabytes (%d a %d, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Extern adres instellen:poort om bij deze masternode te komen (voorbeeld: %s)</translation>
+        <translation>Definir dirección:puerto externo para alcanzar este nodo maestro (ejemplo: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Stel key pool grootte in op &lt;n&gt; (standaard: %u)</translation>
+        <translation>Definir el tamaño del pool de llaves a &lt;n&gt; (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
-        <translation>Stel mstateraale block grootte in bytes in (default: %d)</translation>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Ajustar el tamaño máximo de bloque en bytes (predeterminado: %d)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Stel minimale block grootte in bytes in (default: %u)</translation>
+        <translation>Ajustar el tamaño mínimo de bloque en bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set the Mstateraum reorg depth (default: %u)</source>
-        <translation>Stel de Mstateraale reorg diepte in (standaard: %u)</translation>
+        <source>Set the Maximum reorg depth (default: %u)</source>
+        <translation>Establezca la profundidad máxima de reorganización (valor predeterminado: %u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Stel de masternode privé sleutel in</translation>
+        <translation>Ajustar la clave privada de masternode</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Stel het aantal threads in om RPC oproepen te bedienen (standaard: %d)</translation>
+        <translation>Definir el número de hilos para llamadas al servicio RPC (predeterminado: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Stelt de DB_PRIVATE vlag in de portemonnee db omgeving in (standaard: %u)</translation>
+        <translation>Definir la bandera DB_PRIVATE en la db de la monedero del ambiente (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Toon alle debugging opties (gebruik: --help -help-debug)</translation>
+        <translation>Mostrar todas las opciones de depuración (uso: --help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Krimp debug.log bestand bij client startup (standaard: 1 wanneer geen -debug)</translation>
+        <translation>Encojer el archivo debug.log en el cliente al inicio (predeterminado: 1 cuando no hay -debug)</translation>
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Ondertekenen mislukt.</translation>
+        <translation>La firma falló.</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Ondertekening time out.</translation>
+        <translation>Se agotó el tiempo para la firma.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Ondertekening transactie mislukt.</translation>
+        <translation>La firma de la transacción falló</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Specificeer configuratiebestand (standaard: %s)</translation>
+        <translation>Especifique el archivo de configuración (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Specificeer verbinding time-out in milliseconden (minimum: 1, standaard: %d)</translation>
+        <translation>Especificar el timeout de conexión en mili segundos (mínimo: 1, predeterminado: %d) </translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Specificeer data directory.</translation>
+        <translation>Especifique el directorio de datos</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Specificeer masternode configuratie bestand (default: %s)</translation>
+        <translation>Especifique el archivo de configuración masternode (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Specificeer pid bestand (default: %s)</translation>
+        <translation>Especifique el archivo pid (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Specificeer portemonnee bestand (in data directory)</translation>
+        <translation>Especifique el archivo del monedero (dentro del directorio de datos)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Specificeer je eigen publieke addres</translation>
+        <translation>Especifique su propia dirección pública</translation>
     </message>
     <message>
         <source>Spend Valid</source>
-        <translation>Besteed geldig</translation>
+        <translation>Gastar Válido</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Onbevestigd wisselgeld besteden bij het verzenden van transacties (standaard: %u)</translation>
+        <translation>Gastar cambio no confirmado cuando se envían transacciones (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Staking options:</source>
-        <translation>Staking opties:</translation>
+        <translation>Opciones de recompensa por participación:</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Stop na het importeren van blokken van schijf (standaard: %u)</translation>
+        <translation>Parar la ejecución después de importar bloques desde el disco (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Ingediende volgende vermeldingen in masternode: %u / %d</translation>
+        <translation>Se enviaron las siguientes entradas a masternode: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Ingediend naar masternode, wachten op meer inzendingen (%u / %d) %s</translation>
+        <translation>Enviado a masternode, esperando por mas entradas (%u / %d) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Ingediend naar masternode, wachten in de wachtrij %s</translation>
+        <translation>Enviado a masternode, quedando en espera %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronisatie mislukt</translation>
+        <translation>Falló la sincronización</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronisatie voltooid</translation>
+        <translation>Sincronización finalizada!</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Synchronisatie in afwachting...</translation>
+        <translation>Sincronización pendiente...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synchroniseren masternode winnaars...</translation>
+        <translation>Sincronizando ganadores masternode...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchroniseren masternodes...</translation>
+        <translation>Sincronizando masternodes...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synchroniseren sporks...</translation>
+        <translation>Sincronizando con la red... </translation>
     </message>
     <message>
         <source>Syncing zSTATERA wallet...</source>
-        <translation>Synchroniseren zSTATERA portemonnee...</translation>
+        <translation>Sincronizando el monedero zSTATERA...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
-        <translation>De muntuitgaven zijn gebruikt</translation>
+        <translation>El gasto de moneda se ha usado</translation>
     </message>
     <message>
         <source>The new spend coin transaction did not verify</source>
-        <translation>De nieuwe uitgave voor uitgavengeld heeft niet geverifieerd</translation>
+        <translation>La nueva transacción de gasto de moneda no se verificó</translation>
     </message>
     <message>
         <source>The selected mint coin is an invalid coin</source>
-        <translation>De geselecteerde muntmunt is een ongeldige munt</translation>
+        <translation>La moneda acuñada seleccionada es una moneda no válida</translation>
     </message>
     <message>
         <source>The transaction did not verify</source>
-        <translation>De transactie heeft niet geverifieerd</translation>
+        <translation>La transacción no se verificó</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Dit help bericht</translation>
+        <translation>Este mensaje de ayuda</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Dit is experimentele software.</translation>
+        <translation>Esto es software experimental.</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Dit is bedoeld voor regressie test tools en app ontwikkeling.</translation>
+        <translation>Esto esta destinado para herramientas de prueba de regresión y desarrollo de aplicaciones.</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>Dit is geen Masternode.</translation>
+        <translation>Este no es un nodo maestro.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Drempel voor het verbreken van misdragende peers (standaard: %u)</translation>
+        <translation>Limite para desconexión de peers de mal desempeño (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Too many spends needed</source>
-        <translation>Te veel uitgaven nodig</translation>
+        <translation>Demasiados gastos necesarios</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Tor controle poort wachtwoord (standaard: leeg)</translation>
+        <translation>Contraseña del puerto de control Tor (por defecto: vacío)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor controle poort om te gebruiken als onion listening geactiveerd is (standaard: %s)</translation>
+        <translation>Puerto de control Tor a utilizar si está activada la escucha Onion (por defecto: %s)</translation>
     </message>
     <message>
         <source>Transaction Created</source>
-        <translation>Transactie gemaakt</translation>
+        <translation>Transacción creada</translation>
     </message>
     <message>
         <source>Transaction Mint Started</source>
-        <translation>Transactie startte met Mint</translation>
+        <translation>Cotação de transação iniciada</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transactie bedrag te klein</translation>
+        <translation>El monto de la transacción es demasiado pequeño</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Transactie bedragen moeten positief zijn</translation>
+        <translation>El monto de la transacción debe ser positivo</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Transactie is succesvol gemaakt.</translation>
+        <translation>Transacción creada satisfactoriamente.</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Transactiekosten zijn te hoog.</translation>
+        <translation>La comision de transacción es demasiado alta.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transactie is niet geldig.</translation>
+        <translation>La transacción no es valida.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transactie te groot voor kosten beleid</translation>
+        <translation>La transacción es demasiado grande para la política de comisión.</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transactie te groot</translation>
+        <translation>La transacción es demasiado grande</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Verzending van de definitieve transactie.</translation>
+        <translation>Transmitiendo la transacción final.</translation>
     </message>
     <message>
         <source>Try to spend with a higher security level to include more coins</source>
-        <translation>Probeer te spenderen met een hoger beveiligingsniveau om meer munten op te nemen</translation>
+        <translation>Intenta gastar con un nivel de seguridad más alto para incluir más monedas</translation>
     </message>
     <message>
         <source>Trying to spend an already spent serial #, try again.</source>
-        <translation>Probeer een reeds bestaand serienummer nog een keer uit te geven, probeer het opnieuw.</translation>
+        <translation>Tentando gastar um número de série já gasto, tente novamente.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer (bind stuurt fout %s terug)</translation>
+        <translation>Imposible enlazar %s en esta computadora (enlace retorna error %s)</translation>
     </message>
     <message>
         <source>Unable to find transaction containing mint</source>
-        <translation>Kan transactie met mint niet vinden</translation>
+        <translation>No se puede encontrar la transacción que contiene la acuñación</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Kan sporkbericht niet tekenen, verkeerde sleutel?</translation>
+        <translation>Imposible firmar el mensaje spork, ¿llave equivocada?</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Kan HTTP-server niet starten. Zie foutopsporingslog voor details.</translation>
+        <translation>No se puede iniciar el servidor HTTP. Ver registro de depuración para más detalles.</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
+        <translation>Red especificada desconocida en -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Onbekende staat: id = %u</translation>
+        <translation>Estado desconocido: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Upgrade portemonnee naar nieuwste formaat</translation>
+        <translation>Actualizar el monedero al último formato</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Gebruik UPnP om de luisterpoort te mappen (standaard: %u)</translation>
+        <translation>Usar UPnP para mapear el puerto de escucha (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Gebruik UPnP om de luisterpoort te mappen (standaard: 1 bij het luisteren)</translation>
+        <translation>Usar UPnP para mapear el puerto de escucha (predeterminado: 1 cuando esta en escucha)</translation>
     </message>
     <message>
         <source>Use a custom max chain reorganization depth (default: %u)</source>
-        <translation>Gebruik een aangepaste max chain reorganisatie diepte (standaard: %u)</translation>
+        <translation>Utilice una profundidad de reorganización de cadena máxima personalizada (valor predeterminado: %u)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Gebruik het test netwerk</translation>
+        <translation>Usar la red de prueba</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
+        <translation>Nombre de usuario para conexiones JSON-RPC</translation>
     </message>
     <message>
         <source>Value is below the smallest available denomination (= 1) of zSTATERA</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zSTATERA</translation>
+        <translation>El valor está por debajo de la denominación más pequeña disponible (= 1) de zSTATERA</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
-        <translation>Waarde meer dan verduistering pool mstateraaal toestaat.</translation>
+        <source>Value more than Obfuscation pool maximum allows.</source>
+        <translation>Valor mayor al máximo pool de Ofuscación permitido.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Blokken verifiëren...</translation>
+        <translation>Verificando bloques...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Portemonnee verifiëren...</translation>
+        <translation>Verificando el monedero...</translation>
     </message>
     <message>
         <source>Version 1 zSTATERA require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zSTATERA vereist een beveiligingsniveau van 100 om succesvol uit te geven.</translation>
+        <translation>La versión 1 zSTATERA requiere un nivel de seguridad de 100 para gastar exitosamente.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
+        <translation>El monedero %s esta ubicada fuera del directorio de datos %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Portemonnee is vergrendeld.</translation>
+        <translation>Monedero bloqueado.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart STATERA Core to complete</source>
-        <translation>Wallet moest worden herschreven: start STATERA Core opnieuw om te voltooien</translation>
+        <translation>El Monedero necesita ser reescrito: reinicie STATERA Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Portemonnee opties:</translation>
+        <translation>Opciones del Monedero:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Portemonnee venster titel</translation>
+        <translation>Monedero titulo de ventana</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>Advertencia</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Waarschuwing: Deze versie is verouderd, upgrade vereist!</translation>
+        <translation>Advertencia: Esta versión es obsoleta, se requiere actualizar!</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Waarschuwing: Niet- ondersteund argument -benchmark genegeerd, gebruik -debug=bench.</translation>
+        <translation>Advertencia: Argumento no soportado -benchmark ignorado, use -debug=bench </translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Waarschuwing: Niet ondersteunde argument -debugnet genegeerd, gebruik -debug=net.</translation>
+        <translation>Advertencia: Argumento no soportado -debugnet ignorado, use -debug=net.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Zal het opnieuw proberen...</translation>
+        <translation>Probando...</translation>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Je hebt niet genoeg Zerocoins in je portemonnee</translation>
+        <translation>No tienes suficientes Zerocoins en tu monedero</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Je moet de database herbouwen met -reindex om -txindex te wijzigen</translation>
+        <translation>Usted necesita reconstruir la base de datos usando -reindex para cambiar -txindex</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Je gegevens zijn succesvol toegevoegd.</translation>
+        <translation>Su entrada a sido agregada satisfactoriamente.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Je transactie is geaccepteerd in de pool!</translation>
+        <translation>Su transacción ha sido aceptada en el pool!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Verwijderen van alle transacties uit portemonnee...</translation>
+        <translation>Saltando todas las transacciones del monedero...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ notificatie opties:</translation>
+        <translation>Opciones de notificación ZeroMQ:</translation>
     </message>
     <message>
         <source>Zerocoin options:</source>
-        <translation>Zerocoin opties:</translation>
+        <translation>Opciones Zerocoin:</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>tijdens het opstarten</translation>
+        <translation>al inicio</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, redding mislukt</translation>
+        <translation>wallet.dat esta corrupto, fallo al guardar</translation>
     </message>
 </context>
 </TS>

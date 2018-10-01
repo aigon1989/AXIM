@@ -256,7 +256,7 @@ bool static InterruptibleRecv(char* data, size_t len, int timeout, SOCKET& hSock
 {
     int64_t curTime = GetTimeMillis();
     int64_t endTime = curTime + timeout;
-    // Mstateraum time to wait in one select call. It will take up until this time (in millis)
+    // Maximum time to wait in one select call. It will take up until this time (in millis)
     // to break off in case of an interruption.
     const int64_t maxWait = 1000;
     while (len > 0 && curTime < endTime) {

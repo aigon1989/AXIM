@@ -2200,7 +2200,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+535"/>
-        <source>Mstateraum possible addresses reached. (15)</source>
+        <source>Maximum possible addresses reached. (15)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2215,7 +2215,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+26"/>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2238,8 +2238,8 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Mstateraum Privacy</source>
-        <translation type="unfinished">Mstateraum Privacy</translation>
+        <source>Maximum Privacy</source>
+        <translation type="unfinished">Maximum Privacy</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2273,8 +2273,8 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
-        <translation type="unfinished">This is the slowest and most secure option. Using mstateraum anonymity will cost</translation>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation type="unfinished">This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2300,7 +2300,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3542,7 +3542,7 @@ Please be patient...</source>
     <message>
         <location line="+54"/>
         <source>) needed.
-Mstateraum allowed: </source>
+Maximum allowed: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
+        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6431,13 +6431,13 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation type="unfinished">Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation type="unfinished">Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation type="unfinished">Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation type="unfinished">Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6476,8 +6476,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation type="unfinished">Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation type="unfinished">Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7163,7 +7163,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+17"/>
-        <source>In rare cases, a spend with 7 coins exceeds our mstateraum allowable transaction size, please retry spend using 6 or less coins</source>
+        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7388,13 +7388,13 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation type="unfinished">Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation type="unfinished">Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation type="unfinished">Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation type="unfinished">Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7633,8 +7633,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
-        <translation type="unfinished">Set mstateraum block size in bytes (default: %d)</translation>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation type="unfinished">Set maximum block size in bytes (default: %d)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7643,7 +7643,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Set the Mstateraum reorg depth (default: %u)</source>
+        <source>Set the Maximum reorg depth (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7978,7 +7978,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
+        <source>Value more than Obfuscation pool maximum allows.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

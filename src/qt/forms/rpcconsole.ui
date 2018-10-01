@@ -410,7 +410,7 @@
          </item>
          <item>
           <widget class="QPushButton" name="clearButton">
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>24</width>
              <height>24</height>
@@ -462,7 +462,7 @@
              <property name="minimum">
               <number>1</number>
              </property>
-             <property name="mstateraum">
+             <property name="maximum">
               <number>288</number>
              </property>
              <property name="pageStep">
@@ -728,7 +728,7 @@
              <height>32</height>
             </size>
            </property>
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>16777215</width>
              <height>32</height>

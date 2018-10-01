@@ -123,7 +123,7 @@ public:
         return text;
     }
 
-    //! Return mstateraum number of base units (Satoshis)
+    //! Return maximum number of base units (Satoshis)
     static CAmount maxMoney();
 
 private:

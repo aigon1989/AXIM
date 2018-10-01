@@ -11,7 +11,7 @@
 /* Milliseconds between model updates */
 static const int MODEL_UPDATE_DELAY = 1000;
 
-/* AskPassphraseDialog -- Mstateraum passphrase length */
+/* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
 /* Statera GUI -- Size of icons in status bar */
@@ -42,7 +42,7 @@ static const bool DEFAULT_SPLASHSCREEN = true;
  */
 static const int TOOLTIP_WRAP_THRESHOLD = 80;
 
-/* Mstateraum allowed URI length */
+/* Maximum allowed URI length */
 static const int MAX_URI_LENGTH = 255;
 
 /* QRCodeDialog -- size of exported QR Code image */

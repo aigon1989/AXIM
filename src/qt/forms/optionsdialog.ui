@@ -160,7 +160,7 @@
            <property name="minimum">
             <number>1</number>
            </property>
-           <property name="mstateraum">
+           <property name="maximum">
             <number>100</number>
            </property>
           </widget>
@@ -174,7 +174,7 @@
          </property>
          <item>
           <widget class="QLabel" name="labelPreferredDenom">
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>16777215</width>
              <height>16777215</height>
@@ -190,7 +190,7 @@
          </item>
          <item>
           <widget class="QComboBox" name="preferredDenom">
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>16777215</width>
              <height>27</height>
@@ -230,7 +230,7 @@
            <property name="minimum">
             <number>1</number>
            </property>
-           <property name="mstateraum">
+           <property name="maximum">
             <number>999999</number>
            </property>
           </widget>
@@ -349,7 +349,7 @@
              <height>0</height>
             </size>
            </property>
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>140</width>
              <height>16777215</height>
@@ -381,7 +381,7 @@
              <height>0</height>
             </size>
            </property>
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>55</width>
              <height>16777215</height>

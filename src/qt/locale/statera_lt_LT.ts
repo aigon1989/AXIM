@@ -1711,7 +1711,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Vout pozicija turi būti teigiama.</translation>
     </message>
     <message>
-        <source>Mstateraum possible addresses reached. (15)</source>
+        <source>Maximum possible addresses reached. (15)</source>
         <translation>Pasiektas maksimalus galimų adresų skaičius. (15)</translation>
     </message>
     <message>
@@ -1723,7 +1723,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Suma:</translation>
     </message>
     <message>
-        <source>Mstateraum (15)</source>
+        <source>Maximum (15)</source>
         <translation>Maksimalus (15)</translation>
     </message>
 </context>
@@ -1742,7 +1742,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Aukštas Privatumas</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Maksimalus Privatumas</translation>
     </message>
     <message>
@@ -1770,7 +1770,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 STATERA, kad anonimizuotų 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
@@ -1790,7 +1790,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę STATERA konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
         <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę STATERA konfigūracijos ekraną.</translation>
     </message>
 </context>

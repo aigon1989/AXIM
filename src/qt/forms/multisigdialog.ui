@@ -55,7 +55,7 @@
            <property name="minimum">
             <number>1</number>
            </property>
-           <property name="mstateraum">
+           <property name="maximum">
             <number>15</number>
            </property>
            <property name="value">
@@ -217,7 +217,7 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>16777215</width>
              <height>75</height>
@@ -565,7 +565,7 @@ Please be patient after clicking import.</string>
                  <verstretch>0</verstretch>
                 </sizepolicy>
                </property>
-               <property name="mstateraumSize">
+               <property name="maximumSize">
                 <size>
                  <width>16777215</width>
                  <height>16777215</height>
@@ -741,7 +741,7 @@ txScrollArea:{
                  <verstretch>0</verstretch>
                 </sizepolicy>
                </property>
-               <property name="mstateraumSize">
+               <property name="maximumSize">
                 <size>
                  <width>16777215</width>
                  <height>16777215</height>

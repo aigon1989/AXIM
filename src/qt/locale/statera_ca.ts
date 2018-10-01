@@ -1140,7 +1140,7 @@
         <translation>Privacitat alta</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Privacitat màxima</translation>
     </message>
     <message>
@@ -1168,7 +1168,7 @@
         <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 STATERA per anonimitzar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Aquesta és l'opció més lenta però més segura. Usar l'anonimitzat màxim té un cost de</translation>
     </message>
     <message>

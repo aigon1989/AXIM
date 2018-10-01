@@ -1274,7 +1274,7 @@ WriteBatch* DBImpl::BuildBatchGroup(Writer** last_writer) {
 
   size_t size = WriteBatchInternal::ByteSize(first->batch);
 
-  // Allow the group to grow up to a mstateraum size, but if the
+  // Allow the group to grow up to a maximum size, but if the
   // original write is small, limit the growth so we do not slow
   // down the small write too much.
   size_t max_size = 1 << 20;

@@ -840,7 +840,7 @@ void MultisigDialog::on_addAddressButton_clicked()
     //max addresses 15
     if(ui->addressList->count() >= 15){
         ui->addMultisigStatus->setStyleSheet("QLabel { color: red; }");
-        ui->addMultisigStatus->setText(tr("Mstateraum possible addresses reached. (15)"));
+        ui->addMultisigStatus->setText(tr("Maximum possible addresses reached. (15)"));
         return;
     }
 
@@ -1033,7 +1033,7 @@ void MultisigDialog::on_addPrivKeyButton_clicked()
 
     if(ui->keyList->count() >= 15){
         ui->signButtonStatus->setStyleSheet("QTextEdit{ color: red }");
-        ui->signButtonStatus->setText(tr("Mstateraum (15)"));
+        ui->signButtonStatus->setText(tr("Maximum (15)"));
         return;
     }
 

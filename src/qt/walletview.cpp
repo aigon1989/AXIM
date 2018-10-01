@@ -60,7 +60,7 @@ WalletView::WalletView(QWidget* parent) : QStackedWidget(parent),
     QLabel* labelOverviewHeaderLeft = new QLabel(frame_Header);
     labelOverviewHeaderLeft->setObjectName(QStringLiteral("labelOverviewHeaderLeft"));
     labelOverviewHeaderLeft->setMinimumSize(QSize(464, 60));
-    labelOverviewHeaderLeft->setMstateraumSize(QSize(16777215, 60));
+    labelOverviewHeaderLeft->setMaximumSize(QSize(16777215, 60));
     labelOverviewHeaderLeft->setText(tr("HISTORY"));
     QFont fontHeaderLeft;
     fontHeaderLeft.setPointSize(20);
@@ -75,7 +75,7 @@ WalletView::WalletView(QWidget* parent) : QStackedWidget(parent),
     QLabel* labelOverviewHeaderRight = new QLabel(frame_Header);
     labelOverviewHeaderRight->setObjectName(QStringLiteral("labelOverviewHeaderRight"));
     labelOverviewHeaderRight->setMinimumSize(QSize(464, 60));
-    labelOverviewHeaderRight->setMstateraumSize(QSize(16777215, 60));
+    labelOverviewHeaderRight->setMaximumSize(QSize(16777215, 60));
     labelOverviewHeaderRight->setText(QString());
     QFont fontHeaderRight;
     fontHeaderRight.setPointSize(14);

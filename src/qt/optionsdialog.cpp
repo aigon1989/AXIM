@@ -44,9 +44,9 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
 
     /* Main elements init */
     ui->databaseCache->setMinimum(nMinDbCache);
-    ui->databaseCache->setMstateraum(nMaxDbCache);
+    ui->databaseCache->setMaximum(nMaxDbCache);
     ui->threadsScriptVerif->setMinimum(-(int)boost::thread::hardware_concurrency());
-    ui->threadsScriptVerif->setMstateraum(MAX_SCRIPTCHECK_THREADS);
+    ui->threadsScriptVerif->setMaximum(MAX_SCRIPTCHECK_THREADS);
 
 /* Network elements init */
 #ifndef USE_UPNP

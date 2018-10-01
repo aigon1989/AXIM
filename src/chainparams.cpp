@@ -197,7 +197,7 @@ class CMainParams : public CChainParams
         zerocoinModulus = "933034631025263371931683737195989150827432725945865978553405534489169230717565655238929262433328781519062047083173774855927756291088223912678240116686930017973091641521360882816116138803824875952592332072733008652132259870299952045041515826225603304440412903162411130235757590579023934850884265744437894881577";
         nMaxZerocoinSpendsPerTransaction = 7; // Assume about 20kb each
         nMinZerocoinMintFee = 1 * CENT; //high fee required for zerocoin mints
-        nMintRequiredConfirmations = 20; //the mstateraum amount of confirmations until accumulated in 19
+        nMintRequiredConfirmations = 20; //the maximum amount of confirmations until accumulated in 19
         nRequiredAccumulation = 1;
         nDefaultSecurityLevel = 100;       //full security level for accumulators
         nZerocoinHeaderVersion = 4;        //Block headers must be this version once zerocoin is active

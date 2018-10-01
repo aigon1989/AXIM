@@ -75,7 +75,7 @@ void ObfuscationConfig::clickMax()
         model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
     QMessageBox::information(this, tr("Obfuscation Configuration"),
         tr(
-            "Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.")
+            "Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.")
             .arg(strAmount));
 
     close();

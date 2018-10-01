@@ -49,7 +49,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Mstateraum Privacy</string>
+    <string>Maximum Privacy</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -140,7 +140,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>This is the slowest and most secure option. Using mstateraum anonymity will cost</string>
+    <string>This is the slowest and most secure option. Using maximum anonymity will cost</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_9">

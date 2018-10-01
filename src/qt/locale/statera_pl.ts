@@ -1140,7 +1140,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Wysoka prywatność</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Maksymalna prywatność</translation>
     </message>
     <message>

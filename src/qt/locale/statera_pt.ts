@@ -1026,7 +1026,7 @@
         <translation>Definir o tamanho do pool de chaves para &lt;n&gt; (padrão:%u)</translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
+        <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Definir o tamanho máximo do bloco em bytes (padrão:%d)</translation>
     </message>
     <message>
@@ -1226,7 +1226,7 @@
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
+        <source>Value more than Obfuscation pool maximum allows.</source>
         <translation>Valor maior do que o máximo permitido pela pool.</translation>
     </message>
     <message>

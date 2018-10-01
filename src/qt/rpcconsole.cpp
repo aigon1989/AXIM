@@ -700,7 +700,7 @@ void RPCConsole::on_lineEdit_returnPressed()
         history.removeOne(cmd);
         // Append command to history
         history.append(cmd);
-        // Enforce mstateraum history size
+        // Enforce maximum history size
         while (history.size() > CONSOLE_HISTORY)
             history.removeFirst();
         // Set pointer to end of history
@@ -764,7 +764,7 @@ void RPCConsole::on_openDebugLogfileButton_clicked()
 void RPCConsole::scrollToEnd()
 {
     QScrollBar* scrollbar = ui->messagesWidget->verticalScrollBar();
-    scrollbar->setValue(scrollbar->mstateraum());
+    scrollbar->setValue(scrollbar->maximum());
 }
 
 void RPCConsole::on_sldGraphRange_valueChanged(int value)

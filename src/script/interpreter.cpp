@@ -110,7 +110,7 @@ bool static IsValidSignatureEncoding(const std::vector<unsigned char> &sig) {
     // * sighash: 1-byte value indicating what data is hashed (not part of the DER
     //   signature)
 
-    // Minimum and mstateraum size constraints.
+    // Minimum and maximum size constraints.
     if (sig.size() < 9) return false;
     if (sig.size() > 73) return false;
 

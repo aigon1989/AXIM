@@ -66,7 +66,7 @@ QT_TRANSLATE_NOOP("statera-core", ""
 QT_TRANSLATE_NOOP("statera-core", ""
 "Error: Listening for incoming connections failed (listen returned error %s)"),
 QT_TRANSLATE_NOOP("statera-core", ""
-"Error: The transaction is larger than the mstateraum allowed transaction size!"),
+"Error: The transaction is larger than the maximum allowed transaction size!"),
 QT_TRANSLATE_NOOP("statera-core", ""
 "Error: The transaction was rejected! This might happen if some of the coins "
 "in your wallet were already spent, such as if you used a copy of wallet.dat "
@@ -109,7 +109,7 @@ QT_TRANSLATE_NOOP("statera-core", ""
 "If paytxfee is not set, include enough fee so transactions begin "
 "confirmation on average within n blocks (default: %u)"),
 QT_TRANSLATE_NOOP("statera-core", ""
-"In rare cases, a spend with 7 coins exceeds our mstateraum allowable "
+"In rare cases, a spend with 7 coins exceeds our maximum allowable "
 "transaction size, please retry spend using 6 or less coins"),
 QT_TRANSLATE_NOOP("statera-core", ""
 "In this mode -genproclimit controls how many blocks are generated "
@@ -128,10 +128,10 @@ QT_TRANSLATE_NOOP("statera-core", ""
 "Maintain a full transaction index, used by the getrawtransaction rpc call "
 "(default: %u)"),
 QT_TRANSLATE_NOOP("statera-core", ""
-"Mstateraum size of data in data carrier transactions we relay and mine "
+"Maximum size of data in data carrier transactions we relay and mine "
 "(default: %u)"),
 QT_TRANSLATE_NOOP("statera-core", ""
-"Mstateraum total fees to use in a single wallet transaction, setting too low "
+"Maximum total fees to use in a single wallet transaction, setting too low "
 "may abort large transactions (default: %s)"),
 QT_TRANSLATE_NOOP("statera-core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: %u)"),
@@ -154,7 +154,7 @@ QT_TRANSLATE_NOOP("statera-core", ""
 QT_TRANSLATE_NOOP("statera-core", ""
 "Send trace/debug info to console instead of debug.log file (default: %u)"),
 QT_TRANSLATE_NOOP("statera-core", ""
-"Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)"),
+"Set maximum size of high-priority/low-fee transactions in bytes (default: %d)"),
 QT_TRANSLATE_NOOP("statera-core", ""
 "Set the number of script verification threads (%u to %d, 0 = auto, <0 = "
 "leave that many cores free, default: %d)"),
@@ -369,8 +369,8 @@ QT_TRANSLATE_NOOP("statera-core", "Maintain at most <n> connections to peers (de
 QT_TRANSLATE_NOOP("statera-core", "Masternode options:"),
 QT_TRANSLATE_NOOP("statera-core", "Masternode queue is full."),
 QT_TRANSLATE_NOOP("statera-core", "Masternode:"),
-QT_TRANSLATE_NOOP("statera-core", "Mstateraum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("statera-core", "Mstateraum per-connection send buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("statera-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("statera-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
 QT_TRANSLATE_NOOP("statera-core", "Mint did not make it into blockchain"),
 QT_TRANSLATE_NOOP("statera-core", "Missing input transaction information."),
 QT_TRANSLATE_NOOP("statera-core", "Mixing in progress..."),
@@ -422,9 +422,9 @@ QT_TRANSLATE_NOOP("statera-core", "Session timed out."),
 QT_TRANSLATE_NOOP("statera-core", "Set database cache size in megabytes (%d to %d, default: %d)"),
 QT_TRANSLATE_NOOP("statera-core", "Set external address:port to get to this masternode (example: %s)"),
 QT_TRANSLATE_NOOP("statera-core", "Set key pool size to <n> (default: %u)"),
-QT_TRANSLATE_NOOP("statera-core", "Set mstateraum block size in bytes (default: %d)"),
+QT_TRANSLATE_NOOP("statera-core", "Set maximum block size in bytes (default: %d)"),
 QT_TRANSLATE_NOOP("statera-core", "Set minimum block size in bytes (default: %u)"),
-QT_TRANSLATE_NOOP("statera-core", "Set the Mstateraum reorg depth (default: %u)"),
+QT_TRANSLATE_NOOP("statera-core", "Set the Maximum reorg depth (default: %u)"),
 QT_TRANSLATE_NOOP("statera-core", "Set the masternode private key"),
 QT_TRANSLATE_NOOP("statera-core", "Set the number of threads to service RPC calls (default: %d)"),
 QT_TRANSLATE_NOOP("statera-core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
@@ -492,7 +492,7 @@ QT_TRANSLATE_NOOP("statera-core", "Use a custom max chain reorganization depth (
 QT_TRANSLATE_NOOP("statera-core", "Use the test network"),
 QT_TRANSLATE_NOOP("statera-core", "Username for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("statera-core", "Value is below the smallest available denomination (= 1) of zSTATERA"),
-QT_TRANSLATE_NOOP("statera-core", "Value more than Obfuscation pool mstateraum allows."),
+QT_TRANSLATE_NOOP("statera-core", "Value more than Obfuscation pool maximum allows."),
 QT_TRANSLATE_NOOP("statera-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("statera-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("statera-core", "Version 1 zSTATERA require a security level of 100 to successfully spend."),

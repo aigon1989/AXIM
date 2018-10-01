@@ -464,7 +464,7 @@ SendCoinsEntry* SendCoinsDialog::addEntry()
     qApp->processEvents();
     QScrollBar* bar = ui->scrollArea->verticalScrollBar();
     if (bar)
-        bar->setSliderPosition(bar->mstateraum());
+        bar->setSliderPosition(bar->maximum());
     return entry;
 }
 

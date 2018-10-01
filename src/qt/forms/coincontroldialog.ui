@@ -355,7 +355,7 @@
         <item>
          <widget class="QPushButton" name="pushButtonSelectAll">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Mstateraum" vsizetype="Fixed">
+           <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -371,7 +371,7 @@
         <item>
          <widget class="QPushButton" name="pushButtonToggleLock">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Mstateraum" vsizetype="Fixed">
+           <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -387,7 +387,7 @@
         <item>
          <widget class="QRadioButton" name="radioTreeMode">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Mstateraum" vsizetype="Fixed">
+           <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -400,7 +400,7 @@
         <item>
          <widget class="QRadioButton" name="radioListMode">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Mstateraum" vsizetype="Fixed">
+           <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -528,7 +528,7 @@
    <item>
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Mstateraum" vsizetype="Fixed">
+      <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>

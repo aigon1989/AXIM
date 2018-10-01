@@ -34,7 +34,7 @@ class BlockHandle {
   void EncodeTo(std::string* dst) const;
   Status DecodeFrom(Slice* input);
 
-  // Mstateraum encoding length of a BlockHandle
+  // Maximum encoding length of a BlockHandle
   enum { kMaxEncodedLength = 10 + 10 };
 
  private:

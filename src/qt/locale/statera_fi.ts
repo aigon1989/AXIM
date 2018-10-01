@@ -1120,7 +1120,7 @@ Please check the address and try again.</source>
         <translation>Korkea Yksityisyys</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
+        <source>Maximum Privacy</source>
         <translation>Maksimi Yksityisyys</translation>
     </message>
     <message>
@@ -1148,7 +1148,7 @@ Please check the address and try again.</source>
         <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 STATERA anonymoidaksesi 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>

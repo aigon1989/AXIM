@@ -2074,7 +2074,7 @@ std::string CObfuscationPool::GetMessageByID(int messageID)
     case ERR_INVALID_TX:
         return _("Transaction not valid.");
     case ERR_MSTATERAUM:
-        return _("Value more than Obfuscation pool mstateraum allows.");
+        return _("Value more than Obfuscation pool maximum allows.");
     case ERR_MN_LIST:
         return _("Not in the Masternode list.");
     case ERR_MODE:

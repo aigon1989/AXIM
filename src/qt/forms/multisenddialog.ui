@@ -58,7 +58,7 @@ MultiSend will not be activated unless you have clicked Activate</string>
          <height>1</height>
         </size>
        </property>
-       <property name="mstateraumSize">
+       <property name="maximumSize">
         <size>
          <width>16777215</width>
          <height>1</height>
@@ -149,7 +149,7 @@ MultiSend will not be activated unless you have clicked Activate</string>
          </item>
          <item>
           <widget class="QToolButton" name="addressBookButton">
-           <property name="mstateraumSize">
+           <property name="maximumSize">
             <size>
              <width>16777215</width>
              <height>32</height>
@@ -206,7 +206,7 @@ MultiSend will not be activated unless you have clicked Activate</string>
          <height>1</height>
         </size>
        </property>
-       <property name="mstateraumSize">
+       <property name="maximumSize">
         <size>
          <width>16777215</width>
          <height>1</height>

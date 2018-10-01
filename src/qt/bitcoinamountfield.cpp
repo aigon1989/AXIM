@@ -197,7 +197,7 @@ BitcoinAmountField::BitcoinAmountField(QWidget* parent) : QWidget(parent),
                           "QSpinBox::down-button:hover { background-color: #f2f2f2; }");
     amount->setLocale(QLocale::c());
     amount->installEventFilter(this);
-    amount->setMstateraumWidth(170);
+    amount->setMaximumWidth(170);
 
     QHBoxLayout* layout = new QHBoxLayout(this);
     layout->addWidget(amount);

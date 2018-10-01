@@ -1536,8 +1536,8 @@ Please check the address and try again.</translation>
         <translation>High Privacy</translation>
     </message>
     <message>
-        <source>Mstateraum Privacy</source>
-        <translation>Mstateraum Privacy</translation>
+        <source>Maximum Privacy</source>
+        <translation>Maximum Privacy</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
@@ -1564,8 +1564,8 @@ Please check the address and try again.</translation>
         <translation>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
-        <translation>This is the slowest and most secure option. Using mstateraum anonymity will cost</translation>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
         <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
@@ -1584,8 +1584,8 @@ Please check the address and try again.</translation>
         <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA's configuration screen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
-        <translation>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -4010,12 +4010,12 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</translation>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
@@ -4046,8 +4046,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Send trace/debug info to console instead of debug.log file (default: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
@@ -4650,12 +4650,12 @@ for example: alertnotify=echo %%s | mail -s "STATERA Alert" admin@foo.com
         <translation>Masternode:</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
-        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
@@ -4834,8 +4834,8 @@ for example: alertnotify=echo %%s | mail -s "STATERA Alert" admin@foo.com
         <translation>Set key pool size to &lt;n&gt; (default: %u)</translation>
     </message>
     <message>
-        <source>Set mstateraum block size in bytes (default: %d)</source>
-        <translation>Set mstateraum block size in bytes (default: %d)</translation>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Set maximum block size in bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
@@ -5050,8 +5050,8 @@ for example: alertnotify=echo %%s | mail -s "STATERA Alert" admin@foo.com
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool mstateraum allows.</source>
-        <translation>Value more than Obfuscation pool mstateraum allows.</translation>
+        <source>Value more than Obfuscation pool maximum allows.</source>
+        <translation>Value more than Obfuscation pool maximum allows.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

@@ -31,7 +31,7 @@
        <height>610</height>
       </size>
      </property>
-     <property name="mstateraumSize">
+     <property name="maximumSize">
       <size>
        <width>16777215</width>
        <height>16777215</height>
@@ -98,7 +98,7 @@
                  <height>60</height>
                 </size>
                </property>
-               <property name="mstateraumSize">
+               <property name="maximumSize">
                 <size>
                  <width>16777215</width>
                  <height>60</height>
@@ -140,7 +140,7 @@
                  <height>60</height>
                 </size>
                </property>
-               <property name="mstateraumSize">
+               <property name="maximumSize">
                 <size>
                  <width>16777215</width>
                  <height>60</height>
@@ -295,7 +295,7 @@
                          <height>1</height>
                         </size>
                        </property>
-                       <property name="mstateraumSize">
+                       <property name="maximumSize">
                         <size>
                          <width>16777215</width>
                          <height>1</height>
@@ -467,7 +467,7 @@
                          <height>1</height>
                         </size>
                        </property>
-                       <property name="mstateraumSize">
+                       <property name="maximumSize">
                         <size>
                          <width>16777215</width>
                          <height>1</height>
@@ -886,7 +886,7 @@
                          <height>1</height>
                         </size>
                        </property>
-                       <property name="mstateraumSize">
+                       <property name="maximumSize">
                         <size>
                          <width>16777215</width>
                          <height>1</height>
@@ -1147,7 +1147,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
                       <height>1</height>
                      </size>
                     </property>
-                    <property name="mstateraumSize">
+                    <property name="maximumSize">
                      <size>
                       <width>16777215</width>
                       <height>1</height>
@@ -1201,7 +1201,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
                   </item>
                   <item>
                    <widget class="QLabel" name="labelAlerts">
-                    <property name="mstateraumSize">
+                    <property name="maximumSize">
                      <size>
                       <width>16777215</width>
                       <height>16777215</height>
