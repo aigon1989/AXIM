@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi AXIM per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi STATERA per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi AXIM per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi STATERA per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi AXIM dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi STATERA dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI AXIM&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI STATERA&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a AXIM Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo AXIM da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo STATERA da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The AXIM address to encrypt</source>
-        <translation>Indirizzo AXIM da crittografare</translation>
+        <source>The STATERA address to encrypt</source>
+        <translation>Indirizzo STATERA da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this AXIM address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo AXIM</translation>
+        <source>Encrypt the private key for this STATERA address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo STATERA</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>Operazioni di privacy per zAXIM</translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>Operazioni di privacy per zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Invia valuta all'indirizzo AXIM</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Invia valuta all'indirizzo STATERA</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e axim: URIs)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e statera: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
-        <translation>&amp;Informazioni AXIM Core</translation>
+        <source>&amp;About STATERA Core</source>
+        <translation>&amp;Informazioni STATERA Core</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
-        <translation>Visualizza informazioni su AXIM Core</translation>
+        <source>Show information about STATERA Core</source>
+        <translation>Visualizza informazioni su STATERA Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Modifica le opzioni di configurazione per AXIM</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Modifica le opzioni di configurazione per STATERA</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi AXIM per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi STATERA per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi AXIM specifici</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi STATERA specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Apri un AXIM: URI o richiesta di pagamento</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Apri un STATERA: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Mostra il messaggio di aiuto AXIM Core per ottenere un elenco con le possibili opzioni di riga di comando AXIM</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Mostra il messaggio di aiuto STATERA Core per ottenere un elenco con le possibili opzioni di riga di comando STATERA</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core client</source>
+        <translation>STATERA Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to AXIM network</source>
-        <translation><numerusform>%n connessione attiva alla rete AXIMIX</numerusform><numerusform>%n connessioni attive alla rete AXIMIX</numerusform></translation>
+        <source>%n active connection(s) to STATERA network</source>
+        <translation><numerusform>%n connessione attiva alla rete STATERAIX</numerusform><numerusform>%n connessioni attive alla rete STATERAIX</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>Etichetta</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (axim.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (statera.conf)</translation>
     </message>
 </context>
 <context>
@@ -1126,8 +1126,8 @@ MultiSend: %1</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uaxim per input.</source>
-        <translation>Può variare di +/- %1 uAXIM per input.</translation>
+        <source>Can vary +/- %1 ustatera per input.</source>
+        <translation>Può variare di +/- %1 uSTATERA per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1173,8 +1173,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AXIM address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo AXIM valido.</translation>
+        <source>The entered address "%1" is not a valid STATERA address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo STATERA valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About AXIM Core</source>
-        <translation>Informazioni su AXIM Core</translation>
+        <source>About STATERA Core</source>
+        <translation>Informazioni su STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to AXIM Core.</source>
-        <translation>Benvenuto in AXIMIX Core.</translation>
+        <source>Welcome to STATERA Core.</source>
+        <translation>Benvenuto in STATERAIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove AXIM Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove STATERA Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AXIM Core scaricherà e salverà una copia della blockchain AXIM. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>STATERA Core scaricherà e salverà una copia della blockchain STATERA. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other AXIM addresses after it matures.
-To Add: enter percentage to give and AXIM address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other STATERA addresses after it matures.
+To Add: enter percentage to give and STATERA address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi AXIM fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo AXIM da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi STATERA fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo STATERA da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1660,7 +1660,7 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Quantità:</translation>
     </message>
     <message>
-        <source>Maximum (15)</source>
+        <source>Mstateraum (15)</source>
         <translation>Massimo (15)</translation>
     </message>
 </context>
@@ -1671,12 +1671,12 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Configura Offuscamento</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 AXIM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Usa 2 masternodi diversi per mescolare fino a 10000 STATERA</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Usa 8 masternodi diversi per mixare fino a 10000 AXIM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Usa 8 masternodi diversi per mixare fino a 10000 STATERA</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1713,24 +1713,24 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Mappa la porta utilizzando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of AXIM units to zAXIM</source>
-        <translation>Attiva il conio automatico di unità AXIM in zAXIM</translation>
+        <source>Enable automatic minting of STATERA units to zSTATERA</source>
+        <translation>Attiva il conio automatico di unità STATERA in zSTATERA</translation>
     </message>
     <message>
-        <source>Enable zAXIM Automint</source>
-        <translation>Attiva Conio automatico zAXIM</translation>
+        <source>Enable zSTATERA Automint</source>
+        <translation>Attiva Conio automatico zSTATERA</translation>
     </message>
     <message>
-        <source>Percentage of incoming AXIM which get automatically converted to zAXIM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentuale di AXIM in entrata che viene automaticamente convertita in zAXIM attraverso il protocollo Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming STATERA which get automatically converted to zSTATERA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentuale di STATERA in entrata che viene automaticamente convertita in zSTATERA attraverso il protocollo Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zAXIM</source>
-        <translation>Percentuale di zAXIM Percentuale di zAXIM da coniare automaticamente</translation>
+        <source>Percentage of autominted zSTATERA</source>
+        <translation>Percentuale di zSTATERA Percentuale di zSTATERA da coniare automaticamente</translation>
     </message>
     <message>
-        <source>Preferred Automint zAXIM Denomination</source>
-        <translation>Denominazione preferita conio automatico zAXIM</translation>
+        <source>Preferred Automint zSTATERA Denomination</source>
+        <translation>Denominazione preferita conio automatico zSTATERA</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1792,8 +1792,8 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo totale, inclusi tutte le monete non disponibili.</translation>
     </message>
     <message>
-        <source>AXIM Balance</source>
-        <translation>Bilancio AXIM</translation>
+        <source>STATERA Balance</source>
+        <translation>Bilancio STATERA</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1804,18 +1804,18 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current AXIM balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo AXIM corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current STATERA balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo STATERA corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
-        <source>zAXIM Balance</source>
-        <translation>Bilancio zAXIM</translation>
+        <source>zSTATERA Balance</source>
+        <translation>Bilancio zSTATERA</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zAXIM are spendable.</source>
+These zSTATERA are spendable.</source>
         <translation>Maturi: più di 20 conferme e più di 1 conio della stessa denominazione dopo il conio.
-Questi zAXIM sono spendibili.</translation>
+Questi zSTATERA sono spendibili.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -1846,8 +1846,8 @@ Questi zAXIM sono spendibili.</translation>
         <translation>Spendibili:</translation>
     </message>
     <message>
-        <source>Locked AXIM or Masternode collaterals. These are excluded from zAXIM minting.</source>
-        <translation>AXIM bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zAXIM.</translation>
+        <source>Locked STATERA or Masternode collaterals. These are excluded from zSTATERA minting.</source>
+        <translation>STATERA bloccati o collaterali Masternodo. Questi sono esclusi dal conio di zSTATERA.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1858,18 +1858,18 @@ Questi zAXIM sono spendibili.</translation>
         <translation>Non confermati:</translation>
     </message>
     <message>
-        <source>Your current zAXIM balance, unconfirmed and immature zAXIM included.</source>
-        <translation>Il tuo saldo zAXIM corrente, inclusi zAXIM non confermati e non maturi</translation>
+        <source>Your current zSTATERA balance, unconfirmed and immature zSTATERA included.</source>
+        <translation>Il tuo saldo zSTATERA corrente, inclusi zSTATERA non confermati e non maturi</translation>
     </message>
     <message>
         <source>Recent transactions</source>
         <translation>Transazioni recenti</translation>
     </message>
     <message>
-        <source>Current percentage of zAXIM.
+        <source>Current percentage of zSTATERA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Percentuale corrente di zAXIM.
+        <translation>Percentuale corrente di zSTATERA.
 Se il conio automatico è attivato questa percentuale si stabilizzerà all'incirca sulla percentuale stabilita per il conio automatico (percentuale prestabilita = 10%).
 </translation>
     </message>
@@ -1878,14 +1878,14 @@ Se il conio automatico è attivato questa percentuale si stabilizzerà all'incir
         <translation>AutoMint è attivo e impostato su</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in axim.conf.</source>
-        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in axim.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in statera.conf.</source>
+        <translation>Per disabilitare il conio automatico aggiungi 'enablezeromint=0' in statera.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in statera.conf</source>
         <translation>Conio automatico è correntemente disattivato.
-Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in axim.conf</translation>
+Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=1' in statera.conf</translation>
     </message>
 </context>
 <context>
@@ -1933,12 +1933,12 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
-        <source>0.000 000 00 AXIM</source>
-        <translation>0.000 000 00 AXIM</translation>
+        <source>0.000 000 00 STATERA</source>
+        <translation>0.000 000 00 STATERA</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1961,16 +1961,16 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of Axim to convert to zAXIM</source>
-        <translation>Immetti un importo di AXIM da convertire in zAXIM</translation>
+        <source>Enter an amount of Statera to convert to zSTATERA</source>
+        <translation>Immetti un importo di STATERA da convertire in zSTATERA</translation>
     </message>
     <message>
-        <source>zAXIM Control</source>
-        <translation>Controllo zAXIM</translation>
+        <source>zSTATERA Control</source>
+        <translation>Controllo zSTATERA</translation>
     </message>
     <message>
-        <source>zAXIM Selected:</source>
-        <translation>zAXIM selezionati:</translation>
+        <source>zSTATERA Selected:</source>
+        <translation>zSTATERA selezionati:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1981,23 +1981,23 @@ Per attivare il Conio automatico cambiare 'enablezeromint=0' in 'enablezeromint=
         <translation>Spendi Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zAXIM for spending</source>
-        <translation>zAXIM disponibili disponibili per essere spesi (maturi e spendibili)</translation>
+        <source>Available (mature and spendable) zSTATERA for spending</source>
+        <translation>zSTATERA disponibili disponibili per essere spesi (maturi e spendibili)</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Bilancio Disponibile:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zAXIM for spending
+        <source>Available (mature and spendable) zSTATERA for spending
 
-zAXIM are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zAXIM disponibili disponibili per essere spesi (maturi e spendibili)
-Gli zAXIM sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
+zSTATERA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zSTATERA disponibili disponibili per essere spesi (maturi e spendibili)
+Gli zSTATERA sono maturi quando hanno più di 20 conferme E più di 2 conii della stessa denominazione dopo che sono stati coniati</translation>
     </message>
     <message>
-        <source>0 zAXIM</source>
-        <translation>0 zAXIM</translation>
+        <source>0 zSTATERA</source>
+        <translation>0 zSTATERA</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2040,31 +2040,31 @@ Gli zAXIM sono maturi quando hanno più di 20 conferme E più di 2 conii della s
         <translation>Statistiche Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zAXIM</source>
-        <translation>Saldo totale inclusi zAXIM non confermati e non maturi</translation>
+        <source>Total Balance including unconfirmed and immature zSTATERA</source>
+        <translation>Saldo totale inclusi zSTATERA non confermati e non maturi</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
         <translation>Saldo totale Zerocoin:</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zAXIM minting.
+        <source>Show the current status of automatic zSTATERA minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to axim.conf
-- disable: add 'enablezeromint=0' to axim.conf
+- enable: add 'enablezeromint=1' to statera.conf
+- disable: add 'enablezeromint=0' to statera.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zAXIM
+- menu Settings-&gt;Options-&gt;Percentage of autominted zSTATERA
 
 </source>
-        <translation>Mostra lo stato corrente del conio automatico zAXIM.
+        <translation>Mostra lo stato corrente del conio automatico zSTATERA.
 Per cambiare lo stato (riavvio necessario):
-- attivato: aggiungi 'enablezeromint=1' a axim.conf
-- disattivato: aggiungi 'enablezeromint=0' a axim.conf
+- attivato: aggiungi 'enablezeromint=1' a statera.conf
+- disattivato: aggiungi 'enablezeromint=0' a statera.conf
 
 Per cambiare la percentuale (riavvio non necessario):
-- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zAXIM da coniare automaticamente
+- menu Impostazioni-&gt;Opzioni-&gt;Percentuale di zSTATERA da coniare automaticamente
 
 </translation>
     </message>
@@ -2209,8 +2209,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>zAXIM Mint</source>
-        <translation>Conio zAXIM</translation>
+        <source>zSTATERA Mint</source>
+        <translation>Conio zSTATERA</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2483,8 +2483,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>L'indirizzo AXIM per firmare il messaggio con</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>L'indirizzo STATERA per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2507,16 +2507,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo AXIM</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo STATERA</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>L'indirizzo AXIM con cui è stato firmato il messaggio</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>L'indirizzo STATERA con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo AXIM specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo STATERA specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2554,8 +2554,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     </context>
 <context>
@@ -2666,18 +2666,18 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

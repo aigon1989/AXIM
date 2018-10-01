@@ -321,10 +321,10 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

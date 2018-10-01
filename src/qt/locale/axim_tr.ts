@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan AXIM adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan STATERA adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan AXIM adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan STATERA adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, AXIM'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, STATERA'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -254,12 +254,12 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>Enter a AXIM Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38 ile şifrelemek isteğiniz AXIM Adresini giriniz. Ortadaki kutucuğa bir parola giriniz. Şifrelenmiş özel anahtarı hesaplamak için şifrele tuşuna basınız. </translation>
+        <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38 ile şifrelemek isteğiniz STATERA Adresini giriniz. Ortadaki kutucuğa bir parola giriniz. Şifrelenmiş özel anahtarı hesaplamak için şifrele tuşuna basınız. </translation>
     </message>
     <message>
-        <source>The AXIM address to encrypt</source>
-        <translation>Şifrelenecek AXIM adresi</translation>
+        <source>The STATERA address to encrypt</source>
+        <translation>Şifrelenecek STATERA adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Geçerli imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this AXIM address</source>
-        <translation>Bu AXIM adresinin özel anahtarını şifreleyin</translation>
+        <source>Encrypt the private key for this STATERA address</source>
+        <translation>Bu STATERA adresinin özel anahtarını şifreleyin</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>İşlem geçmişini ara</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>Gizlilik Aksiyonları zAXIM</translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>Gizlilik Aksiyonları zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -637,16 +637,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM CORE</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA CORE</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Koinleri AXIM adresine gönder</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Koinleri STATERA adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve axim üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve statera üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -661,24 +661,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
+        <source>&amp;About STATERA Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
+        <source>Show information about STATERA Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>AXIM için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>STATERA için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı AXIM adresleriyle imzalayın</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı STATERA adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Belirtilen AXIM adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Belirtilen STATERA adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -709,8 +709,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Bir AXIM: URI veya ödeme isteği açın</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Bir STATERA: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -721,12 +721,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Olası AXIM komut satırı seçeneklerine sahip bir liste almak için AXIM Core yardım mesajını gösterin</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Olası STATERA komut satırı seçeneklerine sahip bir liste almak için STATERA Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>AXIM Core istemci</translation>
+        <source>STATERA Core client</source>
+        <translation>STATERA Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,8 +864,8 @@ Adres: %4
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (axim.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (statera.conf).
 </translation>
     </message>
 </context>
@@ -1154,8 +1154,8 @@ Adres: %4
         <translation>Gönderen adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AXIM address.</source>
-        <translation>Girilen "%1" adresi geçerli bir AXIM adresi değil.</translation>
+        <source>The entered address "%1" is not a valid STATERA address.</source>
+        <translation>Girilen "%1" adresi geçerli bir STATERA adresi değil.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1200,16 +1200,16 @@ Adres: %4
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM CORE</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA CORE</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About AXIM Core</source>
-        <translation>hakkında AXIM Core</translation>
+        <source>About STATERA Core</source>
+        <translation>hakkında STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1255,16 +1255,16 @@ Adres: %4
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to AXIM Core.</source>
-        <translation>AXIM Core'a hoşgeldiniz.</translation>
+        <source>Welcome to STATERA Core.</source>
+        <translation>STATERA Core'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
-        <translation>Program ilk başlatıldığında AXIM Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
+        <translation>Program ilk başlatıldığında STATERA Core'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AXIM Core, AXIM blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>STATERA Core, STATERA blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecek. Cüzdan ayrıca bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1275,8 +1275,8 @@ Adres: %4
         <translation>Özel bir veri dizini kullanın:</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM CORE</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA CORE</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1417,12 +1417,12 @@ Adres: %4
         <translation>Gönderim adresi girin</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other AXIM addresses after it matures.
-To Add: enter percentage to give and AXIM address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other STATERA addresses after it matures.
+To Add: enter percentage to give and STATERA address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend, olgunlaştıktan sonra diğer AXIM adreslerinin bir listesine otomatik olarak kazancınızın 100% 'ünü veya grup yazınızı ödüllendirmenize olanak tanır.
-Eklemek için: Verilecek yüzdeyi ve MultiSend vektörüne eklemek için AXIM adresi girin.
+        <translation>MultiSend, olgunlaştıktan sonra diğer STATERA adreslerinin bir listesine otomatik olarak kazancınızın 100% 'ünü veya grup yazınızı ödüllendirmenize olanak tanır.
+Eklemek için: Verilecek yüzdeyi ve MultiSend vektörüne eklemek için STATERA adresi girin.
 Silme: Silinecek adresi girin ve silmek için basın.
 MultiSend, Etkinleştir'i tıklamadığınız sürece etkinleştirilmeyecektir</translation>
     </message>
@@ -1644,8 +1644,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Address /miktar:</translation>
     </message>
     <message>
-        <source>Add destinations to send AXIM to</source>
-        <translation>AXIM göndermek için varış yerleri ekleyin</translation>
+        <source>Add destinations to send STATERA to</source>
+        <translation>STATERA göndermek için varış yerleri ekleyin</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1704,7 +1704,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Vout pozisyonu olumlu olmalı.</translation>
     </message>
     <message>
-        <source>Maximum possible addresses reached. (15)</source>
+        <source>Mstateraum possible addresses reached. (15)</source>
         <translation>Maksimum adres sayısına ulaşıldı. (15)</translation>
     </message>
     <message>
@@ -1716,7 +1716,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Miktar:</translation>
     </message>
     <message>
-        <source>Maximum (15)</source>
+        <source>Mstateraum (15)</source>
         <translation>Maksimum (15)</translation>
     </message>
 </context>
@@ -1735,7 +1735,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Yüksek Gizlilik</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
+        <source>Mstateraum Privacy</source>
         <translation>Maksimum Gizlilik</translation>
     </message>
     <message>
@@ -1743,48 +1743,48 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Lütfen bir gizlilik düzeyi seçin.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>10000 AXIM'e kadar fonları karıştırmak için 2 ayrı matternod kullanın</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>10000 STATERA'e kadar fonları karıştırmak için 2 ayrı matternod kullanın</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>10000 AXIM'ye kadar olan fonları karıştırmak için 8 ayrı matternod kullanın</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>10000 STATERA'ye kadar olan fonları karıştırmak için 8 ayrı matternod kullanın</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16 ayrı matternod kullan</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AXIM to anonymize 10000 AXIM</source>
-        <translation>Bu seçenek en hızlıdır ve 10000 AXIM'yi anonimleştirmek için ~ 0.025 AXIM'lik bir maliyeti olacaktır</translation>
+        <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
+        <translation>Bu seçenek en hızlıdır ve 10000 STATERA'yi anonimleştirmek için ~ 0.025 STATERA'lik bir maliyeti olacaktır</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 AXIM to anonymize 10000 AXIM</source>
-        <translation>Bu seçenek orta derecede hızlıdır ve 10000 AXIM'yi anonimleştirmek için yaklaşık 0.05 AXIM'e mal olur</translation>
+        <source>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</source>
+        <translation>Bu seçenek orta derecede hızlıdır ve 10000 STATERA'yi anonimleştirmek için yaklaşık 0.05 STATERA'e mal olur</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
         <translation>Bu en yavaş ve en güvenli seçenektir. Maksimum anonimlik kullanmak maliyete gelecek</translation>
     </message>
     <message>
-        <source>0.1 AXIM per 10000 AXIM you anonymize.</source>
-        <translation>0.1 AXIM her 10000 AXIM anonimleştirmeye.</translation>
+        <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
+        <translation>0.1 STATERA her 10000 STATERA anonimleştirmeye.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Şaşırtma ayarlama</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Şaşırtma başarıyla temele ayarlandı. (%1 ve  2 turlar) Bunu istediğiniz zaman değiştirmek için AXIM in ayarlar ekranını açmanız yeterli</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Şaşırtma başarıyla temele ayarlandı. (%1 ve  2 turlar) Bunu istediğiniz zaman değiştirmek için STATERA in ayarlar ekranını açmanız yeterli</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Şaşırtma başarıyla Yüksek e ayarlandı. (%1 ve 8 turlar) Bunu istediğiniz zaman değiştirmek için AXIM in ayarlar ekranını açmanız yeterli</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Şaşırtma başarıyla Yüksek e ayarlandı. (%1 ve 8 turlar) Bunu istediğiniz zaman değiştirmek için STATERA in ayarlar ekranını açmanız yeterli</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Şaşırtma başarıyla maksimuma ayarlandı. (%1 ve 16 turlar) Bunu istediğiniz zaman değiştirmek için AXIM in ayarlar ekranını açmanız yeterli</translation>
+        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Şaşırtma başarıyla maksimuma ayarlandı. (%1 ve 16 turlar) Bunu istediğiniz zaman değiştirmek için STATERA in ayarlar ekranını açmanız yeterli</translation>
     </message>
 </context>
 <context>
@@ -1845,8 +1845,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Doğrulanmamış değişikliğin harcamasını devre dışı bırakırsanız, bir işlemdeki değişiklik&lt;br/&gt;Bu işlem en az bir onay alıncaya kadar kullanılamaz.&lt;br/&gt;Bu aynı zamanda bakiyenizin nasıl hesaplandığını etkiler.</translation>
     </message>
     <message>
-        <source>Automatically open the AXIM client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticideki AXIM istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
+        <source>Automatically open the STATERA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticideki STATERA istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1865,12 +1865,12 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>Uzman</translation>
     </message>
     <message>
-        <source>Automatically start AXIM after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra otomatik olarak AXIM'i başlatın.</translation>
+        <source>Automatically start STATERA after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra otomatik olarak STATERA'i başlatın.</translation>
     </message>
     <message>
-        <source>&amp;Start AXIM on system login</source>
-        <translation>&amp; Sistem oturum açma işleminde AXIM'i başlat</translation>
+        <source>&amp;Start STATERA on system login</source>
+        <translation>&amp; Sistem oturum açma işleminde STATERA'i başlat</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1897,8 +1897,8 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>&amp;ağ</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXIM.</source>
-        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, AXIM yeniden başlatıldıktan sonra geçerli olur.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
+        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, STATERA yeniden başlatıldıktan sonra geçerli olur.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1911,28 +1911,28 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zAXIM Automint</source>
-        <translation>zAXIM Otomatik basımı etkinleştir</translation>
+        <source>Enable zSTATERA Automint</source>
+        <translation>zSTATERA Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming AXIM which get automatically converted to zAXIM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zAXIM'ye dönüştürülen gelen AXIM yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming STATERA which get automatically converted to zSTATERA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zSTATERA'ye dönüştürülen gelen STATERA yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zAXIM</source>
-        <translation>Otomatikleştirilmiş zAXIM yüzdesi</translation>
+        <source>Percentage of autominted zSTATERA</source>
+        <translation>Otomatikleştirilmiş zSTATERA yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough AXIM for this denomination is available</source>
-        <translation>Bu mezhebi için yeterli AXIM bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough STATERA for this denomination is available</source>
+        <translation>Bu mezhebi için yeterli STATERA bulunana kadar Zerocoin'e otomatik dönüşümle birlikte bekleyin</translation>
     </message>
     <message>
-        <source>Preferred Automint zAXIM Denomination</source>
-        <translation>Tercih edilen Automint zAXIM Nominal değeri</translation>
+        <source>Preferred Automint zSTATERA Denomination</source>
+        <translation>Tercih edilen Automint zSTATERA Nominal değeri</translation>
     </message>
     <message>
-        <source>Connect to the AXIM network through a SOCKS5 proxy.</source>
-        <translation>Bir SOCKS5 proxy vasıtasıyla AXIM ağına bağlanın.</translation>
+        <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
+        <translation>Bir SOCKS5 proxy vasıtasıyla STATERA ağına bağlanın.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2078,8 +2078,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Toplam Bakiye, mevcut olmayan tüm paralar dahil.</translation>
     </message>
     <message>
-        <source>AXIM Balance</source>
-        <translation>AXIM Bakiyesi</translation>
+        <source>STATERA Balance</source>
+        <translation>STATERA Bakiyesi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2098,16 +2098,16 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Staklanmış veya masternod ödülleri henüz olgunlaşmamış</translation>
     </message>
     <message>
-        <source>Your current AXIM balance, unconfirmed and immature transactions included</source>
-        <translation>Güncel AXIM bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
+        <source>Your current STATERA balance, unconfirmed and immature transactions included</source>
+        <translation>Güncel STATERA bakiyeniz, onaylanmamış ve olgunlaşmamış işlemler dahil</translation>
     </message>
     <message>
-        <source>zAXIM Balance</source>
-        <translation>zAXIM Bakiyesi</translation>
+        <source>zSTATERA Balance</source>
+        <translation>zSTATERA Bakiyesi</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak AXIM şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak STATERA şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2150,8 +2150,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Harcanabilir:</translation>
     </message>
     <message>
-        <source>Locked AXIM or Masternode collaterals. These are excluded from zAXIM minting.</source>
-        <translation>Kilitli AXIM veya Masternode teminatları. Bunlar zAXIM matlaştırmadan çıkarılır.</translation>
+        <source>Locked STATERA or Masternode collaterals. These are excluded from zSTATERA minting.</source>
+        <translation>Kilitli STATERA veya Masternode teminatları. Bunlar zSTATERA matlaştırmadan çıkarılır.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2162,8 +2162,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>onaylanmamış:</translation>
     </message>
     <message>
-        <source>Your current zAXIM balance, unconfirmed and immature zAXIM included.</source>
-        <translation>Güncel zAXIM bakiyeniz, onaylanmamış ve olgunlaşmamış zAXIM'ler dahil.</translation>
+        <source>Your current zSTATERA balance, unconfirmed and immature zSTATERA included.</source>
+        <translation>Güncel zSTATERA bakiyeniz, onaylanmamış ve olgunlaşmamış zSTATERA'ler dahil.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2174,10 +2174,10 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>senkronizasyon dışı</translation>
     </message>
     <message>
-        <source>Current percentage of zAXIM.
+        <source>Current percentage of zSTATERA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Mevcut zAXIM yüzdesi.
+        <translation>Mevcut zSTATERA yüzdesi.
 AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi etrafında düzelir (varsayılan = 10%).
 </translation>
     </message>
@@ -2186,14 +2186,14 @@ AutoMint etkinleştirilirse, bu yüzde, yapılandırılmış AutoMint yüzdesi e
         <translation>AutoMint şu anda etkinleştirilmiş ve</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in axim.conf.</source>
-        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  axim.conf. dosyasına</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in statera.conf.</source>
+        <translation>AutoMint kapatmak için ekle  'enablezeromint=0'  statera.conf. dosyasına</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in statera.conf</source>
         <translation>AutoMint şu anda aktif değil.
- AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde axim.conf dosyasında</translation>
+ AutoMint aktive etmek için  değiştir 'enablezeromint=0' yazan kısmı 'enablezeromint=1' şeklinde statera.conf dosyasında</translation>
     </message>
 </context>
 <context>
@@ -2219,12 +2219,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf<
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start axim: click-to-pay handler</source>
-        <translation>Axim başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <source>Cannot start statera: click-to-pay handler</source>
+        <translation>Statera başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid AXIM address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir AXIM adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid STATERA address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir STATERA adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2309,8 +2309,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf<
         <translation>Zerocoin Actions:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak AXIM şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncelliğini yitirmiş olabilir. Bir bağlantı kurulduktan sonra M-cüzdanınız otomatik olarak STATERA şebekesiyle senkronize edilir, ancak bu işlem henüz tamamlanmadı.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2321,8 +2321,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2333,8 +2333,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf<
         <translation>Mintinge hazır</translation>
     </message>
     <message>
-        <source>0.000 000 00 AXIM</source>
-        <translation>0.000 000 00 AXIM</translation>
+        <source>0.000 000 00 STATERA</source>
+        <translation>0.000 000 00 STATERA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2385,24 +2385,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf<
         <translation>Harca Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zAXIM for spending</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zAXIM</translation>
+        <source>Available (mature and spendable) zSTATERA for spending</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zSTATERA</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Kullanılabilir Bakiye:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zAXIM for spending
+        <source>Available (mature and spendable) zSTATERA for spending
 
-zAXIM are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Mevcut (olgun ve harcanabilir) harcama için zAXIM
+zSTATERA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Mevcut (olgun ve harcanabilir) harcama için zSTATERA
 
-zAXIM, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
+zSTATERA, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhepten 2 kat fazla darphane çekilir.</translation>
     </message>
     <message>
-        <source>0 zAXIM</source>
-        <translation>0 zAXIM</translation>
+        <source>0 zSTATERA</source>
+        <translation>0 zSTATERA</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2421,8 +2421,8 @@ zAXIM, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhe
         <translation>şuna öde:</translation>
     </message>
     <message>
-        <source>The AXIM address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Ödemeyi göndermek için AXIM adresi. Boş olduğunda kendinize yerel ödeme oluşturur.</translation>
+        <source>The STATERA address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Ödemeyi göndermek için STATERA adresi. Boş olduğunda kendinize yerel ödeme oluşturur.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2473,8 +2473,8 @@ zAXIM, 20'den fazla teyit bulunduğunda olgunlaşır ve bundan sonra aynı mezhe
         <translation>Zerocoin durumu:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zAXIM</source>
-        <translation>Doğrulanmamış ve olgunlaşmamış zAXIM dahil toplam bakiye</translation>
+        <source>Total Balance including unconfirmed and immature zSTATERA</source>
+        <translation>Doğrulanmamış ve olgunlaşmamış zSTATERA dahil toplam bakiye</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2644,17 +2644,17 @@ Lütfen sabırlı olun...</translation>
     </message>
     <message>
         <source>) needed.
-Maximum allowed: </source>
+Mstateraum allowed: </source>
         <translation>) gerekli.
 Maksimum bırakılan: </translation>
     </message>
     <message>
-        <source>zAXIM is currently disabled due to maintenance.</source>
-        <translation>zAXIM bakım nedeniyle şu an kullanıma kapalı.</translation>
+        <source>zSTATERA is currently disabled due to maintenance.</source>
+        <translation>zSTATERA bakım nedeniyle şu an kullanıma kapalı.</translation>
     </message>
     <message>
-        <source>zAXIM is currently undergoing maintenance.</source>
-        <translation>zAXIM halen bakım alıyor.</translation>
+        <source>zSTATERA is currently undergoing maintenance.</source>
+        <translation>zSTATERA halen bakım alıyor.</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2677,8 +2677,8 @@ Maksimum bırakılan: </translation>
         <translation>Başarılı şekilde mint edildi</translation>
     </message>
     <message>
-        <source> zAXIM in </source>
-        <translation> zAXIM in </translation>
+        <source> zSTATERA in </source>
+        <translation> zSTATERA in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2705,8 +2705,8 @@ Maksimum bırakılan: </translation>
         <translation>Sağlanan 'Ödeme Yapmak İçin' adresi yok, yerel ödeme oluşturun</translation>
     </message>
     <message>
-        <source>Invalid Axim Address</source>
-        <translation>Geçersiz Axim Adresi</translation>
+        <source>Invalid Statera Address</source>
+        <translation>Geçersiz Statera Adresi</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2790,8 +2790,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>Enter a AXIM address (e.g. %1)</source>
-        <translation>Gir bir AXIM addres (e.g. %1)</translation>
+        <source>Enter a STATERA address (e.g. %1)</source>
+        <translation>Gir bir STATERA addres (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2928,8 +2928,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the AXIM debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Geçerli veri dizininden AXIM hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the STATERA debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Geçerli veri dizininden STATERA hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3112,8 +3112,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Dışa:</translation>
     </message>
     <message>
-        <source>Welcome to the AXIM RPC console.</source>
-        <translation>AXIM RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the STATERA RPC console.</source>
+        <translation>STATERA RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
@@ -3199,12 +3199,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Yeni alma adresi ile ilişkilendirilebilecek isteğe bağlı bir etiket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AXIM network.</source>
-        <translation>Talep açıldığında görüntülenecek ödeme isteğine eklemek için isteğe bağlı bir mesaj. Not: Mesaj, ödemenin AXIM şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the STATERA network.</source>
+        <translation>Talep açıldığında görüntülenecek ödeme isteğine eklemek için isteğe bağlı bir mesaj. Not: Mesaj, ödemenin STATERA şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the AXIM network.</source>
-        <translation>Talep açıldığında görüntülenecek, ödeme isteğine eklemek için isteğe bağlı bir mesaj.&lt;br&gt;Not: Mesaj, ödemenin AXIM şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the STATERA network.</source>
+        <translation>Talep açıldığında görüntülenecek, ödeme isteğine eklemek için isteğe bağlı bir mesaj.&lt;br&gt;Not: Mesaj, ödemenin STATERA şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3428,8 +3428,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>UTXO Boyutu:</translation>
     </message>
     <message>
-        <source>0 AXIM</source>
-        <translation>0 AXIM</translation>
+        <source>0 STATERA</source>
+        <translation>0 STATERA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3484,16 +3484,16 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Koinler otomatik seçildi</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAXIMs in fee,&lt;br /&gt;while "at least" pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uAXIM olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uAXIM öder,&lt;br /&gt;"en az" ise 1000 uAXIM öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uSTATERA olarak ayarlanmış ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uSTATERA öder,&lt;br /&gt;"en az" ise 1000 uSTATERA öder. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAXIMs in fee,&lt;br /&gt;while "total at least" pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Özel ücret 1000 uAXIM olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uAXIM ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uAXIM ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "total at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Özel ücret 1000 uSTATERA olarak ayarlanırsa ve işlem sadece 250 bayt ise, "kilobayt başına" ücret karşılığında yalnızca 250 uSTATERA ücreti verilir,&lt;br /&gt;"toplam en az" ise 1000 uSTATERA ödüyor. Bir kilobayttan daha büyük işlemler için kilobayt ödersiniz.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AXIM transactions than the network can process.</source>
-        <translation>Yalnızca minimum ücreti ödemek, işlem hacmi bloklardaki alana göre daha az olduğu sürece iyidir.&lt;br /&gt;Ancak, bunun, AXIM işlemleri için ağın işleyebileceğinden daha fazla talep olması durumunda, onaylama işleminde asla sonuçlanamayacağına dikkat edin.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</source>
+        <translation>Yalnızca minimum ücreti ödemek, işlem hacmi bloklardaki alana göre daha az olduğu sürece iyidir.&lt;br /&gt;Ancak, bunun, STATERA işlemleri için ağın işleyebileceğinden daha fazla talep olması durumunda, onaylama işleminde asla sonuçlanamayacağına dikkat edin.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3540,8 +3540,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Alıcı ekle</translation>
     </message>
     <message>
-        <source>Anonymized AXIM</source>
-        <translation>anonim edilmiş AXIM</translation>
+        <source>Anonymized STATERA</source>
+        <translation>anonim edilmiş STATERA</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3588,8 +3588,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Bloğu böl aygıtı multipl adresle çalışmaz Tekrar deneyin</translation>
     </message>
     <message>
-        <source>Warning: Invalid AXIM address</source>
-        <translation>Uyarı: Geçersiz AXIM adresi</translation>
+        <source>Warning: Invalid STATERA address</source>
+        <translation>Uyarı: Geçersiz STATERA adresi</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3683,8 +3683,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>şuna öde:</translation>
     </message>
     <message>
-        <source>The AXIM address to send the payment to</source>
-        <translation>Ödemeyi göndermek için AXIM adresi</translation>
+        <source>The STATERA address to send the payment to</source>
+        <translation>Ödemeyi göndermek için STATERA adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3723,8 +3723,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the AXIM: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AXIM network.</source>
-        <translation>AXIM e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj AXIM ağında yayınlanmayacak.</translation>
+        <source>A message that was attached to the STATERA: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the STATERA network.</source>
+        <translation>STATERA e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj STATERA ağında yayınlanmayacak.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3750,8 +3750,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>AXIM Core is shutting down...</source>
-        <translation>AXIM Core kapanıyor ...</translation>
+        <source>STATERA Core is shutting down...</source>
+        <translation>STATERA Core kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3773,8 +3773,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Sahip olduğunuzu kanıtlamak için adreslerinizle mesaj imzalayabilirsiniz. Kimlik avı saldırıları sizi kimliğini onlara yazmaya kandırmaya çalışabilir, çünkü belirsiz bir şey imzalamamaya dikkat edin. Kabul ettiğiniz tamamen ayrıntılı ifadeleri yalnızca imzalayın.</translation>
     </message>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için AXIM adresi</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için STATERA adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3805,16 +3805,16 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Geçerli imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Bu AXIM adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Bu STATERA adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>Mesajın imzalandığı AXIM adresi</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>Mesajın imzalandığı STATERA adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Belirtilen AXIM adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Belirtilen STATERA adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3900,8 +3900,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM CORE</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA CORE</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3916,8 +3916,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The AXIM Core developers</source>
-        <translation>The AXIM Core developers</translation>
+        <source>The STATERA Core developers</source>
+        <translation>The STATERA Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4436,8 +4436,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 AXIM.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 AXIM ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 STATERA.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 STATERA ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -4464,7 +4464,7 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
     </message>
 </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Adet</translation>
@@ -4474,8 +4474,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4487,7 +4487,7 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
     </message>
 </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx meta verileri, örneğin hesap sahibi ve ödeme talebi bilgileri, 2 = tx meta verileri bırak)</translation>
@@ -4513,8 +4513,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Hesaplanan akümülatör kontrol noktası, blok indeksiyle kaydedilen kontrol noktası değildir.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. AXIM Core is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. AXIM Core muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. STATERA Core is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. STATERA Core muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -4561,12 +4561,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (AXIM / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (STATERA / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (AXIM / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (STATERA / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

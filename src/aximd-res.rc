@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "AXIM"
-            VALUE "FileDescription",    "aximd (OSS daemon/client for AXIM)"
+            VALUE "CompanyName",        "STATERA"
+            VALUE "FileDescription",    "staterad (OSS daemon/client for STATERA)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "aximd"
+            VALUE "InternalName",       "staterad"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "aximd.exe"
-            VALUE "ProductName",        "aximd"
+            VALUE "OriginalFilename",   "staterad.exe"
+            VALUE "ProductName",        "staterad"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

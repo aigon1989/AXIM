@@ -2807,7 +2807,7 @@ void test_secp256k1_pippenger_bucket_window_inv(void) {
 }
 
 /**
- * Probabilistically test the function returning the maximum number of possible points
+ * Probabilistically test the function returning the mstateraum number of possible points
  * for a given scratch space.
  */
 void test_ecmult_multi_pippenger_max_points(void) {
@@ -3673,7 +3673,7 @@ void run_eckey_edge_case_test(void) {
     CHECK(secp256k1_ec_pubkey_create(ctx, &pubkey, orderc) == 0);
     VG_CHECK(&pubkey, sizeof(pubkey));
     CHECK(memcmp(&pubkey, zeros, sizeof(secp256k1_pubkey)) == 0);
-    /* Maximum value is too large, reject. */
+    /* Mstateraum value is too large, reject. */
     memset(ctmp, 255, 32);
     CHECK(secp256k1_ec_seckey_verify(ctx, ctmp) == 0);
     memset(&pubkey, 1, sizeof(pubkey));

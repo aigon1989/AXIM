@@ -1,6 +1,6 @@
 // Copyright (c) 2014 The Bitcoin developers
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,8 +11,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between axim-cli and aximd)
- * of a given instance of the Axim system.
+ * CBaseChainParams defines the base parameters (shared between statera-cli and staterad)
+ * of a given instance of the Statera system.
  */
 class CBaseChainParams
 {

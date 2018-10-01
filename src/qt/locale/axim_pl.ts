@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE AXIM!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE STATERA!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -509,16 +509,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>&amp;Rdzeń AXIM</translation>
+        <source>STATERA Core</source>
+        <translation>&amp;Rdzeń STATERA</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Wyślij monety do adresu AXIM</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Wyślij monety do adresu STATERA</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i axim:URI)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i statera:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -529,24 +529,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
+        <source>&amp;About STATERA Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
+        <source>Show information about STATERA Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Modyfikuj opcje konfiguracji AXIM</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Modyfikuj opcje konfiguracji STATERA</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami AXIM, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami STATERA, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu AXIM</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu STATERA</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -573,8 +573,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Otwórz AXIM: URI i żądanie zapłaty</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Otwórz STATERA: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -585,12 +585,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia AXIM, aby dostać listę możliwych opcji AXIM command-line</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia STATERA, aby dostać listę możliwych opcji STATERA command-line</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>Rdzeń AXIM klient</translation>
+        <source>STATERA Core client</source>
+        <translation>Rdzeń STATERA klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -899,8 +899,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>&amp;Rdzeń AXIM</translation>
+        <source>STATERA Core</source>
+        <translation>&amp;Rdzeń STATERA</translation>
     </message>
     </context>
 <context>
@@ -914,8 +914,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>&amp;Rdzeń AXIM</translation>
+        <source>STATERA Core</source>
+        <translation>&amp;Rdzeń STATERA</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1140,7 +1140,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Wysoka prywatność</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
+        <source>Mstateraum Privacy</source>
         <translation>Maksymalna prywatność</translation>
     </message>
     <message>
@@ -1190,12 +1190,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start AXIM after logging in to the system.</source>
-        <translation>Automatycznie uruchom AXIM po zalogowaniu do systemu</translation>
+        <source>Automatically start STATERA after logging in to the system.</source>
+        <translation>Automatycznie uruchom STATERA po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start AXIM on system login</source>
-        <translation>&amp;Uruchom AXIM podczas logowania do systemu</translation>
+        <source>&amp;Start STATERA on system login</source>
+        <translation>&amp;Uruchom STATERA podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1214,8 +1214,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXIM.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie AXIM</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie STATERA</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1224,8 +1224,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</source>
 https://www.transifex.com/aigon1989/aigon1989-translations </translation>
     </message>
     <message>
-        <source>Connect to the AXIM network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią AXIM poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią STATERA poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1463,8 +1463,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations </translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a AXIM address (e.g. %1)</source>
-        <translation>Wprowadź adres AXIM (np. %1)</translation>
+        <source>Enter a STATERA address (e.g. %1)</source>
+        <translation>Wprowadź adres STATERA (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1894,8 +1894,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations </translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres AXIM jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres STATERA jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1929,8 +1929,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>&amp;Rdzeń AXIM</translation>
+        <source>STATERA Core</source>
+        <translation>&amp;Rdzeń STATERA</translation>
     </message>
     </context>
 <context>
@@ -2021,14 +2021,14 @@ https://www.transifex.com/aigon1989/aigon1989-translations </translation>
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -47,7 +47,7 @@ public:
 
     void setModel(WalletModel* model);
     void showOutOfSyncWarning(bool fShow);
-    void setZAximControlLabels(int64_t nAmount, int nQuantity);
+    void setZStateraControlLabels(int64_t nAmount, int nQuantity);
 
 public slots:
     void setBalance(const CAmount& balance, const CAmount& unconfirmedBalance, const CAmount& immatureBalance, 
@@ -78,7 +78,7 @@ private:
 
     int nDisplayUnit;
     bool updateLabel(const QString& address);
-    void sendzAXIM();
+    void sendzSTATERA();
 
 private slots:
     void on_payTo_textChanged(const QString& address);
@@ -98,11 +98,11 @@ private slots:
 //    void coinControlClipboardLowOutput();
 //    void coinControlClipboardChange();
 
-    void on_pushButtonMintzAXIM_clicked();
+    void on_pushButtonMintzSTATERA_clicked();
     void on_pushButtonMintReset_clicked();
     void on_pushButtonSpentReset_clicked();
-    void on_pushButtonSpendzAXIM_clicked();
-    void on_pushButtonZAximControl_clicked();
+    void on_pushButtonSpendzSTATERA_clicked();
+    void on_pushButtonZStateraControl_clicked();
     void on_pushButtonHideDenoms_clicked();
     void on_pushButtonShowDenoms_clicked();
     void on_pasteButton_clicked();

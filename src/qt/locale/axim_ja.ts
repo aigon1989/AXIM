@@ -269,9 +269,9 @@
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     </context>
 </TS>

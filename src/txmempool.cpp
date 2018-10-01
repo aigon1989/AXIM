@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2016-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -273,7 +273,7 @@ public:
         }
         if (sortedFeeSamples.size() < 11) {
             // Eleven is Gavin's Favorite Number
-            // ... but we also take a maximum of 10 samples per block so eleven means
+            // ... but we also take a mstateraum of 10 samples per block so eleven means
             // we're getting samples from at least two different blocks
             return CFeeRate(0);
         }

@@ -65,15 +65,15 @@ noinst_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += aximd
+  bin_PROGRAMS += staterad
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += axim-cli axim-tx
+  bin_PROGRAMS += statera-cli statera-tx
 endif
 
 .PHONY: FORCE
-# axim core #
+# statera core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -171,9 +171,9 @@ BITCOIN_CORE_H = \
   wallet.h \
   wallet_ismine.h \
   walletdb.h \
-  zaximchain.h \
-  zaximtracker.h \
-  zaximwallet.h \
+  zstaterachain.h \
+  zstateratracker.h \
+  zstaterawallet.h \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
@@ -185,7 +185,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between aximd and axim-qt
+# server: shared between staterad and statera-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -220,7 +220,7 @@ libbitcoin_server_a_SOURCES = \
   txdb.cpp \
   txmempool.cpp \
   validationinterface.cpp \
-  zaximchain.cpp \
+  zstaterachain.cpp \
   $(BITCOIN_CORE_H)
 
 if ENABLE_ZMQ
@@ -232,7 +232,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between aximd and axim-qt, but only linked
+# wallet: shared between staterad and statera-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -259,8 +259,8 @@ libbitcoin_wallet_a_SOURCES = \
   wallet.cpp \
   wallet_ismine.cpp \
   walletdb.cpp \
-  zaximwallet.cpp \
-  zaximtracker.cpp \
+  zstaterawallet.cpp \
+  zstateratracker.cpp \
   stakeinput.cpp \
   $(BITCOIN_CORE_H)
 
@@ -326,7 +326,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between aximd, and axim-qt and non-server tools
+# common: shared between staterad, and statera-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -387,7 +387,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between axim-cli and axim-qt
+# cli: shared between statera-cli and statera-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -397,16 +397,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# aximd binary #
-aximd_SOURCES = aximd.cpp
-aximd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-aximd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aximd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# staterad binary #
+staterad_SOURCES = staterad.cpp
+staterad_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+staterad_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+staterad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aximd_SOURCES += aximd-res.rc
+staterad_SOURCES += staterad-res.rc
 endif
-aximd_LDADD = \
+staterad_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -420,38 +420,38 @@ aximd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-aximd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+staterad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# axim-cli binary #
-axim_cli_SOURCES = axim-cli.cpp
-axim_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-axim_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-axim_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# statera-cli binary #
+statera_cli_SOURCES = statera-cli.cpp
+statera_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+statera_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+statera_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-axim_cli_SOURCES += axim-cli-res.rc
+statera_cli_SOURCES += statera-cli-res.rc
 endif
 
-axim_cli_LDADD = \
+statera_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-axim_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+statera_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# axim-tx binary #
-axim_tx_SOURCES = axim-tx.cpp
-axim_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-axim_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-axim_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# statera-tx binary #
+statera_tx_SOURCES = statera-tx.cpp
+statera_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+statera_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+statera_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-axim_tx_SOURCES += axim-tx-res.rc
+statera_tx_SOURCES += statera-tx-res.rc
 endif
 
-axim_tx_LDADD = \
+statera_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -459,7 +459,7 @@ axim_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-axim_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+statera_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

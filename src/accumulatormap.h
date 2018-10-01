@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_ACCUMULATORMAP_H
-#define AXIM_ACCUMULATORMAP_H
+#ifndef STATERA_ACCUMULATORMAP_H
+#define STATERA_ACCUMULATORMAP_H
 
 #include "libzerocoin/Accumulator.h"
 #include "libzerocoin/Coin.h"
@@ -24,4 +24,4 @@ public:
     void Reset();
     void Reset(libzerocoin::ZerocoinParams* params2);
 };
-#endif //AXIM_ACCUMULATORMAP_H
+#endif //STATERA_ACCUMULATORMAP_H

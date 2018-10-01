@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços AXIM para onde enviar pagamentos. Confira sempre o montante e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços STATERA para onde enviar pagamentos. Confira sempre o montante e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços AXIM onde receber pagamentos. Recomenda-se o uso de um novo endereço para cada transacção.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços STATERA onde receber pagamentos. Recomenda-se o uso de um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas AXIMs contra roubo por malware infectando seu computador.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas STATERAs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA AXIM&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA STATERA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -666,8 +666,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>Um endereço AXIM para assinar a mensagem</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>Um endereço STATERA para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -698,12 +698,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço AXIM.</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço STATERA.</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>O endereço AXIM que foi assinado com</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>O endereço STATERA que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -901,10 +901,10 @@
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
@@ -1026,7 +1026,7 @@
         <translation>Definir o tamanho do pool de chaves para &lt;n&gt; (padrão:%u)</translation>
     </message>
     <message>
-        <source>Set maximum block size in bytes (default: %d)</source>
+        <source>Set mstateraum block size in bytes (default: %d)</source>
         <translation>Definir o tamanho máximo do bloco em bytes (padrão:%d)</translation>
     </message>
     <message>
@@ -1226,7 +1226,7 @@
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool maximum allows.</source>
+        <source>Value more than Obfuscation pool mstateraum allows.</source>
         <translation>Valor maior do que o máximo permitido pela pool.</translation>
     </message>
     <message>
@@ -1246,8 +1246,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart AXIM Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o AXIM Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart STATERA Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o STATERA Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

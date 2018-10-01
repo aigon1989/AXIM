@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše AXIM adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše STATERA adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše AXIM adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše STATERA adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše AXIMy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše STATERAy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE AXIMy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE STATERAy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Procházet historii transakcí</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>Řešení soukromí pro zAXIM</translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>Řešení soukromí pro zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,16 +601,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Odeslat platbuna AXIM adresu</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Odeslat platbuna STATERA adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a axim: URIs)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a statera: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
-        <translation>&amp;O AXIM Core</translation>
+        <source>&amp;About STATERA Core</source>
+        <translation>&amp;O STATERA Core</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
-        <translation>Zobraz informace o AXIM Core</translation>
+        <source>Show information about STATERA Core</source>
+        <translation>Zobraz informace o STATERA Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Upravit možnosti konfigurace pro AXIM</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Upravit možnosti konfigurace pro STATERA</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší AXIM adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší STATERA adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými AXIM adresami</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými STATERA adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +673,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Otevřít AXIM: URI nebo platební žádost</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Otevřít STATERA: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -685,12 +685,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Zobrazit AXIM Core pomocnou zpráv pro získání seznamu možných parametrů AXIM pro příkazy do příkazové řádky</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Zobrazit STATERA Core pomocnou zpráv pro získání seznamu možných parametrů STATERA pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>AXIM Core klient</translation>
+        <source>STATERA Core client</source>
+        <translation>STATERA Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -820,8 +820,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (axim.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (statera.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1081,8 +1081,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AXIM address.</source>
-        <translation>Zadaná adresa "%1" není validní AXIM adresa.</translation>
+        <source>The entered address "%1" is not a valid STATERA address.</source>
+        <translation>Zadaná adresa "%1" není validní STATERA adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1127,12 +1127,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>About AXIM Core</source>
-        <translation>O AXIM Core</translation>
+        <source>About STATERA Core</source>
+        <translation>O STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1166,16 +1166,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to AXIM Core.</source>
-        <translation>Vítejte v AXIM Core.</translation>
+        <source>Welcome to STATERA Core.</source>
+        <translation>Vítejte v STATERA Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude AXIM Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude STATERA Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AXIM Core stáhne a uloží kopii AXIM blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>STATERA Core stáhne a uloží kopii STATERA blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1186,8 +1186,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1460,32 +1460,32 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vysoká ochrana soukromí</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
-        <translation>Maximální ochrana soukromí</translation>
+        <source>Mstateraum Privacy</source>
+        <translation>Mstateraální ochrana soukromí</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 AXIM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 STATERA</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AXIM to anonymize 10000 AXIM</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 AXIM pro anonymizaci 10000 AXIM</translation>
+        <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 STATERA pro anonymizaci 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
+        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití mstateraalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 AXIM per 10000 AXIM you anonymize.</source>
-        <translation>0.1 AXIM za 10000 AXIM anonymizujete.</translation>
+        <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
+        <translation>0.1 STATERA za 10000 STATERA anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1550,12 +1550,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start AXIM after logging in to the system.</source>
-        <translation>Automaticky spustit AXIM po přihlášení do systému</translation>
+        <source>Automatically start STATERA after logging in to the system.</source>
+        <translation>Automaticky spustit STATERA po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start AXIM on system login</source>
-        <translation>&amp;Spusti AXIM při přihlášení do systému</translation>
+        <source>&amp;Start STATERA on system login</source>
+        <translation>&amp;Spusti STATERA při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2087,8 +2087,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 AXIM</source>
-        <translation>0 AXIM</translation>
+        <source>0 STATERA</source>
+        <translation>0 STATERA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2212,8 +2212,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>AXIM adresa pro podepsání zprávy</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>STATERA adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2240,16 +2240,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto AXIM adresu</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto STATERA adresu</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>AXIM adresa zprávy byla podpsána</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>STATERA adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou AXIM adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou STATERA adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2291,8 +2291,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     </context>
 <context>
@@ -2395,14 +2395,14 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

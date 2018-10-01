@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -121,8 +121,8 @@ class CMainParams : public CChainParams
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 30; // AXIM: 30 seconds re check of block time
-        nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
+        nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
+        nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 90000000 * COIN;
 
@@ -190,18 +190,18 @@ class CMainParams : public CChainParams
 
         nPoolMaxTransactions = 3;
         strSporkKey = "043e6954a539df787aad90cc101fdc072a8f5d450cf95488d5d5078c14a8a2f85374458037fa6075dfa4bf07fa049de196088030cc4fa4e540f09d6ce52df483f8";
-        strObfuscationPoolDummyAddress = "044d6d388dfd3b4e464e17948ee070108edaeb9f0aeeec3925ff4083bc5c17cdfe9ed45e7c6b813ce753e52d440dcb6e7ee502311d6cabc4f0fe9b973c1256df3a";
+        strObfuscationPoolDummyAddress = "D8VUuZRW7Xi4upmrHueTd1nCNatvr5Fjsw";
         nStartMasternodePayments = genesis.nTime;
 
         /** Zerocoin */
         zerocoinModulus = "933034631025263371931683737195989150827432725945865978553405534489169230717565655238929262433328781519062047083173774855927756291088223912678240116686930017973091641521360882816116138803824875952592332072733008652132259870299952045041515826225603304440412903162411130235757590579023934850884265744437894881577";
         nMaxZerocoinSpendsPerTransaction = 7; // Assume about 20kb each
         nMinZerocoinMintFee = 1 * CENT; //high fee required for zerocoin mints
-        nMintRequiredConfirmations = 20; //the maximum amount of confirmations until accumulated in 19
+        nMintRequiredConfirmations = 20; //the mstateraum amount of confirmations until accumulated in 19
         nRequiredAccumulation = 1;
         nDefaultSecurityLevel = 100;       //full security level for accumulators
         nZerocoinHeaderVersion = 4;        //Block headers must be this version once zerocoin is active
-        nZerocoinRequiredStakeDepth = 6; //The required confirmations for a zAXIM to be stakable
+        nZerocoinRequiredStakeDepth = 6; //The required confirmations for a zSTATERA to be stakable
     }
 
     const Checkpoints::CCheckpointData &Checkpoints() const
@@ -231,8 +231,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 30; // AXIM: 30 seconds re check of block time
-        nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
+        nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
+        nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 90000000 * COIN;
@@ -308,8 +308,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 1 * 30; // AXIM: 30 seconds re check of block time
-        nTargetSpacing = 1 * 30;  // AXIM: 30 seconds blocktime
+        nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
+        nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
         bnProofOfWorkLimit = ~uint256(0);
         genesis.nTime = 1536730506;
         genesis.nBits = 0x207fffff;

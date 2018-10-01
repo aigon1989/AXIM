@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones AXIM para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones STATERA para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones AXIM para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones STATERA para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus AXIMs no sean robados mediante malware de su ordenador.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus STATERAs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS AXIM&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS STATERA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>Enter a AXIM Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección AXIM que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+        <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección STATERA que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
-        <source>The AXIM address to encrypt</source>
-        <translation>La dirección AXIM a cifrar</translation>
+        <source>The STATERA address to encrypt</source>
+        <translation>La dirección STATERA a cifrar</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this AXIM address</source>
-        <translation>Cifrar la llave privada para esta dirección AXIM</translation>
+        <source>Encrypt the private key for this STATERA address</source>
+        <translation>Cifrar la llave privada para esta dirección STATERA</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Navegar por el historial de transacciones</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>Acciones de privacidad para zAXIM</translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>Acciones de privacidad para zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,15 +645,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Enviar monedas a una dirección AXIM</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Enviar monedas a una dirección STATERA</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -669,24 +669,24 @@
         <translation>Explorar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
-        <translation>&amp;Sobre AXIM Core</translation>
+        <source>&amp;About STATERA Core</source>
+        <translation>&amp;Sobre STATERA Core</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
-        <translation>Mostrar información sobre AXIM Core</translation>
+        <source>Show information about STATERA Core</source>
+        <translation>Mostrar información sobre STATERA Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Modificar las opciones de configuración de AXIM</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Modificar las opciones de configuración de STATERA</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones AXIM para demostrar que le pertenecen</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones STATERA para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección AXIM especificada</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección STATERA especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Abrir fichero de Configuración de masternodes</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Abrir un AXIM: URI o solicitud de pago</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Abrir un STATERA: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Mostrar la ayuda de AXIM Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Mostrar la ayuda de STATERA Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>Cliente AXIM Core</translation>
+        <source>STATERA Core client</source>
+        <translation>Cliente STATERA Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to AXIM network</source>
-        <translation><numerusform>%n conexión(es) activas a la red AXIM</numerusform><numerusform>%n conexión(es) activas a la red AXIM</numerusform></translation>
+        <source>%n active connection(s) to STATERA network</source>
+        <translation><numerusform>%n conexión(es) activas a la red STATERA</numerusform><numerusform>%n conexión(es) activas a la red STATERA</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (axim.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (statera.conf).</translation>
     </message>
 </context>
 <context>
@@ -1130,8 +1130,8 @@ MultiEnvío: %1</translation>
         <translation>Esta etiqueta se vuelve roja, si algún destinatario recibe una cantidad menor que %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uaxim per input.</source>
-        <translation>Puede variar +/- %1 uaxim por entrada.</translation>
+        <source>Can vary +/- %1 ustatera per input.</source>
+        <translation>Puede variar +/- %1 ustatera por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1185,8 +1185,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AXIM address.</source>
-        <translation>La dirección introducida "%1" no es una dirección AXIM válida.</translation>
+        <source>The entered address "%1" is not a valid STATERA address.</source>
+        <translation>La dirección introducida "%1" no es una dirección STATERA válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1231,16 +1231,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About AXIM Core</source>
-        <translation>Acerca de AXIM Core</translation>
+        <source>About STATERA Core</source>
+        <translation>Acerca de STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1286,16 +1286,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to AXIM Core.</source>
-        <translation>Bienvenido/a a AXIM Core.</translation>
+        <source>Welcome to STATERA Core.</source>
+        <translation>Bienvenido/a a STATERA Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará AXIM Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará STATERA Core sus datos.</translation>
     </message>
     <message>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AXIM Core descargará y guardará una copia de la cadena de bloques AXIM. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>STATERA Core descargará y guardará una copia de la cadena de bloques STATERA. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1306,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,12 +1448,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other AXIM addresses after it matures.
-To Add: enter percentage to give and AXIM address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other STATERA addresses after it matures.
+To Add: enter percentage to give and STATERA address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones AXIM después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones AXIM a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones STATERA después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones STATERA a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1681,8 +1681,8 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>Dirección / Cantidad:</translation>
     </message>
     <message>
-        <source>Add destinations to send AXIM to</source>
-        <translation>Agregue los destinos para enviar AXIM</translation>
+        <source>Add destinations to send STATERA to</source>
+        <translation>Agregue los destinos para enviar STATERA</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1741,7 +1741,7 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>La posición de Vout debe ser positiva.</translation>
     </message>
     <message>
-        <source>Maximum possible addresses reached. (15)</source>
+        <source>Mstateraum possible addresses reached. (15)</source>
         <translation>Máxima cantidad de direcciones posibles alcanzadas. (15)</translation>
     </message>
     <message>
@@ -1753,7 +1753,7 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>Cantidad:</translation>
     </message>
     <message>
-        <source>Maximum (15)</source>
+        <source>Mstateraum (15)</source>
         <translation>Máximo (15)</translation>
     </message>
 </context>
@@ -1772,7 +1772,7 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>Alta Privacidad</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
+        <source>Mstateraum Privacy</source>
         <translation>Máxima Privacidad</translation>
     </message>
     <message>
@@ -1780,48 +1780,48 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>Por favor seleccione un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Use 2 masterdodes diferentes para mezclar los fondos hasta los 10000 AXIM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Use 2 masterdodes diferentes para mezclar los fondos hasta los 10000 STATERA</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Use 8 masternodes diferentes para mezclar fondos hasta los 10000 AXIM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Use 8 masternodes diferentes para mezclar fondos hasta los 10000 STATERA</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AXIM to anonymize 10000 AXIM</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 AXIM para anonimizar 10000 AXIM</translation>
+        <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 AXIM to anonymize 10000 AXIM</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 AXIM para anonimizar 10000 AXIM</translation>
+        <source>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 AXIM per 10000 AXIM you anonymize.</source>
-        <translation>0.1 AXIM por 10000 AXIM que anonimizas.</translation>
+        <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
+        <translation>0.1 STATERA por 10000 STATERA que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de AXIM.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de STATERA.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de AXIM.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de STATERA.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de AXIM.</translation>
+        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de STATERA.</translation>
     </message>
 </context>
 <context>
@@ -1882,8 +1882,8 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the AXIM client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente AXIM en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the STATERA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente STATERA en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1902,12 +1902,12 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start AXIM after logging in to the system.</source>
-        <translation>Arrancar AXIM automáticamente después de identificarse en el sistema.</translation>
+        <source>Automatically start STATERA after logging in to the system.</source>
+        <translation>Arrancar STATERA automáticamente después de identificarse en el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start AXIM on system login</source>
-        <translation>&amp;Arrancar AXIM al inicio del sistema</translation>
+        <source>&amp;Start STATERA on system login</source>
+        <translation>&amp;Arrancar STATERA al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1934,8 +1934,8 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXIM.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar AXIM.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar STATERA.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1948,36 +1948,36 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of AXIM units to zAXIM</source>
-        <translation>Activar el minting automática de unidades AXIM a zAXIM</translation>
+        <source>Enable automatic minting of STATERA units to zSTATERA</source>
+        <translation>Activar el minting automática de unidades STATERA a zSTATERA</translation>
     </message>
     <message>
-        <source>Enable zAXIM Automint</source>
-        <translation>Activar zAXIM Automint</translation>
+        <source>Enable zSTATERA Automint</source>
+        <translation>Activar zSTATERA Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming AXIM which get automatically converted to zAXIM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de AXIM entrantes que serán automáticamente convertidos a zAXIM a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming STATERA which get automatically converted to zSTATERA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de STATERA entrantes que serán automáticamente convertidos a zSTATERA a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zAXIM</source>
-        <translation>Porcentaje de zAXIM autogenerados</translation>
+        <source>Percentage of autominted zSTATERA</source>
+        <translation>Porcentaje de zSTATERA autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough AXIM for this denomination is available</source>
-        <translation>Esperar con la conversión automática a Zerocoin hasta que hayan suficientes AXIM disponibles para este tamaño de billete</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough STATERA for this denomination is available</source>
+        <translation>Esperar con la conversión automática a Zerocoin hasta que hayan suficientes STATERA disponibles para este tamaño de billete</translation>
     </message>
     <message>
-        <source>Preferred Automint zAXIM Denomination</source>
-        <translation>Tamaño de billete zAXIM preferido en la creación automática de dinero</translation>
+        <source>Preferred Automint zSTATERA Denomination</source>
+        <translation>Tamaño de billete zSTATERA preferido en la creación automática de dinero</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Parte limite de stake:</translation>
     </message>
     <message>
-        <source>Connect to the AXIM network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red AXIM mediante un proxy SOCKS5.</translation>
+        <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red STATERA mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Balance Total, incluidas todas las monedas no disponibles.</translation>
     </message>
     <message>
-        <source>AXIM Balance</source>
-        <translation>Balance AXIM</translation>
+        <source>STATERA Balance</source>
+        <translation>Balance STATERA</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2155,18 +2155,18 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Saldo bloqueado actual en direcciones solo de lectura</translation>
     </message>
     <message>
-        <source>Your current AXIM balance, unconfirmed and immature transactions included</source>
-        <translation>Su balance AXIM actual, transacciones no confirmadas e inmaduras incluidas</translation>
+        <source>Your current STATERA balance, unconfirmed and immature transactions included</source>
+        <translation>Su balance STATERA actual, transacciones no confirmadas e inmaduras incluidas</translation>
     </message>
     <message>
-        <source>zAXIM Balance</source>
-        <translation>Balance zAXIM</translation>
+        <source>zSTATERA Balance</source>
+        <translation>Balance zSTATERA</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zAXIM are spendable.</source>
+These zSTATERA are spendable.</source>
         <translation>Maduración: más de 20 confirmaciones y más de 1 acuñación de la misma denominación después de acuñarse.
-Estas zAXIM son utilizables.</translation>
+Estas zSTATERA son utilizables.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2175,8 +2175,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación después de ser acuñado</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red AXIM después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red STATERA después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2219,8 +2219,8 @@ Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación desp
         <translation>Disponible:</translation>
     </message>
     <message>
-        <source>Locked AXIM or Masternode collaterals. These are excluded from zAXIM minting.</source>
-        <translation>AXIM bloqueado o Masternode colaterales. Estos están excluidos de minting zAXIM.</translation>
+        <source>Locked STATERA or Masternode collaterals. These are excluded from zSTATERA minting.</source>
+        <translation>STATERA bloqueado o Masternode colaterales. Estos están excluidos de minting zSTATERA.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación desp
         <translation>Sin confirmar:</translation>
     </message>
     <message>
-        <source>Your current zAXIM balance, unconfirmed and immature zAXIM included.</source>
-        <translation>Su balance zAXIM actual, zAXIM inmaduro e inmaduro incluido.</translation>
+        <source>Your current zSTATERA balance, unconfirmed and immature zSTATERA included.</source>
+        <translation>Su balance zSTATERA actual, zSTATERA inmaduro e inmaduro incluido.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación desp
         <translation>desincronizado</translation>
     </message>
     <message>
-        <source>Current percentage of zAXIM.
+        <source>Current percentage of zSTATERA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Porcentaje actual de zAXIM.
+        <translation>Porcentaje actual de zSTATERA.
 Si AutoMint está habilitado, este porcentaje se establecerá alrededor del porcentaje de AutoMint configurado (predeterminado = 10%).
 </translation>
     </message>
@@ -2255,14 +2255,14 @@ Si AutoMint está habilitado, este porcentaje se establecerá alrededor del porc
         <translation>AutoMint está actualmente habilitado y configurado en</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in axim.conf.</source>
-        <translation>Para desactivar AutoMint agrega 'enablezeromint=0' en axim.conf.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in statera.conf.</source>
+        <translation>Para desactivar AutoMint agrega 'enablezeromint=0' en statera.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf</source>
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in statera.conf</source>
         <translation>AutoMint está actualmente desactivado.
-Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en axim.conf</translation>
+Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en statera.conf</translation>
     </message>
 </context>
 <context>
@@ -2288,12 +2288,12 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en ax
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start axim: click-to-pay handler</source>
-        <translation>No se puede iniciar axim: módulo click-to-pay</translation>
+        <source>Cannot start statera: click-to-pay handler</source>
+        <translation>No se puede iniciar statera: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid AXIM address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección AXIM inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid STATERA address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección STATERA inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2378,8 +2378,8 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en ax
         <translation>Acciones Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red AXIM después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red STATERA después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2390,8 +2390,8 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en ax
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2402,8 +2402,8 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en ax
         <translation>Disponible para minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 AXIM</source>
-        <translation>0.000 000 00 AXIM</translation>
+        <source>0.000 000 00 STATERA</source>
+        <translation>0.000 000 00 STATERA</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2442,16 +2442,16 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en ax
         <translation>PRIVACIDAD</translation>
     </message>
     <message>
-        <source>Enter an amount of Axim to convert to zAXIM</source>
-        <translation>Introduzca la cantidad de AXIM que desea convertir a zAxim</translation>
+        <source>Enter an amount of Statera to convert to zSTATERA</source>
+        <translation>Introduzca la cantidad de STATERA que desea convertir a zStatera</translation>
     </message>
     <message>
-        <source>zAXIM Control</source>
-        <translation>Control zAXIM</translation>
+        <source>zSTATERA Control</source>
+        <translation>Control zSTATERA</translation>
     </message>
     <message>
-        <source>zAXIM Selected:</source>
-        <translation>zAXIM Seleccionados:</translation>
+        <source>zSTATERA Selected:</source>
+        <translation>zSTATERA Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2466,24 +2466,24 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en ax
         <translation>Gastar Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zAXIM for spending</source>
-        <translation>zAXIM disponible (maduro y gastable) para gastar</translation>
+        <source>Available (mature and spendable) zSTATERA for spending</source>
+        <translation>zSTATERA disponible (maduro y gastable) para gastar</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Balance disponible:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zAXIM for spending
+        <source>Available (mature and spendable) zSTATERA for spending
 
-zAXIM are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zAXIM disponible (maduro y gastable) para gastar
+zSTATERA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>zSTATERA disponible (maduro y gastable) para gastar
 
-zAXIM son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de la misma denominación después que ellos fueron minted</translation>
+zSTATERA son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de la misma denominación después que ellos fueron minted</translation>
     </message>
     <message>
-        <source>0 zAXIM</source>
-        <translation>0 zAXIM</translation>
+        <source>0 zSTATERA</source>
+        <translation>0 zSTATERA</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2502,8 +2502,8 @@ zAXIM son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de l
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The AXIM address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>La dirección AXIM a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
+        <source>The STATERA address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>La dirección STATERA a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2554,8 +2554,8 @@ zAXIM son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de l
         <translation>Estadísticas Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zAXIM</source>
-        <translation>Balance total incluyendo zAXIM no confirmado e inmaduro</translation>
+        <source>Total Balance including unconfirmed and immature zSTATERA</source>
+        <translation>Balance total incluyendo zSTATERA no confirmado e inmaduro</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2576,24 +2576,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación después de ser acuñado</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zAXIM minting.
+        <source>Show the current status of automatic zSTATERA minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to axim.conf
-- disable: add 'enablezeromint=0' to axim.conf
+- enable: add 'enablezeromint=1' to statera.conf
+- disable: add 'enablezeromint=0' to statera.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zAXIM
+- menu Settings-&gt;Options-&gt;Percentage of autominted zSTATERA
 
 </source>
-        <translation>Muestra el estado actual de zAXIM minting automática.
+        <translation>Muestra el estado actual de zSTATERA minting automática.
 
 Para cambiar el estado (reinicio requerido):
-- activar: añade 'enablezeromint = 1' en axim.conf
-- desctivar: añade 'enablezeromint = 0' en axim.conf
+- activar: añade 'enablezeromint = 1' en statera.conf
+- desctivar: añade 'enablezeromint = 0' en statera.conf
 
 Para cambiar el porcentaje (no se requiere reiniciar):
-- menú Configuración-&gt;Opciones-&gt;Porcentaje de zAXIM automint
+- menú Configuración-&gt;Opciones-&gt;Porcentaje de zSTATERA automint
 </translation>
     </message>
     <message>
@@ -2784,17 +2784,17 @@ Por favor tenga paciencia...</translation>
     </message>
     <message>
         <source>) needed.
-Maximum allowed: </source>
+Mstateraum allowed: </source>
         <translation>) necesario.
 Máximo permitido:</translation>
     </message>
     <message>
-        <source>zAXIM Spend #: </source>
-        <translation>Gastar zAXIM #: </translation>
+        <source>zSTATERA Spend #: </source>
+        <translation>Gastar zSTATERA #: </translation>
     </message>
     <message>
-        <source>zAXIM Mint</source>
-        <translation>Acuñar zAXIM</translation>
+        <source>zSTATERA Mint</source>
+        <translation>Acuñar zSTATERA</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2809,12 +2809,12 @@ Máximo permitido:</translation>
         <translation>Porcentaje objetivo configurado:</translation>
     </message>
     <message>
-        <source>zAXIM is currently disabled due to maintenance.</source>
-        <translation>zAXIM actualmente está desactivado debido al mantenimiento.</translation>
+        <source>zSTATERA is currently disabled due to maintenance.</source>
+        <translation>zSTATERA actualmente está desactivado debido al mantenimiento.</translation>
     </message>
     <message>
-        <source>zAXIM is currently undergoing maintenance.</source>
-        <translation>zAXIM se encuentra actualmente en mantenimiento.</translation>
+        <source>zSTATERA is currently undergoing maintenance.</source>
+        <translation>zSTATERA se encuentra actualmente en mantenimiento.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2901,8 +2901,8 @@ Máximo permitido:</translation>
         <translation>Minted correctamente</translation>
     </message>
     <message>
-        <source> zAXIM in </source>
-        <translation>zAXIM en</translation>
+        <source> zSTATERA in </source>
+        <translation>zSTATERA en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2929,8 +2929,8 @@ Máximo permitido:</translation>
         <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
-        <source>Invalid Axim Address</source>
-        <translation>Dirección AXIM Inválida</translation>
+        <source>Invalid Statera Address</source>
+        <translation>Dirección STATERA Inválida</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2961,12 +2961,12 @@ Máximo permitido:</translation>
         <translation>Confirmar enviar monedas</translation>
     </message>
     <message>
-        <source>Version 1 zAXIM require a security level of 100 to successfully spend.</source>
-        <translation>La versión 1 zAXIM requiere un nivel de seguridad de 100 para gastar exitosamente.</translation>
+        <source>Version 1 zSTATERA require a security level of 100 to successfully spend.</source>
+        <translation>La versión 1 zSTATERA requiere un nivel de seguridad de 100 para gastar exitosamente.</translation>
     </message>
     <message>
-        <source>Failed to spend zAXIM</source>
-        <translation>Error al enviar zAXIM</translation>
+        <source>Failed to spend zSTATERA</source>
+        <translation>Error al enviar zSTATERA</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2988,7 +2988,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of AXIM to convert to zAXIM</comment>
+        <comment>Enter an amount of STATERA to convert to zSTATERA</comment>
         <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3031,8 +3031,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a AXIM address (e.g. %1)</source>
-        <translation>Introduzca una dirección AXIM (p.e. %1)</translation>
+        <source>Enter a STATERA address (e.g. %1)</source>
+        <translation>Introduzca una dirección STATERA (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3169,8 +3169,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the AXIM debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración AXIM en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the STATERA debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración STATERA en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3305,8 +3305,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Ruta personalizada de la copia de seguridad:</translation>
     </message>
     <message>
-        <source>Custom zAXIM Backup Path:</source>
-        <translation>Ruta personalizada de la copia de seguridad zAXIM:</translation>
+        <source>Custom zSTATERA Backup Path:</source>
+        <translation>Ruta personalizada de la copia de seguridad zSTATERA:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3385,8 +3385,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the AXIM RPC console.</source>
-        <translation>Bienvenido a la consola RPC de AXIM.</translation>
+        <source>Welcome to the STATERA RPC console.</source>
+        <translation>Bienvenido a la consola RPC de STATERA.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3512,16 +3512,16 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AXIM network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red AXIM.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the STATERA network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red STATERA.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>RECIBIR</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the AXIM network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red AXIM.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the STATERA network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red STATERA.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3749,8 +3749,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 AXIM</source>
-        <translation>0 AXIM</translation>
+        <source>0 STATERA</source>
+        <translation>0 STATERA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3805,16 +3805,16 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAXIMs in fee,&lt;br /&gt;while "at least" pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uAXIMs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uAXIMs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uAXIMs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uSTATERAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSTATERAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSTATERAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAXIMs in fee,&lt;br /&gt;while "total at least" pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uAXIMs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uAXIMs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uAXIMs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "total at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uSTATERAs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uSTATERAs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uSTATERAs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AXIM transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones AXIM de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones STATERA de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3861,8 +3861,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Añadir Destinatario</translation>
     </message>
     <message>
-        <source>Anonymized AXIM</source>
-        <translation>AXIM anonimizados</translation>
+        <source>Anonymized STATERA</source>
+        <translation>STATERA anonimizados</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3909,8 +3909,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>La herramienta de división de bloques no funciona con varias direcciones. Inténtelo otra vez.</translation>
     </message>
     <message>
-        <source>Warning: Invalid AXIM address</source>
-        <translation>Advertencia: Direcciones AXIM inválidas</translation>
+        <source>Warning: Invalid STATERA address</source>
+        <translation>Advertencia: Direcciones STATERA inválidas</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -4012,8 +4012,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The AXIM address to send the payment to</source>
-        <translation>La dirección AXIM a la cual enviar el pago</translation>
+        <source>The STATERA address to send the payment to</source>
+        <translation>La dirección STATERA a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4052,8 +4052,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the AXIM: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AXIM network.</source>
-        <translation>Un mensaje adjunto al AXIM: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red AXIM.</translation>
+        <source>A message that was attached to the STATERA: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the STATERA network.</source>
+        <translation>Un mensaje adjunto al STATERA: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red STATERA.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4079,8 +4079,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>AXIM Core is shutting down...</source>
-        <translation>El programa AXIM se está cerrando...</translation>
+        <source>STATERA Core is shutting down...</source>
+        <translation>El programa STATERA se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4102,8 +4102,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>La dirección AXIM con la que desee firmar el mensaje</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>La dirección STATERA con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4134,16 +4134,16 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección AXIM</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección STATERA</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>La dirección AXIM con la que se firmó el mensaje</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>La dirección STATERA con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección AXIM especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección STATERA especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4229,8 +4229,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4245,8 +4245,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Los desarrolladores de Dash Core</translation>
     </message>
     <message>
-        <source>The AXIM Core developers</source>
-        <translation>Los desarrolladores de AXIM Core</translation>
+        <source>The STATERA Core developers</source>
+        <translation>Los desarrolladores de STATERA Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4525,12 +4525,12 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Recibido por medio de Ofuscación</translation>
     </message>
     <message>
-        <source>AXIM Stake</source>
-        <translation>Stake AXIM</translation>
+        <source>STATERA Stake</source>
+        <translation>Stake STATERA</translation>
     </message>
     <message>
-        <source>zAXIM Stake</source>
-        <translation>Stake zAXIM</translation>
+        <source>zSTATERA Stake</source>
+        <translation>Stake zSTATERA</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4549,32 +4549,32 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Ofuscación Crea Billetes</translation>
     </message>
     <message>
-        <source>Converted AXIM to zAXIM</source>
-        <translation>AXIM convertidos a zAXIM</translation>
+        <source>Converted STATERA to zSTATERA</source>
+        <translation>STATERA convertidos a zSTATERA</translation>
     </message>
     <message>
-        <source>Spent zAXIM</source>
-        <translation>Gastar zAXIM</translation>
+        <source>Spent zSTATERA</source>
+        <translation>Gastar zSTATERA</translation>
     </message>
     <message>
-        <source>Received AXIM from zAXIM</source>
-        <translation>AXIM recibidos desde zAXIM </translation>
+        <source>Received STATERA from zSTATERA</source>
+        <translation>STATERA recibidos desde zSTATERA </translation>
     </message>
     <message>
-        <source>Minted Change as zAXIM from zAXIM Spend</source>
-        <translation>Cambio de acuñación en zAXIM al Gastar zAXIM</translation>
+        <source>Minted Change as zSTATERA from zSTATERA Spend</source>
+        <translation>Cambio de acuñación en zSTATERA al Gastar zSTATERA</translation>
     </message>
     <message>
-        <source>Converted zAXIM to AXIM</source>
-        <translation>zAXIM convertidos a AXIM</translation>
+        <source>Converted zSTATERA to STATERA</source>
+        <translation>zSTATERA convertidos a STATERA</translation>
     </message>
     <message>
-        <source>Anonymous (zAXIM Transaction)</source>
-        <translation>Anónimo (Transacción zAXIM)</translation>
+        <source>Anonymous (zSTATERA Transaction)</source>
+        <translation>Anónimo (Transacción zSTATERA)</translation>
     </message>
     <message>
-        <source>Anonymous (zAXIM Stake)</source>
-        <translation>Anónimo (Stake zAXIM)</translation>
+        <source>Anonymous (zSTATERA Stake)</source>
+        <translation>Anónimo (Stake zSTATERA)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4784,12 +4784,12 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Exportación Correcta</translation>
     </message>
     <message>
-        <source>Received AXIM from zAXIM</source>
-        <translation>AXIM recibidos desde zAXIM</translation>
+        <source>Received STATERA from zSTATERA</source>
+        <translation>STATERA recibidos desde zSTATERA</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zAXIM</source>
-        <translation>Gastar Zerocoin, Cambio en zAXIM</translation>
+        <source>Zerocoin Spend, Change in zSTATERA</source>
+        <translation>Gastar Zerocoin, Cambio en zSTATERA</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4825,8 +4825,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 AXIM.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 AXIM.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 STATERA.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 STATERA.</translation>
     </message>
 </context>
 <context>
@@ -4857,10 +4857,10 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
     </message>
 </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
-        <source>Select zAXIM to Spend</source>
-        <translation>Selecciona zAXIM para Gastar</translation>
+        <source>Select zSTATERA to Spend</source>
+        <translation>Selecciona zSTATERA para Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4871,8 +4871,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4884,7 +4884,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
     </message>
 </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4910,8 +4910,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. AXIM Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. AXIM Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. STATERA Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. STATERA Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -4934,16 +4934,16 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Distribuido bajo licencia MIT software license, ver el archivo adjunto COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zAXIM minting (0-1, default: %u)</source>
-        <translation>Habilite copias de seguridad automáticas del monedero que se activan después de cada acuñación zAXIM (0-1, predeterminado: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zSTATERA minting (0-1, default: %u)</source>
+        <translation>Habilite copias de seguridad automáticas del monedero que se activan después de cada acuñación zSTATERA (0-1, predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for AXIM inputs (0-1, default: %u)</source>
-        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas AXIM (0-1, predeterminado: %u)</translation>
+        <source>Enable or disable staking functionality for STATERA inputs (0-1, default: %u)</source>
+        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas STATERA (0-1, predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zAXIM inputs (0-1, default: %u)</source>
-        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas zAXIM (0-1, predeterminado: %u)</translation>
+        <source>Enable or disable staking functionality for zSTATERA inputs (0-1, default: %u)</source>
+        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas zSTATERA (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4958,7 +4958,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Error: La escucha para conexiones entrantes falló (la escucha retorno error %s)</translation>
     </message>
     <message>
-        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
+        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
         <translation>Error: ¡La transacción es más grande que el tamaño máximo de transacción permitido!</translation>
     </message>
     <message>
@@ -4978,12 +4978,12 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en AXIM/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en STATERA/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en AXIM/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en STATERA/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5022,11 +5022,11 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Mantener un indice de transacción completo, utilizado por la llamada rpc getrawtransaction (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Tamaño máximo de datos en transacciones de transmisiones de datos que pasamos y minamos (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
         <translation>Comisión máxima total para usar en una única transacción de monedero, definirlo muy bajo puede abortar transacciones largas (predeterminado: %s)</translation>
     </message>
     <message>
@@ -5058,7 +5058,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Enviar info de traza/debug a la consola en lugar del archivo debug.log (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Define tamaño máximo de transacción alta prioridad/baja comisión en bytes (predeterminado: %d)</translation>
     </message>
     <message>
@@ -5082,20 +5082,20 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. AXIM Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que AXIM Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. STATERA Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que STATERA Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 AXIM.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 AXIM.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 STATERA.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 STATERA.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 AXIM.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 AXIM.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 STATERA.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 STATERA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5110,8 +5110,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong AXIM Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora AXIM Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong STATERA Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora STATERA Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5262,8 +5262,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The AXIM Core Developers</source>
-        <translation>Copyright (C) 2015-%i The AXIM Core Developers</translation>
+        <source>Copyright (C) 2015-%i The STATERA Core Developers</source>
+        <translation>Copyright (C) 2015-%i The STATERA Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5350,8 +5350,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Error al cargar wallet.dat: Monedero dañado</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXIM Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una nueva versión del AXIM Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of STATERA Core</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una nueva versión del STATERA Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5406,8 +5406,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in AXIM/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en AXIM/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in STATERA/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en STATERA/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5466,8 +5466,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. AXIM Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. AXIM Core se cerrará.</translation>
+        <source>Initialization sanity check failed. STATERA Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. STATERA Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5538,8 +5538,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Porcentaje de Zerocoin creadas automáticamente (10-100, por defecto: %u)</translation>
     </message>
     <message>
-        <source>Reindex the AXIM and zAXIM money supply statistics</source>
-        <translation>Reindexar as estatísticas de fornecimento de dinheiro AXIM e zAXIM</translation>
+        <source>Reindex the STATERA and zSTATERA money supply statistics</source>
+        <translation>Reindexar as estatísticas de fornecimento de dinheiro STATERA e zSTATERA</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5602,7 +5602,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>No se puede encontrar el conjunto de monedas necesarias entre las monedas disponibles con menos de maxNumber para poder gastarlas</translation>
     </message>
     <message>
-        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
+        <source>In rare cases, a spend with 7 coins exceeds our mstateraum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation>En casos excepcionales, un envío con más de 7 monedas excede el tamaño máximo de transacción permitidas, intente gastar 6 monedas o menos.</translation>
     </message>
     <message>
@@ -5610,8 +5610,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Denominación preferida para acuñado automatico de Zerocoin (1/5/10/50/100/500/1000/5000), 0 para ninguna preferencia. predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zAXIM backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Especifique la ruta de copia de seguridad personalizada para agregar una copia de cualquier copia de seguridad zAXIM automática. Si se establece como directorio, cada copia de seguridad genera un archivo con marcas de tiempo. Si se establece como archivo, se reescribirá en ese archivo cada copia de seguridad. Si también se establece backuppath, se realizarán 4 copias de seguridad</translation>
+        <source>Specify custom backup path to add a copy of any automatic zSTATERA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Especifique la ruta de copia de seguridad personalizada para agregar una copia de cualquier copia de seguridad zSTATERA automática. Si se establece como directorio, cada copia de seguridad genera un archivo con marcas de tiempo. Si se establece como archivo, se reescribirá en ese archivo cada copia de seguridad. Si también se establece backuppath, se realizarán 4 copias de seguridad</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5782,11 +5782,11 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Masternode:</translation>
     </message>
     <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Buffer de recepción máximo por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Máximo buffer de envío por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
@@ -5978,7 +5978,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Definir el tamaño del pool de llaves a &lt;n&gt; (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set maximum block size in bytes (default: %d)</source>
+        <source>Set mstateraum block size in bytes (default: %d)</source>
         <translation>Ajustar el tamaño máximo de bloque en bytes (predeterminado: %d)</translation>
     </message>
     <message>
@@ -5986,7 +5986,7 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Ajustar el tamaño mínimo de bloque en bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set the Maximum reorg depth (default: %u)</source>
+        <source>Set the Mstateraum reorg depth (default: %u)</source>
         <translation>Establezca la profundidad máxima de reorganización (valor predeterminado: %u)</translation>
     </message>
     <message>
@@ -6102,8 +6102,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Sincronizando con la red... </translation>
     </message>
     <message>
-        <source>Syncing zAXIM wallet...</source>
-        <translation>Sincronizando el monedero zAXIM...</translation>
+        <source>Syncing zSTATERA wallet...</source>
+        <translation>Sincronizando el monedero zSTATERA...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6250,11 +6250,11 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Nombre de usuario para conexiones JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zAXIM</source>
-        <translation>El valor está por debajo de la denominación más pequeña disponible (= 1) de zAXIM</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSTATERA</source>
+        <translation>El valor está por debajo de la denominación más pequeña disponible (= 1) de zSTATERA</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool maximum allows.</source>
+        <source>Value more than Obfuscation pool mstateraum allows.</source>
         <translation>Valor mayor al máximo pool de Ofuscación permitido.</translation>
     </message>
     <message>
@@ -6266,8 +6266,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Verificando el monedero...</translation>
     </message>
     <message>
-        <source>Version 1 zAXIM require a security level of 100 to successfully spend.</source>
-        <translation>La versión 1 zAXIM requiere un nivel de seguridad de 100 para gastar exitosamente.</translation>
+        <source>Version 1 zSTATERA require a security level of 100 to successfully spend.</source>
+        <translation>La versión 1 zSTATERA requiere un nivel de seguridad de 100 para gastar exitosamente.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -6278,8 +6278,8 @@ O mint las denominaciones más altas (por lo tanto, se necesitan menos datos) o 
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart AXIM Core to complete</source>
-        <translation>El Monedero necesita ser reescrito: reinicie AXIM Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart STATERA Core to complete</source>
+        <translation>El Monedero necesita ser reescrito: reinicie STATERA Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

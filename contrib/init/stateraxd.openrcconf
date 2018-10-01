@@ -1,0 +1,18 @@
+# /etc/conf.d/staterad: config file for /etc/init.d/staterad
+ # Config file location
+#BITCOIND_CONFIGFILE="/etc/statera/statera.conf"
+ # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/staterad"
+ # What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/staterad.pid"
+ # Where to write staterad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/staterad"
+ # User and group to own staterad process
+#BITCOIND_USER="statera"
+#BITCOIND_GROUP="statera"
+ # Path to staterad executable
+#BITCOIND_BIN="/usr/bin/staterad"
+ # Nice value to run staterad under
+#BITCOIND_NICE=0
+ # Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

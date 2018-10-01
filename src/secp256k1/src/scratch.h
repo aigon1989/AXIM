@@ -30,7 +30,7 @@ static int secp256k1_scratch_allocate_frame(secp256k1_scratch* scratch, size_t n
 /** Deallocates a stack frame */
 static void secp256k1_scratch_deallocate_frame(secp256k1_scratch* scratch);
 
-/** Returns the maximum allocation the scratch space will allow */
+/** Returns the mstateraum allocation the scratch space will allow */
 static size_t secp256k1_scratch_max_allocation(const secp256k1_scratch* scratch, size_t n_objects);
 
 /** Returns a pointer into the most recently allocated frame, or NULL if there is insufficient available space */

@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/axim-config.h"
+#include "config/statera-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -63,7 +63,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::AXIM);
+        settings.setValue("nDisplayUnit", BitcoinUnits::STATERA);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -90,10 +90,10 @@ void OptionsModel::Init()
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
 
-    if (!settings.contains("nAnonymizeAximAmount"))
-        settings.setValue("nAnonymizeAximAmount", 1000);
+    if (!settings.contains("nAnonymizeStateraAmount"))
+        settings.setValue("nAnonymizeStateraAmount", 1000);
 
-    nAnonymizeAximAmount = settings.value("nAnonymizeAximAmount").toLongLong();
+    nAnonymizeStateraAmount = settings.value("nAnonymizeStateraAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -167,8 +167,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeAximAmount"))
-        SoftSetArg("-anonymizeaximamount", settings.value("nAnonymizeAximAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeStateraAmount"))
+        SoftSetArg("-anonymizestateraamount", settings.value("nAnonymizeStateraAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -179,7 +179,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in axim.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in statera.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -259,8 +259,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeAximAmount:
-            return QVariant(nAnonymizeAximAmount);
+        case AnonymizeStateraAmount:
+            return QVariant(nAnonymizeStateraAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -389,10 +389,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit hideZeroBalancesChanged(fHideZeroBalances);
             break;
 
-        case AnonymizeAximAmount:
-            nAnonymizeAximAmount = value.toInt();
-            settings.setValue("nAnonymizeAximAmount", nAnonymizeAximAmount);
-            emit anonymizeAximAmountChanged(nAnonymizeAximAmount);
+        case AnonymizeStateraAmount:
+            nAnonymizeStateraAmount = value.toInt();
+            settings.setValue("nAnonymizeStateraAmount", nAnonymizeStateraAmount);
+            emit anonymizeStateraAmountChanged(nAnonymizeStateraAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

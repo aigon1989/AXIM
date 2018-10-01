@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/axim-config.h"
+#include "config/statera-config.h"
 #endif
 
 #include <cstring>

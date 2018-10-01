@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -127,7 +127,7 @@ public:
 };
 
 /**
- * AXIM RPC command dispatcher.
+ * STATERA RPC command dispatcher.
  */
 class CRPCTable
 {
@@ -259,11 +259,11 @@ extern UniValue importzerocoins(const UniValue& params, bool fHelp);
 extern UniValue exportzerocoins(const UniValue& params, bool fHelp);
 extern UniValue reconsiderzerocoins(const UniValue& params, bool fHelp);
 extern UniValue getspentzerocoinamount(const UniValue& params, bool fHelp);
-extern UniValue setzaximseed(const UniValue& params, bool fHelp);
-extern UniValue getzaximseed(const UniValue& params, bool fHelp);
+extern UniValue setzstateraseed(const UniValue& params, bool fHelp);
+extern UniValue getzstateraseed(const UniValue& params, bool fHelp);
 extern UniValue generatemintlist(const UniValue& params, bool fHelp);
-extern UniValue searchdzaxim(const UniValue& params, bool fHelp);
-extern UniValue dzaximstate(const UniValue& params, bool fHelp);
+extern UniValue searchdzstatera(const UniValue& params, bool fHelp);
+extern UniValue dzstaterastate(const UniValue& params, bool fHelp);
 
 extern UniValue getrawtransaction(const UniValue& params, bool fHelp); // in rpc/rawtransaction.cpp
 extern UniValue listunspent(const UniValue& params, bool fHelp);

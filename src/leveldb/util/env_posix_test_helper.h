@@ -14,11 +14,11 @@ class EnvPosixTestHelper {
  private:
   friend class EnvPosixTest;
 
-  // Set the maximum number of read-only files that will be opened.
+  // Set the mstateraum number of read-only files that will be opened.
   // Must be called before creating an Env.
   static void SetReadOnlyFDLimit(int limit);
 
-  // Set the maximum number of read-only files that will be mapped via mmap.
+  // Set the mstateraum number of read-only files that will be mapped via mmap.
   // Must be called before creating an Env.
   static void SetReadOnlyMMapLimit(int limit);
 };

@@ -97,7 +97,7 @@ static const s32 alpha_tab[] = {
  * If, upon entry, the values of q[] are all in the -N..N range (where
  * N >= 98302) then the new values of q[] are in the -2N..2N range.
  *
- * Since alpha_tab[v] <= 256, maximum allowed range is for N = 8388608.
+ * Since alpha_tab[v] <= 256, mstateraum allowed range is for N = 8388608.
  */
 #define FFT_LOOP(rb, hk, as, id)   do { \
 		size_t u, v; \

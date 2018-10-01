@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: aximd.service
-Upstart: aximd.conf
-OpenRC:  aximd.openrc
-         aximd.openrcconf
-CentOS:  aximd.init
+SystemD: staterad.service
+Upstart: staterad.conf
+OpenRC:  staterad.openrc
+         staterad.openrcconf
+CentOS:  staterad.init
 
 have been made available to assist packagers in creating node packages here.
 

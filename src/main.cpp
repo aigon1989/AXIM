@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,7 +35,7 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #include "validationinterface.h"
-#include "zaximchain.h"
+#include "zstaterachain.h"
 
 #include <sstream>
 
@@ -50,7 +50,7 @@ using namespace std;
 using namespace libzerocoin;
 
 #if defined(NDEBUG)
-#error "AXIM cannot be compiled without assertions."
+#error "STATERA cannot be compiled without assertions."
 #endif
 
 /**
@@ -81,7 +81,7 @@ bool fAlerts = DEFAULT_ALERTS;
 unsigned int nStakeMinAge = 0; //No minimal time for Stake, you stake as soon as you have coins
 int64_t nReserveBalance = 0;
 
-/** Fees smaller than this (in uaxim) are considered zero fee (for relaying and mining)
+/** Fees smaller than this (in ustatera) are considered zero fee (for relaying and mining)
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
@@ -948,27 +948,27 @@ bool ContextualCheckZerocoinMint(const CTransaction& tx, const PublicCoin& coin,
 
 bool ContextualCheckZerocoinSpend(const CTransaction& tx, const CoinSpend& spend, CBlockIndex* pindex, const uint256& hashBlock)
 {
-    //Check to see if the zAXIM is properly signed
+    //Check to see if the zSTATERA is properly signed
     if (!spend.HasValidSignature())
-        return error("%s: V2 zAXIM spend does not have a valid signature", __func__);
+        return error("%s: V2 zSTATERA spend does not have a valid signature", __func__);
 
     libzerocoin::SpendType expectedType = libzerocoin::SpendType::SPEND;
     if (tx.IsCoinStake())
             expectedType = libzerocoin::SpendType::STAKE;
     if (spend.getSpendType() != expectedType) {
-        return error("%s: trying to spend zAXIM without the correct spend type. txid=%s", __func__,
+        return error("%s: trying to spend zSTATERA without the correct spend type. txid=%s", __func__,
                     tx.GetHash().GetHex());
     }
 
     //Reject serial's that are already in the blockchain
     int nHeightTx = 0;
     if (IsSerialInBlockchain(spend.getCoinSerialNumber(), nHeightTx))
-        return error("%s : zAXIM spend with serial %s is already in block %d\n", __func__,
+        return error("%s : zSTATERA spend with serial %s is already in block %d\n", __func__,
                      spend.getCoinSerialNumber().GetHex(), nHeightTx);
 
     //Reject serial's that are not in the acceptable value range
     if (!spend.HasValidSerial(Params().Zerocoin_Params()))
-        return error("%s : zAXIM spend with serial %s from tx %s is not in valid range\n", __func__,
+        return error("%s : zSTATERA spend with serial %s from tx %s is not in valid range\n", __func__,
             spend.getCoinSerialNumber().GetHex(), tx.GetHash().GetHex());
 
     return true;
@@ -1276,7 +1276,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
             //Check that txid is not already in the chain
             int nHeightTx = 0;
             if (IsTransactionInChain(tx.GetHash(), nHeightTx))
-                 return state.Invalid(error("AcceptToMemoryPool : zAXIM spend tx %s already in block %d",
+                 return state.Invalid(error("AcceptToMemoryPool : zSTATERA spend tx %s already in block %d",
                                          tx.GetHash().GetHex(), nHeightTx),
                     REJECT_DUPLICATE, "bad-txns-inputs-spent");
 
@@ -1288,7 +1288,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
                 if (!ContextualCheckZerocoinSpend(tx, spend, chainActive.Tip(), 0))
                     return state.Invalid(error("%s: ContextualCheckZerocoinSpend failed for tx %s", __func__,
                         tx.GetHash().GetHex()),
-                        REJECT_INVALID, "bad-txns-invalid-zaxim");
+                        REJECT_INVALID, "bad-txns-invalid-zstatera");
             }
         } else {
             LOCK(pool.cs);
@@ -1310,7 +1310,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
                 }
             }
 
-            // Check that zAXIM mints are not already known
+            // Check that zSTATERA mints are not already known
             if (tx.IsZerocoinMint()) {
                 for (auto& out : tx.vout) {
                     if (!out.IsZerocoinMint())
@@ -1813,7 +1813,7 @@ int64_t GetBlockValue(int nHeight)
     return nSubsidy * COIN;
 }
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZAXIMStake)
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZSTATERAStake)
 {
     int64_t ret = 0;
 
@@ -1836,16 +1836,6 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 bool IsInitialBlockDownload()
 {
     LOCK(cs_main);
-
-    LogPrintf("%s : fImporting %s\n", __func__, fImporting?"true":"false");
-    LogPrintf("%s : fReindex %s\n", __func__, fReindex?"true":"false");
-    LogPrintf("%s : fVerifyingBlocks %s\n", __func__, fVerifyingBlocks?"true":"false");
-    LogPrintf("%s : chainActive.Height() < Checkpoints::GetTotalBlocksEstimate() %s\n", __func__, (chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())?"true":"false");
-    LogPrintf("%s : chainActive.Height() %d\n", __func__, chainActive.Height());
-    LogPrintf("%s : Checkpoints::GetTotalBlocksEstimate() %d\n", __func__, Checkpoints::GetTotalBlocksEstimate());
-    LogPrintf("%s : pindexBestHeader->nHeight - 24 * 6 %d\n", __func__, pindexBestHeader->nHeight - 24 * 6);
-    LogPrintf("%s : pindexBestHeader->GetBlockTime() %d\n", __func__, pindexBestHeader->GetBlockTime());
-    LogPrintf("%s : GetTime() - 6 * 60 * 60 %d\n", __func__, GetTime() - 6 * 60 * 60);
 
     if (fImporting || fReindex || fVerifyingBlocks || chainActive.Height() < Checkpoints::GetTotalBlocksEstimate())
         return true;
@@ -2136,7 +2126,7 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
         const CTransaction& tx = block.vtx[i];
 
         /** UNDO ZEROCOIN DATABASING
-         * note we only undo zerocoin databasing in the following statement, value to and from AXIM
+         * note we only undo zerocoin databasing in the following statement, value to and from STATERA
          * addresses should still be handled by the typical bitcoin based undo code
          * */
         if (tx.ContainsZerocoins()) {
@@ -2279,11 +2269,11 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("axim-scriptch");
+    RenameThread("statera-scriptch");
     scriptcheckqueue.Thread();
 }
 
-bool RecalculateAXIMSupply(int nHeightStart)
+bool RecalculateSTATERASupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -2339,7 +2329,7 @@ bool RecalculateAXIMSupply(int nHeightStart)
     return true;
 }
 
-bool UpdateZAXIMSupply(const CBlock& block, CBlockIndex* pindex)
+bool UpdateZSTATERASupply(const CBlock& block, CBlockIndex* pindex)
 {
     std::list<CZerocoinMint> listMints;
     BlockToZerocoinMintList(block, listMints);
@@ -2514,7 +2504,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
                     return state.DoS(100, error("%s: failed to add block %s with invalid zerocoinspend", __func__, tx.GetHash().GetHex()), REJECT_INVALID);
             }
 
-            // Check that zAXIM mints are not already known
+            // Check that zSTATERA mints are not already known
             if (tx.IsZerocoinMint()) {
                 for (auto& out : tx.vout) {
                     if (!out.IsZerocoinMint())
@@ -2535,7 +2525,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
                 return state.DoS(100, error("ConnectBlock() : inputs missing/spent"),
                     REJECT_INVALID, "bad-txns-inputs-missingorspent");
 
-            // Check that zAXIM mints are not already known
+            // Check that zSTATERA mints are not already known
             if (tx.IsZerocoinMint()) {
                 for (auto& out : tx.vout) {
                     if (!out.IsZerocoinMint())
@@ -2581,16 +2571,16 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         pos.nTxOffset += ::GetSerializeSize(tx, SER_DISK, CLIENT_VERSION);
     }
 
-    //Track zAXIM money supply in the block index
-    if (!UpdateZAXIMSupply(block, pindex))
-        return state.DoS(100, error("%s: Failed to calculate new zAXIM supply for block=%s height=%d", __func__, block.GetHash().GetHex(), pindex->nHeight), REJECT_INVALID);
+    //Track zSTATERA money supply in the block index
+    if (!UpdateZSTATERASupply(block, pindex))
+        return state.DoS(100, error("%s: Failed to calculate new zSTATERA supply for block=%s height=%d", __func__, block.GetHash().GetHex(), pindex->nHeight), REJECT_INVALID);
 
     // track money supply and mint amount info
     CAmount nMoneySupplyPrev = pindex->pprev ? pindex->pprev->nMoneySupply : 0;
     pindex->nMoneySupply = nMoneySupplyPrev + nValueOut - nValueIn;
     pindex->nMint = pindex->nMoneySupply - nMoneySupplyPrev + nFees;
 
-    //    LogPrintf("XX69----------> ConnectBlock(): nValueOut: %s, nValueIn: %s, nFees: %s, nMint: %s zAximSpent: %s\n",
+    //    LogPrintf("XX69----------> ConnectBlock(): nValueOut: %s, nValueIn: %s, nFees: %s, nMint: %s zStateraSpent: %s\n",
     //              FormatMoney(nValueOut), FormatMoney(nValueIn),
     //              FormatMoney(nFees), FormatMoney(pindex->nMint), FormatMoney(nAmountZerocoinSpent));
 
@@ -2642,7 +2632,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         setDirtyBlockIndex.insert(pindex);
     }
 
-    //Record zAXIM serials
+    //Record zSTATERA serials
     set<uint256> setAddedTx;
     for (pair<CoinSpend, uint256> pSpend : vSpends) {
         // Send signal to wallet if this is ours
@@ -2779,7 +2769,7 @@ void static UpdateTip(CBlockIndex* pindexNew)
 {
     chainActive.SetTip(pindexNew);
 
-    // If turned on AutoZeromint will automatically convert AXIM to zAXIM
+    // If turned on AutoZeromint will automatically convert STATERA to zSTATERA
     if (pwalletMain->isZeromintEnabled())
         pwalletMain->AutoZeromint();
 
@@ -3614,7 +3604,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                 nHeight = (*mi).second->nHeight + 1;
         }
 
-        // AXIM
+        // STATERA
         // It is entierly possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.
@@ -3638,13 +3628,13 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
         if (!CheckTransaction(tx, state))
             return error("CheckBlock() : CheckTransaction failed");
 
-        // double check that there are no double spent zAXIM spends in this block
+        // double check that there are no double spent zSTATERA spends in this block
         if (tx.IsZerocoinSpend()) {
             for (const CTxIn txIn : tx.vin) {
                 if (txIn.scriptSig.IsZerocoinSpend()) {
                     libzerocoin::CoinSpend spend = TxInToZerocoinSpend(txIn);
                     if (count(vBlockSerials.begin(), vBlockSerials.end(), spend.getCoinSerialNumber()))
-                        return state.DoS(100, error("%s : Double spending of zAXIM serial %s in block\n Block: %s",
+                        return state.DoS(100, error("%s : Double spending of zSTATERA serial %s in block\n Block: %s",
                                                     __func__, spend.getCoinSerialNumber().GetHex(), block.ToString()));
                     vBlockSerials.emplace_back(spend.getCoinSerialNumber());
                 }
@@ -3850,19 +3840,19 @@ bool AcceptBlockHeader(const CBlock& block, CValidationState& state, CBlockIndex
 
 bool ContextualCheckZerocoinStake(int nHeight, CStakeInput* stake)
 {
-    if (CzAXIMStake* zAXIM = dynamic_cast<CzAXIMStake*>(stake)) {
-        CBlockIndex* pindexFrom = zAXIM->GetIndexFrom();
+    if (CzSTATERAStake* zSTATERA = dynamic_cast<CzSTATERAStake*>(stake)) {
+        CBlockIndex* pindexFrom = zSTATERA->GetIndexFrom();
         if (!pindexFrom)
-            return error("%s: failed to get index associated with zAXIM stake checksum", __func__);
+            return error("%s: failed to get index associated with zSTATERA stake checksum", __func__);
 
         if (chainActive.Height() - pindexFrom->nHeight < Params().Zerocoin_RequiredStakeDepth())
-            return error("%s: zAXIM stake does not have required confirmation depth", __func__);
+            return error("%s: zSTATERA stake does not have required confirmation depth", __func__);
 
         //The checksum needs to be the exact checksum from 200 blocks ago
         uint256 nCheckpoint200 = chainActive[nHeight - Params().Zerocoin_RequiredStakeDepth()]->nAccumulatorCheckpoint;
-        uint32_t nChecksum200 = ParseChecksum(nCheckpoint200, libzerocoin::AmountToZerocoinDenomination(zAXIM->GetValue()));
-        if (nChecksum200 != zAXIM->GetChecksum())
-            return error("%s: accumulator checksum is different than the block 200 blocks previous. stake=%d block200=%d", __func__, zAXIM->GetChecksum(), nChecksum200);
+        uint32_t nChecksum200 = ParseChecksum(nCheckpoint200, libzerocoin::AmountToZerocoinDenomination(zSTATERA->GetValue()));
+        if (nChecksum200 != zSTATERA->GetChecksum())
+            return error("%s: accumulator checksum is different than the block 200 blocks previous. stake=%d block200=%d", __func__, zSTATERA->GetChecksum(), nChecksum200);
     } else {
         return error("%s: dynamic_cast of stake ptr failed", __func__);
     }
@@ -3912,8 +3902,8 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
         if (!stake)
             return error("%s: null stake ptr", __func__);
 
-        if (stake->IsZAXIM() && !ContextualCheckZerocoinStake(pindexPrev->nHeight, stake.get()))
-            return state.DoS(100, error("%s: staked zAXIM fails context checks", __func__));
+        if (stake->IsZSTATERA() && !ContextualCheckZerocoinStake(pindexPrev->nHeight, stake.get()))
+            return state.DoS(100, error("%s: staked zSTATERA fails context checks", __func__));
 
         uint256 hash = block.GetHash();
         if(!mapProofOfStake.count(hash)) // add to mapProofOfStake
@@ -4041,7 +4031,7 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, CBlock* pblock, CDis
         }
     }
     if (nMints || nSpends)
-        LogPrintf("%s : block contains %d zAXIM mints and %d zAXIM spends\n", __func__, nMints, nSpends);
+        LogPrintf("%s : block contains %d zSTATERA mints and %d zSTATERA spends\n", __func__, nMints, nSpends);
 
     if (!CheckBlockSignature(*pblock))
         return error("ProcessNewBlock() : bad proof-of-stake block signature");
@@ -5012,7 +5002,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             return false;
         }
 
-        // AXIM: We use certain sporks during IBD, so check to see if they are
+        // STATERA: We use certain sporks during IBD, so check to see if they are
         // available. If not, ask the first peer connected for them.
         bool fMissingSporks = !pSporkDB->SporkExists(SPORK_14_NEW_PROTOCOL_ENFORCEMENT) &&
                 !pSporkDB->SporkExists(SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2) &&
@@ -5551,7 +5541,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             UpdateBlockAvailability(pfrom->GetId(), pindexLast->GetBlockHash());
 
         if (nCount == MAX_HEADERS_RESULTS && pindexLast) {
-            // Headers message had its maximum size; the peer may have more headers.
+            // Headers message had its mstateraum size; the peer may have more headers.
             // TODO: optimize: if pindexLast is an ancestor of chainActive.Tip or pindexBestHeader, continue
             // from there instead.
             LogPrintf("more getheaders (%d) to end to peer=%d (startheight:%d)\n", pindexLast->nHeight, pfrom->id, pfrom->nStartingHeight);
@@ -5776,7 +5766,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         vRecv >> vData;
 
         // Nodes must NEVER send a data item > 520 bytes (the max size for a script data object,
-        // and thus, the maximum size any matched object can have) in a filteradd message
+        // and thus, the mstateraum size any matched object can have) in a filteradd message
         if (vData.size() > MAX_SCRIPT_ELEMENT_SIZE) {
             LOCK(cs_main);
             Misbehaving(pfrom->GetId(), 100);

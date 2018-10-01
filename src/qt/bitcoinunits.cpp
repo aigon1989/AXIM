@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(AXIM);
-    unitlist.append(mAXIM);
-    unitlist.append(uAXIM);
+    unitlist.append(STATERA);
+    unitlist.append(mSTATERA);
+    unitlist.append(uSTATERA);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case AXIM:
-    case mAXIM:
-    case uAXIM:
+    case STATERA:
+    case mSTATERA:
+    case uSTATERA:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case AXIM:
-        return QString("axim");
-    case mAXIM:
-        return QString("maxim");
-    case uAXIM:
-        return QString::fromUtf8("uaxim");
+    case STATERA:
+        return QString("statera");
+    case mSTATERA:
+        return QString("mstatera");
+    case uSTATERA:
+        return QString::fromUtf8("ustatera");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case AXIM:
-            return QString("AXIM");
-        case mAXIM:
-            return QString("mAXIM");
-        case uAXIM:
-            return QString::fromUtf8("μAXIM");
+        case STATERA:
+            return QString("STATERA");
+        case mSTATERA:
+            return QString("mSTATERA");
+        case uSTATERA:
+            return QString::fromUtf8("μSTATERA");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case AXIM:
-            return QString("tAXIM");
-        case mAXIM:
-            return QString("mtAXIM");
-        case uAXIM:
-            return QString::fromUtf8("μtAXIM");
+        case STATERA:
+            return QString("tSTATERA");
+        case mSTATERA:
+            return QString("mtSTATERA");
+        case uSTATERA:
+            return QString::fromUtf8("μtSTATERA");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case AXIM:
-            return QString("AXIM");
-        case mAXIM:
-            return QString("Milli-AXIM (1 / 1" THIN_SP_UTF8 "000)");
-        case uAXIM:
-            return QString("Micro-AXIM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case STATERA:
+            return QString("STATERA");
+        case mSTATERA:
+            return QString("Milli-STATERA (1 / 1" THIN_SP_UTF8 "000)");
+        case uSTATERA:
+            return QString("Micro-STATERA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case AXIM:
-            return QString("TestAXIMs");
-        case mAXIM:
-            return QString("Milli-TestAXIM (1 / 1" THIN_SP_UTF8 "000)");
-        case uAXIM:
-            return QString("Micro-TestAXIM (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case STATERA:
+            return QString("TestSTATERAs");
+        case mSTATERA:
+            return QString("Milli-TestSTATERA (1 / 1" THIN_SP_UTF8 "000)");
+        case uSTATERA:
+            return QString("Micro-TestSTATERA (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case AXIM:
+    case STATERA:
         return 100000000;
-    case mAXIM:
+    case mSTATERA:
         return 100000;
-    case uAXIM:
+    case uSTATERA:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case AXIM:
+    case STATERA:
         return 8;
-    case mAXIM:
+    case mSTATERA:
         return 5;
-    case uAXIM:
+    case uSTATERA:
         return 2;
     default:
         return 0;

@@ -45,7 +45,7 @@ static Status IOError(const std::string& context, int err_number) {
 // or running into kernel performance problems for very large databases.
 class Limiter {
  public:
-  // Limit maximum number of resources to |n|.
+  // Limit mstateraum number of resources to |n|.
   Limiter(intptr_t n) {
     SetAllowed(n);
   }
@@ -580,7 +580,7 @@ class PosixEnv : public Env {
   Limiter fd_limit_;
 };
 
-// Return the maximum number of concurrent mmaps.
+// Return the mstateraum number of concurrent mmaps.
 static int MaxMmaps() {
   if (mmap_limit >= 0) {
     return mmap_limit;
@@ -590,7 +590,7 @@ static int MaxMmaps() {
   return mmap_limit;
 }
 
-// Return the maximum number of read-only files to keep open.
+// Return the mstateraum number of read-only files to keep open.
 static intptr_t MaxOpenFiles() {
   if (open_read_only_file_limit >= 0) {
     return open_read_only_file_limit;

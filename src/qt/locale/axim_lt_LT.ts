@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų AXIM adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų STATERA adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų AXIM adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų STATERA adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar AXIM išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų AXIM nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar STATERA išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų STATERA nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO AXIM&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO STATERA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a AXIM Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Įveskite Axim adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
+        <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Įveskite Statera adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The AXIM address to encrypt</source>
-        <translation>AXIM adresas, kurį norite užšifruoti</translation>
+        <source>The STATERA address to encrypt</source>
+        <translation>STATERA adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this AXIM address</source>
-        <translation>Užšifruoti šio AXIM adreso privatų raktą</translation>
+        <source>Encrypt the private key for this STATERA address</source>
+        <translation>Užšifruoti šio STATERA adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>zAXIM Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>zSTATERA Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -645,16 +645,16 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Siųsti monetas į AXIM adresą</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Siųsti monetas į STATERA adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir axim URI)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir statera URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -669,24 +669,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
-        <translation>&amp;Apie AXIM Core</translation>
+        <source>&amp;About STATERA Core</source>
+        <translation>&amp;Apie STATERA Core</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
-        <translation>Rodyti informaciją apie AXIM Core</translation>
+        <source>Show information about STATERA Core</source>
+        <translation>Rodyti informaciją apie STATERA Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Keisti AXIM konfigūravimo parinktis</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Keisti STATERA konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo AXIM adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo STATERA adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais AXIM adresais</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais STATERA adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Atidaryti AXIM: URI arba mokėjimo prašymą</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Atidaryti STATERA: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +729,16 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Rodyti AXIM Core žinyną, kad gautumėte sąrašą su galimomis AXIM komandinės eilutės parinktimis</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Rodyti STATERA Core žinyną, kad gautumėte sąrašą su galimomis STATERA komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>AXIM Core piniginė</translation>
+        <source>STATERA Core client</source>
+        <translation>STATERA Core piniginė</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to AXIM network</source>
-        <translation><numerusform>%n aktyvių prisijungimų AXIM tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų AXIM tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų AXIM tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų AXIM tinkle ()</numerusform></translation>
+        <source>%n active connection(s) to STATERA network</source>
+        <translation><numerusform>%n aktyvių prisijungimų STATERA tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų STATERA tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų STATERA tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų STATERA tinkle ()</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,8 +892,8 @@ MultiSend: %1</translation>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
-        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (axim.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
+        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (statera.conf).</translation>
     </message>
 </context>
 <context>
@@ -1122,8 +1122,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uaxim per input.</source>
-        <translation>Gali skirtis +/- %1 uaxim kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 ustatera per input.</source>
+        <translation>Gali skirtis +/- %1 ustatera kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AXIM address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis AXIM adresas.</translation>
+        <source>The entered address "%1" is not a valid STATERA address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis STATERA adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About AXIM Core</source>
-        <translation>Apie AXIM Core</translation>
+        <source>About STATERA Core</source>
+        <translation>Apie STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1278,16 +1278,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to AXIM Core.</source>
-        <translation>Sveiki atvykę į AXIM Core</translation>
+        <source>Welcome to STATERA Core.</source>
+        <translation>Sveiki atvykę į STATERA Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur AXIM Core saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur STATERA Core saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AXIM Core atsisiųs ir saugos AXIM blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>STATERA Core atsisiųs ir saugos STATERA blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1298,8 +1298,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1440,12 +1440,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other AXIM addresses after it matures.
-To Add: enter percentage to give and AXIM address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other STATERA addresses after it matures.
+To Add: enter percentage to give and STATERA address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus AXIM adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir AXIM adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus STATERA adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir STATERA adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1651,8 +1651,8 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send AXIM to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti AXIM</translation>
+        <source>Add destinations to send STATERA to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti STATERA</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1711,7 +1711,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Vout pozicija turi būti teigiama.</translation>
     </message>
     <message>
-        <source>Maximum possible addresses reached. (15)</source>
+        <source>Mstateraum possible addresses reached. (15)</source>
         <translation>Pasiektas maksimalus galimų adresų skaičius. (15)</translation>
     </message>
     <message>
@@ -1723,7 +1723,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Suma:</translation>
     </message>
     <message>
-        <source>Maximum (15)</source>
+        <source>Mstateraum (15)</source>
         <translation>Maksimalus (15)</translation>
     </message>
 </context>
@@ -1742,7 +1742,7 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Aukštas Privatumas</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
+        <source>Mstateraum Privacy</source>
         <translation>Maksimalus Privatumas</translation>
     </message>
     <message>
@@ -1750,48 +1750,48 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 AXIM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 STATERA</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 AXIM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 STATERA</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AXIM to anonymize 10000 AXIM</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 AXIM, kad anonimizuotų 10000 AXIM</translation>
+        <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 STATERA, kad anonimizuotų 10000 STATERA</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 AXIM to anonymize 10000 AXIM</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 AXIM, kad anonimizuotų 10000 AXIM</translation>
+        <source>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 STATERA, kad anonimizuotų 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 AXIM per 10000 AXIM you anonymize.</source>
-        <translation>0.1 AXIM kas 1000 AXIM kuriuos anonimizuosite.</translation>
+        <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
+        <translation>0.1 STATERA kas 1000 STATERA kuriuos anonimizuosite.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Konfigūracija</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į paprastą (%1 ir 2 raundai). Bet kada galite tai pakeisti, atidarę AXIM konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į paprastą (%1 ir 2 raundai). Bet kada galite tai pakeisti, atidarę STATERA konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę AXIM konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę STATERA konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę AXIM konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę STATERA konfigūracijos ekraną.</translation>
     </message>
 </context>
 <context>
@@ -1844,12 +1844,12 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Ekspertas</translation>
     </message>
     <message>
-        <source>Automatically start AXIM after logging in to the system.</source>
-        <translation>Automatiškai paleisti AXIM prisijungus prie sistemos.</translation>
+        <source>Automatically start STATERA after logging in to the system.</source>
+        <translation>Automatiškai paleisti STATERA prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start AXIM on system login</source>
-        <translation>&amp;Paleisti AXIM sistemai įsijungiant</translation>
+        <source>&amp;Start STATERA on system login</source>
+        <translation>&amp;Paleisti STATERA sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1876,8 +1876,8 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXIM.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "AXIM".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "STATERA".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1890,28 +1890,28 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of AXIM units to zAXIM</source>
-        <translation>Įgalinti automatinį konvertavimą iš AXIM į zAXIM</translation>
+        <source>Enable automatic minting of STATERA units to zSTATERA</source>
+        <translation>Įgalinti automatinį konvertavimą iš STATERA į zSTATERA</translation>
     </message>
     <message>
-        <source>Enable zAXIM Automint</source>
-        <translation>Įgalinti zAXIM Automatinį nukaldinima</translation>
+        <source>Enable zSTATERA Automint</source>
+        <translation>Įgalinti zSTATERA Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming AXIM which get automatically converted to zAXIM via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto AXIM, kuris automatiškai bus konvertuotas į zAXIM naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming STATERA which get automatically converted to zSTATERA via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto STATERA, kuris automatiškai bus konvertuotas į zSTATERA naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zAXIM</source>
-        <translation>Automatiškai sukurtų zAXIM procentas</translation>
+        <source>Percentage of autominted zSTATERA</source>
+        <translation>Automatiškai sukurtų zSTATERA procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zAXIM Denomination</source>
-        <translation>Pageidautinas zAXIM Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zSTATERA Denomination</source>
+        <translation>Pageidautinas zSTATERA Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
-        <source>Connect to the AXIM network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie AXIM tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie STATERA tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2029,8 +2029,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>AXIM Balance</source>
-        <translation>AXIM Balansas</translation>
+        <source>STATERA Balance</source>
+        <translation>STATERA Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2053,18 +2053,18 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current AXIM balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis AXIM balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current STATERA balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis STATERA balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zAXIM Balance</source>
-        <translation>zAXIM Balansas</translation>
+        <source>zSTATERA Balance</source>
+        <translation>zSTATERA Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zAXIM are spendable.</source>
+These zSTATERA are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zAXIM galima išleisti.</translation>
+Šiuos zSTATERA galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2073,8 +2073,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo po to, kai buvo konvertuotas.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su AXIM tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su STATERA tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2117,8 +2117,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked AXIM or Masternode collaterals. These are excluded from zAXIM minting.</source>
-        <translation>Užrakinti AXIM arba Masternode užstatai. Jie yra neįtraukti į zAXIM kalimą.</translation>
+        <source>Locked STATERA or Masternode collaterals. These are excluded from zSTATERA minting.</source>
+        <translation>Užrakinti STATERA arba Masternode užstatai. Jie yra neįtraukti į zSTATERA kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2141,8 +2141,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>AutoMint šiuo metu įgalintas ir nustatytas</translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in axim.conf.</source>
-        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' axim.conf faile.</translation>
+        <source>To disable AutoMint add 'enablezeromint=0' in statera.conf.</source>
+        <translation>Norėdami išjungti Automatinį Kalimą pridėkite 'enablezeromint=0' statera.conf faile.</translation>
     </message>
     </context>
 <context>
@@ -2156,8 +2156,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Netinkamas mokėjimo adresas %1</translation>
     </message>
     <message>
-        <source>Cannot start axim: click-to-pay handler</source>
-        <translation>Nepavyksta paleisti axim: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
+        <source>Cannot start statera: click-to-pay handler</source>
+        <translation>Nepavyksta paleisti statera: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2210,8 +2210,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Veiksmai:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su AXIM tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su STATERA tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2222,8 +2222,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2234,8 +2234,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinama Konvertavimui:</translation>
     </message>
     <message>
-        <source>0.000 000 00 AXIM</source>
-        <translation>0.000 000 00 AXIM</translation>
+        <source>0.000 000 00 STATERA</source>
+        <translation>0.000 000 00 STATERA</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2266,12 +2266,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zAXIM Control</source>
-        <translation>zAxim Kontrolė</translation>
+        <source>zSTATERA Control</source>
+        <translation>zStatera Kontrolė</translation>
     </message>
     <message>
-        <source>zAXIM Selected:</source>
-        <translation>Pasirinkta zAXIM:</translation>
+        <source>zSTATERA Selected:</source>
+        <translation>Pasirinkta zSTATERA:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2290,8 +2290,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zAXIM</source>
-        <translation>0 zAXIM</translation>
+        <source>0 zSTATERA</source>
+        <translation>0 zSTATERA</translation>
     </message>
     <message>
         <source>Security Level:</source>
@@ -2338,8 +2338,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zAXIM</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zAXIM</translation>
+        <source>Total Balance including unconfirmed and immature zSTATERA</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zSTATERA</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2516,12 +2516,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
-        <source>zAXIM Spend #: </source>
-        <translation>zAXIM Išleidimas #:</translation>
+        <source>zSTATERA Spend #: </source>
+        <translation>zSTATERA Išleidimas #:</translation>
     </message>
     <message>
-        <source>zAXIM Mint</source>
-        <translation>zAXIM Konvertavimas</translation>
+        <source>zSTATERA Mint</source>
+        <translation>zSTATERA Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2604,8 +2604,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Klaida: jūsų piniginė užrakinta. Pirmiausia įveskite piniginės slaptažodį.</translation>
     </message>
     <message>
-        <source>Invalid Axim Address</source>
-        <translation>Netinkamas Axim Adresas</translation>
+        <source>Invalid Statera Address</source>
+        <translation>Netinkamas Statera Adresas</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2628,8 +2628,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>su Saugumo Lygmeniu</translation>
     </message>
     <message>
-        <source>Failed to spend zAXIM</source>
-        <translation>Nepavyko išleisti zAXIM</translation>
+        <source>Failed to spend zSTATERA</source>
+        <translation>Nepavyko išleisti zSTATERA</translation>
     </message>
     <message>
         <source>serial: </source>
@@ -2651,8 +2651,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a AXIM address (e.g. %1)</source>
-        <translation>Įveskite AXIM adresą (pvz. %1)</translation>
+        <source>Enter a STATERA address (e.g. %1)</source>
+        <translation>Įveskite STATERA adresą (pvz. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2829,8 +2829,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the AXIM RPC console.</source>
-        <translation>Sveiki atvykę į AXIM RPC konsolę.</translation>
+        <source>Welcome to the STATERA RPC console.</source>
+        <translation>Sveiki atvykę į STATERA RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -3001,8 +3001,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 AXIM</source>
-        <translation>0 AXIM</translation>
+        <source>0 STATERA</source>
+        <translation>0 STATERA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3158,8 +3158,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>AXIM adresas, kuriuo pasirašyti žinute</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>STATERA adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3182,16 +3182,16 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio AXIM adreso savininkas</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio STATERA adreso savininkas</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>AXIM adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>STATERA adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu AXIM adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu STATERA adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -3229,8 +3229,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     </context>
 <context>
@@ -3449,18 +3449,18 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>
@@ -3494,8 +3494,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXIM Core</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės AXIM Core versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of STATERA Core</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės STATERA Core versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3718,8 +3718,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Piniginė užrakinta.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart AXIM Core to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite AXIM Core iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart STATERA Core to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite STATERA Core iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

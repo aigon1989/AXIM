@@ -1,7 +1,7 @@
 // Copyright (c) 2015-2016 The Bitcoin Core developers
 // Copyright (c) 2017 The Zcash developers
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -46,7 +46,7 @@ static const std::string TOR_SAFE_CLIENTKEY = "Tor safe cookie authentication co
 static const float RECONNECT_TIMEOUT_START = 1.0;
 /** Exponential backoff configuration - growth factor */
 static const float RECONNECT_TIMEOUT_EXP = 1.5;
-/** Maximum length for lines received on TorControlConnection.
+/** Mstateraum length for lines received on TorControlConnection.
  * tor-control-spec.txt mentions that there is explicitly no limit defined to line length,
  * this is belt-and-suspenders sanity limit to prevent memory exhaustion.
  */
@@ -366,7 +366,7 @@ static std::map<std::string,std::string> ParseTorReplyMapping(const std::string 
  * Returns a pair <status, string>.
  * If an error occurred, status will be false, otherwise status will be true and the data will be returned in string.
  *
- * @param maxsize Puts a maximum size limit on the file that is read. If the file is larger than this, truncated data
+ * @param maxsize Puts a mstateraum size limit on the file that is read. If the file is larger than this, truncated data
  *         (with len > maxsize) will be returned.
  */
 static std::pair<bool,std::string> ReadBinaryFile(const std::string &filename, size_t maxsize=std::numeric_limits<size_t>::max())

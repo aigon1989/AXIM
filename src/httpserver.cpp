@@ -1,6 +1,6 @@
 // Copyright (c) 2015 The Bitcoin Core developers
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -40,7 +40,7 @@
 #include <boost/foreach.hpp>
 #include <boost/scoped_ptr.hpp>
 
-/** Maximum size of http request (request line + headers) */
+/** Mstateraum size of http request (request line + headers) */
 static const size_t MAX_HEADERS_SIZE = 8192;
 
 /** HTTP request work item */

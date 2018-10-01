@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -123,9 +123,9 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"getspentzerocoinamount", 1},
         {"generatemintlist", 0},
         {"generatemintlist", 1},
-        {"searchdzaxim", 0},
-        {"searchdzaxim", 1},
-        {"searchdzaxim", 2},
+        {"searchdzstatera", 0},
+        {"searchdzstatera", 1},
+        {"searchdzstatera", 2},
         {"getaccumulatorvalues", 0},
         {"getfeeinfo", 0}
     };

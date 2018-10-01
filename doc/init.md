@@ -1,60 +1,60 @@
-Sample init scripts and service configuration for aximd
+Sample init scripts and service configuration for staterad
 ==========================================================
 
 Sample scripts and configuration files for systemd, Upstart and OpenRC
 can be found in the contrib/init folder.
 
-    contrib/init/aximd.service:    systemd service unit configuration
-    contrib/init/aximd.openrc:     OpenRC compatible SysV style init script
-    contrib/init/aximd.openrcconf: OpenRC conf.d file
-    contrib/init/aximd.conf:       Upstart service configuration file
-    contrib/init/aximd.init:       CentOS compatible SysV style init script
+    contrib/init/staterad.service:    systemd service unit configuration
+    contrib/init/staterad.openrc:     OpenRC compatible SysV style init script
+    contrib/init/staterad.openrcconf: OpenRC conf.d file
+    contrib/init/staterad.conf:       Upstart service configuration file
+    contrib/init/staterad.init:       CentOS compatible SysV style init script
 
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "axim" user
+All three startup configurations assume the existence of a "statera" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
 ---------------------------------
 
-At a bare minimum, aximd requires that the rpcpassword setting be set
+At a bare minimum, staterad requires that the rpcpassword setting be set
 when running as a daemon.  If the configuration file does not exist or this
-setting is not set, aximd will shutdown promptly after startup.
+setting is not set, staterad will shutdown promptly after startup.
 
 This password does not have to be remembered or typed as it is mostly used
-as a fixed token that aximd and client programs read from the configuration
+as a fixed token that staterad and client programs read from the configuration
 file, however it is recommended that a strong and secure password be used
 as this password is security critical to securing the wallet should the
 wallet be enabled.
 
-If aximd is run with "-daemon" flag, and no rpcpassword is set, it will
+If staterad is run with "-daemon" flag, and no rpcpassword is set, it will
 print a randomly generated suitable password to stderr.  You can also
 generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/axim/axim.conf
+Once you have a password in hand, set rpcpassword= in /etc/statera/statera.conf
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/axim.conf.
+see contrib/debian/examples/statera.conf.
 
 3. Paths
 ---------------------------------
 
 All three configurations assume several paths that might need to be adjusted.
 
-Binary:              /usr/bin/aximd
-Configuration file:  /etc/axim/axim.conf
-Data directory:      /var/lib/aximd
-PID file:            /var/run/aximd/aximd.pid (OpenRC and Upstart)
-                     /var/lib/aximd/aximd.pid (systemd)
+Binary:              /usr/bin/staterad
+Configuration file:  /etc/statera/statera.conf
+Data directory:      /var/lib/staterad
+PID file:            /var/run/staterad/staterad.pid (OpenRC and Upstart)
+                     /var/lib/staterad/staterad.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the axim user and group.  It is advised for security
+should all be owned by the statera user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-axim user and group.  Access to axim-cli and other aximd rpc clients
+statera user and group.  Access to statera-cli and other staterad rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration
@@ -66,19 +66,19 @@ Installing this .service file consists on just copying it to
 /usr/lib/systemd/system directory, followed by the command
 "systemctl daemon-reload" in order to update running systemd configuration.
 
-To test, run "systemctl start aximd" and to enable for system startup run
-"systemctl enable aximd"
+To test, run "systemctl start staterad" and to enable for system startup run
+"systemctl enable staterad"
 
 4b) OpenRC
 
-Rename aximd.openrc to aximd and drop it in /etc/init.d.  Double
+Rename staterad.openrc to staterad and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
-"/etc/init.d/aximd start" and configure it to run on startup with
-"rc-update add aximd"
+"/etc/init.d/staterad start" and configure it to run on startup with
+"rc-update add staterad"
 
 4c) Upstart (for Debian/Ubuntu based distributions)
 
-Drop aximd.conf in /etc/init.  Test by running "service aximd start"
+Drop staterad.conf in /etc/init.  Test by running "service staterad start"
 it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
@@ -86,11 +86,11 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 
 4d) CentOS
 
-Copy aximd.init to /etc/init.d/aximd. Test by running "service aximd start".
+Copy staterad.init to /etc/init.d/staterad. Test by running "service staterad start".
 
-Using this script, you can adjust the path and flags to the aximd program by
-setting the AXIMD and FLAGS environment variables in the file
-/etc/sysconfig/aximd. You can also use the DAEMONOPTS environment variable here.
+Using this script, you can adjust the path and flags to the staterad program by
+setting the STATERAD and FLAGS environment variables in the file
+/etc/sysconfig/staterad. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn
 -----------------------------------

@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_QT_MULTISENDDIALOG_H
-#define AXIM_QT_MULTISENDDIALOG_H
+#ifndef STATERA_QT_MULTISENDDIALOG_H
+#define STATERA_QT_MULTISENDDIALOG_H
 
 #include <QDialog>
 
@@ -39,4 +39,4 @@ private:
     WalletModel* model;
 };
 
-#endif // AXIM_QT_MULTISENDDIALOG_H
+#endif // STATERA_QT_MULTISENDDIALOG_H

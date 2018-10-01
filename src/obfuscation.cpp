@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -38,7 +38,7 @@ map<uint256, CObfuscationBroadcastTx> mapObfuscationBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN OBFUSCATION MAGIC - AXIM **********
+/* *** BEGIN OBFUSCATION MAGIC - STATERA **********
     Copyright (c) 2014-2015, Dash Developers
         eduffield - evan@dashpay.io
         udjinm6   - udjinm6@dashpay.io
@@ -240,7 +240,7 @@ void CObfuscationPool::ProcessMessageObfuscation(CNode* pfrom, std::string& strC
 
             if (nValueIn > OBFUSCATION_POOL_MAX) {
                 LogPrintf("dsi -- more than Obfuscation pool max! %s\n", tx.ToString());
-                errorID = ERR_MAXIMUM;
+                errorID = ERR_MSTATERAUM;
                 pfrom->PushMessage("dssu", sessionID, GetState(), GetEntriesCount(), MASTERNODE_REJECTED, errorID);
                 return;
             }
@@ -778,9 +778,9 @@ void CObfuscationPool::ChargeRandomFees()
 
                 Being that Obfuscation has "no fees" we need to have some kind of cost associated
                 with using it to stop abuse. Otherwise it could serve as an attack vector and
-                allow endless transaction that would bloat AXIM and make it unusable. To
+                allow endless transaction that would bloat STATERA and make it unusable. To
                 stop these kinds of attacks 1 in 10 successful transactions are charged. This
-                adds up to a cost of 0.001 AXIM per transaction on average.
+                adds up to a cost of 0.001 STATERA per transaction on average.
             */
             if (r <= 10) {
                 LogPrintf("CObfuscationPool::ChargeRandomFees -- charging random fees. %u\n", i);
@@ -1435,7 +1435,7 @@ bool CObfuscationPool::DoAutomaticDenominating(bool fDryRun)
         // should have some additional amount for them
         nLowestDenom += OBFUSCATION_COLLATERAL * 4;
 
-    CAmount nBalanceNeedsAnonymized = nAnonymizeAximAmount * COIN - pwalletMain->GetAnonymizedBalance();
+    CAmount nBalanceNeedsAnonymized = nAnonymizeStateraAmount * COIN - pwalletMain->GetAnonymizedBalance();
 
     // if balanceNeedsAnonymized is more than pool max, take the pool max
     if (nBalanceNeedsAnonymized > OBFUSCATION_POOL_MAX) nBalanceNeedsAnonymized = OBFUSCATION_POOL_MAX;
@@ -1918,10 +1918,10 @@ void CObfuscationPool::GetDenominationsToString(int nDenom, std::string& strDeno
 {
     // Function returns as follows:
     //
-    // bit 0 - 100AXIM+1 ( bit on if present )
-    // bit 1 - 10AXIM+1
-    // bit 2 - 1AXIM+1
-    // bit 3 - .1AXIM+1
+    // bit 0 - 100STATERA+1 ( bit on if present )
+    // bit 1 - 10STATERA+1
+    // bit 2 - 1STATERA+1
+    // bit 3 - .1STATERA+1
     // bit 3 - non-denom
 
 
@@ -1991,10 +1991,10 @@ int CObfuscationPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSi
 
     // Function returns as follows:
     //
-    // bit 0 - 100AXIM+1 ( bit on if present )
-    // bit 1 - 10AXIM+1
-    // bit 2 - 1AXIM+1
-    // bit 3 - .1AXIM+1
+    // bit 0 - 100STATERA+1 ( bit on if present )
+    // bit 1 - 10STATERA+1
+    // bit 2 - 1STATERA+1
+    // bit 3 - .1STATERA+1
 
     return denom;
 }
@@ -2073,8 +2073,8 @@ std::string CObfuscationPool::GetMessageByID(int messageID)
         return _("Invalid script detected.");
     case ERR_INVALID_TX:
         return _("Transaction not valid.");
-    case ERR_MAXIMUM:
-        return _("Value more than Obfuscation pool maximum allows.");
+    case ERR_MSTATERAUM:
+        return _("Value more than Obfuscation pool mstateraum allows.");
     case ERR_MN_LIST:
         return _("Not in the Masternode list.");
     case ERR_MODE:
@@ -2287,7 +2287,7 @@ void ThreadCheckObfuScationPool()
     if (fLiteMode) return; //disable all Obfuscation/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("axim-obfuscation");
+    RenameThread("statera-obfuscation");
 
     unsigned int c = 0;
 

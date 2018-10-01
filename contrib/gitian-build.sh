@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/aigon1989/AXIM
+url=https://github.com/aigon1989/STATERA
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the axim, gitian-builder, gitian.sigs, and axim-detached-sigs.
+Run this script from the directory containing the statera, gitian-builder, gitian.sigs, and statera-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version        Version number, commit, or branch to build. If building a commit 
 
 Options:
 -c|--commit    Indicate that the version argument is for a commit or branch
--u|--url    Specify the URL of the repository. Default is https://github.com/aigon1989/AXIM
+-u|--url    Specify the URL of the repository. Default is https://github.com/aigon1989/STATERA
 -v|--verify     Verify the gitian build
 -b|--build    Do a gitian build
 -s|--sign    Make signed binaries for Windows and Mac OSX
@@ -238,7 +238,7 @@ if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
     git clone https://github.com/aigon1989/gitian.sigs.git
-    git clone https://github.com/aigon1989/axim-detached-sigs.git
+    git clone https://github.com/aigon1989/statera-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./axim
+pushd ./statera
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
     # Make output folder
-    mkdir -p ./axim-binaries/${VERSION}
+    mkdir -p ./statera-binaries/${VERSION}
 
     # Build Dependencies
     echo ""
@@ -271,7 +271,7 @@ then
     mkdir -p inputs
     wget -N -P inputs $osslPatchUrl
     wget -N -P inputs $osslTarUrl
-    make -C ../axim/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../statera/depends download SOURCES_PATH=`pwd`/cache/common
 
     # Linux
     if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
         echo ""
         echo "Compiling ${VERSION} Linux"
         echo ""
-        ./bin/gbuild -j ${proc} -m ${mem} --commit axim=${COMMIT} --url axim=${url} ../axim/contrib/gitian-descriptors/gitian-linux.yml
-        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../axim/contrib/gitian-descriptors/gitian-linux.yml
-        mv build/out/axim-*.tar.gz build/out/src/axim-*.tar.gz ../axim-binaries/${VERSION}
+        ./bin/gbuild -j ${proc} -m ${mem} --commit statera=${COMMIT} --url statera=${url} ../statera/contrib/gitian-descriptors/gitian-linux.yml
+        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../statera/contrib/gitian-descriptors/gitian-linux.yml
+        mv build/out/statera-*.tar.gz build/out/src/statera-*.tar.gz ../statera-binaries/${VERSION}
     fi
     # Windows
     if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
         echo ""
         echo "Compiling ${VERSION} Windows"
         echo ""
-        ./bin/gbuild -j ${proc} -m ${mem} --commit axim=${COMMIT} --url axim=${url} ../axim/contrib/gitian-descriptors/gitian-win.yml
-        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../axim/contrib/gitian-descriptors/gitian-win.yml
-        mv build/out/axim-*-win-unsigned.tar.gz inputs/axim-win-unsigned.tar.gz
-        mv build/out/axim-*.zip build/out/axim-*.exe ../axim-binaries/${VERSION}
+        ./bin/gbuild -j ${proc} -m ${mem} --commit statera=${COMMIT} --url statera=${url} ../statera/contrib/gitian-descriptors/gitian-win.yml
+        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../statera/contrib/gitian-descriptors/gitian-win.yml
+        mv build/out/statera-*-win-unsigned.tar.gz inputs/statera-win-unsigned.tar.gz
+        mv build/out/statera-*.zip build/out/statera-*.exe ../statera-binaries/${VERSION}
     fi
     # Mac OSX
     if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
         echo ""
         echo "Compiling ${VERSION} Mac OSX"
         echo ""
-        ./bin/gbuild -j ${proc} -m ${mem} --commit axim=${COMMIT} --url axim=${url} ../axim/contrib/gitian-descriptors/gitian-osx.yml
-        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../axim/contrib/gitian-descriptors/gitian-osx.yml
-        mv build/out/axim-*-osx-unsigned.tar.gz inputs/axim-osx-unsigned.tar.gz
-        mv build/out/axim-*.tar.gz build/out/axim-*.dmg ../axim-binaries/${VERSION}
+        ./bin/gbuild -j ${proc} -m ${mem} --commit statera=${COMMIT} --url statera=${url} ../statera/contrib/gitian-descriptors/gitian-osx.yml
+        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../statera/contrib/gitian-descriptors/gitian-osx.yml
+        mv build/out/statera-*-osx-unsigned.tar.gz inputs/statera-osx-unsigned.tar.gz
+        mv build/out/statera-*.tar.gz build/out/statera-*.dmg ../statera-binaries/${VERSION}
     fi
     # AArch64
     if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
         echo ""
         echo "Compiling ${VERSION} AArch64"
         echo ""
-        ./bin/gbuild -j ${proc} -m ${mem} --commit axim=${COMMIT} --url axim=${url} ../axim/contrib/gitian-descriptors/gitian-aarch64.yml
-        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../axim/contrib/gitian-descriptors/gitian-aarch64.yml
-        mv build/out/axim-*.tar.gz build/out/src/axim-*.tar.gz ../axim-binaries/${VERSION}
+        ./bin/gbuild -j ${proc} -m ${mem} --commit statera=${COMMIT} --url statera=${url} ../statera/contrib/gitian-descriptors/gitian-aarch64.yml
+        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../statera/contrib/gitian-descriptors/gitian-aarch64.yml
+        mv build/out/statera-*.tar.gz build/out/src/statera-*.tar.gz ../statera-binaries/${VERSION}
     fi
     popd
 
@@ -341,32 +341,32 @@ then
     echo ""
     echo "Verifying v${VERSION} Linux"
     echo ""
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../axim/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../statera/contrib/gitian-descriptors/gitian-linux.yml
     # Windows
     echo ""
     echo "Verifying v${VERSION} Windows"
     echo ""
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../axim/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../statera/contrib/gitian-descriptors/gitian-win.yml
     # Mac OSX
     echo ""
     echo "Verifying v${VERSION} Mac OSX"
     echo ""
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../axim/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../statera/contrib/gitian-descriptors/gitian-osx.yml
     # AArch64
     echo ""
     echo "Verifying v${VERSION} AArch64"
     echo ""
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../axim/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../statera/contrib/gitian-descriptors/gitian-aarch64.yml
     # Signed Windows
     echo ""
     echo "Verifying v${VERSION} Signed Windows"
     echo ""
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../axim/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../statera/contrib/gitian-descriptors/gitian-osx-signer.yml
     # Signed Mac OSX
     echo ""
     echo "Verifying v${VERSION} Signed Mac OSX"
     echo ""
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../axim/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../statera/contrib/gitian-descriptors/gitian-osx-signer.yml
     popd
 fi
 
@@ -381,10 +381,10 @@ then
         echo ""
         echo "Signing ${VERSION} Windows"
         echo ""
-        ./bin/gbuild -i --commit signature=${COMMIT} ../axim/contrib/gitian-descriptors/gitian-win-signer.yml
-        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../axim/contrib/gitian-descriptors/gitian-win-signer.yml
-        mv build/out/axim-*win64-setup.exe ../axim-binaries/${VERSION}
-        mv build/out/axim-*win32-setup.exe ../axim-binaries/${VERSION}
+        ./bin/gbuild -i --commit signature=${COMMIT} ../statera/contrib/gitian-descriptors/gitian-win-signer.yml
+        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../statera/contrib/gitian-descriptors/gitian-win-signer.yml
+        mv build/out/statera-*win64-setup.exe ../statera-binaries/${VERSION}
+        mv build/out/statera-*win32-setup.exe ../statera-binaries/${VERSION}
     fi
     # Sign Mac OSX
     if [[ $osx = true ]]
@@ -392,9 +392,9 @@ then
         echo ""
         echo "Signing ${VERSION} Mac OSX"
         echo ""
-        ./bin/gbuild -i --commit signature=${COMMIT} ../axim/contrib/gitian-descriptors/gitian-osx-signer.yml
-        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../axim/contrib/gitian-descriptors/gitian-osx-signer.yml
-        mv build/out/axim-osx-signed.dmg ../axim-binaries/${VERSION}/axim-${VERSION}-osx.dmg
+        ./bin/gbuild -i --commit signature=${COMMIT} ../statera/contrib/gitian-descriptors/gitian-osx-signer.yml
+        ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../statera/contrib/gitian-descriptors/gitian-osx-signer.yml
+        mv build/out/statera-osx-signed.dmg ../statera-binaries/${VERSION}/statera-${VERSION}-osx.dmg
     fi
     popd
 

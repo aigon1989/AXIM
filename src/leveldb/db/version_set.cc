@@ -24,13 +24,13 @@ static size_t TargetFileSize(const Options* options) {
   return options->max_file_size;
 }
 
-// Maximum bytes of overlaps in grandparent (i.e., level+2) before we
+// Mstateraum bytes of overlaps in grandparent (i.e., level+2) before we
 // stop building a single file in a level->level+1 compaction.
 static int64_t MaxGrandParentOverlapBytes(const Options* options) {
   return 10 * TargetFileSize(options);
 }
 
-// Maximum number of bytes in all compacted files.  We avoid expanding
+// Mstateraum number of bytes in all compacted files.  We avoid expanding
 // the lower level file set of a compaction if it would make the
 // total compaction cover more than this many bytes.
 static int64_t ExpandedCompactionByteSizeLimit(const Options* options) {

@@ -9,7 +9,7 @@
 /// \copyright  Copyright 2013 Ian Miers, Christina Garman and Matthew Green
 /// \license    This project is released under the MIT license.
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 
 #include "ParamGeneration.h"
 #include <string>
@@ -188,7 +188,7 @@ calculateHash(uint256 input)
 }
 
 /// \brief Calculate field/group parameter sizes based on a security level.
-/// \param maxPLen          Maximum size of the field (modulus "p") in bits.
+/// \param maxPLen          Mstateraum size of the field (modulus "p") in bits.
 /// \param securityLevel    Required security level in bits (at least 80)
 /// \param pLen             Result: length of "p" in bits
 /// \param qLen             Result: length of "q" in bits
@@ -438,7 +438,7 @@ calculateGroupModulusAndOrder(uint256 seed, uint32_t pLen, uint32_t qLen,
 		t = t + CBigNum(1);
 	} // loop continues until pgen_counter exceeds a limit
 
-	// We reach this point only if we exceeded our maximum iteration count.
+	// We reach this point only if we exceeded our mstateraum iteration count.
 	// Throw an exception.
 	throw std::runtime_error("Unable to generate a prime modulus for the group");
 }

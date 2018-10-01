@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_BLOCKSIGNATURE_H
-#define AXIM_BLOCKSIGNATURE_H
+#ifndef STATERA_BLOCKSIGNATURE_H
+#define STATERA_BLOCKSIGNATURE_H
 
 #include "key.h"
 #include "primitives/block.h"
@@ -14,4 +14,4 @@ bool SignBlockWithKey(CBlock& block, const CKey& key);
 bool SignBlock(CBlock& block, const CKeyStore& keystore);
 bool CheckBlockSignature(const CBlock& block);
 
-#endif //AXIM_BLOCKSIGNATURE_H
+#endif //STATERA_BLOCKSIGNATURE_H

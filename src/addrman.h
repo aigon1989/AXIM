@@ -1,7 +1,7 @@
 // Copyright (c) 2012 Pieter Wuille
 // Copyright (c) 2012-2014 The Bitcoin developers
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -135,7 +135,7 @@ public:
 //! total number of buckets for new addresses
 #define ADDRMAN_NEW_BUCKET_COUNT 1024
 
-//! maximum allowed number of entries in buckets for new and tried addresses
+//! mstateraum allowed number of entries in buckets for new and tried addresses
 #define ADDRMAN_BUCKET_SIZE 64
 
 //! over how many buckets entries with tried addresses from a single group (/16 for IPv4) are spread
@@ -147,7 +147,7 @@ public:
 //! in how many buckets for entries with new addresses a single address may occur
 #define ADDRMAN_NEW_BUCKETS_PER_ADDRESS 8
 
-//! how old addresses can maximally be
+//! how old addresses can mstateraally be
 #define ADDRMAN_HORIZON_DAYS 30
 
 //! after how many failed attempts we give up on a new node
@@ -159,10 +159,10 @@ public:
 //! ... in at least this many days
 #define ADDRMAN_MIN_FAIL_DAYS 7
 
-//! the maximum percentage of nodes to return in a getaddr call
+//! the mstateraum percentage of nodes to return in a getaddr call
 #define ADDRMAN_GETADDR_MAX_PCT 23
 
-//! the maximum number of nodes to return in a getaddr call
+//! the mstateraum number of nodes to return in a getaddr call
 #define ADDRMAN_GETADDR_MAX 2500
 
 /** 

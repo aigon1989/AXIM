@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,10 +10,10 @@
 #define BITCOIN_INIT_H
 
 #include <string>
-#include "zaximwallet.h"
+#include "zstaterawallet.h"
 class CScheduler;
 class CWallet;
-class CzAXIMWallet;
+class CzSTATERAWallet;
 
 namespace boost
 {
@@ -22,7 +22,7 @@ class thread_group;
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,7 +32,7 @@ class thread_group;
 #include <string>
 class CScheduler;
 class CWallet;
-class CzAXIMWallet;
+class CzSTATERAWallet;
 
 namespace boost
 {
@@ -40,7 +40,7 @@ class thread_group;
 } // namespace boost
 
 extern CWallet* pwalletMain;
-extern CzAXIMWallet* zwalletMain;
+extern CzSTATERAWallet* zwalletMain;
 
 void StartShutdown();
 bool ShutdownRequested();
@@ -64,7 +64,7 @@ std::string LicenseInfo();
 #endif // BITCOIN_INIT_H
 
 extern CWallet* pwalletMain;
-extern CzAXIMWallet* zwalletMain;
+extern CzSTATERAWallet* zwalletMain;
 
 void StartShutdown();
 bool ShutdownRequested();

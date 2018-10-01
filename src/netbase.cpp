@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifdef HAVE_CONFIG_H
-#include "config/axim-config.h"
+#include "config/statera-config.h"
 #endif
 
 #include "netbase.h"
@@ -256,7 +256,7 @@ bool static InterruptibleRecv(char* data, size_t len, int timeout, SOCKET& hSock
 {
     int64_t curTime = GetTimeMillis();
     int64_t endTime = curTime + timeout;
-    // Maximum time to wait in one select call. It will take up until this time (in millis)
+    // Mstateraum time to wait in one select call. It will take up until this time (in millis)
     // to break off in case of an interruption.
     const int64_t maxWait = 1000;
     while (len > 0 && curTime < endTime) {

@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2016-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -345,9 +345,9 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::SendToSelf:
         return tr("Payment to yourself");
     case TransactionRecord::StakeMint:
-        return tr("AXIM Stake");
-    case TransactionRecord::StakeZAXIM:
-        return tr("zAXIM Stake");
+        return tr("STATERA Stake");
+    case TransactionRecord::StakeZSTATERA:
+        return tr("zSTATERA Stake");
     case TransactionRecord::Generated:
         return tr("Mined");
     case TransactionRecord::ObfuscationDenominate:
@@ -361,15 +361,15 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::Obfuscated:
         return tr("Obfuscated");
     case TransactionRecord::ZerocoinMint:
-        return tr("Converted AXIM to zAXIM");
+        return tr("Converted STATERA to zSTATERA");
     case TransactionRecord::ZerocoinSpend:
-        return tr("Spent zAXIM");
+        return tr("Spent zSTATERA");
     case TransactionRecord::RecvFromZerocoinSpend:
-        return tr("Received AXIM from zAXIM");
-    case TransactionRecord::ZerocoinSpend_Change_zAxim:
-        return tr("Minted Change as zAXIM from zAXIM Spend");
+        return tr("Received STATERA from zSTATERA");
+    case TransactionRecord::ZerocoinSpend_Change_zStatera:
+        return tr("Minted Change as zSTATERA from zSTATERA Spend");
     case TransactionRecord::ZerocoinSpend_FromMe:
-        return tr("Converted zAXIM to AXIM");
+        return tr("Converted zSTATERA to STATERA");
 
     default:
         return QString();
@@ -381,7 +381,7 @@ QVariant TransactionTableModel::txAddressDecoration(const TransactionRecord* wtx
     switch (wtx->type) {
     case TransactionRecord::Generated:
     case TransactionRecord::StakeMint:
-    case TransactionRecord::StakeZAXIM:
+    case TransactionRecord::StakeZSTATERA:
     case TransactionRecord::MNReward:
         return QIcon(":/icons/tx_mined");
     case TransactionRecord::RecvWithObfuscation:
@@ -424,10 +424,10 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord* wtx, b
     case TransactionRecord::SendToOther:
         return QString::fromStdString(wtx->address) + watchAddress;
     case TransactionRecord::ZerocoinMint:
-    case TransactionRecord::ZerocoinSpend_Change_zAxim:
-        return tr("Anonymous (zAXIM Transaction)");
-    case TransactionRecord::StakeZAXIM:
-        return tr("Anonymous (zAXIM Stake)");
+    case TransactionRecord::ZerocoinSpend_Change_zStatera:
+        return tr("Anonymous (zSTATERA Transaction)");
+    case TransactionRecord::StakeZSTATERA:
+        return tr("Anonymous (zSTATERA Stake)");
     case TransactionRecord::SendToSelf:
     default:
         return tr("(n/a)") + watchAddress;
@@ -717,7 +717,7 @@ static void ShowProgress(TransactionTableModel* ttm, const std::string& title, i
 
     if (nProgress == 100) {
         fQueueNotifications = false;
-        if (vQueueNotifications.size() > 10) // prevent balloon spam, show maximum 10 balloons
+        if (vQueueNotifications.size() > 10) // prevent balloon spam, show mstateraum 10 balloons
             QMetaObject::invokeMethod(ttm, "setProcessingQueuedTransactions", Qt::QueuedConnection, Q_ARG(bool, true));
         for (unsigned int i = 0; i < vQueueNotifications.size(); ++i) {
             if (vQueueNotifications.size() - i <= 10)

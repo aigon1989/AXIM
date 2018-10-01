@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=statera
+Comment=statera P2P Cryptocurrency
+Comment[fr]=statera, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=statera, eşten eşe kriptografik sanal para birimi
+Comment[es]=statera, moneda virtual criptográfica P2P
+Exec=statera-qt %u
+Terminal=false
+Type=Application
+Icon=statera128
+MimeType=x-scheme-handler/statera;
+Categories=Office;Finance;

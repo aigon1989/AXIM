@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include "txdb.h"
 #include "init.h"
 #include "spork.h"
-#include "zaximchain.h"
+#include "zstaterachain.h"
 
 using namespace libzerocoin;
 
@@ -255,7 +255,7 @@ bool CalculateAccumulatorCheckpoint(int nHeight, uint256& nCheckpoint, Accumulat
 bool ValidateAccumulatorCheckpoint(const CBlock& block, CBlockIndex* pindex, AccumulatorMap& mapAccumulators)
 {
     //V1 accumulators are completely phased out by the time this code hits the public and begins generating new checkpoints
-    //It is VERY IMPORTANT that when this is being run and height < v2_start, then zAXIM need to be disabled at the same time!!
+    //It is VERY IMPORTANT that when this is being run and height < v2_start, then zSTATERA need to be disabled at the same time!!
     if (fVerifyingBlocks)
         return true;
 

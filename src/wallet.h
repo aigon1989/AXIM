@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,8 +24,8 @@
 #include "validationinterface.h"
 #include "wallet_ismine.h"
 #include "walletdb.h"
-#include "zaximwallet.h"
-#include "zaximtracker.h"
+#include "zstaterawallet.h"
+#include "zstateratracker.h"
 
 #include <algorithm>
 #include <map>
@@ -85,30 +85,30 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT7500IFMN = 3,
-    ONLY_NONDENOMINATED_NOT7500IFMN = 4, // ONLY_NONDENOMINATED and not 10000 AXIM at the same time
+    ONLY_NONDENOMINATED_NOT7500IFMN = 4, // ONLY_NONDENOMINATED and not 10000 STATERA at the same time
     ONLY_7500 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zAXIM send
+// Possible states for zSTATERA send
 enum ZerocoinSpendStatus {
-    ZAXIM_SPEND_OKAY = 0,                            // No error
-    ZAXIM_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZAXIM_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZAXIM_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZAXIM_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZAXIM_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZAXIM_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZAXIM_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZAXIM_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZAXIM_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZAXIM_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZAXIM_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZAXIM_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZAXIM_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZAXIM_SPENT_USED_ZAXIM = 14,                      // Coin has already been spend
-    ZAXIM_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
-    ZAXIM_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
+    ZSTATERA_SPEND_OKAY = 0,                            // No error
+    ZSTATERA_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZSTATERA_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZSTATERA_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZSTATERA_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZSTATERA_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZSTATERA_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZSTATERA_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZSTATERA_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZSTATERA_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZSTATERA_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZSTATERA_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZSTATERA_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZSTATERA_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZSTATERA_SPENT_USED_ZSTATERA = 14,                      // Coin has already been spend
+    ZSTATERA_TX_TOO_LARGE = 15,                          // The transaction is larger than the max tx size
+    ZSTATERA_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
 };
 
 struct CompactTallyItem {
@@ -174,7 +174,7 @@ private:
     //! the current wallet version: clients below this version are not able to load the wallet
     int nWalletVersion;
 
-    //! the maximum wallet format version: memory-only variable that specifies to what version this wallet may be upgraded
+    //! the mstateraum wallet format version: memory-only variable that specifies to what version this wallet may be upgraded
     int nWalletMaxVersion;
 
     int64_t nNextResend;
@@ -214,15 +214,15 @@ public:
     std::string ResetMintZerocoin();
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored, std::list<CDeterministicMint>& listDMintsRestored);
-    void ZAximBackupWallet();
+    void ZStateraBackupWallet();
     bool GetZerocoinKey(const CBigNum& bnSerial, CKey& key);
-    bool CreateZAXIMOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
+    bool CreateZSTATERAOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
     bool GetMint(const uint256& hashSerial, CZerocoinMint& mint);
     bool GetMintFromStakeHash(const uint256& hashStake, CZerocoinMint& mint);
     bool DatabaseMint(CDeterministicMint& dMint);
     bool SetMintUnspent(const CBigNum& bnSerial);
     bool UpdateMint(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const libzerocoin::CoinDenomination& denom);
-    string GetUniqueWalletBackupName(bool fzaximAuto) const;
+    string GetUniqueWalletBackupName(bool fzstateraAuto) const;
 
 
     /** Zerocin entry changed.
@@ -238,13 +238,13 @@ public:
      */
     mutable CCriticalSection cs_wallet;
 
-    CzAXIMWallet* zwalletMain;
+    CzSTATERAWallet* zwalletMain;
 
     bool fFileBacked;
     bool fWalletUnlockAnonymizeOnly;
     std::string strWalletFile;
     bool fBackupMints;
-    std::unique_ptr<CzAXIMTracker> zaximTracker;
+    std::unique_ptr<CzSTATERATracker> zstateraTracker;
 
     std::set<int64_t> setKeyPool;
     std::map<CKeyID, CKeyMetadata> mapKeyMetadata;
@@ -329,20 +329,20 @@ public:
         return nZeromintPercentage;
     }
 
-    void setZWallet(CzAXIMWallet* zwallet)
+    void setZWallet(CzSTATERAWallet* zwallet)
     {
         zwalletMain = zwallet;
-        zaximTracker = std::unique_ptr<CzAXIMTracker>(new CzAXIMTracker(strWalletFile));
+        zstateraTracker = std::unique_ptr<CzSTATERATracker>(new CzSTATERATracker(strWalletFile));
     }
 
-    CzAXIMWallet* getZWallet() { return zwalletMain; }
+    CzSTATERAWallet* getZWallet() { return zwalletMain; }
 
     bool isZeromintEnabled()
     {
         return fEnableZeromint;
     }
 
-    void setZAximAutoBackups(bool fEnabled)
+    void setZStateraAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }
@@ -667,8 +667,8 @@ public:
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 
-    /** zAXIM reset */
-    boost::signals2::signal<void()> NotifyzAXIMReset;
+    /** zSTATERA reset */
+    boost::signals2::signal<void()> NotifyzSTATERAReset;
 
     /** notify wallet file backed up */
     boost::signals2::signal<void(const bool& fSuccess, const std::string& filename)> NotifyWalletBacked;

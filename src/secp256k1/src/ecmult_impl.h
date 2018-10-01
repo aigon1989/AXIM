@@ -784,7 +784,7 @@ static int secp256k1_pippenger_bucket_window(size_t n) {
 }
 
 /**
- * Returns the maximum optimal number of points for a bucket_window.
+ * Returns the mstateraum optimal number of points for a bucket_window.
  */
 static size_t secp256k1_pippenger_bucket_window_inv(int bucket_window) {
     switch(bucket_window) {
@@ -932,7 +932,7 @@ static int secp256k1_ecmult_pippenger_batch_single(const secp256k1_ecmult_contex
 }
 
 /**
- * Returns the maximum number of points in addition to G that can be used with
+ * Returns the mstateraum number of points in addition to G that can be used with
  * a given scratch space. The function ensures that fewer points may also be
  * used.
  */

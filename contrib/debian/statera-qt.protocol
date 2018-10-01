@@ -1,0 +1,11 @@
+[Protocol]
+exec=statera-qt '%u'
+protocol=statera
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

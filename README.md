@@ -1,10 +1,10 @@
-AXIM Core integration/staging repository
+STATERA Core integration/staging repository
 =====================================
 
-[![Build Status](https://travis-ci.org/AXIM-Project/AXIM.svg?branch=master)](https://travis-ci.org/AXIM-Project/AXIM) [![GitHub version](https://badge.fury.io/gh/AXIM-Project%2FAXIM.svg)](https://badge.fury.io/gh/AXIM-Project%2FAXIM)
+[![Build Status](https://travis-ci.org/STATERA-Project/STATERA.svg?branch=master)](https://travis-ci.org/STATERA-Project/STATERA) [![GitHub version](https://badge.fury.io/gh/STATERA-Project%2FSTATERA.svg)](https://badge.fury.io/gh/STATERA-Project%2FSTATERA)
 
-AXIM is an open source crypto-currency focused on fast private transactions with low transaction fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network and uses an innovative variable seesaw reward mechanism that dynamically balances 100% of its block reward size between masternodes and staking nodes. The goal of AXIM is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions.
-- Anonymized transactions using the [_Zerocoin Protocol_](http://www.axim.org/zaxim).
+STATERA is an open source crypto-currency focused on fast private transactions with low transaction fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network and uses an innovative variable seesaw reward mechanism that dynamically balances 100% of its block reward size between masternodes and staking nodes. The goal of STATERA is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions.
+- Anonymized transactions using the [_Zerocoin Protocol_](http://www.statera.org/zstatera).
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 )

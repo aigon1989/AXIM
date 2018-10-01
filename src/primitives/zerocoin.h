@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_ZEROCOIN_H
-#define AXIM_ZEROCOIN_H
+#ifndef STATERA_ZEROCOIN_H
+#define STATERA_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -248,4 +248,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //AXIM_ZEROCOIN_H
+#endif //STATERA_ZEROCOIN_H

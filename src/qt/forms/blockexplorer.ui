@@ -90,7 +90,7 @@
           <height>0</height>
          </size>
         </property>
-        <property name="maximumSize">
+        <property name="mstateraumSize">
          <size>
           <width>16777215</width>
           <height>16777215</height>
@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../axim.qrc"/>
+  <include location="../statera.qrc"/>
  </resources>
  <connections/>
 </ui>

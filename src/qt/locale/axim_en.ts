@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -326,12 +326,12 @@
     </message>
     <message>
         <location line="-424"/>
-        <source>Enter a AXIM Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>The AXIM address to encrypt</source>
+        <source>The STATERA address to encrypt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -375,7 +375,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>Encrypt the private key for this AXIM address</source>
+        <source>Encrypt the private key for this STATERA address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -557,7 +557,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zAXIM</source>
+        <source>Privacy Actions for zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -832,17 +832,17 @@
     <message>
         <location line="-446"/>
         <location line="+928"/>
-        <source>AXIM Core</source>
+        <source>STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-726"/>
-        <source>Send coins to a AXIM address</source>
+        <source>Send coins to a STATERA address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -862,27 +862,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About AXIM Core</source>
+        <source>&amp;About STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about AXIM Core</source>
+        <source>Show information about STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for AXIM</source>
+        <source>Modify configuration options for STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -922,7 +922,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a AXIM: URI or payment request</source>
+        <source>Open a STATERA: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -937,17 +937,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+233"/>
-        <source>AXIM Core client</source>
+        <source>STATERA Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to AXIM network</source>
+        <source>%n active connection(s) to STATERA network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1153,7 +1153,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+480"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1453,7 +1453,7 @@ Address: %4
     </message>
     <message>
         <location line="+8"/>
-        <source>Can vary +/- %1 uaxim per input.</source>
+        <source>Can vary +/- %1 ustatera per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1522,7 +1522,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid AXIM address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid STATERA address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1578,7 +1578,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>AXIM Core</source>
+        <source>STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1589,7 +1589,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About AXIM Core</source>
+        <source>About STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1647,17 +1647,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to AXIM Core.</source>
+        <source>Welcome to STATERA Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1672,7 +1672,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>AXIM Core</source>
+        <source>STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1848,8 +1848,8 @@ Address: %4
     </message>
     <message>
         <location line="-106"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other AXIM addresses after it matures.
-To Add: enter percentage to give and AXIM address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other STATERA addresses after it matures.
+To Add: enter percentage to give and STATERA address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2125,7 +2125,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send AXIM to</source>
+        <source>Add destinations to send STATERA to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2200,7 +2200,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+535"/>
-        <source>Maximum possible addresses reached. (15)</source>
+        <source>Mstateraum possible addresses reached. (15)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2215,7 +2215,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+26"/>
-        <source>Maximum (15)</source>
+        <source>Mstateraum (15)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2238,8 +2238,8 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Maximum Privacy</source>
-        <translation type="unfinished">Maximum Privacy</translation>
+        <source>Mstateraum Privacy</source>
+        <translation type="unfinished">Mstateraum Privacy</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2248,12 +2248,12 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AXIM</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2263,22 +2263,22 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 AXIM to anonymize 10000 AXIM</source>
+        <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 AXIM to anonymize 10000 AXIM</source>
+        <source>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation type="unfinished">This is the slowest and most secure option. Using maximum anonymity will cost</translation>
+        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
+        <translation type="unfinished">This is the slowest and most secure option. Using mstateraum anonymity will cost</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 AXIM per 10000 AXIM you anonymize.</source>
+        <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2290,17 +2290,17 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AXIM&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening STATERA&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AXIM&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AXIM&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2376,7 +2376,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the AXIM client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the STATERA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2401,12 +2401,12 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="-210"/>
-        <source>Automatically start AXIM after logging in to the system.</source>
+        <source>Automatically start STATERA after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AXIM on system login</source>
+        <source>&amp;Start STATERA on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2441,7 +2441,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXIM.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2457,33 +2457,33 @@ https://www.transifex.com/aigon1989/aigon1989-translations</source>
     </message>
     <message>
         <location line="-169"/>
-        <source>Enable automatic minting of AXIM units to zAXIM</source>
+        <source>Enable automatic minting of STATERA units to zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zAXIM Automint</source>
+        <source>Enable zSTATERA Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Percentage of incoming AXIM which get automatically converted to zAXIM via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming STATERA which get automatically converted to zSTATERA via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zAXIM</source>
+        <source>Percentage of autominted zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough AXIM for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough STATERA for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zAXIM Denomination</source>
+        <source>Preferred Automint zSTATERA Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2493,7 +2493,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</source>
     </message>
     <message>
         <location line="+98"/>
-        <source>Connect to the AXIM network through a SOCKS5 proxy.</source>
+        <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2692,7 +2692,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</source>
     </message>
     <message>
         <location line="+71"/>
-        <source>AXIM Balance</source>
+        <source>STATERA Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2724,19 +2724,19 @@ https://www.transifex.com/aigon1989/aigon1989-translations</source>
     <message>
         <location line="+16"/>
         <location line="+19"/>
-        <source>Your current AXIM balance, unconfirmed and immature transactions included</source>
+        <source>Your current STATERA balance, unconfirmed and immature transactions included</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+96"/>
-        <source>zAXIM Balance</source>
+        <source>zSTATERA Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+53"/>
         <location line="+17"/>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zAXIM are spendable.</source>
+These zSTATERA are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2751,7 +2751,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="-725"/>
         <location line="+852"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2809,7 +2809,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+191"/>
         <location line="+19"/>
-        <source>Locked AXIM or Masternode collaterals. These are excluded from zAXIM minting.</source>
+        <source>Locked STATERA or Masternode collaterals. These are excluded from zSTATERA minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2825,7 +2825,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+58"/>
         <location line="+19"/>
-        <source>Your current zAXIM balance, unconfirmed and immature zAXIM included.</source>
+        <source>Your current zSTATERA balance, unconfirmed and immature zSTATERA included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2841,7 +2841,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+106"/>
-        <source>Current percentage of zAXIM.
+        <source>Current percentage of zSTATERA.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2853,13 +2853,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in axim.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in statera.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in axim.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in statera.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2899,12 +2899,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start axim: click-to-pay handler</source>
+        <source>Cannot start statera: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid AXIM address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid STATERA address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3012,7 +3012,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+10"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3032,7 +3032,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-371"/>
         <location line="+651"/>
-        <source>zAXIM</source>
+        <source>zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3047,7 +3047,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+19"/>
-        <source>0.000 000 00 AXIM</source>
+        <source>0.000 000 00 STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3098,17 +3098,17 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+182"/>
         <location line="+52"/>
-        <source>Enter an amount of Axim to convert to zAXIM</source>
+        <source>Enter an amount of Statera to convert to zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+301"/>
-        <source>zAXIM Control</source>
+        <source>zSTATERA Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zAXIM Selected:</source>
+        <source>zSTATERA Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3136,7 +3136,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zAXIM for spending</source>
+        <source>Available (mature and spendable) zSTATERA for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3146,9 +3146,9 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zAXIM for spending
+        <source>Available (mature and spendable) zSTATERA for spending
 
-zAXIM are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zSTATERA are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3163,7 +3163,7 @@ zAXIM are mature when they have more than 20 confirmations AND more than 2 mints
         <location line="+31"/>
         <location line="+31"/>
         <location line="+31"/>
-        <source>0 zAXIM</source>
+        <source>0 zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3188,7 +3188,7 @@ zAXIM are mature when they have more than 20 confirmations AND more than 2 mints
     </message>
     <message>
         <location line="+27"/>
-        <source>The AXIM address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The STATERA address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3254,7 +3254,7 @@ zAXIM are mature when they have more than 20 confirmations AND more than 2 mints
     <message>
         <location line="+68"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zAXIM</source>
+        <source>Total Balance including unconfirmed and immature zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3287,14 +3287,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+40"/>
-        <source>Show the current status of automatic zAXIM minting.
+        <source>Show the current status of automatic zSTATERA minting.
 
 To change the status (restart required):
-- enable: add &apos;enablezeromint=1&apos; to axim.conf
-- disable: add &apos;enablezeromint=0&apos; to axim.conf
+- enable: add &apos;enablezeromint=1&apos; to statera.conf
+- disable: add &apos;enablezeromint=0&apos; to statera.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zAXIM
+- menu Settings-&gt;Options-&gt;Percentage of autominted zSTATERA
 
 </source>
         <translation type="unfinished"></translation>
@@ -3542,17 +3542,17 @@ Please be patient...</source>
     <message>
         <location line="+54"/>
         <source>) needed.
-Maximum allowed: </source>
+Mstateraum allowed: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>zAXIM Spend #: </source>
+        <source>zSTATERA Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>zAXIM Mint</source>
+        <source>zSTATERA Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3573,13 +3573,13 @@ Maximum allowed: </source>
     <message>
         <location line="+12"/>
         <location line="+4"/>
-        <source>zAXIM is currently disabled due to maintenance.</source>
+        <source>zSTATERA is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-639"/>
         <location line="+111"/>
-        <source>zAXIM is currently undergoing maintenance.</source>
+        <source>zSTATERA is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3690,7 +3690,7 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+0"/>
-        <source> zAXIM in </source>
+        <source> zSTATERA in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3726,7 +3726,7 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid Axim Address</source>
+        <source>Invalid Statera Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3767,13 +3767,13 @@ Maximum allowed: </source>
     <message>
         <location line="+24"/>
         <location line="+32"/>
-        <source>Version 1 zAXIM require a security level of 100 to successfully spend.</source>
+        <source>Version 1 zSTATERA require a security level of 100 to successfully spend.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-31"/>
         <location line="+32"/>
-        <source>Failed to spend zAXIM</source>
+        <source>Failed to spend zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3801,7 +3801,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message numerus="yes">
         <location line="+336"/>
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of AXIM to convert to zAXIM</comment>
+        <comment>Enter an amount of STATERA to convert to zSTATERA</comment>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -3857,7 +3857,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a AXIM address (e.g. %1)</source>
+        <source>Enter a STATERA address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4060,7 +4060,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the AXIM debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the STATERA debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4232,7 +4232,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zAXIM Backup Path:</source>
+        <source>Custom zSTATERA Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4332,7 +4332,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the AXIM RPC console.</source>
+        <source>Welcome to the STATERA RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4496,7 +4496,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AXIM network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the STATERA network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4506,7 +4506,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+124"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the AXIM network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the STATERA network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4794,7 +4794,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 AXIM</source>
+        <source>0 STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4864,18 +4864,18 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+907"/>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAXIMs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSTATERAs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAXIMs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSTATERAs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AXIM transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,7 +4935,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized AXIM</source>
+        <source>Anonymized STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4995,7 +4995,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+629"/>
-        <source>Warning: Invalid AXIM address</source>
+        <source>Warning: Invalid STATERA address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5129,7 +5129,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The AXIM address to send the payment to</source>
+        <source>The STATERA address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5183,7 +5183,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the AXIM: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AXIM network.</source>
+        <source>A message that was attached to the STATERA: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the STATERA network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5218,7 +5218,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>AXIM Core is shutting down...</source>
+        <source>STATERA Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5246,7 +5246,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>The AXIM address to sign the message with</source>
+        <source>The STATERA address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5288,17 +5288,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>Sign the message to prove you own this AXIM address</source>
+        <source>Sign the message to prove you own this STATERA address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+103"/>
-        <source>The AXIM address the message was signed with</source>
+        <source>The STATERA address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5413,7 +5413,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>AXIM Core</source>
+        <source>STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5433,7 +5433,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>The AXIM Core developers</source>
+        <source>The STATERA Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5810,12 +5810,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>AXIM Stake</source>
+        <source>STATERA Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>zAXIM Stake</source>
+        <source>zSTATERA Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5840,37 +5840,37 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>Converted AXIM to zAXIM</source>
+        <source>Converted STATERA to zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zAXIM</source>
+        <source>Spent zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received AXIM from zAXIM</source>
+        <source>Received STATERA from zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zAXIM from zAXIM Spend</source>
+        <source>Minted Change as zSTATERA from zSTATERA Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zAXIM to AXIM</source>
+        <source>Converted zSTATERA to STATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Anonymous (zAXIM Transaction)</source>
+        <source>Anonymous (zSTATERA Transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Anonymous (zAXIM Stake)</source>
+        <source>Anonymous (zSTATERA Stake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6134,12 +6134,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-280"/>
-        <source>Received AXIM from zAXIM</source>
+        <source>Received STATERA from zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Zerocoin Spend, Change in zAXIM</source>
+        <source>Zerocoin Spend, Change in zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6186,7 +6186,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 AXIM.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 STATERA.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6224,10 +6224,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
-        <location filename="../forms/zaximcontroldialog.ui" line="+20"/>
-        <source>Select zAXIM to Spend</source>
+        <location filename="../forms/zstateracontroldialog.ui" line="+20"/>
+        <source>Select zSTATERA to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6243,7 +6243,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zAXIM</source>
+        <source>zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6258,9 +6258,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
-        <location filename="../aximstrings.cpp" line="+15"/>
+        <location filename="../staterastrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -6291,7 +6291,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. AXIM Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. STATERA Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6321,17 +6321,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+5"/>
-        <source>Enable automatic wallet backups triggered after each zAXIM minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zSTATERA minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable or disable staking functionality for AXIM inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for STATERA inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable or disable staking functionality for zAXIM inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for zSTATERA inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6351,7 +6351,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
+        <source>Error: The transaction is larger than the mstateraum allowed transaction size!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6376,12 +6376,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+8"/>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6431,13 +6431,13 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation type="unfinished">Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
+        <source>Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation type="unfinished">Mstateraum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation type="unfinished">Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
+        <source>Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation type="unfinished">Mstateraum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6476,8 +6476,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation type="unfinished">Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
+        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation type="unfinished">Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6506,7 +6506,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>Unable to bind to %s on this computer. AXIM Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. STATERA Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6516,12 +6516,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 AXIM.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 STATERA.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 AXIM.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 STATERA.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6541,7 +6541,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AXIM Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong STATERA Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6731,7 +6731,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The AXIM Core Developers</source>
+        <source>Copyright (C) 2015-%i The STATERA Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6841,7 +6841,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXIM Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of STATERA Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6921,7 +6921,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>Fee (in AXIM/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in STATERA/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6996,7 +6996,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. AXIM Core is shutting down.</source>
+        <source>Initialization sanity check failed. STATERA Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7086,7 +7086,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+9"/>
-        <source>Reindex the AXIM and zAXIM money supply statistics</source>
+        <source>Reindex the STATERA and zSTATERA money supply statistics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7163,7 +7163,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+17"/>
-        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
+        <source>In rare cases, a spend with 7 coins exceeds our mstateraum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7173,7 +7173,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify custom backup path to add a copy of any automatic zAXIM backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <source>Specify custom backup path to add a copy of any automatic zSTATERA backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7388,13 +7388,13 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation type="unfinished">Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <source>Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation type="unfinished">Mstateraum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation type="unfinished">Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
+        <source>Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation type="unfinished">Mstateraum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7633,8 +7633,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Set maximum block size in bytes (default: %d)</source>
-        <translation type="unfinished">Set maximum block size in bytes (default: %d)</translation>
+        <source>Set mstateraum block size in bytes (default: %d)</source>
+        <translation type="unfinished">Set mstateraum block size in bytes (default: %d)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7643,7 +7643,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Set the Maximum reorg depth (default: %u)</source>
+        <source>Set the Mstateraum reorg depth (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7788,7 +7788,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zAXIM wallet...</source>
+        <source>Syncing zSTATERA wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7973,12 +7973,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Value is below the smallest available denomination (= 1) of zAXIM</source>
+        <source>Value is below the smallest available denomination (= 1) of zSTATERA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Value more than Obfuscation pool maximum allows.</source>
+        <source>Value more than Obfuscation pool mstateraum allows.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7993,7 +7993,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Version 1 zAXIM require a security level of 100 to successfully spend.</source>
+        <source>Version 1 zSTATERA require a security level of 100 to successfully spend.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8008,7 +8008,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart AXIM Core to complete</source>
+        <source>Wallet needed to be rewritten: restart STATERA Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_MINTPOOL_H
-#define AXIM_MINTPOOL_H
+#ifndef STATERA_MINTPOOL_H
+#define STATERA_MINTPOOL_H
 
 #include <map>
 #include <list>
@@ -51,4 +51,4 @@ public:
 };
 
 
-#endif //AXIM_MINTPOOL_H
+#endif //STATERA_MINTPOOL_H

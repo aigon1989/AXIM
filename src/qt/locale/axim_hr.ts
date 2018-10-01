@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše AXIM adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše STATERA adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše AXIM adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše STATERA adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše AXIM od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše STATERA od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ AXIM1!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite vašu zaporku, vi ćete1 IZGUBITI ĆE TE SAV VAŠ STATERA1!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -397,8 +397,8 @@
         <translation>Pregledajte povijest transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>Aktivnosti na privatnost za zAXIM</translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>Aktivnosti na privatnost za zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -601,16 +601,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Pošaljite kovanice na AXIM adresu</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Pošaljite kovanice na STATERA adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Zahtjev za plaćanja (generira QR kodove i axim: URI)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Zahtjev za plaćanja (generira QR kodove i statera: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -625,24 +625,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
-        <translation>&amp; O AXIM Coreu</translation>
+        <source>&amp;About STATERA Core</source>
+        <translation>&amp; O STATERA Coreu</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
-        <translation>Prikaz informacija o AXIM Coreu</translation>
+        <source>Show information about STATERA Core</source>
+        <translation>Prikaz informacija o STATERA Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Izmijenite opcije konfiguracije za AXIM</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Izmijenite opcije konfiguracije za STATERA</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim AXIM adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim STATERA adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim AXIM adresama</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim STATERA adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@
         <translation>Šifriranje i dešifriranje privatnih ključeva pomoću zaporke</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>AXIM Core klijent</translation>
+        <source>STATERA Core client</source>
+        <translation>STATERA Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -751,15 +751,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1045,8 +1045,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 AXIM</source>
-        <translation>0 AXIM</translation>
+        <source>0 STATERA</source>
+        <translation>0 STATERA</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -1111,15 +1111,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>AXIM Core is shutting down...</source>
-        <translation>AXIM Core se gasi...</translation>
+        <source>STATERA Core is shutting down...</source>
+        <translation>STATERA Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>AXIM adresa za potpisivanje poruke s</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>STATERA adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1142,16 +1142,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove AXIM adrese</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove STATERA adrese</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>AXIM adresa s kojom je potpisana poruka</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>STATERA adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom AXIM adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom STATERA adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1197,8 +1197,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1345,14 +1345,14 @@
     </message>
     </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

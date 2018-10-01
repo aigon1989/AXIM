@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_UINT512_H
-#define AXIM_UINT512_H
+#ifndef STATERA_UINT512_H
+#define STATERA_UINT512_H
 
 #include "arith_uint256.h"
 #include "uint256.h"
@@ -43,4 +43,4 @@ inline uint512 uint512S(const char* str)
     return rv;
 }
 
-#endif // AXIM_UINT512_H
+#endif // STATERA_UINT512_H

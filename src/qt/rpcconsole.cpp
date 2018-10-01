@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -294,7 +294,7 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHi
     ui->openSSLVersion->setText(SSLeay_version(SSLEAY_VERSION));
 #ifdef ENABLE_WALLET
     std::string strPathCustom = GetArg("-backuppath", "");
-    std::string strzAXIMPathCustom = GetArg("-zaximbackuppath", "");
+    std::string strzSTATERAPathCustom = GetArg("-zstaterabackuppath", "");
     int nCustomBackupThreshold = GetArg("-custombackupthreshold", DEFAULT_CUSTOMBACKUPTHRESHOLD);
 
     if(!strPathCustom.empty()) {
@@ -303,13 +303,13 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHi
         ui->wallet_custombackuppath->show();
     }
 
-    if(!strzAXIMPathCustom.empty()) {
-        ui->wallet_customzaximbackuppath->setText(QString::fromStdString(strzAXIMPathCustom));
-        ui->wallet_customzaximbackuppath_label->setVisible(true);
-        ui->wallet_customzaximbackuppath->setVisible(true);
+    if(!strzSTATERAPathCustom.empty()) {
+        ui->wallet_customzstaterabackuppath->setText(QString::fromStdString(strzSTATERAPathCustom));
+        ui->wallet_customzstaterabackuppath_label->setVisible(true);
+        ui->wallet_customzstaterabackuppath->setVisible(true);
     }
 
-    if((!strPathCustom.empty() || !strzAXIMPathCustom.empty()) && nCustomBackupThreshold > 0) {
+    if((!strPathCustom.empty() || !strzSTATERAPathCustom.empty()) && nCustomBackupThreshold > 0) {
         ui->wallet_custombackupthreshold->setText(QString::fromStdString(std::to_string(nCustomBackupThreshold)));
         ui->wallet_custombackupthreshold_label->setVisible(true);
         ui->wallet_custombackupthreshold->setVisible(true);
@@ -635,7 +635,7 @@ void RPCConsole::clear()
         "td.cmd-error { color: red; } "
         "b { color: #006060; } ");
 
-    message(CMD_REPLY, (tr("Welcome to the AXIM RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the STATERA RPC console.") + "<br>" +
                            tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                            tr("Type <b>help</b> for an overview of available commands.")),
         true);
@@ -700,7 +700,7 @@ void RPCConsole::on_lineEdit_returnPressed()
         history.removeOne(cmd);
         // Append command to history
         history.append(cmd);
-        // Enforce maximum history size
+        // Enforce mstateraum history size
         while (history.size() > CONSOLE_HISTORY)
             history.removeFirst();
         // Set pointer to end of history
@@ -764,7 +764,7 @@ void RPCConsole::on_openDebugLogfileButton_clicked()
 void RPCConsole::scrollToEnd()
 {
     QScrollBar* scrollbar = ui->messagesWidget->verticalScrollBar();
-    scrollbar->setValue(scrollbar->maximum());
+    scrollbar->setValue(scrollbar->mstateraum());
 }
 
 void RPCConsole::on_sldGraphRange_valueChanged(int value)

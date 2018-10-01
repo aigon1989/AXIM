@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::AXIM)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::STATERA)
     {
     }
 
@@ -165,7 +165,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sAXIMPercentage, QString& szAXIMPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sSTATERAPercentage, QString& szSTATERAPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -184,8 +184,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szAXIMPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sAXIMPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szSTATERAPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sSTATERAPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -210,16 +210,16 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
 
-    // AXIM Balance
+    // STATERA Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
-    CAmount aximAvailableBalance = balance - immatureBalance - nLockedBalance;
+    CAmount stateraAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
 
-    // AXIM Watch-Only Balance
+    // STATERA Watch-Only Balance
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance;
     CAmount nAvailableWatchBalance = watchOnlyBalance - watchImmatureBalance - nWatchOnlyLockedBalance;
 
-    // zAXIM Balance
+    // zSTATERA Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Percentages
@@ -227,11 +227,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     QString sPercentage = "";
     getPercentage(nUnlockedBalance, zerocoinBalance, sPercentage, szPercentage);
     // Combined balances
-    CAmount availableTotalBalance = aximAvailableBalance + matureZerocoinBalance;
+    CAmount availableTotalBalance = stateraAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // AXIM labels
-    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, aximAvailableBalance, false, BitcoinUnits::separatorAlways));
+    // STATERA labels
+    ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, stateraAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
     ui->labelLockedBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nLockedBalance, false, BitcoinUnits::separatorAlways));
@@ -244,7 +244,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zAXIM labels
+    // zSTATERA labels
     ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
     ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -255,19 +255,19 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelAXIMPercent->setText(sPercentage);
-    ui->labelzAXIMPercent->setText(szPercentage);
+    ui->labelSTATERAPercent->setText(sPercentage);
+    ui->labelzSTATERAPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-    QString automintHelp = tr("Current percentage of zAXIM.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+    QString automintHelp = tr("Current percentage of zSTATERA.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
     bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
     int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
     if (fEnableZeromint) {
         automintHelp += tr("AutoMint is currently enabled and set to ") + QString::number(nZeromintPercentage) + "%.\n";
-        automintHelp += tr("To disable AutoMint add 'enablezeromint=0' in axim.conf.");
+        automintHelp += tr("To disable AutoMint add 'enablezeromint=0' in statera.conf.");
     }
     else {
-        automintHelp += tr("AutoMint is currently disabled.\nTo enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in axim.conf");
+        automintHelp += tr("AutoMint is currently disabled.\nTo enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in statera.conf");
     }
 
     // Only show most balances if they are non-zero for the sake of simplicity
@@ -280,49 +280,49 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
-    // AXIM Available
-    bool showAXIMAvailable = settingShowAllBalances || aximAvailableBalance != nTotalBalance;
-    bool showWatchOnlyAXIMAvailable = showAXIMAvailable || nAvailableWatchBalance != nTotalWatchBalance;
-    ui->labelBalanceText->setVisible(showAXIMAvailable || showWatchOnlyAXIMAvailable);
-    ui->labelBalance->setVisible(showAXIMAvailable || showWatchOnlyAXIMAvailable);
-    ui->labelWatchAvailable->setVisible(showWatchOnlyAXIMAvailable && showWatchOnly);
+    // STATERA Available
+    bool showSTATERAAvailable = settingShowAllBalances || stateraAvailableBalance != nTotalBalance;
+    bool showWatchOnlySTATERAAvailable = showSTATERAAvailable || nAvailableWatchBalance != nTotalWatchBalance;
+    ui->labelBalanceText->setVisible(showSTATERAAvailable || showWatchOnlySTATERAAvailable);
+    ui->labelBalance->setVisible(showSTATERAAvailable || showWatchOnlySTATERAAvailable);
+    ui->labelWatchAvailable->setVisible(showWatchOnlySTATERAAvailable && showWatchOnly);
 
-    // AXIM Pending
-    bool showAXIMPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyAXIMPending = showAXIMPending || watchUnconfBalance != 0;
-    ui->labelPendingText->setVisible(showAXIMPending || showWatchOnlyAXIMPending);
-    ui->labelUnconfirmed->setVisible(showAXIMPending || showWatchOnlyAXIMPending);
-    ui->labelWatchPending->setVisible(showWatchOnlyAXIMPending && showWatchOnly);
+    // STATERA Pending
+    bool showSTATERAPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlySTATERAPending = showSTATERAPending || watchUnconfBalance != 0;
+    ui->labelPendingText->setVisible(showSTATERAPending || showWatchOnlySTATERAPending);
+    ui->labelUnconfirmed->setVisible(showSTATERAPending || showWatchOnlySTATERAPending);
+    ui->labelWatchPending->setVisible(showWatchOnlySTATERAPending && showWatchOnly);
 
-    // AXIM Immature
-    bool showAXIMImmature = settingShowAllBalances || immatureBalance != 0;
-    bool showWatchOnlyImmature = showAXIMImmature || watchImmatureBalance != 0;
-    ui->labelImmatureText->setVisible(showAXIMImmature || showWatchOnlyImmature);
-    ui->labelImmature->setVisible(showAXIMImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
+    // STATERA Immature
+    bool showSTATERAImmature = settingShowAllBalances || immatureBalance != 0;
+    bool showWatchOnlyImmature = showSTATERAImmature || watchImmatureBalance != 0;
+    ui->labelImmatureText->setVisible(showSTATERAImmature || showWatchOnlyImmature);
+    ui->labelImmature->setVisible(showSTATERAImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature && showWatchOnly); // show watch-only immature balance
 
-    // AXIM Locked
-    bool showAXIMLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyAXIMLocked = showAXIMLocked || nWatchOnlyLockedBalance != 0;
-    ui->labelLockedBalanceText->setVisible(showAXIMLocked || showWatchOnlyAXIMLocked);
-    ui->labelLockedBalance->setVisible(showAXIMLocked || showWatchOnlyAXIMLocked);
-    ui->labelWatchLocked->setVisible(showWatchOnlyAXIMLocked && showWatchOnly);
+    // STATERA Locked
+    bool showSTATERALocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlySTATERALocked = showSTATERALocked || nWatchOnlyLockedBalance != 0;
+    ui->labelLockedBalanceText->setVisible(showSTATERALocked || showWatchOnlySTATERALocked);
+    ui->labelLockedBalance->setVisible(showSTATERALocked || showWatchOnlySTATERALocked);
+    ui->labelWatchLocked->setVisible(showWatchOnlySTATERALocked && showWatchOnly);
 
-    // zAXIM
-    bool showzAXIMAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-    bool showzAXIMUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-    bool showzAXIMImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-    ui->labelzBalanceMature->setVisible(showzAXIMAvailable);
-    ui->labelzBalanceMatureText->setVisible(showzAXIMAvailable);
-    ui->labelzBalanceUnconfirmed->setVisible(showzAXIMUnconfirmed);
-    ui->labelzBalanceUnconfirmedText->setVisible(showzAXIMUnconfirmed);
-    ui->labelzBalanceImmature->setVisible(showzAXIMImmature);
-    ui->labelzBalanceImmatureText->setVisible(showzAXIMImmature);
+    // zSTATERA
+    bool showzSTATERAAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+    bool showzSTATERAUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+    bool showzSTATERAImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+    ui->labelzBalanceMature->setVisible(showzSTATERAAvailable);
+    ui->labelzBalanceMatureText->setVisible(showzSTATERAAvailable);
+    ui->labelzBalanceUnconfirmed->setVisible(showzSTATERAUnconfirmed);
+    ui->labelzBalanceUnconfirmedText->setVisible(showzSTATERAUnconfirmed);
+    ui->labelzBalanceImmature->setVisible(showzSTATERAImmature);
+    ui->labelzBalanceImmatureText->setVisible(showzSTATERAImmature);
 
     // Percent split
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelAXIMPercent->setVisible(showPercentages);
-    ui->labelzAXIMPercent->setVisible(showPercentages);
+    ui->labelSTATERAPercent->setVisible(showPercentages);
+    ui->labelzSTATERAPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -393,7 +393,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("AXIM")
+    // update the display unit, to not use the default ("STATERA")
     updateDisplayUnit();
 }
 

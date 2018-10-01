@@ -65,7 +65,7 @@
               <height>60</height>
              </size>
             </property>
-            <property name="maximumSize">
+            <property name="mstateraumSize">
              <size>
               <width>16777215</width>
               <height>60</height>
@@ -107,7 +107,7 @@
               <height>60</height>
              </size>
             </property>
-            <property name="maximumSize">
+            <property name="mstateraumSize">
              <size>
               <width>16777215</width>
               <height>60</height>
@@ -160,7 +160,7 @@
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
-          <property name="maximumSize">
+          <property name="mstateraumSize">
            <size>
             <width>16777215</width>
             <height>16777215</height>
@@ -213,7 +213,7 @@
                   <item>
                    <widget class="QLabel" name="labelCoinControlFeatures">
                     <property name="sizePolicy">
-                     <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Mstateraum">
                       <horstretch>0</horstretch>
                       <verstretch>0</verstretch>
                      </sizepolicy>
@@ -247,7 +247,7 @@
                       <height>1</height>
                      </size>
                     </property>
-                    <property name="maximumSize">
+                    <property name="mstateraumSize">
                      <size>
                       <width>16777215</width>
                       <height>1</height>
@@ -493,7 +493,7 @@
                         <enum>Qt::ActionsContextMenu</enum>
                        </property>
                        <property name="text">
-                        <string notr="true">0.00 AXIM</string>
+                        <string notr="true">0.00 STATERA</string>
                        </property>
                        <property name="textInteractionFlags">
                         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -573,7 +573,7 @@
                         <enum>Qt::ActionsContextMenu</enum>
                        </property>
                        <property name="text">
-                        <string notr="true">0.00 AXIM</string>
+                        <string notr="true">0.00 STATERA</string>
                        </property>
                        <property name="textInteractionFlags">
                         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -653,7 +653,7 @@
                         <enum>Qt::ActionsContextMenu</enum>
                        </property>
                        <property name="text">
-                        <string notr="true">0.00 AXIM</string>
+                        <string notr="true">0.00 STATERA</string>
                        </property>
                        <property name="textInteractionFlags">
                         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -682,7 +682,7 @@
                         <enum>Qt::ActionsContextMenu</enum>
                        </property>
                        <property name="text">
-                        <string notr="true">0.00 AXIM</string>
+                        <string notr="true">0.00 STATERA</string>
                        </property>
                        <property name="textInteractionFlags">
                         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -724,7 +724,7 @@
                     <height>0</height>
                    </size>
                   </property>
-                  <property name="maximumSize">
+                  <property name="mstateraumSize">
                    <size>
                     <width>200</width>
                     <height>16777215</height>
@@ -803,7 +803,7 @@
                     <height>0</height>
                    </size>
                   </property>
-                  <property name="maximumSize">
+                  <property name="mstateraumSize">
                    <size>
                     <width>200</width>
                     <height>16777215</height>
@@ -828,7 +828,7 @@
                     <height>0</height>
                    </size>
                   </property>
-                  <property name="maximumSize">
+                  <property name="mstateraumSize">
                    <size>
                     <width>100</width>
                     <height>16777215</height>
@@ -849,7 +849,7 @@
                 <item>
                  <widget class="QLabel" name="labelBlockSize">
                   <property name="text">
-                   <string>0 AXIM</string>
+                   <string>0 STATERA</string>
                   </property>
                  </widget>
                 </item>
@@ -946,7 +946,7 @@
             <verstretch>0</verstretch>
            </sizepolicy>
           </property>
-          <property name="maximumSize">
+          <property name="mstateraumSize">
            <size>
             <width>16777215</width>
             <height>16777215</height>
@@ -1016,7 +1016,7 @@
                     </size>
                    </property>
                    <property name="toolTip">
-                    <string>SwiftX technology allows for near instant transactions - A flat fee of 0.01 AXIM applies</string>
+                    <string>SwiftX technology allows for near instant transactions - A flat fee of 0.01 STATERA applies</string>
                    </property>
                    <property name="text">
                     <string>SwiftX</string>
@@ -1054,7 +1054,7 @@
                    <property name="minimum">
                     <number>0</number>
                    </property>
-                   <property name="maximum">
+                   <property name="mstateraum">
                     <number>24</number>
                    </property>
                    <property name="pageStep">
@@ -1177,7 +1177,7 @@
                    <item>
                     <widget class="QLabel" name="labelFeeHeadline">
                      <property name="sizePolicy">
-                      <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                      <sizepolicy hsizetype="Preferred" vsizetype="Mstateraum">
                        <horstretch>0</horstretch>
                        <verstretch>0</verstretch>
                       </sizepolicy>
@@ -1348,7 +1348,7 @@
                       <item>
                        <widget class="QRadioButton" name="radioCustomPerKilobyte">
                         <property name="toolTip">
-                         <string>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAXIMs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</string>
+                         <string>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSTATERAs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</string>
                         </property>
                         <property name="text">
                          <string>per kilobyte</string>
@@ -1364,7 +1364,7 @@
                       <item>
                        <widget class="QRadioButton" name="radioCustomAtLeast">
                         <property name="toolTip">
-                         <string>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAXIMs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</string>
+                         <string>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSTATERAs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</string>
                         </property>
                         <property name="text">
                          <string>total at least</string>
@@ -1397,7 +1397,7 @@
                       <item>
                        <widget class="QCheckBox" name="checkBoxMinimumFee">
                         <property name="toolTip">
-                         <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AXIM transactions than the network can process.</string>
+                         <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</string>
                         </property>
                         <property name="text">
                          <string/>
@@ -1410,7 +1410,7 @@
                          <bool>true</bool>
                         </property>
                         <property name="toolTip">
-                         <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AXIM transactions than the network can process.</string>
+                         <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</string>
                         </property>
                         <property name="text">
                          <string>(read the tooltip)</string>
@@ -1486,7 +1486,7 @@
                         <height>1</height>
                        </size>
                       </property>
-                      <property name="maximumSize">
+                      <property name="mstateraumSize">
                        <size>
                         <width>16777215</width>
                         <height>1</height>
@@ -1639,7 +1639,7 @@
               <string>S&amp;end</string>
              </property>
              <property name="icon">
-              <iconset resource="../axim.qrc">
+              <iconset resource="../statera.qrc">
                <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
              </property>
              <property name="autoDefault">
@@ -1665,7 +1665,7 @@
               <string>Clear &amp;All</string>
              </property>
              <property name="icon">
-              <iconset resource="../axim.qrc">
+              <iconset resource="../statera.qrc">
                <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
              </property>
              <property name="autoDefault">
@@ -1682,7 +1682,7 @@
               <string>Add &amp;Recipient</string>
              </property>
              <property name="icon">
-              <iconset resource="../axim.qrc">
+              <iconset resource="../statera.qrc">
                <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
              </property>
              <property name="autoDefault">
@@ -1709,12 +1709,12 @@
               <number>3</number>
              </property>
              <item>
-              <widget class="QCheckBox" name="checkzAXIM">
+              <widget class="QCheckBox" name="checkzSTATERA">
                <property name="enabled">
                 <bool>false</bool>
                </property>
                <property name="text">
-                <string>Anonymized AXIM</string>
+                <string>Anonymized STATERA</string>
                </property>
               </widget>
              </item>
@@ -1737,7 +1737,7 @@
                 <cursorShape>IBeamCursor</cursorShape>
                </property>
                <property name="text">
-                <string notr="true">123.456 AXIM</string>
+                <string notr="true">123.456 STATERA</string>
                </property>
                <property name="textInteractionFlags">
                 <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -1770,7 +1770,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../axim.qrc"/>
+  <include location="../statera.qrc"/>
  </resources>
  <connections/>
  <buttongroups>

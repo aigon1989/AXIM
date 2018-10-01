@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços AXIM para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your STATERA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços STATERA para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your AXIM addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços AXIM para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your STATERA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços STATERA para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>AXIM will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AXIMs from being stolen by malware infecting your computer.</source>
-        <translation>AXIM vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas AXIMs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>STATERA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your STATERAs from being stolen by malware infecting your computer.</source>
+        <translation>STATERA vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas STATERAs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AXIM&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS AXIM&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR STATERA&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS STATERA&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,7 +254,7 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>Enter a AXIM Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a STATERA Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -409,8 +409,8 @@
         <translation>Olhar histórico de transação</translation>
     </message>
     <message>
-        <source>Privacy Actions for zAXIM</source>
-        <translation>Ações privadas para zAXIM</translation>
+        <source>Privacy Actions for zSTATERA</source>
+        <translation>Ações privadas para zSTATERA</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -613,16 +613,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
-        <source>Send coins to a AXIM address</source>
-        <translation>Enviar moedas para um endereço AXIM</translation>
+        <source>Send coins to a STATERA address</source>
+        <translation>Enviar moedas para um endereço STATERA</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and axim: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e axim: URIs)</translation>
+        <source>Request payments (generates QR codes and statera: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e statera: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About AXIM Core</source>
-        <translation>&amp;Sobre o AXIM Core</translation>
+        <source>&amp;About STATERA Core</source>
+        <translation>&amp;Sobre o STATERA Core</translation>
     </message>
     <message>
-        <source>Show information about AXIM Core</source>
-        <translation>Mostra informação sobre o AXIM Core</translation>
+        <source>Show information about STATERA Core</source>
+        <translation>Mostra informação sobre o STATERA Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for AXIM</source>
-        <translation>Modificar opções de configuração para AXIM</translation>
+        <source>Modify configuration options for STATERA</source>
+        <translation>Modificar opções de configuração para STATERA</translation>
     </message>
     <message>
-        <source>Sign messages with your AXIM addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços AXIM para provar que você os detém</translation>
+        <source>Sign messages with your STATERA addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços STATERA para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified AXIM addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços AXIM especificados</translation>
+        <source>Verify messages to ensure they were signed with specified STATERA addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços STATERA especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +685,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a AXIM: URI or payment request</source>
-        <translation>Abrir um AXIM: URI ou requisição de pagamento</translation>
+        <source>Open a STATERA: URI or payment request</source>
+        <translation>Abrir um STATERA: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -697,12 +697,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the AXIM Core help message to get a list with possible AXIM command-line options</source>
-        <translation>Mostra a ajuda da AXIM Core para receber uma lista com possíveis opções de linha de comando AXIM</translation>
+        <source>Show the STATERA Core help message to get a list with possible STATERA command-line options</source>
+        <translation>Mostra a ajuda da STATERA Core para receber uma lista com possíveis opções de linha de comando STATERA</translation>
     </message>
     <message>
-        <source>AXIM Core client</source>
-        <translation>Cliente Core AXIM</translation>
+        <source>STATERA Core client</source>
+        <translation>Cliente Core STATERA</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (axim.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (axim.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (statera.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (statera.conf). </translation>
     </message>
 </context>
 <context>
@@ -1118,8 +1118,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid AXIM address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de AXIM</translation>
+        <source>The entered address "%1" is not a valid STATERA address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de STATERA</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1164,16 +1164,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About AXIM Core</source>
-        <translation>Sobre o AXIM Core</translation>
+        <source>About STATERA Core</source>
+        <translation>Sobre o STATERA Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1215,16 +1215,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to AXIM Core.</source>
-        <translation>Bem-vindo ao AXIM Core.</translation>
+        <source>Welcome to STATERA Core.</source>
+        <translation>Bem-vindo ao STATERA Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where AXIM Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde AXIM Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where STATERA Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde STATERA Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>AXIM Core will download and store a copy of the AXIM block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>AXIM Core vai baixar e armazenar uma cópia da blockchain AXIM. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>STATERA Core will download and store a copy of the STATERA block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>STATERA Core vai baixar e armazenar uma cópia da blockchain STATERA. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1235,8 +1235,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1547,7 +1547,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Quantidade:</translation>
     </message>
     <message>
-        <source>Maximum (15)</source>
+        <source>Mstateraum (15)</source>
         <translation>Máximo (15)</translation>
     </message>
 </context>
@@ -1566,7 +1566,7 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Alta Privacidade</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
+        <source>Mstateraum Privacy</source>
         <translation>Privacidade Máxima</translation>
     </message>
     <message>
@@ -1574,48 +1574,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 AXIM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 STATERA</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AXIM</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 AXIM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 STATERA</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 STATERA</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AXIM to anonymize 10000 AXIM</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 AXIM para anonimizar 10000 AXIM</translation>
+        <source>This option is the quickest and will cost about ~0.025 STATERA to anonymize 10000 STATERA</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 AXIM to anonymize 10000 AXIM</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 AXIM para anonimizar 10000 AXIM</translation>
+        <source>This option is moderately fast and will cost about 0.05 STATERA to anonymize 10000 STATERA</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 STATERA para anonimizar 10000 STATERA</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <source>This is the slowest and most secure option. Using mstateraum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 AXIM per 10000 AXIM you anonymize.</source>
-        <translation>0.1 AXIM por 10000 AXIM que deixar anônima.</translation>
+        <source>0.1 STATERA per 10000 STATERA you anonymize.</source>
+        <translation>0.1 STATERA por 10000 STATERA que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela AXIM's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela STATERA's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela AXIM's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela STATERA's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AXIM's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela AXIM's.</translation>
+        <source>Obfuscation was successfully set to mstateraum (%1 and 16 rounds). You can change this at any time by opening STATERA's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela STATERA's.</translation>
     </message>
 </context>
 <context>
@@ -1668,8 +1668,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the AXIM client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente AXIM no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the STATERA client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente STATERA no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1688,12 +1688,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start AXIM after logging in to the system.</source>
-        <translation>Iniciar automaticamente AXIM depois de logar no sistema.</translation>
+        <source>Automatically start STATERA after logging in to the system.</source>
+        <translation>Iniciar automaticamente STATERA depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start AXIM on system login</source>
-        <translation>&amp;Iniciar AXIM ao logar no sistema</translation>
+        <source>&amp;Start STATERA on system login</source>
+        <translation>&amp;Iniciar STATERA ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1708,8 +1708,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting AXIM.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do AXIM.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting STATERA.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do STATERA.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1718,8 +1718,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</source>
 https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     </message>
     <message>
-        <source>Connect to the AXIM network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede AXIM através de um proxy SOCKS5</translation>
+        <source>Connect to the STATERA network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede STATERA através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1853,8 +1853,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede AXIM após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede STATERA após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1950,20 +1950,20 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Ações Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AXIM network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede AXIM após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the STATERA network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede STATERA após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
-        <source>0.000 000 00 AXIM</source>
-        <translation>0.000 000 00 AXIM</translation>
+        <source>0.000 000 00 STATERA</source>
+        <translation>0.000 000 00 STATERA</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1998,8 +1998,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The AXIM address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço AXIM para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
+        <source>The STATERA address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>O endereço STATERA para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2038,8 +2038,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Estatísticas zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zAXIM</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zAXIM</translation>
+        <source>Total Balance including unconfirmed and immature zSTATERA</source>
+        <translation>Balanço Total incluindo não confirmadas e imaturas zSTATERA</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2173,8 +2173,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a AXIM address (e.g. %1)</source>
-        <translation>Insira um endereço AXIM (e.g. %1)</translation>
+        <source>Enter a STATERA address (e.g. %1)</source>
+        <translation>Insira um endereço STATERA (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2431,8 +2431,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the AXIM RPC console.</source>
-        <translation>Bem-vindo ao console da AXIM RPC</translation>
+        <source>Welcome to the STATERA RPC console.</source>
+        <translation>Bem-vindo ao console da STATERA RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2687,8 +2687,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 AXIM</source>
-        <translation>0 AXIM</translation>
+        <source>0 STATERA</source>
+        <translation>0 STATERA</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2731,12 +2731,12 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uAXIMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAXIMs in fee,&lt;br /&gt;while "at least" pays 1000 uAXIMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uAXIMs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uAXIMs em taxa,&lt;br /&gt; pagará pelo menos 1000 uAXIMs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSTATERAs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSTATERAs in fee,&lt;br /&gt;while "at least" pays 1000 uSTATERAs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uSTATERAs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uSTATERAs em taxa,&lt;br /&gt; pagará pelo menos 1000 uSTATERAs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AXIM transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de AXIM do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for STATERA transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de STATERA do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2783,8 +2783,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized AXIM</source>
-        <translation>AXIM anonimizadas</translation>
+        <source>Anonymized STATERA</source>
+        <translation>STATERA anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2819,8 +2819,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Copiar troco</translation>
     </message>
     <message>
-        <source>Warning: Invalid AXIM address</source>
-        <translation>Aviso: endereço AXIM inválido</translation>
+        <source>Warning: Invalid STATERA address</source>
+        <translation>Aviso: endereço STATERA inválido</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2906,8 +2906,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The AXIM address to send the payment to</source>
-        <translation>O endereço AXIM para enviar o pagamento</translation>
+        <source>The STATERA address to send the payment to</source>
+        <translation>O endereço STATERA para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2969,8 +2969,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>AXIM Core is shutting down...</source>
-        <translation>AXIM Core está desligando...</translation>
+        <source>STATERA Core is shutting down...</source>
+        <translation>STATERA Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2988,8 +2988,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The AXIM address to sign the message with</source>
-        <translation>O endereço AXIM para assinar a mensagem</translation>
+        <source>The STATERA address to sign the message with</source>
+        <translation>O endereço STATERA para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3020,16 +3020,16 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this AXIM address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço AXIM</translation>
+        <source>Sign the message to prove you own this STATERA address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço STATERA</translation>
     </message>
     <message>
-        <source>The AXIM address the message was signed with</source>
-        <translation>O endereço AXIM que assinou a mensagem</translation>
+        <source>The STATERA address the message was signed with</source>
+        <translation>O endereço STATERA que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified AXIM address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço AXIM especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified STATERA address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço STATERA especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3111,8 +3111,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AXIM Core</source>
-        <translation>AXIM Core</translation>
+        <source>STATERA Core</source>
+        <translation>STATERA Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3127,8 +3127,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The AXIM Core developers</source>
-        <translation>Os desenvolvedores do AXIM Core</translation>
+        <source>The STATERA Core developers</source>
+        <translation>Os desenvolvedores do STATERA Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3635,7 +3635,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     </message>
 </context>
 <context>
-    <name>ZAximControlDialog</name>
+    <name>ZStateraControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantia</translation>
@@ -3645,8 +3645,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zAXIM</source>
-        <translation>zAXIM</translation>
+        <source>zSTATERA</source>
+        <translation>zSTATERA</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -3654,7 +3654,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
     </message>
     </context>
 <context>
-    <name>axim-core</name>
+    <name>statera-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3672,12 +3672,12 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em AXIM/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em STATERA/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in AXIM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em AXIM/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in STATERA/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em STATERA/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3692,12 +3692,12 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Requerir alta prioridade na propagação gratuita ou com taxa baixa em transações (padrão:%u)</translation>
     </message>
     <message>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <source>Set mstateraum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 AXIM.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 AXIM.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 STATERA.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 STATERA.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3712,8 +3712,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong AXIM Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core AXIM não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong STATERA Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core STATERA não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3792,8 +3792,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The AXIM Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do AXIM Core</translation>
+        <source>Copyright (C) 2015-%i The STATERA Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do STATERA Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3852,8 +3852,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of AXIM Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da AXIM Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of STATERA Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da STATERA Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3896,8 +3896,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in AXIM/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em AXIM/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in STATERA/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em STATERA/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4174,7 +4174,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Defina o enderço externo:porta para chegar a este masternode (exemplo: %s)</translation>
     </message>
     <message>
-        <source>Set maximum block size in bytes (default: %d)</source>
+        <source>Set mstateraum block size in bytes (default: %d)</source>
         <translation>Defina o tamanho máximo do bloco em bytes (padrão: %d)</translation>
     </message>
     <message>
@@ -4326,7 +4326,7 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool maximum allows.</source>
+        <source>Value more than Obfuscation pool mstateraum allows.</source>
         <translation>Valor maior que o máximo permitido pela pool de Ofuscação </translation>
     </message>
     <message>
@@ -4342,8 +4342,8 @@ https://www.transifex.com/aigon1989/aigon1989-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart AXIM Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o AXIM Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart STATERA Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o STATERA Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

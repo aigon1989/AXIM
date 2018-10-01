@@ -1,10 +1,10 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_STAKEINPUT_H
-#define AXIM_STAKEINPUT_H
+#ifndef STATERA_STAKEINPUT_H
+#define STATERA_STAKEINPUT_H
 
 class CKeyStore;
 class CWallet;
@@ -23,15 +23,15 @@ public:
     virtual CAmount GetValue() = 0;
     virtual bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) = 0;
     virtual bool GetModifier(uint64_t& nStakeModifier) = 0;
-    virtual bool IsZAXIM() = 0;
+    virtual bool IsZSTATERA() = 0;
     virtual CDataStream GetUniqueness() = 0;
 };
 
 
-// zAXIMStake can take two forms
+// zSTATERAStake can take two forms
 // 1) the stake candidate, which is a zcmint that is attempted to be staked
-// 2) a staked zaxim, which is a zcspend that has successfully staked
-class CzAXIMStake : public CStakeInput
+// 2) a staked zstatera, which is a zcspend that has successfully staked
+class CzSTATERAStake : public CStakeInput
 {
 private:
     uint32_t nChecksum;
@@ -40,7 +40,7 @@ private:
     uint256 hashSerial;
 
 public:
-    explicit CzAXIMStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
+    explicit CzSTATERAStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
     {
         this->denom = denom;
         this->hashSerial = hashSerial;
@@ -48,7 +48,7 @@ public:
         fMint = true;
     }
 
-    explicit CzAXIMStake(const libzerocoin::CoinSpend& spend);
+    explicit CzSTATERAStake(const libzerocoin::CoinSpend& spend);
 
     CBlockIndex* GetIndexFrom() override;
     bool GetTxFrom(CTransaction& tx) override;
@@ -58,19 +58,19 @@ public:
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
     bool MarkSpent(CWallet* pwallet, const uint256& txid);
-    bool IsZAXIM() override { return true; }
+    bool IsZSTATERA() override { return true; }
     int GetChecksumHeightFromMint();
     int GetChecksumHeightFromSpend();
     uint32_t GetChecksum();
 };
 
-class CAximStake : public CStakeInput
+class CStateraStake : public CStakeInput
 {
 private:
     CTransaction txFrom;
     unsigned int nPosition;
 public:
-    CAximStake()
+    CStateraStake()
     {
         this->pindexFrom = nullptr;
     }
@@ -84,8 +84,8 @@ public:
     CDataStream GetUniqueness() override;
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
-    bool IsZAXIM() override { return false; }
+    bool IsZSTATERA() override { return false; }
 };
 
 
-#endif //AXIM_STAKEINPUT_H
+#endif //STATERA_STAKEINPUT_H

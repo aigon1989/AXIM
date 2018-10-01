@@ -22,12 +22,12 @@ elif [[ $HOST = "x86_64-apple-darwin11" ]]; then
     ARCHIVE_NAME="osx-x64.zip"
 fi
  if [[ $HOST = "x86_64-apple-darwin11" ]]; then
-    find $TRAVIS_BUILD_DIR -type f | grep -i axim-qt.dmg$ | xargs -i cp {} $OUTDIR/bin
-    find $TRAVIS_BUILD_DIR -type f | grep -i axim-core.dmg$ | xargs -i cp {} $OUTDIR/bin
+    find $TRAVIS_BUILD_DIR -type f | grep -i statera-qt.dmg$ | xargs -i cp {} $OUTDIR/bin
+    find $TRAVIS_BUILD_DIR -type f | grep -i statera-core.dmg$ | xargs -i cp {} $OUTDIR/bin
 else
-    cp $TRAVIS_BUILD_DIR/src/qt/axim-qt $OUTDIR/bin/ || cp $TRAVIS_BUILD_DIR/src/qt/axim-qt.exe $OUTDIR/bin/ || echo "no QT Wallet"
-    cp $TRAVIS_BUILD_DIR/src/aximd $OUTDIR/bin/ || cp $TRAVIS_BUILD_DIR/src/aximcoind.exe $OUTDIR/bin/
-    cp $TRAVIS_BUILD_DIR/src/axim-cli $OUTDIR/bin/ || cp $TRAVIS_BUILD_DIR/src/axim-cli.exe $OUTDIR/bin/
+    cp $TRAVIS_BUILD_DIR/src/qt/statera-qt $OUTDIR/bin/ || cp $TRAVIS_BUILD_DIR/src/qt/statera-qt.exe $OUTDIR/bin/ || echo "no QT Wallet"
+    cp $TRAVIS_BUILD_DIR/src/staterad $OUTDIR/bin/ || cp $TRAVIS_BUILD_DIR/src/stateracoind.exe $OUTDIR/bin/
+    cp $TRAVIS_BUILD_DIR/src/statera-cli $OUTDIR/bin/ || cp $TRAVIS_BUILD_DIR/src/statera-cli.exe $OUTDIR/bin/
     strip "$OUTDIR/bin"/* || echo "nothing to strip"
 fi
  cd $OUTDIR/bin

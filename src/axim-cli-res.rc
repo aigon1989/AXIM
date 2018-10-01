@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Axim"
-            VALUE "FileDescription",    "Axim-cli (OSS RPC client for Axim)"
+            VALUE "CompanyName",        "Statera"
+            VALUE "FileDescription",    "Statera-cli (OSS RPC client for Statera)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "axim-cli"
+            VALUE "InternalName",       "statera-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "axim-cli.exe"
-            VALUE "ProductName",        "Axim-cli"
+            VALUE "OriginalFilename",   "statera-cli.exe"
+            VALUE "ProductName",        "Statera-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

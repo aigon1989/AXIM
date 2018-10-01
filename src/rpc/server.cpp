@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -264,11 +264,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop AXIM server.");
+            "\nStop STATERA server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "AXIM server stopping";
+    return "STATERA server stopping";
 }
 
 
@@ -352,26 +352,26 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* AXIM features */
-        {"axim", "masternode", &masternode, true, true, false},
-        {"axim", "listmasternodes", &listmasternodes, true, true, false},
-        {"axim", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"axim", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"axim", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"axim", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"axim", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"axim", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"axim", "masternodedebug", &masternodedebug, true, true, false},
-        {"axim", "startmasternode", &startmasternode, true, true, false},
-        {"axim", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"axim", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"axim", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"axim", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"axim", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"axim", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"axim", "mnsync", &mnsync, true, true, false},
-        {"axim", "spork", &spork, true, true, false},
-        {"axim", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* STATERA features */
+        {"statera", "masternode", &masternode, true, true, false},
+        {"statera", "listmasternodes", &listmasternodes, true, true, false},
+        {"statera", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"statera", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"statera", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"statera", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"statera", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"statera", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"statera", "masternodedebug", &masternodedebug, true, true, false},
+        {"statera", "startmasternode", &startmasternode, true, true, false},
+        {"statera", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"statera", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"statera", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"statera", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"statera", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"statera", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"statera", "mnsync", &mnsync, true, true, false},
+        {"statera", "spork", &spork, true, true, false},
+        {"statera", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -436,11 +436,11 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "exportzerocoins", &exportzerocoins, false, false, true},
         {"zerocoin", "reconsiderzerocoins", &reconsiderzerocoins, false, false, true},
         {"zerocoin", "getspentzerocoinamount", &getspentzerocoinamount, false, false, false},
-        {"zerocoin", "getzaximseed", &getzaximseed, false, false, true},
-        {"zerocoin", "setzaximseed", &setzaximseed, false, false, true},
+        {"zerocoin", "getzstateraseed", &getzstateraseed, false, false, true},
+        {"zerocoin", "setzstateraseed", &setzstateraseed, false, false, true},
         {"zerocoin", "generatemintlist", &generatemintlist, false, false, true},
-        {"zerocoin", "searchdzaxim", &searchdzaxim, false, false, true},
-        {"zerocoin", "dzaximstate", &dzaximstate, false, false, true}
+        {"zerocoin", "searchdzstatera", &searchdzstatera, false, false, true},
+        {"zerocoin", "dzstaterastate", &dzstaterastate, false, false, true}
 
 #endif // ENABLE_WALLET
 };
@@ -604,7 +604,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> axim-cli " + methodname + " " + args + "\n";
+    return "> statera-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

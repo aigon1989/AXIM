@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2016-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef AXIM_PUBKEY_H
-#define AXIM_PUBKEY_H
+#ifndef STATERA_PUBKEY_H
+#define STATERA_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -269,4 +269,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // AXIM_PUBKEY_H
+#endif // STATERA_PUBKEY_H

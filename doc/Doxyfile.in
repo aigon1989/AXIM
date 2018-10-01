@@ -32,7 +32,7 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = "AXIM Core"
+PROJECT_NAME           = "STATERA Core"
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
@@ -47,8 +47,8 @@ PROJECT_NUMBER         = @PACKAGE_VERSION@
 PROJECT_BRIEF          = "P2P Digital Currency"
 
 # With the PROJECT_LOGO tag one can specify a logo or an icon that is included
-# in the documentation. The maximum height of the logo should not exceed 55
-# pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
+# in the documentation. The mstateraum height of the logo should not exceed 55
+# pixels and the mstateraum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
 PROJECT_LOGO           = doc/bitcoin_logo_doxygen.png
@@ -224,7 +224,7 @@ SEPARATE_MEMBER_PAGES  = NO
 
 # The TAB_SIZE tag can be used to set the number of spaces in a tab. Doxygen
 # uses this value to replace tabs by spaces in code fragments.
-# Minimum value: 1, maximum value: 16, default value: 4.
+# Minimum value: 1, mstateraum value: 16, default value: 4.
 
 TAB_SIZE               = 8
 
@@ -307,7 +307,7 @@ MARKDOWN_SUPPORT       = YES
 # to that level are automatically included in the table of contents, even if
 # they do not have an id attribute.
 # Note: This feature currently applies only to Markdown headings.
-# Minimum value: 0, maximum value: 99, default value: 0.
+# Minimum value: 0, mstateraum value: 99, default value: 0.
 # This tag requires that the tag MARKDOWN_SUPPORT is set to YES.
 
 TOC_INCLUDE_HEADINGS   = 0
@@ -419,7 +419,7 @@ TYPEDEF_HIDES_STRUCT   = NO
 # is 0..9, the default is 0, corresponding to a cache size of 2^16=65536
 # symbols. At the end of a run doxygen will report the cache usage and suggest
 # the optimal cache size from a speed point of view.
-# Minimum value: 0, maximum value: 9, default value: 0.
+# Minimum value: 0, mstateraum value: 9, default value: 0.
 
 LOOKUP_CACHE_SIZE      = 0
 
@@ -649,14 +649,14 @@ GENERATE_DEPRECATEDLIST= YES
 
 ENABLED_SECTIONS       =
 
-# The MAX_INITIALIZER_LINES tag determines the maximum number of lines that the
+# The MAX_INITIALIZER_LINES tag determines the mstateraum number of lines that the
 # initial value of a variable or macro / define can have for it to appear in the
 # documentation. If the initializer consists of more lines than specified here
 # it will be hidden. Use a value of 0 to hide initializers completely. The
 # appearance of the value of individual variables and macros / defines can be
 # controlled using \showinitializer or \hideinitializer command in the
 # documentation regardless of this setting.
-# Minimum value: 0, maximum value: 10000, default value: 30.
+# Minimum value: 0, mstateraum value: 10000, default value: 30.
 
 MAX_INITIALIZER_LINES  = 30
 
@@ -1074,7 +1074,7 @@ ALPHABETICAL_INDEX     = YES
 
 # The COLS_IN_ALPHA_INDEX tag can be used to specify the number of columns in
 # which the alphabetical index list will be split.
-# Minimum value: 1, maximum value: 20, default value: 5.
+# Minimum value: 1, mstateraum value: 20, default value: 5.
 # This tag requires that the tag ALPHABETICAL_INDEX is set to YES.
 
 COLS_IN_ALPHA_INDEX    = 5
@@ -1182,7 +1182,7 @@ HTML_EXTRA_FILES       =
 # http://en.wikipedia.org/wiki/Hue for more information. For instance the value
 # 0 represents red, 60 is yellow, 120 is green, 180 is cyan, 240 is blue, 300
 # purple, and 360 is red again.
-# Minimum value: 0, maximum value: 359, default value: 220.
+# Minimum value: 0, mstateraum value: 359, default value: 220.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 HTML_COLORSTYLE_HUE    = 220
@@ -1190,7 +1190,7 @@ HTML_COLORSTYLE_HUE    = 220
 # The HTML_COLORSTYLE_SAT tag controls the purity (or saturation) of the colors
 # in the HTML output. For a value of 0 the output will use grayscales only. A
 # value of 255 will produce the most vivid colors.
-# Minimum value: 0, maximum value: 255, default value: 100.
+# Minimum value: 0, mstateraum value: 255, default value: 100.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 HTML_COLORSTYLE_SAT    = 100
@@ -1201,7 +1201,7 @@ HTML_COLORSTYLE_SAT    = 100
 # darker. The value divided by 100 is the actual gamma applied, so 80 represents
 # a gamma of 0.8, The value 220 represents a gamma of 2.2, and 100 does not
 # change the gamma.
-# Minimum value: 40, maximum value: 240, default value: 80.
+# Minimum value: 40, mstateraum value: 240, default value: 80.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 HTML_COLORSTYLE_GAMMA  = 80
@@ -1231,7 +1231,7 @@ HTML_DYNAMIC_SECTIONS  = NO
 # entries 1 will produce a full collapsed tree by default. 0 is a special value
 # representing an infinite number of entries and will result in a full expanded
 # tree by default.
-# Minimum value: 0, maximum value: 9999, default value: 100.
+# Minimum value: 0, mstateraum value: 9999, default value: 100.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 HTML_INDEX_NUM_ENTRIES = 100
@@ -1264,7 +1264,7 @@ DOCSET_FEEDNAME        = "Doxygen generated docs"
 # The default value is: org.doxygen.Project.
 # This tag requires that the tag GENERATE_DOCSET is set to YES.
 
-DOCSET_BUNDLE_ID       = io.axim.AXIM
+DOCSET_BUNDLE_ID       = io.statera.STATERA
 
 # The DOCSET_PUBLISHER_ID tag specifies a string that should uniquely identify
 # the documentation publisher. This should be a reverse domain-name style
@@ -1272,7 +1272,7 @@ DOCSET_BUNDLE_ID       = io.axim.AXIM
 # The default value is: org.doxygen.Publisher.
 # This tag requires that the tag GENERATE_DOCSET is set to YES.
 
-DOCSET_PUBLISHER_ID    = io.axim.AXIM
+DOCSET_PUBLISHER_ID    = io.statera.STATERA
 
 # The DOCSET_PUBLISHER_NAME tag identifies the documentation publisher.
 # The default value is: Publisher.
@@ -1457,14 +1457,14 @@ GENERATE_TREEVIEW      = NO
 #
 # Note that a value of 0 will completely suppress the enum values from appearing
 # in the overview section.
-# Minimum value: 0, maximum value: 20, default value: 4.
+# Minimum value: 0, mstateraum value: 20, default value: 4.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 ENUM_VALUES_PER_LINE   = 4
 
 # If the treeview is enabled (see GENERATE_TREEVIEW) then this tag can be used
 # to set the initial width (in pixels) of the frame in which the tree is shown.
-# Minimum value: 0, maximum value: 1500, default value: 250.
+# Minimum value: 0, mstateraum value: 1500, default value: 250.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 TREEVIEW_WIDTH         = 250
@@ -1480,7 +1480,7 @@ EXT_LINKS_IN_WINDOW    = NO
 # the HTML documentation. When you change the font size after a successful
 # doxygen run you need to manually remove any form_*.png images from the HTML
 # output directory to force them to be regenerated.
-# Minimum value: 8, maximum value: 50, default value: 10.
+# Minimum value: 8, mstateraum value: 50, default value: 10.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
 FORMULA_FONTSIZE       = 10
@@ -2192,7 +2192,7 @@ HAVE_DOT               = YES
 # processors available in the system. You can set it explicitly to a value
 # larger than 0 to get control over the balance between CPU load and processing
 # speed.
-# Minimum value: 0, maximum value: 32, default value: 0.
+# Minimum value: 0, mstateraum value: 32, default value: 0.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 DOT_NUM_THREADS        = 0
@@ -2209,7 +2209,7 @@ DOT_FONTNAME           = Helvetica
 
 # The DOT_FONTSIZE tag can be used to set the size (in points) of the font of
 # dot graphs.
-# Minimum value: 4, maximum value: 24, default value: 10.
+# Minimum value: 4, mstateraum value: 24, default value: 10.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 DOT_FONTSIZE           = 10
@@ -2261,7 +2261,7 @@ UML_LOOK               = NO
 # is enforced. So when you set the threshold to 10, up to 15 fields may appear,
 # but if the number exceeds 15, the total amount of fields shown is limited to
 # 10.
-# Minimum value: 0, maximum value: 100, default value: 10.
+# Minimum value: 0, mstateraum value: 100, default value: 10.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 UML_LIMIT_NUM_FIELDS   = 10
@@ -2397,26 +2397,26 @@ PLANTUML_JAR_PATH      =
 
 PLANTUML_INCLUDE_PATH  =
 
-# The DOT_GRAPH_MAX_NODES tag can be used to set the maximum number of nodes
+# The DOT_GRAPH_MAX_NODES tag can be used to set the mstateraum number of nodes
 # that will be shown in the graph. If the number of nodes in a graph becomes
 # larger than this value, doxygen will truncate the graph, which is visualized
 # by representing a node as a red box. Note that doxygen if the number of direct
 # children of the root node in a graph is already larger than
 # DOT_GRAPH_MAX_NODES then the graph will not be shown at all. Also note that
 # the size of a graph can be further restricted by MAX_DOT_GRAPH_DEPTH.
-# Minimum value: 0, maximum value: 10000, default value: 50.
+# Minimum value: 0, mstateraum value: 10000, default value: 50.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 DOT_GRAPH_MAX_NODES    = 50
 
-# The MAX_DOT_GRAPH_DEPTH tag can be used to set the maximum depth of the graphs
+# The MAX_DOT_GRAPH_DEPTH tag can be used to set the mstateraum depth of the graphs
 # generated by dot. A depth value of 3 means that only nodes reachable from the
 # root by following a path via at most 3 edges will be shown. Nodes that lay
 # further from the root node will be omitted. Note that setting this option to 1
 # or 2 may greatly reduce the computation time needed for large code bases. Also
 # note that the size of a graph can be further restricted by
 # DOT_GRAPH_MAX_NODES. Using a depth of 0 means no depth restriction.
-# Minimum value: 0, maximum value: 1000, default value: 0.
+# Minimum value: 0, mstateraum value: 1000, default value: 0.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
 MAX_DOT_GRAPH_DEPTH    = 0

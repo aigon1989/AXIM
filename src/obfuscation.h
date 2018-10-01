@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -248,7 +248,7 @@ public:
 class CObfuScationSigner
 {
 public:
-    /// Is the inputs associated with this public key? (and there is 10000 AXIM - checking if valid masternode)
+    /// Is the inputs associated with this public key? (and there is 10000 STATERA - checking if valid masternode)
     bool IsVinAssociatedWithPubkey(CTxIn& vin, CPubKey& pubkey);
     /// Set the private/public key values, returns true if successful
     bool GetKeysFromSecret(std::string strSecret, CKey& keyRet, CPubKey& pubkeyRet);
@@ -309,7 +309,7 @@ public:
         ERR_INVALID_INPUT,
         ERR_INVALID_SCRIPT,
         ERR_INVALID_TX,
-        ERR_MAXIMUM,
+        ERR_MSTATERAUM,
         ERR_MN_LIST,
         ERR_MODE,
         ERR_NON_STANDARD_PUBKEY,
@@ -426,7 +426,7 @@ public:
         state = newState;
     }
 
-    /// Get the maximum number of transactions for the pool
+    /// Get the mstateraum number of transactions for the pool
     int GetMaxPoolTransactions()
     {
         return Params().PoolMaxTransactions();
@@ -494,7 +494,7 @@ public:
 
     void GetDenominationsToString(int nDenom, std::string& strDenom);
 
-    /// Get the denominations for a specific amount of axim.
+    /// Get the denominations for a specific amount of statera.
     int GetDenominationsByAmount(CAmount nAmount, int nDenomTarget = 0); // is not used anymore?
     int GetDenominationsByAmounts(std::vector<CAmount>& vecAmount);
 

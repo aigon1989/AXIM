@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -248,6 +248,10 @@ void CMasternodeSync::Process()
 
             return;
         }
+
+        LogPrintf("%s : pnode->nVersion %d\n", __func__, pnode->nVersion);
+        LogPrintf("%s : masternodePayments.GetMinMasternodePaymentsProto() %d\n", __func__, masternodePayments.GetMinMasternodePaymentsProto());
+        LogPrintf("Algo va mal con el versionado del nodo...");
 
         if (pnode->nVersion >= masternodePayments.GetMinMasternodePaymentsProto()) {
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_LIST) {

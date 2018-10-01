@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "AXIM"
-            VALUE "FileDescription",    "axim-tx (CLI AXIM transaction editor utility)"
+            VALUE "CompanyName",        "STATERA"
+            VALUE "FileDescription",    "statera-tx (CLI STATERA transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "axim-tx"
+            VALUE "InternalName",       "statera-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "axim-tx.exe"
-            VALUE "ProductName",        "axim-tx"
+            VALUE "OriginalFilename",   "statera-tx.exe"
+            VALUE "ProductName",        "statera-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

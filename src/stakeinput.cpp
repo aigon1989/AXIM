@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include "stakeinput.h"
 #include "wallet.h"
 
-CzAXIMStake::CzAXIMStake(const libzerocoin::CoinSpend& spend)
+CzSTATERAStake::CzSTATERAStake(const libzerocoin::CoinSpend& spend)
 {
     this->nChecksum = spend.getAccumulatorChecksum();
     this->denom = spend.getDenomination();
@@ -20,7 +20,7 @@ CzAXIMStake::CzAXIMStake(const libzerocoin::CoinSpend& spend)
     fMint = false;
 }
 
-int CzAXIMStake::GetChecksumHeightFromMint()
+int CzSTATERAStake::GetChecksumHeightFromMint()
 {
     int nHeightChecksum = chainActive.Height() - Params().Zerocoin_RequiredStakeDepth();
 
@@ -31,20 +31,20 @@ int CzAXIMStake::GetChecksumHeightFromMint()
     return GetChecksumHeight(nChecksum, denom);
 }
 
-int CzAXIMStake::GetChecksumHeightFromSpend()
+int CzSTATERAStake::GetChecksumHeightFromSpend()
 {
     return GetChecksumHeight(nChecksum, denom);
 }
 
-uint32_t CzAXIMStake::GetChecksum()
+uint32_t CzSTATERAStake::GetChecksum()
 {
     return nChecksum;
 }
 
-// The zAXIM block index is the first appearance of the accumulator checksum that was used in the spend
+// The zSTATERA block index is the first appearance of the accumulator checksum that was used in the spend
 // note that this also means when staking that this checksum should be from a block that is beyond 60 minutes old and
 // 100 blocks deep.
-CBlockIndex* CzAXIMStake::GetIndexFrom()
+CBlockIndex* CzSTATERAStake::GetIndexFrom()
 {
     if (pindexFrom)
         return pindexFrom;
@@ -66,13 +66,13 @@ CBlockIndex* CzAXIMStake::GetIndexFrom()
     return pindexFrom;
 }
 
-CAmount CzAXIMStake::GetValue()
+CAmount CzSTATERAStake::GetValue()
 {
     return denom * COIN;
 }
 
 //Use the first accumulator checkpoint that occurs 60 minutes after the block being staked from
-bool CzAXIMStake::GetModifier(uint64_t& nStakeModifier)
+bool CzSTATERAStake::GetModifier(uint64_t& nStakeModifier)
 {
     CBlockIndex* pindex = GetIndexFrom();
     if (!pindex)
@@ -92,15 +92,15 @@ bool CzAXIMStake::GetModifier(uint64_t& nStakeModifier)
     }
 }
 
-CDataStream CzAXIMStake::GetUniqueness()
+CDataStream CzSTATERAStake::GetUniqueness()
 {
-    //The unique identifier for a zAXIM is a hash of the serial
+    //The unique identifier for a zSTATERA is a hash of the serial
     CDataStream ss(SER_GETHASH, 0);
     ss << hashSerial;
     return ss;
 }
 
-bool CzAXIMStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CzSTATERAStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     CBlockIndex* pindexCheckpoint = GetIndexFrom();
     if (!pindexCheckpoint)
@@ -121,25 +121,25 @@ bool CzAXIMStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
     return true;
 }
 
-bool CzAXIMStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
+bool CzSTATERAStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
 {
-    //Create an output returning the zAXIM that was staked
+    //Create an output returning the zSTATERA that was staked
     CTxOut outReward;
     libzerocoin::CoinDenomination denomStaked = libzerocoin::AmountToZerocoinDenomination(this->GetValue());
     CDeterministicMint dMint;
-    if (!pwallet->CreateZAXIMOutPut(denomStaked, outReward, dMint))
-        return error("%s: failed to create zAXIM output", __func__);
+    if (!pwallet->CreateZSTATERAOutPut(denomStaked, outReward, dMint))
+        return error("%s: failed to create zSTATERA output", __func__);
     vout.emplace_back(outReward);
 
     //Add new staked denom to our wallet
     if (!pwallet->DatabaseMint(dMint))
-        return error("%s: failed to database the staked zAXIM", __func__);
+        return error("%s: failed to database the staked zSTATERA", __func__);
 
     for (unsigned int i = 0; i < 3; i++) {
         CTxOut out;
         CDeterministicMint dMintReward;
-        if (!pwallet->CreateZAXIMOutPut(libzerocoin::CoinDenomination::ZQ_ONE, out, dMintReward))
-            return error("%s: failed to create zAXIM output", __func__);
+        if (!pwallet->CreateZSTATERAOutPut(libzerocoin::CoinDenomination::ZQ_ONE, out, dMintReward))
+            return error("%s: failed to create zSTATERA output", __func__);
         vout.emplace_back(out);
 
         if (!pwallet->DatabaseMint(dMintReward))
@@ -149,48 +149,48 @@ bool CzAXIMStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount n
     return true;
 }
 
-bool CzAXIMStake::GetTxFrom(CTransaction& tx)
+bool CzSTATERAStake::GetTxFrom(CTransaction& tx)
 {
     return false;
 }
 
-bool CzAXIMStake::MarkSpent(CWallet *pwallet, const uint256& txid)
+bool CzSTATERAStake::MarkSpent(CWallet *pwallet, const uint256& txid)
 {
-    CzAXIMTracker* zaximTracker = pwallet->zaximTracker.get();
+    CzSTATERATracker* zstateraTracker = pwallet->zstateraTracker.get();
     CMintMeta meta;
-    if (!zaximTracker->GetMetaFromStakeHash(hashSerial, meta))
+    if (!zstateraTracker->GetMetaFromStakeHash(hashSerial, meta))
         return error("%s: tracker does not have serialhash", __func__);
 
-    zaximTracker->SetPubcoinUsed(meta.hashPubcoin, txid);
+    zstateraTracker->SetPubcoinUsed(meta.hashPubcoin, txid);
     return true;
 }
 
-//!AXIM Stake
-bool CAximStake::SetInput(CTransaction txPrev, unsigned int n)
+//!STATERA Stake
+bool CStateraStake::SetInput(CTransaction txPrev, unsigned int n)
 {
     this->txFrom = txPrev;
     this->nPosition = n;
     return true;
 }
 
-bool CAximStake::GetTxFrom(CTransaction& tx)
+bool CStateraStake::GetTxFrom(CTransaction& tx)
 {
     tx = txFrom;
     return true;
 }
 
-bool CAximStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CStateraStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     txIn = CTxIn(txFrom.GetHash(), nPosition);
     return true;
 }
 
-CAmount CAximStake::GetValue()
+CAmount CStateraStake::GetValue()
 {
     return txFrom.vout[nPosition].nValue;
 }
 
-bool CAximStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
+bool CStateraStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal)
 {
     vector<valtype> vSolutions;
     txnouttype whichType;
@@ -225,7 +225,7 @@ bool CAximStake::CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nT
     return true;
 }
 
-bool CAximStake::GetModifier(uint64_t& nStakeModifier)
+bool CStateraStake::GetModifier(uint64_t& nStakeModifier)
 {
     int nStakeModifierHeight = 0;
     int64_t nStakeModifierTime = 0;
@@ -239,16 +239,16 @@ bool CAximStake::GetModifier(uint64_t& nStakeModifier)
     return true;
 }
 
-CDataStream CAximStake::GetUniqueness()
+CDataStream CStateraStake::GetUniqueness()
 {
-    //The unique identifier for a AXIM stake is the outpoint
+    //The unique identifier for a STATERA stake is the outpoint
     CDataStream ss(SER_NETWORK, 0);
     ss << nPosition << txFrom.GetHash();
     return ss;
 }
 
 //The block that the UTXO was added to the chain
-CBlockIndex* CAximStake::GetIndexFrom()
+CBlockIndex* CStateraStake::GetIndexFrom()
 {
     uint256 hashBlock = 0;
     CTransaction tx;

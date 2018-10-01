@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The AXIM developers
+// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -258,12 +258,12 @@ bool IsBlockPayeeValid(const CBlock &block, int nBlockHeight)
     return true;
 }
 
-void FillBlockPayee(CMutableTransaction &txNew, CAmount nFees, bool fProofOfStake, bool fZAximStake)
+void FillBlockPayee(CMutableTransaction &txNew, CAmount nFees, bool fProofOfStake, bool fZStateraStake)
 {
     CBlockIndex *pindexPrev = chainActive.Tip();
     if (!pindexPrev)
         return;
-    masternodePayments.FillBlockPayee(txNew, nFees, fProofOfStake, fZAximStake);
+    masternodePayments.FillBlockPayee(txNew, nFees, fProofOfStake, fZStateraStake);
 }
 
 std::string GetRequiredPaymentsString(int nBlockHeight)
@@ -271,7 +271,7 @@ std::string GetRequiredPaymentsString(int nBlockHeight)
     return masternodePayments.GetRequiredPaymentsString(nBlockHeight);
 }
 
-void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFees, bool fProofOfStake, bool fZAximStake)
+void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFees, bool fProofOfStake, bool fZStateraStake)
 {
     CBlockIndex *pindexPrev = chainActive.Tip();
     if (!pindexPrev)
@@ -298,7 +298,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFe
                            : mnodeman.size() + Params().MasternodeCountDrift();
 
     CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
-    CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue, mnDriftCount, fZAximStake);
+    CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue, mnDriftCount, fZStateraStake);
     CAmount minerStakerPayment = blockValue - masternodePayment;
 
     if (fProofOfStake)
