@@ -115,7 +115,7 @@ class CMainParams : public CChainParams
         pchMessageStart[3] = 0x7b;
         vAlertPubKey = ParseHex("043826a918b48b7bc31df5dec12dea90893138af03faf454f705b84b69b8c9912614119efcb3647de84e0fec7cdeb56257fd55ca2b314c3fbbe9f443a86b825a80");
         nDefaultPort = 61555;
-        bnProofOfWorkLimit = ~uint256(0);
+        bnProofOfWorkLimit = (~uint256(0) >> 12);
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -227,6 +227,7 @@ public:
         pchMessageStart[3] = 0xba;
         vAlertPubKey = ParseHex("0467f38dcafdf2a1e3ae0e65a87da005123d25ba09ba515fb0df1e5293ee70e875709fb5d5dc093db426f022ff5adad04fae7d5e5fb4f4d310eb5571adcf34d90b");
         nDefaultPort = 61474;
+        bnProofOfWorkLimit = (~uint256(0) >> 12);
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
@@ -245,6 +246,7 @@ public:
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
         genesis.nNonce = 3428833;
+        genesis.nBits = 0x1e0ffff0;
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
@@ -310,7 +312,7 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
-        bnProofOfWorkLimit = ~uint256(0);
+        bnProofOfWorkLimit = (~uint256(0) >> 12);
         genesis.nTime = 1536730506;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 3428833;
