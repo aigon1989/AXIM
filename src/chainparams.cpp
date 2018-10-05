@@ -124,7 +124,7 @@ class CMainParams : public CChainParams
         nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 90000000 * COIN;
+        nMaxMoneyOut = 29000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
@@ -148,19 +148,19 @@ class CMainParams : public CChainParams
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04b5dc3af0c30db97110a345e8ef3603955fec07405ad157220775c50eb0a28a2c4d00119e04cf63878bd633a86bf15492d6b16d355835bd7cf0f2eeee388203cb") << OP_CHECKSIG;
+        txNew.vout[0].nValue = 29000000 * COIN;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
-        genesis.nVersion = 1;
+        genesis.nVersion = 4;
         genesis.nTime = 1536730506;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 3428833;
+        genesis.nNonce = 870958;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
-        assert(genesis.hashMerkleRoot == uint256("0x4fa4e4a2dcea3f30b95a1d0ced8760d43763725b861ffd472ce1b6ef87f31003"));
+        assert(hashGenesisBlock == uint256("0x00000553f16c7aea97c1f0fe565be3cec0c3accbbb9c365a4ec94c87eb11ae6d"));
+        assert(genesis.hashMerkleRoot == uint256("0x32316335353635666533613262656335353135323839643566316266303237363863633233613137623635626361623965626538366631623361363237613630"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -245,12 +245,12 @@ public:
         nFirstRewardBlock = 200;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
-        genesis.nNonce = 3428833;
+        genesis.nNonce = 870958;
         genesis.nBits = 0x1e0ffff0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5"));
-        assert(genesis.hashMerkleRoot == uint256("0x4fa4e4a2dcea3f30b95a1d0ced8760d43763725b861ffd472ce1b6ef87f31003"));
+        assert(hashGenesisBlock == uint256("0x00000553f16c7aea97c1f0fe565be3cec0c3accbbb9c365a4ec94c87eb11ae6d"));
+        assert(genesis.hashMerkleRoot == uint256("0x32316335353635666533613262656335353135323839643566316266303237363863633233613137623635626361623965626538366631623361363237613630"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -314,10 +314,10 @@ public:
         nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
         bnProofOfWorkLimit = (~uint256(0) >> 12);
         genesis.nTime = 1536730506;
-        genesis.nBits = 0x207fffff;
-        genesis.nNonce = 3428833;
+        genesis.nBits = 0x1e0ffff0;
+        genesis.nNonce = 870958;
 
-        hashGenesisBlock = uint256("0x0000096281156ca41637039f207ef39609e9217214811d6051e4ff0f2aff9fe5");
+        hashGenesisBlock = uint256("0x00000553f16c7aea97c1f0fe565be3cec0c3accbbb9c365a4ec94c87eb11ae6d");
         nDefaultPort = 61476;
         //assert(hashGenesisBlock == uint256("0x001"));
 
