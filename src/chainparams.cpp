@@ -163,7 +163,8 @@ class CMainParams : public CChainParams
         if(genesis.GetHash() != uint256("0x"))
         {
             printf("Searching for genesis block...\n");
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
+            uint256 hashTarget;
+            hashTarget.SetCompact(genesis.nBits);
             while(uint256(genesis.GetHash()) > hashTarget)
             {
                 ++genesis.nNonce;
@@ -277,7 +278,8 @@ public:
         if(genesis.GetHash() != uint256("0x"))
         {
             printf("Searching for genesis block...\n");
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
+            uint256 hashTarget;
+            hashTarget.SetCompact(genesis.nBits);
             while(uint256(genesis.GetHash()) > hashTarget)
             {
                 ++genesis.nNonce;
@@ -382,7 +384,8 @@ public:
         if(genesis.GetHash() != uint256("0x"))
         {
             printf("Searching for genesis block...\n");
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
+            uint256 hashTarget;
+            hashTarget.SetCompact(genesis.nBits);
             while(uint256(genesis.GetHash()) > hashTarget)
             {
                 ++genesis.nNonce;
