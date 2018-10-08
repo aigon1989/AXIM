@@ -206,7 +206,6 @@ class CMainParams : public CChainParams
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        fRequireRPCPassword = false;        // default true
         fMiningRequiresPeers = false;       // default true
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
@@ -324,7 +323,6 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
-        fRequireRPCPassword = false;        // default true
         fMiningRequiresPeers = false;       // default true
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
@@ -406,7 +404,6 @@ public:
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
 
-        fRequireRPCPassword = false;        // default true
         fMiningRequiresPeers = false;       // default true
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
