@@ -58,7 +58,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
     (0, uint256("0x0000096f444e0559caaf9c39573e8d17e2bc30969c6e18d8d9097167cee3b4a5"));
 static const Checkpoints::CCheckpointData data = {
-    //&mapCheckpoints,1536730506,0,0
+    &mapCheckpoints,1536730506,0,0
     //,
     //1533927507, // * UNIX timestamp of last checkpoint block
     //0,          // * total number of transactions between genesis and last checkpoint
@@ -69,7 +69,7 @@ static const Checkpoints::CCheckpointData data = {
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x0000096f444e0559caaf9c39573e8d17e2bc30969c6e18d8d9097167cee3b4a5"));
 static const Checkpoints::CCheckpointData dataTestnet = {
-    //&mapCheckpointsTestnet,1536730506,0,0
+    &mapCheckpointsTestnet,1536730506,0,0
     //,
     //1740710,
     //0,
@@ -79,7 +79,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x0000096f444e0559caaf9c39573e8d17e2bc30969c6e18d8d9097167cee3b4a5"));
 static const Checkpoints::CCheckpointData dataRegtest = {
-    //&mapCheckpointsRegtest,1536730506,0,0
+    &mapCheckpointsRegtest,1536730506,0,0
     //,
     //1454124731,
     //0,
@@ -124,7 +124,7 @@ class CMainParams : public CChainParams
         nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 29000000 * COIN;
+        nMaxMoneyOut = 90000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
@@ -148,7 +148,7 @@ class CMainParams : public CChainParams
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 0 * COIN;
+        txNew.vout[0].nValue = 29000000 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04b5dc3af0c30db97110a345e8ef3603955fec07405ad157220775c50eb0a28a2c4d00119e04cf63878bd633a86bf15492d6b16d355835bd7cf0f2eeee388203cb") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
