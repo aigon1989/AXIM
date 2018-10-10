@@ -56,7 +56,7 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x"));
+    (0, uint256("0x81e06c9c50626e66dc3001d96f88942d9a5d4d89118af65a57adf1f2042f280c"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,1536730506,0,0
     //,
@@ -67,7 +67,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x"));
+    boost::assign::map_list_of(0, uint256("0x81e06c9c50626e66dc3001d96f88942d9a5d4d89118af65a57adf1f2042f280c"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,1536730506,0,0
     //,
@@ -77,7 +77,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x"));
+    boost::assign::map_list_of(0, uint256("0x81e06c9c50626e66dc3001d96f88942d9a5d4d89118af65a57adf1f2042f280c"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,1536730506,0,0
     //,
@@ -156,45 +156,45 @@ class CMainParams : public CChainParams
         genesis.nVersion = 1;
         genesis.nTime = 1536730506;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 2488613;
+        genesis.nNonce = 5248394;
 
         hashGenesisBlock = genesis.GetHash();
 
-    if (true)// && genesis.GetHash() != hashGenesisBlock)
-    {
-        printf("Searching for genesis block...\n");
-        // This will figure out a valid hash and Nonce if you're
-        // creating a different genesis block:
-        uint256 hashTarget; 
-        hashTarget.SetCompact(genesis.nBits);
-        uint256 thash;
-        while(true)
-        {
-            thash = HashQuark(BEGIN(genesis.nVersion), END(genesis.nNonce));
-            if (thash <= hashTarget)
-                break;
-            if ((genesis.nNonce & 0xFFF) == 0)
-            {
-                printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-            }
-            ++genesis.nNonce;
-            if (genesis.nNonce == 0)
-            {
-                printf("NONCE WRAPPED, incrementing time\n");
-                ++genesis.nTime;
-            }
-        }
-        printf("block.nTime = %u \n", genesis.nTime);
-        printf("block.nNonce = %u \n", genesis.nNonce);
-        printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-    }
+    // if (true)// && genesis.GetHash() != hashGenesisBlock)
+    // {
+    //     printf("Searching for genesis block...\n");
+    //     // This will figure out a valid hash and Nonce if you're
+    //     // creating a different genesis block:
+    //     uint256 hashTarget; 
+    //     hashTarget.SetCompact(genesis.nBits);
+    //     uint256 thash;
+    //     while(true)
+    //     {
+    //         thash = HashQuark(BEGIN(genesis.nVersion), END(genesis.nNonce));
+    //         if (thash <= hashTarget)
+    //             break;
+    //         if ((genesis.nNonce & 0xFFF) == 0)
+    //         {
+    //             printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+    //         }
+    //         ++genesis.nNonce;
+    //         if (genesis.nNonce == 0)
+    //         {
+    //             printf("NONCE WRAPPED, incrementing time\n");
+    //             ++genesis.nTime;
+    //         }
+    //     }
+    //     printf("block.nTime = %u \n", genesis.nTime);
+    //     printf("block.nNonce = %u \n", genesis.nNonce);
+    //     printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+    // }
         
-        //printf("block            %s\n", genesis.ToString().c_str());
-        //printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
-        printf("merkleRoot       %s\n", genesis.hashMerkleRoot.ToString().c_str());
+    //     //printf("block            %s\n", genesis.ToString().c_str());
+    //     //printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
+    //     printf("merkleRoot       %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x81e06c9c50626e66dc3001d96f88942d9a5d4d89118af65a57adf1f2042f280c"));
+        assert(genesis.hashMerkleRoot == uint256("0x615055bb16bb337148b6a14653291fc267b9f372c2bbf31ec28f741001c14e77"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -279,46 +279,46 @@ public:
         nFirstRewardBlock = 200;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1536730506;
-        genesis.nNonce = 2488613;
+        genesis.nNonce = 5248394;
         genesis.nBits = 504365040;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 
          hashGenesisBlock = genesis.GetHash();
-        if (true)// && genesis.GetHash() != hashGenesisBlock)
-    {
-        printf("Searching for genesis block...\n");
-        // This will figure out a valid hash and Nonce if you're
-        // creating a different genesis block:
-        uint256 hashTarget; 
-        hashTarget.SetCompact(genesis.nBits);
-        uint256 thash;
-        while(true)
-        {
-            thash = HashQuark(BEGIN(genesis.nVersion), END(genesis.nNonce));
-            if (thash <= hashTarget)
-                break;
-            if ((genesis.nNonce & 0xFFF) == 0)
-            {
-                printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-            }
-            ++genesis.nNonce;
-            if (genesis.nNonce == 0)
-            {
-                printf("NONCE WRAPPED, incrementing time\n");
-                ++genesis.nTime;
-            }
-        }
-        printf("block.nTime = %u \n", genesis.nTime);
-        printf("block.nNonce = %u \n", genesis.nNonce);
-        printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-    }
+    //     if (true)// && genesis.GetHash() != hashGenesisBlock)
+    // {
+    //     printf("Searching for genesis block...\n");
+    //     // This will figure out a valid hash and Nonce if you're
+    //     // creating a different genesis block:
+    //     uint256 hashTarget; 
+    //     hashTarget.SetCompact(genesis.nBits);
+    //     uint256 thash;
+    //     while(true)
+    //     {
+    //         thash = HashQuark(BEGIN(genesis.nVersion), END(genesis.nNonce));
+    //         if (thash <= hashTarget)
+    //             break;
+    //         if ((genesis.nNonce & 0xFFF) == 0)
+    //         {
+    //             printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+    //         }
+    //         ++genesis.nNonce;
+    //         if (genesis.nNonce == 0)
+    //         {
+    //             printf("NONCE WRAPPED, incrementing time\n");
+    //             ++genesis.nTime;
+    //         }
+    //     }
+    //     printf("block.nTime = %u \n", genesis.nTime);
+    //     printf("block.nNonce = %u \n", genesis.nNonce);
+    //     printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+    // }
         
-        //printf("block            %s\n", genesis.ToString().c_str());
-        //printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
-        printf("merkleRoot       %s\n", genesis.hashMerkleRoot.ToString().c_str());
+    //     //printf("block            %s\n", genesis.ToString().c_str());
+    //     //printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
+    //     printf("merkleRoot       %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x81e06c9c50626e66dc3001d96f88942d9a5d4d89118af65a57adf1f2042f280c"));
+        assert(genesis.hashMerkleRoot == uint256("0x615055bb16bb337148b6a14653291fc267b9f372c2bbf31ec28f741001c14e77"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -385,46 +385,46 @@ public:
         bnProofOfWorkLimit = (~uint256(0) >> 12);
         genesis.nTime = 1536730506;
         genesis.nBits = 504365040;
-        genesis.nNonce = 2488613;
+        genesis.nNonce = 5248394;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 
         hashGenesisBlock = genesis.GetHash();
-        if (true)// && genesis.GetHash() != hashGenesisBlock)
-    {
-        printf("Searching for genesis block...\n");
-        // This will figure out a valid hash and Nonce if you're
-        // creating a different genesis block:
-        uint256 hashTarget; 
-        hashTarget.SetCompact(genesis.nBits);
-        uint256 thash;
-        while(true)
-        {
-            thash = HashQuark(BEGIN(genesis.nVersion), END(genesis.nNonce));
-            if (thash <= hashTarget)
-                break;
-            if ((genesis.nNonce & 0xFFF) == 0)
-            {
-                printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-            }
-            ++genesis.nNonce;
-            if (genesis.nNonce == 0)
-            {
-                printf("NONCE WRAPPED, incrementing time\n");
-                ++genesis.nTime;
-            }
-        }
-        printf("block.nTime = %u \n", genesis.nTime);
-        printf("block.nNonce = %u \n", genesis.nNonce);
-        printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-    }
+    //     if (true)// && genesis.GetHash() != hashGenesisBlock)
+    // {
+    //     printf("Searching for genesis block...\n");
+    //     // This will figure out a valid hash and Nonce if you're
+    //     // creating a different genesis block:
+    //     uint256 hashTarget; 
+    //     hashTarget.SetCompact(genesis.nBits);
+    //     uint256 thash;
+    //     while(true)
+    //     {
+    //         thash = HashQuark(BEGIN(genesis.nVersion), END(genesis.nNonce));
+    //         if (thash <= hashTarget)
+    //             break;
+    //         if ((genesis.nNonce & 0xFFF) == 0)
+    //         {
+    //             printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+    //         }
+    //         ++genesis.nNonce;
+    //         if (genesis.nNonce == 0)
+    //         {
+    //             printf("NONCE WRAPPED, incrementing time\n");
+    //             ++genesis.nTime;
+    //         }
+    //     }
+    //     printf("block.nTime = %u \n", genesis.nTime);
+    //     printf("block.nNonce = %u \n", genesis.nNonce);
+    //     printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+    // }
         
-        //printf("block            %s\n", genesis.ToString().c_str());
-        //printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
-        printf("merkleRoot       %s\n", genesis.hashMerkleRoot.ToString().c_str());
+    //     //printf("block            %s\n", genesis.ToString().c_str());
+    //     //printf("hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
+    //     printf("merkleRoot       %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
         nDefaultPort = 61476;
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x81e06c9c50626e66dc3001d96f88942d9a5d4d89118af65a57adf1f2042f280c"));
+        assert(genesis.hashMerkleRoot == uint256("0x615055bb16bb337148b6a14653291fc267b9f372c2bbf31ec28f741001c14e77"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
