@@ -10,6 +10,7 @@
 #include "txdb.h"
 #include "init.h"
 #include "spork.h"
+#include "accumulatorcheckpoints.h"
 #include "zstaterachain.h"
 
 using namespace libzerocoin;
