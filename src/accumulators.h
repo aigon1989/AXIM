@@ -11,6 +11,7 @@
 #include "libzerocoin/Denominations.h"
 #include "primitives/zerocoin.h"
 #include "accumulatormap.h"
+#include "accumulatorcheckpoints.h"
 #include "chain.h"
 #include "uint256.h"
 
