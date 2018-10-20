@@ -292,7 +292,7 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFe
     }
 
     CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
-    CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue, 0, fZEZYStake);
+    CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue, 0, fZStateraStake);
 
     
     if (hasPayment) {
