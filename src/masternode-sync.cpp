@@ -249,13 +249,10 @@ void CMasternodeSync::Process()
             return;
         }
 
-        LogPrintf("%s : pnode->nVersion %d\n", __func__, pnode->nVersion);
-        LogPrintf("%s : masternodePayments.GetMinMasternodePaymentsProto() %d\n", __func__, masternodePayments.GetMinMasternodePaymentsProto());
-        LogPrintf("Algo va mal con el versionado del nodo...");
-
         if (pnode->nVersion >= masternodePayments.GetMinMasternodePaymentsProto()) {
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_LIST) {
                 LogPrint("masternode", "CMasternodeSync::Process() - lastMasternodeList %lld (GetTime() - MASTERNODE_SYNC_TIMEOUT) %lld\n", lastMasternodeList, GetTime() - MASTERNODE_SYNC_TIMEOUT);
+                LogPrintf("CMasternodeSync::Process() - lastMasternodeList %lld (GetTime() - MASTERNODE_SYNC_TIMEOUT) %lld\n", lastMasternodeList, GetTime() - MASTERNODE_SYNC_TIMEOUT);
                 if (lastMasternodeList > 0 && lastMasternodeList < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
                     GetNextAsset();
                     return;
@@ -274,6 +271,7 @@ void CMasternodeSync::Process()
                         lastFailure = GetTime();
                         nCountFailures++;
                     } else {
+                         LogPrintf("CMasternodeSync::Process - SPORKS8 NOT ACTIVE, SKIPPING\n");
                         GetNextAsset();
                     }
                     return;
@@ -287,6 +285,7 @@ void CMasternodeSync::Process()
             }
 
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_MNW) {
+                LogPrintf("CMasternodeSync::Process - lastMasternodeWinner %d, Time Minus Timeout %d, Masternode Attempt %d\n", lastMasternodeWinner, (GetTime() - MASTERNODE_SYNC_TIMEOUT*2), RequestedMasternodeAttempt);
                 if (lastMasternodeWinner > 0 && lastMasternodeWinner < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
                     GetNextAsset();
                     return;
@@ -305,6 +304,7 @@ void CMasternodeSync::Process()
                         lastFailure = GetTime();
                         nCountFailures++;
                     } else {
+                        LogPrintf("CMasternodeSync::Process - SPORKS8 NOT ACTIVE, SKIPPING\n");
                         GetNextAsset();
                     }
                     return;
@@ -324,6 +324,7 @@ void CMasternodeSync::Process()
         }
 
         if (pnode->nVersion >= ActiveProtocol()) {
+            LogPrintf("CMasternodeSync::Process - Not trying to find budgets\n");
             // Do not try to find budgets...
             GetNextAsset();
 
