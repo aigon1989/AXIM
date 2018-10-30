@@ -332,8 +332,15 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFe
     else // has no payee 
     {
         LogPrintf("FillBlockNoPayee blockValue %u masternodePayment %u\n", blockValue, masternodePayment); 
+
+         if (fProofOfStake) {
+            //DO NOTHING
+        } else {
+            //Se lo damos todo, obviamente, al minero
+            txNew.vout[0].nValue = blockValue;
+        }
         //Se lo damos todo, obviamente, al minero
-        txNew.vout[0].nValue = blockValue;
+       
         // if(pindexPrev->nHeight+1<Params().LAST_POW_BLOCK())
         // {
         //     if(txNew.vout[0].nValue<=0) 
