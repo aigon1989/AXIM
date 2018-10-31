@@ -148,8 +148,10 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             nLastCoinStakeSearchTime = nSearchTime;
         }
 
-        if (!fStakeFound)
+        if (!fStakeFound) {
+            LogPrintf("CreateNewBlock() : Not able to create new Block \n");
             return NULL;
+        }
     }
 
     // Largest block you're willing to create:
