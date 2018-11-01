@@ -2879,7 +2879,7 @@ bool CWallet::CreateTransaction(CScript scriptPubKey, const CAmount& nValue, CWa
 // ppcoin: create coin stake transaction
 bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int64_t nSearchInterval, CMutableTransaction& txNew, unsigned int& nTxNewTime)
 {
-    LogPrintf("CreateCoinStake() Init \n");
+    //LogPrintf("CreateCoinStake() Init \n");
     // The following split & combine thresholds are important to security
     // Should not be adjusted if you don't understand the consequences
     //int64_t nCombineThreshold = 0;
@@ -2897,31 +2897,37 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     if (mapArgs.count("-reservebalance") && !ParseMoney(mapArgs["-reservebalance"], nReserveBalance))
         return error("CreateCoinStake : invalid reserve balance amount");
 
-    if (nBalance > 0 && nBalance <= nReserveBalance)
+    if (nBalance > 0 && nBalance <= nReserveBalance) {
         LogPrintf("CreateCoinStake() : Balance lower than Reserved Balance \n");
         return false;
+    }
 
     // Get the list of stakable inputs
     std::list<std::unique_ptr<CStakeInput> > listInputs;
-    if (!SelectStakeCoins(listInputs, nBalance - nReserveBalance))
+    if (!SelectStakeCoins(listInputs, nBalance - nReserveBalance)) {
         LogPrintf("CreateCoinStake() : No Stakeable coins on inputs \n");
         return false;
+    }    
 
-    if (listInputs.empty())
+    if (listInputs.empty()) {
         LogPrintf("CreateCoinStake() : No Inputs \n");
         return false;
+    }
 
-    if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < 30)
+    if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < 30) {
         LogPrintf("CreateCoinStake() : No time to create stake yet \n");
         MilliSleep(10000);
+    }    
 
     CAmount nCredit = 0;
     CScript scriptPubKeyKernel;
     bool fKernelFound = false;
     for (std::unique_ptr<CStakeInput>& stakeInput : listInputs) {
         // Make sure the wallet is unlocked and shutdown hasn't been requested
-        if (IsLocked() || ShutdownRequested())
+        if (IsLocked() || ShutdownRequested()) {
+            LogPrintf("CreateCoinStake() : Wallet locked or shutting down. \n");
             return false;
+        }    
 
         //make sure that enough time has elapsed between
         CBlockIndex* pindex = stakeInput->GetIndexFrom();
@@ -3004,6 +3010,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             break; // if kernel is found stop searching
     }
     if (!fKernelFound)
+        LogPrintf("CreateCoinStake() : No kernel found. \n");
         return false;
 
     // Sign for STATERA

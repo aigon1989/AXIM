@@ -149,7 +149,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
         }
 
         if (!fStakeFound) {
-            LogPrintf("CreateNewBlock() : Not able to create new Block \n");
+            //LogPrintf("CreateNewBlock() : Not able to create new Block \n");
             return NULL;
         }
     }
