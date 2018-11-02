@@ -323,21 +323,27 @@ bool CheckStake(const CDataStream &ssUniqueID, CAmount nValueIn, const uint64_t 
 
 bool Stake(CStakeInput *stakeInput, unsigned int nBits, unsigned int nTimeBlockFrom, unsigned int &nTimeTx, uint256 &hashProofOfStake)
 {
-    if (nTimeTx < nTimeBlockFrom)
+    if (nTimeTx < nTimeBlockFrom) {
+        LogPrintf("CheckStakeKernelHash() : nTime violation\n");
         return error("CheckStakeKernelHash() : nTime violation");
+    }
 
-    if (nTimeBlockFrom + nStakeMinAge > nTimeTx) // Min age requirement
+    if (nTimeBlockFrom + nStakeMinAge > nTimeTx) {// Min age requirement
+        LogPrintf("CheckStakeKernelHash() : min age violation - nTimeBlockFrom=%d nStakeMinAge=%d nTimeTx=%d\n",
+                     nTimeBlockFrom, nStakeMinAge, nTimeTx);
         return error("CheckStakeKernelHash() : min age violation - nTimeBlockFrom=%d nStakeMinAge=%d nTimeTx=%d",
                      nTimeBlockFrom, nStakeMinAge, nTimeTx);
-
+    }
     //grab difficulty
     uint256 bnTargetPerCoinDay;
     bnTargetPerCoinDay.SetCompact(nBits);
 
     //grab stake modifier
     uint64_t nStakeModifier = 0;
-    if (!stakeInput->GetModifier(nStakeModifier))
+    if (!stakeInput->GetModifier(nStakeModifier)){
+        LogPrintf("failed to get kernel state modifier");
         return error("failed to get kernel stake modifier");
+    }
 
     bool fSuccess = false;
     unsigned int nTryTime = 0;
@@ -359,8 +365,8 @@ bool Stake(CStakeInput *stakeInput, unsigned int nBits, unsigned int nTimeBlockF
             continue;
 
         fSuccess = true; // if we make it this far then we have successfully created a stake hash
-         if(fDebug)
-            LogPrintf("%s: hashproof=%s\n", __func__, hashProofOfStake.GetHex());
+         
+        LogPrintf("%s: hashproof=%s\n", __func__, hashProofOfStake.GetHex());
         nTimeTx = nTryTime;
         break;
     }

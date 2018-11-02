@@ -3009,9 +3009,10 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         if (fKernelFound)
             break; // if kernel is found stop searching
     }
-    if (!fKernelFound)
+    if (!fKernelFound) {
         LogPrintf("CreateCoinStake() : No kernel found. \n");
         return false;
+    }
 
     // Sign for STATERA
     int nIn = 0;
