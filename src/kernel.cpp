@@ -260,8 +260,10 @@ bool ComputeNextStakeModifier(const CBlockIndex *pindexPrev, uint64_t &nStakeMod
 bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t &nStakeModifier, int &nStakeModifierHeight, int64_t &nStakeModifierTime, bool fPrintProofOfStake)
 {
     nStakeModifier = 0;
-    if (!mapBlockIndex.count(hashBlockFrom))
+    if (!mapBlockIndex.count(hashBlockFrom)){
+        LogPrintf("GetKernelStakeModifier() : block not indexed\n");
         return error("GetKernelStakeModifier() : block not indexed");
+    }
     const CBlockIndex *pindexFrom = mapBlockIndex[hashBlockFrom];
     nStakeModifierHeight = pindexFrom->nHeight;
     nStakeModifierTime = pindexFrom->GetBlockTime();
@@ -275,13 +277,15 @@ bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t &nStakeModifier, int
         if (!pindexNext)
         {
             // reached best block; may happen if node is behind on block chain
-            if (fPrintProofOfStake || (pindex->GetBlockTime() + nStakeMinAge - nStakeModifierSelectionInterval > GetAdjustedTime()))
+            if (fPrintProofOfStake || (pindex->GetBlockTime() + nStakeMinAge - nStakeModifierSelectionInterval > GetAdjustedTime())){
+                LogPrintf("GetKernelStakeModifier() : reached best block %s at height %d from block %s\n",
+                             pindex->GetBlockHash().ToString().c_str(), pindex->nHeight, hashBlockFrom.ToString().c_str());
                 return error("GetKernelStakeModifier() : reached best block %s at height %d from block %s",
                              pindex->GetBlockHash().ToString().c_str(), pindex->nHeight, hashBlockFrom.ToString().c_str());
+            }
             else
             {
-                if (fPrintProofOfStake)
-                    LogPrintf("GetKernelStakeModifier(): FAILED BECAUSE no pindexnext\n");
+                LogPrintf("GetKernelStakeModifier(): FAILED BECAUSE no pindexnext\n");
                 return false;
             }
         }
