@@ -2979,8 +2979,10 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
 
             // Limit size
             unsigned int nBytes = ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);
-            if (nBytes >= DEFAULT_BLOCK_MAX_SIZE / 5)
+            if (nBytes >= DEFAULT_BLOCK_MAX_SIZE / 5){
+                LogPrintf("CreateCoinStake : exceeded coinstake size limit");
                 return error("CreateCoinStake : exceeded coinstake size limit");
+            }
 
             //Masternode payment
             FillBlockPayee(txNew, nMinFee, true, stakeInput->IsZSTATERA());
@@ -2999,8 +3001,10 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             //Mark mints as spent
             if (stakeInput->IsZSTATERA()) {
                 CzSTATERAStake* z = (CzSTATERAStake*)stakeInput.get();
-                if (!z->MarkSpent(this, txNew.GetHash()))
+                if (!z->MarkSpent(this, txNew.GetHash())){
+                    LogPrintf("%s: failed to mark mint as used\n", __func__);
                     return error("%s: failed to mark mint as used\n", __func__);
+                }
             }
 
             fKernelFound = true;

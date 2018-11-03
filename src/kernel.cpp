@@ -308,6 +308,10 @@ bool stakeTargetHit(uint256 hashProofOfStake, int64_t nValueIn, uint256 bnTarget
     //get the stake weight - weight is equal to coin amount
     uint256 bnCoinDayWeight = uint256(nValueIn) / 100;
 
+    if(hashProofOfStake >= (bnCoinDayWeight * bnTargetPerCoinDay)){
+        LogPrintf("stakeTargetHit :  hashProofOfStake: %s, bnTargetPerCoinDay: %s, bnCoinDayWeight: %s, bnCoinDayWeight * bnTargetPerCoinDay: %s\n ",
+            hashProofOfStake.GetHex(), bnTargetPerCoinDay.GetHex(), bnCoinDayWeight.GetHex(), (bnCoinDayWeight * bnTargetPerCoinDay).GetHex() );
+    }
     // Now check if proof-of-stake hash meets target protocol
     return hashProofOfStake < (bnCoinDayWeight * bnTargetPerCoinDay);
 }
@@ -318,8 +322,7 @@ bool CheckStake(const CDataStream &ssUniqueID, CAmount nValueIn, const uint64_t 
     CDataStream ss(SER_GETHASH, 0);
     ss << nStakeModifier << nTimeBlockFrom << ssUniqueID << nTimeTx;
     hashProofOfStake = Hash(ss.begin(), ss.end());
-    if(fDebug)
-        LogPrintf("%s: modifier:%d nTimeBlockFrom:%d nTimeTx:%d hash:%s\n", __func__, nStakeModifier, nTimeBlockFrom, nTimeTx, hashProofOfStake.GetHex());
+    LogPrintf("CheckStake: modifier:%d nTimeBlockFrom:%d nTimeTx:%d hash:%s \n",  nStakeModifier, nTimeBlockFrom, nTimeTx, hashProofOfStake.GetHex());
 
 
     return stakeTargetHit(hashProofOfStake, nValueIn, bnTarget);
@@ -358,15 +361,19 @@ bool Stake(CStakeInput *stakeInput, unsigned int nBits, unsigned int nTimeBlockF
     for (int i = 0; i < nHashDrift; i++) //iterate the hashing
     {
         //new block came in, move on
-        if (chainActive.Height() != nHeightStart)
+        if (chainActive.Height() != nHeightStart){
+            LogPrintf("New Block In, Blockchain ahead from us");
             break;
+        }
 
         //hash this iteration
         nTryTime = nTimeTx + nHashDrift - i;
 
         // if stake hash does not meet the target then continue to next iteration
-        if (!CheckStake(ssUniqueID, nValueIn, nStakeModifier, bnTargetPerCoinDay, nTimeBlockFrom, nTryTime, hashProofOfStake))
+        if (!CheckStake(ssUniqueID, nValueIn, nStakeModifier, bnTargetPerCoinDay, nTimeBlockFrom, nTryTime, hashProofOfStake)){
+            LogPrintf("Hash does not meet the target, retrying.");
             continue;
+        }
 
         fSuccess = true; // if we make it this far then we have successfully created a stake hash
          
