@@ -263,7 +263,7 @@ bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t &nStakeModifier, int
     if (!mapBlockIndex.count(hashBlockFrom)){
         LogPrintf("GetKernelStakeModifier() : block not indexed\n");
         return error("GetKernelStakeModifier() : block not indexed");
-    } 
+    }
     const CBlockIndex *pindexFrom = mapBlockIndex[hashBlockFrom];
     nStakeModifierHeight = pindexFrom->nHeight;
     nStakeModifierTime = pindexFrom->GetBlockTime();
