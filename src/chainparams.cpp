@@ -123,7 +123,8 @@ class CMainParams : public CChainParams
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // STATERA: 30 seconds re check of block time
         nTargetSpacing = 1 * 60;  // STATERA: 30 seconds blocktime
-	    nMaturity = 9;        
+	    //nMaturity = 9;
+        nMaturity = 2;        
 	    nMasternodeCountDrift = 20;
         nMaxMoneyOut = 90000000 * COIN;
 
