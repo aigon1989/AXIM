@@ -115,14 +115,14 @@ class CMainParams : public CChainParams
         pchMessageStart[3] = 0x7b;
         vAlertPubKey = ParseHex("043826a918b48b7bc31df5dec12dea90893138af03faf454f705b84b69b8c9912614119efcb3647de84e0fec7cdeb56257fd55ca2b314c3fbbe9f443a86b825a80");
         nDefaultPort = 61555;
-        bnProofOfWorkLimit = (~uint256(0) >> 16);
+        bnProofOfWorkLimit = (~uint256(0) >> 10);
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // STATERA: 30 seconds re check of block time
-        nTargetSpacing = 1 * 60;  // STATERA: 30 seconds blocktime
+        nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
+        nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
 	    //nMaturity = 9;
         nMaturity = 2;        
 	    nMasternodeCountDrift = 20;
@@ -133,7 +133,7 @@ class CMainParams : public CChainParams
         nModifierUpdateBlock = 45;
 
         //a.gonzalez - First rewarded block
-        nFirstRewardBlock = 200;
+        nFirstRewardBlock = nLastPOWBlock;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -194,6 +194,9 @@ class CMainParams : public CChainParams
         //vSeeds.push_back(CDNSSeedData("base.ninja", "BASE-testnet.seed2.base.ninja"));
         //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         //vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
+        //Test Seeds at localhost
+        vSeeds.push_back(CDNSSeedData("localhost", "localhost"));
+        vSeeds.push_back(CDNSSeedData("192.168.1.4", "192.168.1.4"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -254,7 +257,7 @@ public:
         pchMessageStart[3] = 0xba;
         vAlertPubKey = ParseHex("0467f38dcafdf2a1e3ae0e65a87da005123d25ba09ba515fb0df1e5293ee70e875709fb5d5dc093db426f022ff5adad04fae7d5e5fb4f4d310eb5571adcf34d90b");
         nDefaultPort = 61474;
-        bnProofOfWorkLimit = (~uint256(0) >> 16);
+        bnProofOfWorkLimit = (~uint256(0) >> 10);
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
@@ -268,7 +271,7 @@ public:
         nModifierUpdateBlock = 45;
 
         //a.gonzalez - First rewarded block
-        nFirstRewardBlock = 200;
+        nFirstRewardBlock = nLastPOWBlock;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1539449713;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
@@ -308,6 +311,9 @@ public:
         //vSeeds.push_back(CDNSSeedData("base.ninja", "BASE-testnet.seed2.base.ninja"));
         //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         //vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
+         //Test Seeds at localhost
+        vSeeds.push_back(CDNSSeedData("localhost", "localhost"));
+        vSeeds.push_back(CDNSSeedData("192.168.1.4", "192.168.1.4"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet BASE addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet BASE script addresses start with '8' or '9'
@@ -362,7 +368,7 @@ public:
         nMinerThreads = 1;
         nTargetTimespan = 1 * 60; // STATERA: 30 seconds re check of block time
         nTargetSpacing = 1 * 60;  // STATERA: 30 seconds blocktime
-        bnProofOfWorkLimit = (~uint256(0) >> 16);
+        bnProofOfWorkLimit = (~uint256(0) >> 10);
         genesis.nTime = 1539449713;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 822541;
@@ -398,6 +404,10 @@ public:
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
+
+         //Test Seeds at localhost
+        vSeeds.push_back(CDNSSeedData("localhost", "localhost"));
+        vSeeds.push_back(CDNSSeedData("192.168.1.4", "192.168.1.4"));
 
         fMiningRequiresPeers = false;
         fAllowMinDifficultyBlocks = true;
