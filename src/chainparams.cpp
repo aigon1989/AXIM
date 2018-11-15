@@ -198,7 +198,7 @@ class CMainParams : public CChainParams
         vSeeds.push_back(CDNSSeedData("localhost", "localhost"));
         vSeeds.push_back(CDNSSeedData("192.168.1.4", "192.168.1.4"));
         vSeeds.push_back(CDNSSeedData("85.219.60.24", "85.219.60.24"));
-        vSeeds.push_back(CDNSSeedData("statera1.dns-cloud.net", "statera1.dns-cloud.net"));
+        vSeeds.push_back(CDNSSeedData("stateradnsseed1.tk", "stateradnsseed1.tk"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
