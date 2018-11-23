@@ -211,7 +211,7 @@ class CMainParams : public CChainParams
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         //fRequireRPCPassword = false;        // default true
-        fMiningRequiresPeers = false;       // default true
+        fMiningRequiresPeers = true;       // default true
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
@@ -415,7 +415,7 @@ public:
         vSeeds.push_back(CDNSSeedData("85.219.60.24", "85.219.60.24"));
         vSeeds.push_back(CDNSSeedData("statera1.dns-cloud.net", "statera1.dns-cloud.net"));
 
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fAllowMinDifficultyBlocks = true;
         fDefaultConsistencyChecks = true;
         fRequireStandard = false;
@@ -443,7 +443,7 @@ public:
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
 
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = true;
         fAllowMinDifficultyBlocks = false;
         fMineBlocksOnDemand = true;
