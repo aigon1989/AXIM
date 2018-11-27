@@ -309,7 +309,7 @@ public:
         ERR_INVALID_INPUT,
         ERR_INVALID_SCRIPT,
         ERR_INVALID_TX,
-        ERR_MSTATERAUM,
+        ERR_MAXIMUM,
         ERR_MN_LIST,
         ERR_MODE,
         ERR_NON_STANDARD_PUBKEY,

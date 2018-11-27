@@ -240,7 +240,7 @@ void CObfuscationPool::ProcessMessageObfuscation(CNode* pfrom, std::string& strC
 
             if (nValueIn > OBFUSCATION_POOL_MAX) {
                 LogPrintf("dsi -- more than Obfuscation pool max! %s\n", tx.ToString());
-                errorID = ERR_MSTATERAUM;
+                errorID = ERR_MAXIMUM;
                 pfrom->PushMessage("dssu", sessionID, GetState(), GetEntriesCount(), MASTERNODE_REJECTED, errorID);
                 return;
             }
@@ -2073,7 +2073,7 @@ std::string CObfuscationPool::GetMessageByID(int messageID)
         return _("Invalid script detected.");
     case ERR_INVALID_TX:
         return _("Transaction not valid.");
-    case ERR_MSTATERAUM:
+    case ERR_MAXIMUM:
         return _("Value more than Obfuscation pool maximum allows.");
     case ERR_MN_LIST:
         return _("Not in the Masternode list.");
@@ -2294,7 +2294,7 @@ void ThreadCheckObfuScationPool()
     while (true) {
         MilliSleep(1000);
         //LogPrintf("ThreadCheckObfuScationPool::check timeout\n");
-
+        LogPrintf("Obfuscation::ThreadCheckObfuScationPool() - c %d\n", c);
         // try to sync from all available nodes, one step at a time
         masternodeSync.Process();
 

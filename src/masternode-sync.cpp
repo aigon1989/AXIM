@@ -34,8 +34,8 @@ bool CMasternodeSync::IsBlockchainSynced()
     static bool fBlockchainSynced = false;
     static int64_t lastProcess = GetTime();
 
-    // if the last call to this function was more than 60 minutes ago (client was in sleep mode) reset the sync process
-    if (GetTime() - lastProcess > 60 * 60) {
+    // if the last call to this function was more than 30 minutes ago (client was in sleep mode) reset the sync process
+    if (GetTime() - lastProcess > 60 * 30) {
         Reset();
         fBlockchainSynced = false;
     }
@@ -52,7 +52,7 @@ bool CMasternodeSync::IsBlockchainSynced()
     if (pindex == NULL) return false;
 
 
-    if (pindex->nTime + 60 * 60 < GetTime())
+    if (pindex->nTime + 60 * 30 < GetTime())
         return false;
 
     fBlockchainSynced = true;
@@ -189,6 +189,8 @@ void CMasternodeSync::Process()
 {
     static int tick = 0;
 
+    LogPrintf("CMasternodeSync::Process() - tick %d RequestedMasternodeAssets %d\n", tick, RequestedMasternodeAssets);
+
     if (tick++ % MASTERNODE_SYNC_TIMEOUT != 0) return;
 
     if (IsSynced()) {
@@ -252,7 +254,7 @@ void CMasternodeSync::Process()
         if (pnode->nVersion >= masternodePayments.GetMinMasternodePaymentsProto()) {
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_LIST) {
                 LogPrint("masternode", "CMasternodeSync::Process() - lastMasternodeList %lld (GetTime() - MASTERNODE_SYNC_TIMEOUT) %lld\n", lastMasternodeList, GetTime() - MASTERNODE_SYNC_TIMEOUT);
-                LogPrintf("CMasternodeSync::Process() - lastMasternodeList %lld (GetTime() - MASTERNODE_SYNC_TIMEOUT) %lld\n", lastMasternodeList, GetTime() - MASTERNODE_SYNC_TIMEOUT);
+                //LogPrintf("CMasternodeSync::Process() - lastMasternodeList %lld (GetTime() - MASTERNODE_SYNC_TIMEOUT) %lld\n", lastMasternodeList, GetTime() - MASTERNODE_SYNC_TIMEOUT);
                 if (lastMasternodeList > 0 && lastMasternodeList < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
                     GetNextAsset();
                     return;
@@ -265,13 +267,13 @@ void CMasternodeSync::Process()
                 if (lastMasternodeList == 0 &&
                     (RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD * 3 || GetTime() - nAssetSyncStarted > MASTERNODE_SYNC_TIMEOUT * 5)) {
                     if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) {
-                        LogPrintf("CMasternodeSync::Process - ERROR - Sync has failed, will retry later\n");
+                        LogPrint("masternode","CMasternodeSync::Process - ERROR - Sync has failed, will retry later\n");
                         RequestedMasternodeAssets = MASTERNODE_SYNC_FAILED;
                         RequestedMasternodeAttempt = 0;
                         lastFailure = GetTime();
                         nCountFailures++;
                     } else {
-                         LogPrintf("CMasternodeSync::Process - SPORKS8 NOT ACTIVE, SKIPPING\n");
+                         LogPrint("masternode", "CMasternodeSync::Process - SPORKS8 NOT ACTIVE, SKIPPING\n");
                         GetNextAsset();
                     }
                     return;
@@ -285,7 +287,7 @@ void CMasternodeSync::Process()
             }
 
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_MNW) {
-                LogPrintf("CMasternodeSync::Process - lastMasternodeWinner %d, Time Minus Timeout %d, Masternode Attempt %d\n", lastMasternodeWinner, (GetTime() - MASTERNODE_SYNC_TIMEOUT*2), RequestedMasternodeAttempt);
+                LogPrint("masternode", "CMasternodeSync::Process - lastMasternodeWinner %d, Time Minus Timeout %d, Masternode Attempt %d\n", lastMasternodeWinner, (GetTime() - MASTERNODE_SYNC_TIMEOUT*2), RequestedMasternodeAttempt);
                 if (lastMasternodeWinner > 0 && lastMasternodeWinner < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
                     GetNextAsset();
                     return;
@@ -298,13 +300,13 @@ void CMasternodeSync::Process()
                 if (lastMasternodeWinner == 0 &&
                     (RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD * 3 || GetTime() - nAssetSyncStarted > MASTERNODE_SYNC_TIMEOUT * 5)) {
                     if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) {
-                        LogPrintf("CMasternodeSync::Process - ERROR - Sync has failed, will retry later\n");
+                        LogPrint("masternode", "CMasternodeSync::Process - ERROR - Sync has failed, will retry later\n");
                         RequestedMasternodeAssets = MASTERNODE_SYNC_FAILED;
                         RequestedMasternodeAttempt = 0;
                         lastFailure = GetTime();
                         nCountFailures++;
                     } else {
-                        LogPrintf("CMasternodeSync::Process - SPORKS8 NOT ACTIVE, SKIPPING\n");
+                        LogPrint("masternode", "CMasternodeSync::Process - SPORKS8 NOT ACTIVE, SKIPPING\n");
                         GetNextAsset();
                     }
                     return;
@@ -324,7 +326,7 @@ void CMasternodeSync::Process()
         }
 
         if (pnode->nVersion >= ActiveProtocol()) {
-            LogPrintf("CMasternodeSync::Process - Not trying to find budgets\n");
+            LogPrint("masternode", "CMasternodeSync::Process - Not trying to find budgets\n");
             // Do not try to find budgets...
             GetNextAsset();
 
