@@ -105,6 +105,7 @@ void CMasternodeSync::AddedMasternodeWinner(uint256 hash)
 
 void CMasternodeSync::GetNextAsset()
 {
+     LogPrintf("CMasternodeSync::GetNextAsset - YaY!! %d\n", RequestedMasternodeAssets);
     switch (RequestedMasternodeAssets) {
     case (MASTERNODE_SYNC_INITIAL):
     case (MASTERNODE_SYNC_FAILED): // should never be used here actually, use Reset() instead
@@ -209,8 +210,6 @@ void CMasternodeSync::Process()
     } else if (RequestedMasternodeAssets == MASTERNODE_SYNC_FAILED) {
         return;
     }
-
-    LogPrint("masternode", "CMasternodeSync::Process() - tick %d RequestedMasternodeAssets %d\n", tick, RequestedMasternodeAssets);
 
     if (RequestedMasternodeAssets == MASTERNODE_SYNC_INITIAL) GetNextAsset();
 
