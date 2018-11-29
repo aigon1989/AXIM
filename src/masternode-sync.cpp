@@ -217,8 +217,12 @@ void CMasternodeSync::Process()
     if (Params().NetworkID() != CBaseChainParams::REGTEST &&
         !IsBlockchainSynced() && RequestedMasternodeAssets > MASTERNODE_SYNC_SPORKS) return;
 
+    LogPrintf("CMasternodeSync::Process() - Trying to lock nodes.\n");
     TRY_LOCK(cs_vNodes, lockRecv);
-    if (!lockRecv) return;
+    if (!lockRecv){
+        LogPrintf("CMasternodeSync::Process() - Cannot lock nodes.\n");
+        return;  
+    } 
 
     BOOST_FOREACH (CNode* pnode, vNodes) {
         if (Params().NetworkID() == CBaseChainParams::REGTEST) {

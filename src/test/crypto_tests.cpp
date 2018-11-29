@@ -174,7 +174,7 @@ BOOST_AUTO_TEST_CASE(hmac_sha256_testvectors) {
                    "4869205468657265",
                    "b0344c61d8db38535ca8afceaf0bf12b881dc200c9833da726e9376c2e32cff7");
     TestHMACSHA256("4a656665",
-                   "7768617420646f2079612077616e7420666f72206e6f7468696e673f",
+                   "7768615550646f2079612077616e7420666f72206e6f7468696e673f",
                    "5bdcc146bf60754e6a042426089575c75a003f089d2739839dec58b964ec3843");
     TestHMACSHA256("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                    "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
@@ -212,7 +212,7 @@ BOOST_AUTO_TEST_CASE(hmac_sha512_testvectors) {
                    "87aa7cdea5ef619d4ff0b4241a1d6cb02379f4e2ce4ec2787ad0b30545e17cde"
                    "daa833b7d6b8a702038b274eaea3f4e4be9d914eeb61f1702e696c203a126854");
     TestHMACSHA512("4a656665",
-                   "7768617420646f2079612077616e7420666f72206e6f7468696e673f",
+                   "7768615550646f2079612077616e7420666f72206e6f7468696e673f",
                    "164b7a7bfcf819e2e395fbe73b56e0a387bd64222e831fd610270cd7ea250554"
                    "9758bf75c05a994a6d034f65f8f0e6fdcaeab1a34d4a6b4b636e070a38bce737");
     TestHMACSHA512("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",

@@ -114,7 +114,7 @@ class CMainParams : public CChainParams
         pchMessageStart[2] = 0x34;
         pchMessageStart[3] = 0x7b;
         vAlertPubKey = ParseHex("043826a918b48b7bc31df5dec12dea90893138af03faf454f705b84b69b8c9912614119efcb3647de84e0fec7cdeb56257fd55ca2b314c3fbbe9f443a86b825a80");
-        nDefaultPort = 61555;
+        nDefaultPort = 61472;
         bnProofOfWorkLimit = (~uint256(0) >> 10);
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
