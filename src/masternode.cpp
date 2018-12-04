@@ -701,6 +701,9 @@ CMasternodePing::CMasternodePing()
 
 CMasternodePing::CMasternodePing(CTxIn& newVin)
 {
+    LOCK(cs_main);
+    if (!chainActive.Tip() || chainActive.Height() < 12) return;
+    
     vin = newVin;
     blockHash = chainActive[chainActive.Height() - 12]->GetBlockHash();
     sigTime = GetAdjustedTime();

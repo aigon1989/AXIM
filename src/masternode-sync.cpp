@@ -190,7 +190,7 @@ void CMasternodeSync::Process()
 {
     static int tick = 0;
 
-    LogPrintf("CMasternodeSync::Process() - tick %d RequestedMasternodeAssets %d\n", tick, RequestedMasternodeAssets);
+    LogPrintf("CMasternodeSync::Process() - tick %d RequestedMasternodeAssets %d RequestedMasternodeAttempt %d\n", tick, RequestedMasternodeAssets, RequestedMasternodeAttempt);
 
     if (tick++ % MASTERNODE_SYNC_TIMEOUT != 0) return;
 
