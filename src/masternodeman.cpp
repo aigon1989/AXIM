@@ -378,11 +378,17 @@ int CMasternodeMan::stable_size ()
 
 int CMasternodeMan::CountEnabled(int protocolVersion)
 {
+
+    LogPrintf("CMasternodeMan::CountEnabled - protocolVersion %d, masternodePayments.GetMinMasternodePaymentsProto() %d\n", protocolVersion, masternodePayments.GetMinMasternodePaymentsProto() );
+
     int i = 0;
     protocolVersion = protocolVersion == -1 ? masternodePayments.GetMinMasternodePaymentsProto() : protocolVersion;
 
     BOOST_FOREACH (CMasternode& mn, vMasternodes) {
         mn.Check();
+
+        LogPrintf("CMasternodeMan::CountEnabled - mn.protocolVersion %d, protocolVersion %d, mn.IsEnabled() %d \n", mn.protocolVersion, protocolVersion,(mn.IsEnabled() ? 1 : 0) );
+
         if (mn.protocolVersion < protocolVersion || !mn.IsEnabled()) continue;
         i++;
     }

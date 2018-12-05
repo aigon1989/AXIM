@@ -199,6 +199,7 @@ void CMasternodeSync::Process()
             Resync if we lose all masternodes from sleep/wake or failure to sync originally
         */
         if (mnodeman.CountEnabled() == 0) {
+            LogPrintf("CMasternodeSync::Process() - Reseteando contadores porque no hay masternodes activos bien \n");
             Reset();
         } else
             return;
