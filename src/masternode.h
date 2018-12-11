@@ -252,6 +252,24 @@ public:
 
     bool IsEnabled()
     {
+        if(activeState == MASTERNODE_PRE_ENABLED){
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_PRE_ENABLED\n");
+        } else if (activeState == MASTERNODE_EXPIRED ) {
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_EXPIRED\n");
+        } else if (activeState == MASTERNODE_OUTPOINT_SPENT ) {
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_OUTPOINT_SPENT\n");
+        } else if (activeState == MASTERNODE_REMOVE ) {
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_REMOVE\n");
+        } else if (activeState == MASTERNODE_WATCHDOG_EXPIRED ) {
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_WATCHDOG_EXPIRED\n");
+        } else if (activeState == MASTERNODE_POSE_BAN ) {
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_POSE_BAN\n");
+        } else if (activeState == MASTERNODE_VIN_SPENT ) {
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_VIN_SPENT\n");
+        } else if (activeState == MASTERNODE_POS_ERROR){
+            LogPrintf("CMasternodeMan::Masternode Status: MASTERNODE_POS_ERROR\n");
+        }
+
         return activeState == MASTERNODE_ENABLED;
     }
 

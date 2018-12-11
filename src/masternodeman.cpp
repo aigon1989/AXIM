@@ -4,6 +4,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#include "masternode.h"
 #include "masternodeman.h"
 #include "activemasternode.h"
 #include "addrman.h"
@@ -387,7 +388,7 @@ int CMasternodeMan::CountEnabled(int protocolVersion)
     BOOST_FOREACH (CMasternode& mn, vMasternodes) {
         mn.Check();
 
-        LogPrintf("CMasternodeMan::CountEnabled - mn.protocolVersion %d, protocolVersion %d, mn.IsEnabled() %d \n", mn.protocolVersion, protocolVersion,(mn.IsEnabled() ? 1 : 0) );
+        LogPrintf("CMasternodeMan::CountEnabled - mn.protocolVersion %d, protocolVersion %d\n", mn.protocolVersion, protocolVersion);
 
         if (mn.protocolVersion < protocolVersion || !mn.IsEnabled()) continue;
         i++;
