@@ -74,14 +74,13 @@ void CActiveMasternode::ManageStatus()
 
         LogPrintf("%s - Checking inbound connection to '%s'\n", __func__,service.ToString());
 
-        SOCKET hSocket;
-        bool fConnected = ConnectSocket(service, hSocket, nConnectTimeout) && IsSelectableSocket(hSocket);
-        CloseSocket(hSocket);
-         if (!fConnected) {
+        CNode* pnode = ConnectNode((CAddress)service, NULL, false);
+        if (!pnode) {
             notCapableReason = "Could not connect to " + service.ToString();
             LogPrintf("%s - not capable: %s\n", __func__, notCapableReason);
             return;
         }
+        pnode->Release();
 
         // Choose coins to use
         CPubKey pubKeyCollateralAddress;

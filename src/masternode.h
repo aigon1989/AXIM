@@ -321,6 +321,7 @@ public:
     bool Sign(CKey& keyCollateralAddress);
     bool VerifySignature();
     void Relay();
+    std::string GetOldStrMessage();
     std::string GetNewStrMessage();
 
     ADD_SERIALIZE_METHODS;

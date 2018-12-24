@@ -296,7 +296,6 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFe
 
     
     if (hasPayment) {
-        LogPrintf("FillBlockPayee blockValue %u masternodePayment %u\n", blockValue, masternodePayment);  
         if (fProofOfStake) {
             /**For Proof Of Stake vout[0] must be null
              * Stake reward can be split into many different outputs, so we must
@@ -311,16 +310,11 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction &txNew, int64_t nFe
             //subtract mn payment from the stake reward
             if (!txNew.vout[1].IsZerocoinMint())
                  txNew.vout[i - 1].nValue -= masternodePayment;
-            
-            //LogPrintf("Add PoW payment %u \n", txNew.vout[0].nValue);
-            //LogPrintf("Add PoW 0Coin payment %u \n", txNew.vout[1].nValue);
         } else {
             txNew.vout.resize(2);
             txNew.vout[1].scriptPubKey = payee;
             txNew.vout[1].nValue = masternodePayment;
             txNew.vout[0].nValue = blockValue - masternodePayment;
-            
-            //LogPrintf("Add PoW payment %u \n", txNew.vout[0].nValue);
         }
 
         CTxDestination address1;
@@ -451,8 +445,9 @@ void CMasternodePayments::ProcessMessageMasternodePayments(CNode *pfrom, std::st
             return;
         }
 
-        LogPrint("mnpayments", "mnw - winning vote - Addr %s Height %d bestHeight %d - %s\n",
-                 GetPayeeAddress(winner.payee), winner.nBlockHeight, nHeight, winner.vinMasternode.prevout.ToStringShort());
+        CTxDestination address1;
+        ExtractDestination(winner.payee, address1);
+        CBitcoinAddress address2(address1);
 
         if (masternodePayments.AddWinningMasternode(winner))
         {
@@ -941,15 +936,4 @@ int CMasternodePayments::GetNewestBlock()
     }
 
     return nNewestBlock;
-}
-
-const char *CMasternodePayments::GetPayeeAddress(const CScript &scriptPubKey)
-{
-    CTxDestination destinationAddress;
-    if (ExtractDestination(scriptPubKey, destinationAddress))
-    {
-        return CBitcoinAddress(destinationAddress).ToString().c_str();
-    }
-    else
-        return "unkown";
 }

@@ -237,8 +237,6 @@ private:
     int nSyncedFromPeer;
     int nLastBlockHeight;
 
-const char* GetPayeeAddress(const CScript &scriptPubKey);
-
 public:
     std::map<uint256, CMasternodePaymentWinner> mapMasternodePayeeVotes;
     std::map<int, CMasternodeBlockPayees> mapMasternodeBlocks;

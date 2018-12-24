@@ -147,7 +147,7 @@ public:
 //! in how many buckets for entries with new addresses a single address may occur
 #define ADDRMAN_NEW_BUCKETS_PER_ADDRESS 8
 
-//! how old addresses can mstateraally be
+//! how old addresses can maximally be
 #define ADDRMAN_HORIZON_DAYS 30
 
 //! after how many failed attempts we give up on a new node

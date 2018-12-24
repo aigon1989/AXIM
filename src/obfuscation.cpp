@@ -2294,7 +2294,7 @@ void ThreadCheckObfuScationPool()
     while (true) {
         MilliSleep(1000);
         //LogPrintf("ThreadCheckObfuScationPool::check timeout\n");
-        LogPrintf("Obfuscation::ThreadCheckObfuScationPool() - c %d\n", c);
+        //LogPrintf("Obfuscation::ThreadCheckObfuScationPool() - c %d\n", c);
         // try to sync from all available nodes, one step at a time
         masternodeSync.Process();
 

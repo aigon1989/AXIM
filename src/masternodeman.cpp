@@ -4,7 +4,6 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "masternode.h"
 #include "masternodeman.h"
 #include "activemasternode.h"
 #include "addrman.h"
@@ -379,17 +378,11 @@ int CMasternodeMan::stable_size ()
 
 int CMasternodeMan::CountEnabled(int protocolVersion)
 {
-
-    LogPrintf("CMasternodeMan::CountEnabled - protocolVersion %d, masternodePayments.GetMinMasternodePaymentsProto() %d\n", protocolVersion, masternodePayments.GetMinMasternodePaymentsProto() );
-
     int i = 0;
     protocolVersion = protocolVersion == -1 ? masternodePayments.GetMinMasternodePaymentsProto() : protocolVersion;
 
     BOOST_FOREACH (CMasternode& mn, vMasternodes) {
         mn.Check();
-
-        LogPrintf("CMasternodeMan::CountEnabled - mn.protocolVersion %d, protocolVersion %d\n", mn.protocolVersion, protocolVersion);
-
         if (mn.protocolVersion < protocolVersion || !mn.IsEnabled()) continue;
         i++;
     }
@@ -1081,13 +1074,13 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         //LogPrint("masternode","dseep - Received: vin: %s sigTime: %lld stop: %s\n", vin.ToString().c_str(), sigTime, stop ? "true" : "false");
 
         if (sigTime > GetAdjustedTime() + 60 * 60) {
-            LogPrintf("CMasternodeMan::ProcessMessage() : dseep - Signature rejected, too far into the future %s\n", vin.prevout.hash.ToString());
+            LogPrint("masternode","CMasternodeMan::ProcessMessage() : dseep - Signature rejected, too far into the future %s\n", vin.prevout.hash.ToString());
             Misbehaving(pfrom->GetId(), 1);
             return;
         }
 
         if (sigTime <= GetAdjustedTime() - 60 * 60) {
-            LogPrintf("CMasternodeMan::ProcessMessage() : dseep - Signature rejected, too far into the past %s - %d %d \n", vin.prevout.hash.ToString(), sigTime, GetAdjustedTime());
+            LogPrint("masternode","CMasternodeMan::ProcessMessage() : dseep - Signature rejected, too far into the past %s - %d %d \n", vin.prevout.hash.ToString(), sigTime, GetAdjustedTime());
             Misbehaving(pfrom->GetId(), 1);
             return;
         }
@@ -1095,7 +1088,10 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         std::map<COutPoint, int64_t>::iterator i = mWeAskedForMasternodeListEntry.find(vin.prevout);
         if (i != mWeAskedForMasternodeListEntry.end()) {
             int64_t t = (*i).second;
-            if (GetTime() < t) return; // we've asked recently
+            if (GetTime() < t){
+                LogPrint("masternode","CMasternodeMan::ProcessMessage() : dseep - Recently Asked Masternode. \n");
+                return; // we've asked recently
+           } 
         }
 
         // see if we have this Masternode

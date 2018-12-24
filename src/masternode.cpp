@@ -5,7 +5,6 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "masternode.h"
-#include "activemasternode.h"
 #include "addrman.h"
 #include "masternodeman.h"
 #include "obfuscation.h"
@@ -520,15 +519,21 @@ bool CMasternodeBroadcast::CheckAndUpdate(int& nDos)
     }
 
     std::string errorMessage = "";
-    if (!obfuScationSigner.VerifyMessage(pubKeyCollateralAddress, sig, GetNewStrMessage(), errorMessage)) {
-        nDos = 100;
-        return error("%s - Got bad Masternode address signature : %s", __func__, errorMessage);
+    if (!obfuScationSigner.VerifyMessage(pubKeyCollateralAddress, sig, GetNewStrMessage(), errorMessage)
+    		&& !obfuScationSigner.VerifyMessage(pubKeyCollateralAddress, sig, GetOldStrMessage(), errorMessage))
+    {
+        // don't ban for old masternodes, their sigs could be broken because of the bug
+        nDos = protocolVersion < MIN_PEER_MNANNOUNCE ? 0 : 100;
+        return error("CMasternodeBroadcast::CheckAndUpdate - Got bad Masternode address signature : %s", errorMessage);
     }
 
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
-        if (addr.GetPort() != 61472) return false;
-    } else if (addr.GetPort() == 61472)
+        if (addr.GetPort() != 61472){
+            return false;  
+        } 
+    } else if (addr.GetPort() == 61472){
         return false;
+    }
 
     //search existing Masternode list, this is where we update existing Masternodes with new mnb broadcasts
     CMasternode* pmn = mnodeman.Find(vin);
@@ -671,24 +676,36 @@ bool CMasternodeBroadcast::Sign(CKey& keyCollateralAddress)
     return true;
 }
 
-std::string CMasternodeBroadcast::GetNewStrMessage()
-{
-    return addr.ToString() +
-           boost::lexical_cast<std::string>(sigTime) +
-           pubKeyCollateralAddress.GetID().ToString() +
-           pubKeyMasternode.GetID().ToString() +
-           boost::lexical_cast<std::string>(protocolVersion);
-}
-
 
 bool CMasternodeBroadcast::VerifySignature()
 {
     std::string errorMessage;
 
-    if (!obfuScationSigner.VerifyMessage(pubKeyCollateralAddress, sig, GetNewStrMessage(), errorMessage))
-        return error("%s - Error: %s", __func__, errorMessage);
+    if(!obfuScationSigner.VerifyMessage(pubKeyCollateralAddress, sig, GetNewStrMessage(), errorMessage)
+            && !obfuScationSigner.VerifyMessage(pubKeyCollateralAddress, sig, GetOldStrMessage(), errorMessage))
+        return error("CMasternodeBroadcast::VerifySignature() - Error: %s", errorMessage);
 
     return true;
+}
+
+std::string CMasternodeBroadcast::GetOldStrMessage()
+{
+    std::string strMessage;
+
+    std::string vchPubKey(pubKeyCollateralAddress.begin(), pubKeyCollateralAddress.end());
+    std::string vchPubKey2(pubKeyMasternode.begin(), pubKeyMasternode.end());
+    strMessage = addr.ToString() + std::to_string(sigTime) + vchPubKey + vchPubKey2 + std::to_string(protocolVersion);
+
+    return strMessage;
+}
+
+std:: string CMasternodeBroadcast::GetNewStrMessage()
+{
+    std::string strMessage;
+
+    strMessage = addr.ToString() + std::to_string(sigTime) + pubKeyCollateralAddress.GetID().ToString() + pubKeyMasternode.GetID().ToString() + std::to_string(protocolVersion);
+
+    return strMessage;
 }
 
 CMasternodePing::CMasternodePing()
@@ -700,10 +717,7 @@ CMasternodePing::CMasternodePing()
 }
 
 CMasternodePing::CMasternodePing(CTxIn& newVin)
-{
-    LOCK(cs_main);
-    if (!chainActive.Tip() || chainActive.Height() < 12) return;
-    
+{   
     vin = newVin;
     blockHash = chainActive[chainActive.Height() - 12]->GetBlockHash();
     sigTime = GetAdjustedTime();
