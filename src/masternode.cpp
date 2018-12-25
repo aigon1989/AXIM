@@ -783,14 +783,19 @@ bool CMasternodePing::CheckAndUpdate(int& nDos, bool fRequireEnabled, bool fChec
     // see if we have this Masternode
     CMasternode* pmn = mnodeman.Find(vin);
     if (pmn != NULL && pmn->protocolVersion >= masternodePayments.GetMinMasternodePaymentsProto()) {
-        if (fRequireEnabled && !pmn->IsEnabled()) return false;
+        if (fRequireEnabled && !pmn->IsEnabled()){
+            LogPrint("masternode","CMasternodePing::CheckAndUpdate - Masternode %s not enabled\n", vin.prevout.hash.ToString());
+            return false;
+        } 
 
         // LogPrint("masternode","mnping - Found corresponding mn for vin: %s\n", vin.ToString());
         // update only if there is no known ping for this masternode or
         // last ping was more then MASTERNODE_MIN_MNP_SECONDS-60 ago comparing to this one
         if (!pmn->IsPingedWithin(MASTERNODE_MIN_MNP_SECONDS - 60, sigTime)) {
-        	if (!VerifySignature(pmn->pubKeyMasternode, nDos))
+        	if (!VerifySignature(pmn->pubKeyMasternode, nDos)){
+                LogPrint("masternode","CMasternodePing::CheckAndUpdate - Masternode %s has invalid signature\n", vin.prevout.hash.ToString());
                 return false;
+            }
 
             BlockMap::iterator mi = mapBlockIndex.find(blockHash);
             if (mi != mapBlockIndex.end() && (*mi).second) {
@@ -802,7 +807,7 @@ bool CMasternodePing::CheckAndUpdate(int& nDos, bool fRequireEnabled, bool fChec
                     return false;
                 }
             } else {
-                if (fDebug) LogPrint("masternode","CMasternodePing::CheckAndUpdate - Masternode %s block hash %s is unknown\n", vin.prevout.hash.ToString(), blockHash.ToString());
+                 LogPrint("masternode","CMasternodePing::CheckAndUpdate - Masternode %s block hash %s is unknown\n", vin.prevout.hash.ToString(), blockHash.ToString());
                 // maybe we stuck so we shouldn't ban this node, just fail to accept it
                 // TODO: or should we also request this block?
 

@@ -1,6 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The STATERA developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -103,6 +102,8 @@ void CMasternodeSync::AddedMasternodeWinner(uint256 hash)
     }
 }
 
+
+
 void CMasternodeSync::GetNextAsset()
 {
     switch (RequestedMasternodeAssets) {
@@ -118,9 +119,11 @@ void CMasternodeSync::GetNextAsset()
         RequestedMasternodeAssets = MASTERNODE_SYNC_MNW;
         break;
     case (MASTERNODE_SYNC_MNW):
-        LogPrintf("CMasternodeSync::GetNextAsset - Sync has finished\n");
+        LogPrint("masternode","CMasternodeSync::GetNextAsset - Sync has finished\n");
+        // Try to activate our masternode if possible
+        activeMasternode.ManageStatus();
         RequestedMasternodeAssets = MASTERNODE_SYNC_FINISHED;
-        break;
+        break;  
     }
     RequestedMasternodeAttempt = 0;
     nAssetSyncStarted = GetTime();
@@ -181,7 +184,6 @@ void CMasternodeSync::ClearFulfilledRequest()
         pnode->ClearFulfilledRequest("getspork");
         pnode->ClearFulfilledRequest("mnsync");
         pnode->ClearFulfilledRequest("mnwsync");
-        pnode->ClearFulfilledRequest("busync");
     }
 }
 
@@ -210,7 +212,10 @@ void CMasternodeSync::Process()
 
     LogPrint("masternode", "CMasternodeSync::Process() - tick %d RequestedMasternodeAssets %d\n", tick, RequestedMasternodeAssets);
 
-    if (RequestedMasternodeAssets == MASTERNODE_SYNC_INITIAL) GetNextAsset();
+    if (RequestedMasternodeAssets == MASTERNODE_SYNC_INITIAL) {
+        LogPrint("masternode","CMasternodeSync::INITIAL SYNC\n");
+        GetNextAsset();
+    }
 
     // sporks synced but blockchain is not, wait until we're almost at a recent block to continue
     if (Params().NetworkID() != CBaseChainParams::REGTEST &&
@@ -228,8 +233,6 @@ void CMasternodeSync::Process()
             } else if (RequestedMasternodeAttempt < 6) {
                 int nMnCount = mnodeman.CountEnabled();
                 pnode->PushMessage("mnget", nMnCount); //sync payees
-                uint256 n = 0;
-                pnode->PushMessage("mnvs", n); //sync masternode votes
             } else {
                 RequestedMasternodeAssets = MASTERNODE_SYNC_FINISHED;
             }
@@ -243,7 +246,10 @@ void CMasternodeSync::Process()
             pnode->FulfilledRequest("getspork");
 
             pnode->PushMessage("getsporks"); //get current network sporks
-            if (RequestedMasternodeAttempt >= 2) GetNextAsset();
+            if (RequestedMasternodeAttempt >= 2){
+                LogPrint("masternode","CMasternodeSync::SYNC_SPORKS\n");
+                GetNextAsset();
+            } 
             RequestedMasternodeAttempt++;
 
             return;
@@ -253,6 +259,7 @@ void CMasternodeSync::Process()
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_LIST) {
                 LogPrint("masternode", "CMasternodeSync::Process() - lastMasternodeList %lld (GetTime() - MASTERNODE_SYNC_TIMEOUT) %lld\n", lastMasternodeList, GetTime() - MASTERNODE_SYNC_TIMEOUT);
                 if (lastMasternodeList > 0 && lastMasternodeList < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
+                    LogPrint("masternode","CMasternodeSync::SYNC_LIST_POST_OLD_MN_LIST_TIMEOUT\n");
                     GetNextAsset();
                     return;
                 }
@@ -270,6 +277,7 @@ void CMasternodeSync::Process()
                         lastFailure = GetTime();
                         nCountFailures++;
                     } else {
+                        LogPrint("masternode","CMasternodeSync::SYNC_MN_LIST_POST_TIMEOUT\n");
                         GetNextAsset();
                     }
                     return;
@@ -284,6 +292,7 @@ void CMasternodeSync::Process()
 
             if (RequestedMasternodeAssets == MASTERNODE_SYNC_MNW) {
                 if (lastMasternodeWinner > 0 && lastMasternodeWinner < GetTime() - MASTERNODE_SYNC_TIMEOUT * 2 && RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { //hasn't received a new item in the last five seconds, so we'll move to the
+                    LogPrint("masternode","CMasternodeSync::SYNC_NO_NEW_WINNERS_TIMEOUT\n");
                     GetNextAsset();
                     return;
                 }
@@ -301,6 +310,7 @@ void CMasternodeSync::Process()
                         lastFailure = GetTime();
                         nCountFailures++;
                     } else {
+                        LogPrint("masternode","CMasternodeSync::SYNC_WINNER_LIST_POST_TIMEOUT\n");
                         GetNextAsset();
                     }
                     return;
@@ -320,13 +330,29 @@ void CMasternodeSync::Process()
         }
 
         if (pnode->nVersion >= ActiveProtocol()) {
-            // Do not try to find budgets...
-            GetNextAsset();
+            if (RequestedMasternodeAssets == MASTERNODE_SYNC_MNW) {
+                
+                if ( RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD) { 
+                    LogPrint("masternode","CMasternodeSync::SYNC_THRESHOLD_AT_MNW\n");
+                    // Hasn't received a new item in the last five seconds, so we'll move to the
+                    GetNextAsset();
 
-            // Try to activate our masternode if possible
-             activeMasternode.ManageStatus();
+                    return;
+                }
 
-            return;
+                // timeout
+                if ((RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD * 3 || GetTime() - nAssetSyncStarted > MASTERNODE_SYNC_TIMEOUT * 5)) {
+                    LogPrint("masternode","CMasternodeSync::TIMEOUT_ASSET_SYNC\n");
+                    GetNextAsset();;
+                    return;
+                }
+
+                if (RequestedMasternodeAttempt >= MASTERNODE_SYNC_THRESHOLD * 3) return;
+
+                RequestedMasternodeAttempt++;
+
+                return;
+            }
         }
     }
 }
