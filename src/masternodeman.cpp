@@ -781,7 +781,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         mapSeenMasternodePing.insert(make_pair(mnp.GetHash(), mnp));
 
         int nDoS = 0;
-        if (mnp.CheckAndUpdate(nDoS)) return;
+        if (mnp.CheckAndUpdate(nDoS,false)) return;
 
         if (nDoS > 0) {
             // if anything significant failed, mark that node

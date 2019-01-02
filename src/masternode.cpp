@@ -201,16 +201,19 @@ void CMasternode::Check(bool forceCheck)
 
     if (!IsPingedWithin(MASTERNODE_REMOVAL_SECONDS)) {
         activeState = MASTERNODE_REMOVE;
+        nActiveState = MASTERNODE_REMOVE;
         return;
     }
 
     if (!IsPingedWithin(MASTERNODE_EXPIRATION_SECONDS)) {
         activeState = MASTERNODE_EXPIRED;
+        nActiveState = MASTERNODE_EXPIRED;
         return;
     }
 
     if(lastPing.sigTime - sigTime < MASTERNODE_MIN_MNP_SECONDS){
     	activeState = MASTERNODE_PRE_ENABLED;
+        nActiveState = MASTERNODE_PRE_ENABLED;
     	return;
     }
 
@@ -227,12 +230,14 @@ void CMasternode::Check(bool forceCheck)
 
             if (!AcceptableInputs(mempool, state, CTransaction(tx), false, NULL)) {
                 activeState = MASTERNODE_VIN_SPENT;
+                nActiveState = MASTERNODE_VIN_SPENT;
                 return;
             }
         }
     }
 
     activeState = MASTERNODE_ENABLED; // OK
+    nActiveState = MASTERNODE_ENABLED;
 }
 
 int64_t CMasternode::SecondsSincePayment()
