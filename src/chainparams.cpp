@@ -120,7 +120,7 @@ class CMainParams : public CChainParams
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
-        nMinerThreads = 0;
+        nMinerThreads = 4;
         nTargetTimespan = 1 * 30; // STATERA: 30 seconds re check of block time
         nTargetSpacing = 1 * 30;  // STATERA: 30 seconds blocktime
 	    //nMaturity = 9;

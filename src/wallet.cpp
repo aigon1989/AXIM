@@ -2898,24 +2898,20 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         return error("CreateCoinStake : invalid reserve balance amount");
 
     if (nBalance > 0 && nBalance <= nReserveBalance) {
-        LogPrintf("CreateCoinStake() : Balance lower than Reserved Balance \n");
         return false;
     }
 
     // Get the list of stakable inputs
     std::list<std::unique_ptr<CStakeInput> > listInputs;
     if (!SelectStakeCoins(listInputs, nBalance - nReserveBalance)) {
-        LogPrintf("CreateCoinStake() : No Stakeable coins on inputs \n");
         return false;
     }    
 
     if (listInputs.empty()) {
-        LogPrintf("CreateCoinStake() : No Inputs \n");
         return false;
     }
 
     if (GetAdjustedTime() - chainActive.Tip()->GetBlockTime() < 30) {
-        LogPrintf("CreateCoinStake() : No time to create stake yet \n");
         MilliSleep(10000);
     }    
 
@@ -2925,7 +2921,6 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
     for (std::unique_ptr<CStakeInput>& stakeInput : listInputs) {
         // Make sure the wallet is unlocked and shutdown hasn't been requested
         if (IsLocked() || ShutdownRequested()) {
-            LogPrintf("CreateCoinStake() : Wallet locked or shutting down. \n");
             return false;
         }    
 
@@ -2980,7 +2975,6 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             // Limit size
             unsigned int nBytes = ::GetSerializeSize(txNew, SER_NETWORK, PROTOCOL_VERSION);
             if (nBytes >= DEFAULT_BLOCK_MAX_SIZE / 5){
-                LogPrintf("CreateCoinStake : exceeded coinstake size limit");
                 return error("CreateCoinStake : exceeded coinstake size limit");
             }
 
@@ -3002,7 +2996,6 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             if (stakeInput->IsZSTATERA()) {
                 CzSTATERAStake* z = (CzSTATERAStake*)stakeInput.get();
                 if (!z->MarkSpent(this, txNew.GetHash())){
-                    LogPrintf("%s: failed to mark mint as used\n", __func__);
                     return error("%s: failed to mark mint as used\n", __func__);
                 }
             }
@@ -3014,7 +3007,6 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             break; // if kernel is found stop searching
     }
     if (!fKernelFound) {
-        LogPrintf("CreateCoinStake() : No kernel found. \n");
         return false;
     }
 

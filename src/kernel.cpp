@@ -274,22 +274,16 @@ bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t &nStakeModifier, int
     // loop to find the stake modifier later by a selection interval
     while (nStakeModifierTime < pindexFrom->GetBlockTime() + nStakeModifierSelectionInterval)
     {
-
-        //LogPrintf("GetKernelStakeModifier: pindexNext->Height: %d pindexNext: %d nStakeModifierTime %d pindexFrom->GetBlockTime() + nStakeModifierSelectionInterval %d \n", pindexNext->nHeight, (!pindexNext ? 0:1), nStakeModifierTime, (pindexFrom->GetBlockTime() + nStakeModifierSelectionInterval));
-        
         if (!pindexNext)
         {
             // reached best block; may happen if node is behind on block chain
             if (fPrintProofOfStake || (pindex->GetBlockTime() + nStakeMinAge - nStakeModifierSelectionInterval > GetAdjustedTime())){
-                //LogPrintf("GetKernelStakeModifier() : reached best block %s at height %d from block %s\n",
-                //            pindex->GetBlockHash().ToString().c_str(), pindex->nHeight, hashBlockFrom.ToString().c_str());
                 return error("GetKernelStakeModifier() : reached best block %s at height %d from block %s",
                              pindex->GetBlockHash().ToString().c_str(), pindex->nHeight, hashBlockFrom.ToString().c_str());
             }
             else
             {
-               //LogPrintf("GetKernelStakeModifier(): FAILED BECAUSE no pindexnext\n");
-                return false;
+               return false;
             }
         }
 
@@ -311,10 +305,6 @@ bool stakeTargetHit(uint256 hashProofOfStake, int64_t nValueIn, uint256 bnTarget
     //get the stake weight - weight is equal to coin amount
     uint256 bnCoinDayWeight = uint256(nValueIn) / 100;
 
-    // if(hashProofOfStake >= (bnCoinDayWeight * bnTargetPerCoinDay)){
-    //     LogPrintf("stakeTargetHit :  hashProofOfStake: %s, bnTargetPerCoinDay: %s, bnCoinDayWeight: %s, bnCoinDayWeight * bnTargetPerCoinDay: %s\n ",
-    //         hashProofOfStake.GetHex(), bnTargetPerCoinDay.GetHex(), bnCoinDayWeight.GetHex(), (bnCoinDayWeight * bnTargetPerCoinDay).GetHex() );
-    // }
     // Now check if proof-of-stake hash meets target protocol
     return hashProofOfStake < (bnCoinDayWeight * bnTargetPerCoinDay);
 }

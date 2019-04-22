@@ -213,7 +213,6 @@ void CMasternodeSync::Process()
     LogPrint("masternode", "CMasternodeSync::Process() - tick %d RequestedMasternodeAssets %d\n", tick, RequestedMasternodeAssets);
 
     if (RequestedMasternodeAssets == MASTERNODE_SYNC_INITIAL) {
-        LogPrint("masternode","CMasternodeSync::INITIAL SYNC\n");
         GetNextAsset();
     }
 
@@ -247,7 +246,6 @@ void CMasternodeSync::Process()
 
             pnode->PushMessage("getsporks"); //get current network sporks
             if (RequestedMasternodeAttempt >= 2){
-                LogPrint("masternode","CMasternodeSync::SYNC_SPORKS\n");
                 GetNextAsset();
             } 
             RequestedMasternodeAttempt++;
